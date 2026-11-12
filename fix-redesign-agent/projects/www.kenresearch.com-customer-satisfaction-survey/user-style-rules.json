@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "id": "whats-impacting-pill-keeps-pill-look",
+      "section": "whats-impacting-your-customer",
+      "match": {
+        "tag": "div",
+        "classIncludes": [
+          "swiper-slide bg-[white]",
+          "rounded-full"
+        ]
+      },
+      "style": {
+        "color": "currentcolor",
+        "border-radius": "var(--radius-full)",
+        "box-shadow": "none",
+        "height": "auto",
+        "padding-left": "var(--space-3)",
+        "padding-right": "var(--space-3)"
+      },
+      "reason": "User (chat, 2026-10-29): the \"Predicting Future Customer Behavior\" pain-point pill rendered blank — the audit's Button target gave it white text on its white fill (1:1 contrast), a 5px radius, 48px height, 28px padding and a shadow. It keeps the look of the other pills (inherited ink, full radius, natural height, --space-3 padding, no shadow). Plain pills only: the active/previous/next slides are excluded by the class match"
+    }
+  ]
+}

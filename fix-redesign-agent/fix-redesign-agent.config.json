@@ -1,0 +1,14 @@
+{
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "designSystemPath": "/Users/sachin/Project-aura/project_aura1-main/design-system",
+  "anthropicModel": "claude-opus-5",
+  "browserChannel": "chromium",
+  "maxIterations": 1,
+  "preview": {
+    "basePort": 4400,
+    "islands": true,
+    "behaviorProbes": true,
+    "dsFirst": true
+  },
+  "deterministicJudgments": true
+}

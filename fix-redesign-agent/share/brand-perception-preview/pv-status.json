@@ -1,0 +1,103 @@
+{
+  "runId": "brand-perception-survey-page-audit-v4-redesign-20261027-071359",
+  "mode": "selected-sections",
+  "sections": [
+    "what-your-customers-think-isn-t-a-mystery-it-s-ametric",
+    "see-your-brand-in-data",
+    "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+    "why-it-matters",
+    "competitor-advantages-overlooked",
+    "how-we-do-it",
+    "what-sets-us-apart",
+    "our-impact",
+    "what-our-clients-say",
+    "faqs",
+    "our-resources",
+    "explore-other-surveys"
+  ],
+  "simulated": [
+    "Forms do not submit: submitting any form in the preview shows a notice and sends nothing.",
+    "Links point at the real site; they were not followed during verification.",
+    "The page's own scripts do not run: only behaviour the browser provides natively, CSS, and the generic adapters (anchors, disclosure toggles, carousel navigation) work. Everything else is probed and listed as not reproduced.",
+    "Carousel motion is a preview adapter: all captured slides are retained, with local arrow/pagination navigation and a CSS loop. The original script's autoplay timing and slide-selection side effects are not reproduced."
+  ],
+  "unavailable": [
+    "see-your-brand-in-data · link: link \"View Sample Dashboard\": the control exists on the original page but not in the preview",
+    "see-your-brand-in-data · hover: link \"View Sample Dashboard\": the control exists on the original page but not in the preview",
+    "see-your-brand-in-data · timer: script-driven changes over time: 4 element(s) change over time on the original; 0 in the preview",
+    "competitor-advantages-overlooked · click: 6 items, e.g. pointer \"Declining Customer Loyalty\": clicking changes text on the original (adds: loyalty engagement repeat purchases decline); nothing happens in the preview | pointer \"Market Positioning Confusion\": clicking changes text on the original (adds: brand market with unclear the); nothing happens in the preview",
+    "competitor-advantages-overlooked · timer: script-driven changes over time: 1 element(s) change over time on the original; 0 in the preview",
+    "how-we-do-it · hover: link \"Discuss Scope\": hover changes transform on the original; different properties in the preview",
+    "how-we-do-it · timer: script-driven changes over time: 1 element(s) change over time on the original; 0 in the preview",
+    "what-sets-us-apart · hover: link \"Get Survey Roadmap\": hover changes transform on the original; different properties in the preview",
+    "faqs · hover: 12 items, e.g. pointer \"How do I know whether poor sales are cau\": the control exists on the original page but not in the preview | pointer \"Can a brand perception survey explain wh\": the control exists on the original page but not in the preview",
+    "faqs · click: 12 items, e.g. pointer \"How do I know whether poor sales are cau\": the control exists on the original page but not in the preview | pointer \"Can a brand perception survey explain wh\": the control exists on the original page but not in the preview",
+    "our-resources · hover: link \"View More\": hover changes transform on the original; different properties in the preview",
+    "our-resources · click: 3 items, e.g. pointer \"Blogs\": clicking changes text on the original (adds: smell success in india s); nothing happens in the preview | pointer \"Case Studies\": clicking changes text on the original (adds: did shoe industry become case); nothing happens in the preview",
+    "explore-other-surveys · scroll: scroll-linked changes: 11 element(s) change as the page scrolls on the original (div..w-full \"Employee Engagement Surveys Un\"; div..w-full \"Customer Satisfaction Surveys \"; div..w-full \"Dealer’s Voice Surveys Get hon\"); 0 in the preview"
+  ],
+  "verdict": "fail",
+  "failedRequired": 165,
+  "unverifiedRequired": 277,
+  "gaps": [
+    {
+      "kind": "failed",
+      "family": "checks",
+      "count": 11,
+      "text": "13 verification check(s) failed: fidelity.design-state, content.see-your-brand-in-data.links, content.use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence.text, content.competitor-advantages-overlooked.text, content.our-impact.text, content.what-our-clients-say.text"
+    },
+    {
+      "kind": "failed",
+      "family": "fidelity:regression",
+      "count": 122,
+      "text": "design/state fidelity: 122 regression(s)"
+    },
+    {
+      "kind": "failed",
+      "family": "target",
+      "count": 26,
+      "text": "55 of 211 resolved target(s) not verified in the rendered preview (26 failed)"
+    },
+    {
+      "kind": "failed",
+      "family": "preserve:changed",
+      "count": 6,
+      "text": "6 property(ies) that must stay as the original changed"
+    },
+    {
+      "kind": "unverified",
+      "family": "interaction:not-located",
+      "count": 2,
+      "text": "2 section(s) could not be located on the original page, so their behaviour was not compared with it (what-your-customers-think-isn-t-a-mystery-it-s-ametric, what-our-clients-say): interaction parity is not verified for them"
+    },
+    {
+      "kind": "unverified",
+      "family": "fidelity:element+hover",
+      "count": 64,
+      "text": "design/state fidelity is INCOMPLETE: 64 of 1127 required check(s) not verified (973 verified, 90 failed, 64 unverified: element 28, hover 36; 58 actionable / 6 by-design) — first: competitor-advantages-overlooked (mobile): the text of \"Negative Brand Image Declining Customer \" differs from the original, so its design was not compared"
+    },
+    {
+      "kind": "unverified",
+      "family": "target",
+      "count": 29,
+      "text": "29 resolved target(s) could not be measured in the rendered preview"
+    },
+    {
+      "kind": "unverified",
+      "family": "preserve",
+      "count": 182,
+      "text": "182 preserve decision(s) could not be verified (insufficient evidence; 156 actionable / 26 by-design): element text changed ×87, layout change explains the box change ×40, inside a design-system component ×26"
+    }
+  ],
+  "gapsTruncated": 0,
+  "disclosed": [
+    "fidelity: element 209, hover 34, composition 22 check(s) disclosed as not required (sampled 204 of 299 element(s) for hover, 16 of 16 for keyboard focus; the rest are in fidelity.json coverage.gaps)",
+    "not captured by the fidelity verifier: :active (pressed) styling; expanded / selected states that only a page script can reach — script-driven behaviour is probed on the live production page by B1 (effects, not styles); validation/error states that need a real submission (forms are never submitted); hover and focus on the mobile viewport (touch devices have no hover; desktop captures them); sibling / non-descendant hover effects (:hover + .x, :hover ~ .x): only the hovered element and its own descendants (with their ::before / ::after) are measured; pseudo-elements other than ::before / ::after (::marker, ::placeholder, ::selection, ::first-line, ...) and the pseudo-elements of elements outside the captured set",
+    "No content sits directly beside a selected section without belonging to a section: 1 unowned block(s): <div> before what-your-customers-think-isn-t-a-mystery-it-s-ametric: \".redRadialBg{ animation: moveRightToLeft 30s ease-\"",
+    "Text below AA that is inherited unchanged from the original page: 18 run(s) are below AA (14 inherited from the original, 0 introduced, 4 without an original counterpart); 33 miss the design system's 7:1 rule R7.1; muted labels: 16/36 below AA, 19/36 below 7:1. Inherited text is left as designed — …",
+    "13 behaviour(s) of the original page are not reproduced in the preview (listed in PREVIEW.md)",
+    "4 simulated or stubbed behaviour(s) (for example forms do not submit)",
+    "241 of 265 Fix finding(s) are not measured fixed (preserved-by-decision 60, partially-verified 13, not-represented 157, unresolved 11): they are listed in finding-accounting.md and are not claimed fixed; this does not change the required-check verdict"
+  ],
+  "disclosedTruncated": 0
+}

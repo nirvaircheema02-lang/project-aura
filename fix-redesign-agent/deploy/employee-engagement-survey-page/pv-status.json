@@ -1,0 +1,100 @@
+{
+  "runId": "employee-engagement-survey-page-audit-v4-redesign-20261028-072024",
+  "mode": "selected-sections",
+  "sections": [
+    "when-people-feel-heard-they-performeffectively",
+    "employee-experience-dashboard",
+    "use-real-feedback-from-real-employees-to-understand-what-drives-engagement-and-act-with-confidence-b",
+    "whats-impacting-your-employees",
+    "how-we-understand-your-people",
+    "what-sets-us-apart",
+    "our-impact",
+    "what-our-clients-say",
+    "faqs",
+    "our-resources",
+    "explore-other-surveys"
+  ],
+  "simulated": [
+    "Forms do not submit: submitting any form in the preview shows a notice and sends nothing.",
+    "Links point at the real site; they were not followed during verification.",
+    "The page's own scripts do not run: only behaviour the browser provides natively, CSS, and the generic adapters (anchors, disclosure toggles, carousel navigation) work. Everything else is probed and listed as not reproduced.",
+    "Carousel motion is a preview adapter: all captured slides are retained, with local arrow/pagination navigation and a CSS loop. The original script's autoplay timing and slide-selection side effects are not reproduced."
+  ],
+  "unavailable": [
+    "when-people-feel-heard-they-performeffectively · hover: link \"Get Pricing & Timeline\": hover changes transform on the original; different properties in the preview",
+    "when-people-feel-heard-they-performeffectively · timer: script-driven changes over time: 1 element(s) change over time on the original; 0 in the preview",
+    "employee-experience-dashboard · link: link \"View Sample Dashboard\": the control exists on the original page but not in the preview",
+    "employee-experience-dashboard · hover: link \"View Sample Dashboard\": the control exists on the original page but not in the preview",
+    "employee-experience-dashboard · timer: script-driven changes over time: 4 element(s) change over time on the original; 0 in the preview",
+    "whats-impacting-your-employees · click: 12 items, e.g. pointer \"Attrition Without Insight\": clicking changes text on the original (adds: attrition without insight don of); nothing happens in the preview | pointer \"Culture That Feels Disconnected\": clicking changes text on the original (adds: culture feels disconnected of to); nothing happens in the preview",
+    "whats-impacting-your-employees · hover: link \"Talk to Consultant\": hover changes transform on the original; different properties in the preview",
+    "how-we-understand-your-people · hover: link \"Discuss Scope\": hover changes transform on the original; different properties in the preview",
+    "how-we-understand-your-people · timer: script-driven changes over time: 1 element(s) change over time on the original; 0 in the preview",
+    "what-sets-us-apart · hover: link \"Get Survey Roadmap\": hover changes transform on the original; different properties in the preview",
+    "what-our-clients-say · scroll: scroll-linked changes: 4 element(s) change as the page scrolls on the original (svg \"\"; svg \"\"; span.swiper-pagination-bullet \"\"); 0 in the preview",
+    "what-our-clients-say · timer: script-driven changes over time: 1 element(s) change over time on the original; 0 in the preview",
+    "faqs · hover: 8 items, e.g. pointer \"Can an engagement survey uncover issues \": the control exists on the original page but not in the preview | pointer \"How do you ensure employees trust that t\": the control exists on the original page but not in the preview",
+    "faqs · click: 8 items, e.g. pointer \"Can an engagement survey uncover issues \": the control exists on the original page but not in the preview | pointer \"How do you ensure employees trust that t\": the control exists on the original page but not in the preview",
+    "explore-other-surveys · hover: 5 items, e.g. link \"Customer Satisfaction Surveys\": hover changes transform on the original; nothing in the preview | group-item \"Dealer’s Voice Surveys Get honest feedba\": hover changes transform on the original; nothing in the preview",
+    "explore-other-surveys · scroll: scroll-linked changes: 11 element(s) change as the page scrolls on the original (div..w-full \"Customer Satisfaction Surveys \"; div..w-full \"Dealer’s Voice Surveys Get hon\"; div..w-full \"Customer Demand, Needs & Pain \"); 0 in the preview"
+  ],
+  "verdict": "fail",
+  "failedRequired": 43,
+  "unverifiedRequired": 1019,
+  "gaps": [
+    {
+      "kind": "failed",
+      "family": "checks",
+      "count": 4,
+      "text": "5 verification check(s) failed: fidelity.design-state, content.employee-experience-dashboard.links, content.faqs.height, contrast.no-regression, ds-fix.measured"
+    },
+    {
+      "kind": "failed",
+      "family": "fidelity:regression",
+      "count": 3,
+      "text": "design/state fidelity: 3 regression(s)"
+    },
+    {
+      "kind": "failed",
+      "family": "target",
+      "count": 36,
+      "text": "80 of 238 resolved target(s) not verified in the rendered preview (36 failed)"
+    },
+    {
+      "kind": "unverified",
+      "family": "interaction:not-located",
+      "count": 1,
+      "text": "1 section(s) could not be located on the original page, so their behaviour was not compared with it (our-resources): interaction parity is not verified for them"
+    },
+    {
+      "kind": "unverified",
+      "family": "fidelity:section+element+hover+focus-visible",
+      "count": 32,
+      "text": "design/state fidelity is INCOMPLETE: 32 of 173 required check(s) not verified (138 verified, 3 failed, 32 unverified: section 18, element 7, hover 6, focus-visible 1; 30 actionable / 2 by-design) — first: employee-experience-dashboard (mobile): the verification budget was exhausted before the output section was captured, so it was not compared"
+    },
+    {
+      "kind": "unverified",
+      "family": "target",
+      "count": 44,
+      "text": "44 resolved target(s) could not be measured in the rendered preview"
+    },
+    {
+      "kind": "unverified",
+      "family": "preserve",
+      "count": 942,
+      "text": "942 preserve decision(s) could not be verified (insufficient evidence; 936 actionable / 6 by-design): capture stopped by the verification budget ×903, element text changed ×15, changed under another authorized target ×8"
+    }
+  ],
+  "gapsTruncated": 0,
+  "disclosed": [
+    "fidelity: element 4, hover 21 check(s) disclosed as not required (sampled 55 of 70 element(s) for hover, 3 of 3 for keyboard focus; the rest are in fidelity.json coverage.gaps)",
+    "not captured by the fidelity verifier: :active (pressed) styling; expanded / selected states that only a page script can reach — script-driven behaviour is probed on the live production page by B1 (effects, not styles); validation/error states that need a real submission (forms are never submitted); hover and focus on the mobile viewport (touch devices have no hover; desktop captures them); sibling / non-descendant hover effects (:hover + .x, :hover ~ .x): only the hovered element and its own descendants (with their ::before / ::after) are measured; pseudo-elements other than ::before / ::after (::marker, ::placeholder, ::selection, ::first-line, ...) and the pseudo-elements of elements outside the captured set",
+    "No content sits directly beside a selected section without belonging to a section: 1 unowned block(s): <div> before when-people-feel-heard-they-performeffectively: \".redRadialBg{ animation: moveRightToLeft 30s ease-\"",
+    "Text below AA that is inherited unchanged from the original page: 16 run(s) are below AA (15 inherited from the original, 1 introduced, 0 without an original counterpart); 36 miss the design system's 7:1 rule R7.1; muted labels: 12/39 below AA, 21/39 below 7:1. Inherited text is left as designed — …",
+    "16 behaviour(s) of the original page are not reproduced in the preview (listed in PREVIEW.md)",
+    "4 simulated or stubbed behaviour(s) (for example forms do not submit)",
+    "3 text run(s) could not be contrast-measured",
+    "181 of 204 Fix finding(s) are not measured fixed (preserved-by-decision 73, partially-verified 13, not-represented 82, unresolved 13): they are listed in finding-accounting.md and are not claimed fixed; this does not change the required-check verdict"
+  ],
+  "disclosedTruncated": 0
+}

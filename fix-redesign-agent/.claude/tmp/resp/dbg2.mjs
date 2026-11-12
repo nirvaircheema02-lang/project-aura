@@ -1,0 +1,6 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const c = await b.newContext({ viewport: { width: 375, height: 800 }, reducedMotion: 'reduce' }); const p = await c.newPage();
+await p.goto('http://127.0.0.1:4702/', { waitUntil: 'networkidle' }); await p.waitForTimeout(800);
+const r = await p.evaluate(() => { const out = []; const walk = (rt) => { for (const e of rt.querySelectorAll('*')) { const t = (e.textContent || '').trim(); if (e.children.length === 0 && /^(Strategy Development|Initial Needs|Survey Design)/.test(t)) { const r = e.getBoundingClientRect(); const chain = []; for (let a = e; a && chain.length < 5; a = a.parentElement) { const cs = getComputedStyle(a); chain.push(a.tagName + '.' + (a.getAttribute('class') || '').slice(0, 60) + ' ta=' + cs.textAlign + ' w=' + Math.round(a.getBoundingClientRect().width) + ' disp=' + cs.display + ' dir=' + cs.flexDirection + ' jc=' + cs.justifyContent + ' fe=' + (a.getAttribute('data-fra-element') || '')); } out.push([t.slice(0, 20), Math.round(r.left), Math.round(r.width), chain]); } if (e.shadowRoot) walk(e.shadowRoot); } }; document.querySelectorAll('[data-pv-section]').forEach((s) => { walk(s); if (s.shadowRoot) walk(s.shadowRoot); }); return out; });
+for (const x of r) if (x[2] > 0) console.log(JSON.stringify(x[0]), x[1], x[2], '\n  ' + x[3].join('\n  '));
+await b.close();

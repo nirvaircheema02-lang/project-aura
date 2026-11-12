@@ -1,0 +1,72 @@
+import { chromium } from 'playwright';
+import { readFileSync, writeFileSync } from 'node:fs';
+const R = '/Users/sachin/Project-aura/fix-redesign-agent/projects/www.kenresearch.com-dealers-voice-survey/redesigns/dealers-voice-survey-page-audit-v3-redesign-20261012-104005';
+const html = readFileSync(R + '/context/capture-snapshot.html', 'utf8');
+const css = readFileSync(R + '/preview-app/src/generated/scoped.css', 'utf8').split('\n').filter((l) => /^\[data-fra-element="e\d+"\]/.test(l)).join('\n');
+const b = await chromium.launch(); const c = await b.newContext({ bypassCSP: true, viewport: { width: 1440, height: 900 } }); const p = await c.newPage();
+await p.route('**/*', (r) => r.request().url().startsWith('data:') ? r.continue() : r.abort());
+await p.setContent(html, { waitUntil: 'domcontentloaded' });
+await p.addStyleTag({ content: '*{animation:none!important;transition:none!important}' + css });
+await p.waitForTimeout(800);
+const out = await p.evaluate(() => {
+  const ids = ['your-dealers-know-what-your-data-doesn-t','dealer-insights-dashboard','our-clients','what-s-impacting-your-dealers','how-we-capture-dealer-needs','what-makes-our-way-different','our-impact','what-our-clients-say','faqs','our-resources','explore-other-surveys'];
+  const num = (v) => Math.round(parseFloat(v) * 10) / 10;
+  const rnd = (v) => Math.round(v);
+  const res = {};
+  const label = (el) => { const t = (el.textContent || '').replace(/\s+/g, ' ').trim(); return t.length > 38 ? t.slice(0, 36) + '…' : t; };
+  for (const id of ids) {
+    const root = document.querySelector('[data-fra-section="' + id + '"]'); if (!root) continue;
+    const clippedBy = (el, q) => { for (let a = el; a && a !== root.parentElement; a = a.parentElement) { const s = getComputedStyle(a); if (s.overflowX === 'visible' && s.overflowY === 'visible') continue; const ar = a.getBoundingClientRect(); if (q.bottom <= ar.top + 0.5 || q.top >= ar.bottom - 0.5 || q.right <= ar.left + 0.5 || q.left >= ar.right - 0.5) return true; } return false; };
+    const vis = (el) => { const r = el.getBoundingClientRect(); if (r.width < 1 || r.height < 1) return false; return el.checkVisibility({ opacityProperty: true, visibilityProperty: true, contentVisibilityAuto: true }) && !clippedBy(el, r); };
+    const absBox = (r) => ({ ax: r.x + scrollX, ay: r.y + scrollY, w: r.width, h: r.height });
+    const SEM = new Set(['LI','NAV','BUTTON','A','H1','H2','H3','H4','H5','H6','UL','OL','FORM','FIGURE','ARTICLE']);
+    const nameOf = (el, kids) => {
+      const ty = el.getAttribute('data-fra-type'); const tag = el.tagName;
+      if (/^H[1-6]$/.test(tag)) return 'Heading · ' + label(el);
+      if (tag === 'A') return 'Link · ' + label(el); if (tag === 'BUTTON' || ty === 'button') return 'Button · ' + label(el);
+      if (tag === 'LI') return 'Item'; if (tag === 'UL' || tag === 'OL') return 'List'; if (tag === 'NAV') return 'Nav';
+      if (ty === 'card') return 'Card'; if (ty === 'badge') return 'Badge · ' + label(el); if (ty === 'eyebrow') return 'Eyebrow';
+      const aria = el.getAttribute('aria-label'); if (aria) return aria.slice(0, 40);
+      const n = kids.length; if (n >= 3 && kids.every((k) => k.k === 'f')) return 'Row of ' + n; 
+      if (kids.some((k) => k.k === 'i') && kids.some((k) => k.k === 't')) return 'Card'; return 'Group';
+    };
+    const walk = (el) => {
+      if (!(el instanceof Element) || ['SCRIPT','STYLE','NOSCRIPT','TEMPLATE','FOREIGNOBJECT'].includes(el.tagName.toUpperCase())) return [];
+      const cs = getComputedStyle(el); if (cs.display === 'none') return [];
+      const r = el.getBoundingClientRect(); const bx = absBox(r);
+      const tag = el.tagName.toLowerCase();
+      if (tag === 'svg') { if (!vis(el)) return []; let s = el.outerHTML.replace(/currentColor/g, cs.color); if (!/viewBox/.test(s)) return []; s = s.replace(/<foreignObject[\s\S]*?<\/foreignObject>/g, '').replace(/\sclass="[^"]*"/, ''); const out = [{ k: 'v', ...bx, v: s.length < 5000 ? s : null }];
+        for (const fo of el.querySelectorAll('foreignObject')) for (const ch of fo.children) out.push(...walk(ch)); return out; }
+      if (tag === 'img') { if (!vis(el)) return []; return [{ k: 'i', ...bx, r: Math.min(num(cs.borderTopLeftRadius), 9999) }]; }
+      const kids = [];
+      const visible = vis(el);
+      for (const n of el.childNodes) {
+        if (n.nodeType === 3 && n.textContent.trim() && visible) {
+          const rg = document.createRange(); rg.selectNodeContents(n); const q = rg.getBoundingClientRect(); if (q.width < 1 || clippedBy(el, q)) continue;
+          kids.push({ k: 't', ...absBox(q), s: n.textContent.replace(/\s+/g, ' ').trim(), ff: cs.fontFamily.split(',')[0].replace(/["']/g, '').trim(), z: num(cs.fontSize), fw: parseInt(cs.fontWeight), c: cs.color, ls: cs.letterSpacing === 'normal' ? 0 : num(cs.letterSpacing), lh: cs.lineHeight === 'normal' ? 0 : num(cs.lineHeight), ta: cs.textAlign, tt: cs.textTransform, td: cs.textDecorationLine });
+        } else if (n.nodeType === 1) kids.push(...walk(n));
+      }
+      const bg = cs.backgroundColor, bgi = cs.backgroundImage, bw = num(cs.borderTopWidth), sh = cs.boxShadow;
+      const hasBg = bg && !/rgba\(0, 0, 0, 0\)|transparent/.test(bg);
+      const visual = visible && (hasBg || (bgi && bgi !== 'none') || bw > 0 || (sh && sh !== 'none'));
+      const sem = SEM.has(el.tagName) || el.getAttribute('data-fra-type');
+      const clip = cs.overflowX !== 'visible' || cs.overflowY !== 'visible';
+      if (!visual && !sem && !(kids.length >= 2 && visible && r.width > 1) ) return kids;
+      if (!visual && !sem && kids.length === 0) return [];
+      const f = { k: 'f', ...bx, n: nameOf(el, kids), kids };
+      if (visible) { if (hasBg) f.b = bg; if (bgi && bgi !== 'none') f.g = bgi.slice(0, 400); if (bw > 0) { f.bw = bw; f.bc = cs.borderTopColor; } const rad = num(cs.borderTopLeftRadius); if (rad) f.r = rad; if (sh && sh !== 'none') f.sh = sh.slice(0, 200); }
+      if (clip) f.cl = 1; const fr = el.getAttribute('data-fra-element'); if (fr) f.el = fr;
+      return [f];
+    };
+    const rootNodes = walk(root);
+    // force the section root as a frame
+    const rr = absBox(root.getBoundingClientRect());
+    let rootFrame = rootNodes.length === 1 && rootNodes[0].k === 'f' && Math.abs(rootNodes[0].ay - rr.ay) < 1 && Math.abs(rootNodes[0].w - rr.w) < 1 ? rootNodes[0] : { k: 'f', ...rr, n: 'Section', kids: rootNodes };
+    rootFrame.n = id; res[id] = { w: rnd(rr.w), h: rnd(rr.h), ax: rr.ax, ay: rr.ay, root: rootFrame };
+  }
+  return res;
+});
+writeFileSync('.claude/tmp/tree.raw.json', JSON.stringify(out));
+const cnt = (n) => 1 + (n.kids || []).reduce((a, k) => a + cnt(k), 0);
+for (const [k, v] of Object.entries(out)) console.log(k, v.w, v.h, cnt(v.root));
+await b.close();

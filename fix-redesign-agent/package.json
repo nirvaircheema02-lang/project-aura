@@ -1,0 +1,38 @@
+{
+  "name": "fix-redesign-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "agent": "node --env-file-if-exists=.env --experimental-strip-types src/cli/index.ts",
+    "redesign": "node --env-file-if-exists=.env --experimental-strip-types src/cli/index.ts redesign",
+    "figma-export": "node scripts/figma-export/prepare.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.124.0",
+    "@opentelemetry/api": "1.9.1",
+    "@opentelemetry/sdk-trace-base": "2.11.0",
+    "@opentelemetry/semantic-conventions": "1.43.0",
+    "canonicalize": "5.0.0",
+    "commander": "15.0.0",
+    "playwright": "1.63.0",
+    "pngjs": "^7.0.0",
+    "ts-morph": "28.0.0",
+    "zod": "4.6.1",
+    "culori": "4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/pngjs": "^6.0.5",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11",
+    "@types/culori": "4.0.1"
+  }
+}

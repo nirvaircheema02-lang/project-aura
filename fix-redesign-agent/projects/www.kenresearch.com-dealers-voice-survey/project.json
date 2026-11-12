@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "www.kenresearch.com-dealers-voice-survey",
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "auditProjectName": "www.kenresearch.com-dealers-voice-survey",
+  "auditProjectDir": "/Users/sachin/Project-aura/audit-agent/projects/www.kenresearch.com-dealers-voice-survey",
+  "redesignRunIds": [
+    "dealers-voice-survey-page-audit-v3-redesign-20261012-104005"
+  ]
+}

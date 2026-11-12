@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "id": "sweet-spot-description-on-dark",
+      "section": "find-your-survey-s-sweet-spot",
+      "match": { "tag": "p", "classIncludes": ["text-[#464449]"] },
+      "style": { "color": "var(--semantic-ink-on-dark-body)" },
+      "reason": "User (chat, 2026-10-30, survey home page): the Sweet Spot description is dark grey (#404040) on the black section and unreadable; it takes the DS on-dark body ink (white 75%) instead"
+    }
+  ]
+}

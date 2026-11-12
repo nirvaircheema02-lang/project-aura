@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "www.kenresearch.com-survey",
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "auditProjectName": "www.kenresearch.com-survey",
+  "auditProjectDir": "/Users/sachin/Project-aura/audit-agent/projects/www.kenresearch.com-survey",
+  "redesignRunIds": [
+    "survey-home-page-v4-redesign-20261028-095450",
+    "survey-home-page-v4-redesign-20261028-095924",
+    "survey-home-page-v4-redesign-20261029-053732"
+  ]
+}

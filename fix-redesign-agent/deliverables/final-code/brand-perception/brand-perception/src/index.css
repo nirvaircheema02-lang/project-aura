@@ -1,0 +1,24 @@
+@import "@kenresearch/design-system/styles/base.css";
+@import "@kenresearch/design-system/styles/cinematic-dark.css";
+@import "./generated/global.css";
+@source "../design-system/core-v2/src";
+/* the DS expects its consumer to bind the font variables it references (see the DS base.css): a design-system value such as var(--font-dm-sans) must resolve here */
+:root { --font-dm-sans: 'DM Sans'; --font-noto-serif: 'Noto Serif'; }
+/* Consumer theme. The DS atoms use the utilities font-display / font-body (rule R1.4: serif for headings, sans for body/UI); the DS ships no @theme, so without these
+   a DS heading renders in the browser's default sans. The ui/* components (Select, Popover, Command, Dialog, Input) are shadcn-derived and use token names the DS never
+   declares (bg-popover, border-input, ring-ring, text-muted-foreground …): unbound they paint no panel and fall back to currentcolor rings. Bound here to the DS's own tokens. */
+@theme {
+  --font-display: 'Noto Serif', Georgia, 'Times New Roman', serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --color-popover: var(--color-foundation-white);
+  --color-popover-foreground: var(--semantic-ink-strong);
+  --color-accent: var(--black-100);
+  --color-accent-foreground: var(--semantic-ink-strong);
+  --color-muted-foreground: var(--semantic-ink-muted);
+  --color-input: var(--border-input);
+  --color-input-background: transparent;
+  --color-border: var(--border-card);
+  --color-ring: var(--color-foundation-black);
+}
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fff; }

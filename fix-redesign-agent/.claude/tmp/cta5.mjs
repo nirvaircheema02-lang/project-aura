@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto('http://127.0.0.1:4585/', { waitUntil: 'networkidle' });
+const a = p.locator('[data-pv-section="explore-other-surveys"] [data-component="Button"]').first();
+console.log('count', await p.locator('[data-pv-section="explore-other-surveys"] [data-component="Button"]').count());
+await a.scrollIntoViewIfNeeded(); await p.waitForTimeout(800);
+const read = () => a.evaluate(e => { const cs = getComputedStyle(e); const r = e.getBoundingClientRect(); const kids = [...e.querySelectorAll('*')].filter(k => /shimmer|sweep/i.test(k.className?.toString() || '') || getComputedStyle(k).animationName !== 'none').map(k => k.tagName + ':' + (k.className?.toString().slice(0, 40)) + ' anim=' + getComputedStyle(k).animationName); return { tag: e.tagName, href: e.getAttribute('href'), h: Math.round(r.height), w: Math.round(r.width), fs: cs.fontSize, fw: cs.fontWeight, bg: cs.backgroundImage.slice(0, 90), shadow: cs.boxShadow.slice(0, 50), anim: kids }; });
+const before = await read();
+const s1 = await a.screenshot({ path: '.claude/tmp/cta-a.png' });
+await a.hover(); await p.waitForTimeout(150); await a.screenshot({ path: '.claude/tmp/cta-b.png' }); await p.waitForTimeout(500);
+const hover = await read(); await a.screenshot({ path: '.claude/tmp/cta-c.png' });
+console.log(JSON.stringify({ before, hover }, null, 1)); await b.close();

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "www.kenresearch.com-brand-perception-survey",
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "auditProjectName": "www.kenresearch.com-brand-perception-survey",
+  "auditProjectDir": "/Users/sachin/Project-aura/audit-agent/projects/www.kenresearch.com-brand-perception-survey",
+  "redesignRunIds": [
+    "brand-perception-survey-page-audit-v4-redesign-20261026-121023",
+    "brand-perception-survey-page-audit-v4-redesign-20261026-123337",
+    "brand-perception-survey-page-audit-v4-redesign-20261027-070814",
+    "brand-perception-survey-page-audit-v4-redesign-20261027-071359"
+  ]
+}

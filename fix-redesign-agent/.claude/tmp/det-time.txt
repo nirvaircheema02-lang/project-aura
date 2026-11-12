@@ -1,0 +1,1 @@
+pnpm run agent resume  > .claude/tmp/det-run.log 2>&1  63.02s user 16.97s system 53% cpu 2:30.46 total

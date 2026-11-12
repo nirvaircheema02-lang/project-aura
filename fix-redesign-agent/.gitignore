@@ -1,0 +1,13 @@
+# Redesign run outputs — large, frequently-changing (standalone HTML, before/after PNGs, traces).
+projects/*/redesigns/
+
+# Local config / secrets (ANTHROPIC_API_KEY, path overrides)
+.env
+.env.*
+
+.DS_Store
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo

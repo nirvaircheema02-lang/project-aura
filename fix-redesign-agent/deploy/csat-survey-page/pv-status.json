@@ -1,0 +1,102 @@
+{
+  "runId": "customer-satisfaction-survey-page-audit-v4-redesign-20261027-111641",
+  "mode": "selected-sections",
+  "sections": [
+    "know-what-your-customers-really-feel-not-just-what-they-say",
+    "customer-satisfaction-dashboard",
+    "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+    "whats-impacting-your-customer",
+    "how-we-help-you-understand-customers-better",
+    "what-makes-our-way-different",
+    "our-impact",
+    "what-our-clients-say",
+    "faqs",
+    "our-resources",
+    "explore-other-surveys"
+  ],
+  "simulated": [
+    "Forms do not submit: submitting any form in the preview shows a notice and sends nothing.",
+    "Links point at the real site; they were not followed during verification.",
+    "The page's own scripts do not run: only behaviour the browser provides natively, CSS, and the generic adapters (anchors, disclosure toggles, carousel navigation) work. Everything else is probed and listed as not reproduced.",
+    "Carousel motion is a preview adapter: all captured slides are retained, with local arrow/pagination navigation and a CSS loop. The original script's autoplay timing and slide-selection side effects are not reproduced."
+  ],
+  "unavailable": [
+    "know-what-your-customers-really-feel-not-just-what-they-say · hover: link \"Get Pricing & Timeline\": hover changes transform on the original; different properties in the preview",
+    "customer-satisfaction-dashboard · link: link \"View Sample Dashboard\": the control exists on the original page but not in the preview",
+    "customer-satisfaction-dashboard · hover: link \"View Sample Dashboard\": the control exists on the original page but not in the preview",
+    "customer-satisfaction-dashboard · timer: script-driven changes over time: 4 element(s) change over time on the original; 0 in the preview",
+    "whats-impacting-your-customer · click: 6 items, e.g. pointer \"Difficulty Tracking Customer Satisfactio\": clicking changes text on the original (adds: satisfaction scores feel like disconnected); nothing happens in the preview | pointer \"Declining Customer Loyalty\": clicking changes text on the original (adds: your brand competitive rapidly evolving); nothing happens in the preview",
+    "whats-impacting-your-customer · hover: link \"Lets Connect\": hover changes transform on the original; different properties in the preview",
+    "whats-impacting-your-customer · timer: script-driven changes over time: 2 element(s) change over time on the original; 0 in the preview",
+    "how-we-help-you-understand-customers-better · hover: link \"Discuss Scope\": hover changes transform on the original; different properties in the preview",
+    "how-we-help-you-understand-customers-better · timer: script-driven changes over time: 1 element(s) change over time on the original; 0 in the preview",
+    "what-makes-our-way-different · hover: link \"Get Survey Roadmap\": hover changes transform on the original; different properties in the preview",
+    "what-our-clients-say · scroll: scroll-linked changes: 7 element(s) change as the page scrolls on the original (div.swiper-wrapper \"Their CSAT survey helped us id\"; svg \"\"; svg \"\"); 0 in the preview",
+    "faqs · hover: 8 items, e.g. pointer \"How do I know if poor CSAT is hurting my\": the control exists on the original page but not in the preview | pointer \"How fast can a CSAT survey show if a new\": the control exists on the original page but not in the preview",
+    "faqs · click: 8 items, e.g. pointer \"How do I know if poor CSAT is hurting my\": the control exists on the original page but not in the preview | pointer \"How fast can a CSAT survey show if a new\": the control exists on the original page but not in the preview",
+    "our-resources · hover: link \"View More\": hover changes transform on the original; different properties in the preview",
+    "our-resources · click: 3 items, e.g. pointer \"Blogs\": clicking changes text on the original (adds: did india s shoe industry); nothing happens in the preview | pointer \"Case Studies\": clicking changes text on the original (adds: case studies electric two-wheeler go-to-market); nothing happens in the preview",
+    "our-resources · scroll: scroll-linked changes: 2 element(s) change as the page scrolls on the original (div.w-[35px].sm:w-[40px] \"\"; div.w-[35px].sm:w-[40px] \"\"); 0 in the preview",
+    "explore-other-surveys · hover: 2 items, e.g. link \"Brand Perception Surveys\": hover changes transform on the original; different properties in the preview | pointer \"Employee Engagement Surveys\": hover changes color on the original; nothing in the preview",
+    "explore-other-surveys · scroll: scroll-linked changes: 11 element(s) change as the page scrolls on the original (div..w-full \"Employee Engagement Surveys Un\"; div..w-full \"Dealer’s Voice Surveys Get hon\"; div..w-full \"Customer Demand, Needs & Pain \"); 0 in the preview"
+  ],
+  "verdict": "fail",
+  "failedRequired": 207,
+  "unverifiedRequired": 389,
+  "gaps": [
+    {
+      "kind": "failed",
+      "family": "checks",
+      "count": 4,
+      "text": "6 verification check(s) failed: fidelity.design-state, content.customer-satisfaction-dashboard.links, content.faqs.height, contrast.no-regression, ds-fix.measured, ds-fix.preserved-unchanged"
+    },
+    {
+      "kind": "failed",
+      "family": "fidelity:regression",
+      "count": 161,
+      "text": "design/state fidelity: 161 regression(s)"
+    },
+    {
+      "kind": "failed",
+      "family": "target",
+      "count": 36,
+      "text": "84 of 272 resolved target(s) not verified in the rendered preview (36 failed)"
+    },
+    {
+      "kind": "failed",
+      "family": "preserve:changed",
+      "count": 6,
+      "text": "6 property(ies) that must stay as the original changed"
+    },
+    {
+      "kind": "unverified",
+      "family": "fidelity:element+hover",
+      "count": 77,
+      "text": "design/state fidelity is INCOMPLETE: 77 of 1049 required check(s) not verified (866 verified, 106 failed, 77 unverified: element 26, hover 51; 58 actionable / 19 by-design) — first: faqs (desktop): the text of \"How do I know if poor CSAT is hurting my\" differs from the original, so its design was not compared"
+    },
+    {
+      "kind": "unverified",
+      "family": "target",
+      "count": 48,
+      "text": "48 resolved target(s) could not be measured in the rendered preview"
+    },
+    {
+      "kind": "unverified",
+      "family": "preserve",
+      "count": 264,
+      "text": "264 preserve decision(s) could not be verified (insufficient evidence; 167 actionable / 97 by-design): inside a design-system component ×97, element text changed ×72, layout change explains the box change ×48"
+    }
+  ],
+  "gapsTruncated": 0,
+  "disclosed": [
+    "fidelity: element 171, hover 36, composition 16 check(s) disclosed as not required (sampled 185 of 283 element(s) for hover, 17 of 17 for keyboard focus; the rest are in fidelity.json coverage.gaps)",
+    "not captured by the fidelity verifier: :active (pressed) styling; expanded / selected states that only a page script can reach — script-driven behaviour is probed on the live production page by B1 (effects, not styles); validation/error states that need a real submission (forms are never submitted); hover and focus on the mobile viewport (touch devices have no hover; desktop captures them); sibling / non-descendant hover effects (:hover + .x, :hover ~ .x): only the hovered element and its own descendants (with their ::before / ::after) are measured; pseudo-elements other than ::before / ::after (::marker, ::placeholder, ::selection, ::first-line, ...) and the pseudo-elements of elements outside the captured set",
+    "No content sits directly beside a selected section without belonging to a section: 1 unowned block(s): <div> before know-what-your-customers-really-feel-not-just-what-they-say: \".redRadialBg{ animation: moveRightToLeft 30s ease-\"",
+    "Text below AA that is inherited unchanged from the original page: 16 run(s) are below AA (15 inherited from the original, 1 introduced, 0 without an original counterpart); 37 miss the design system's 7:1 rule R7.1; muted labels: 12/39 below AA, 21/39 below 7:1. Inherited text is left as designed — …",
+    "18 behaviour(s) of the original page are not reproduced in the preview (listed in PREVIEW.md)",
+    "4 simulated or stubbed behaviour(s) (for example forms do not submit)",
+    "3 text run(s) could not be contrast-measured",
+    "191 of 215 Fix finding(s) are not measured fixed (preserved-by-decision 62, partially-verified 16, not-represented 100, unresolved 13): they are listed in finding-accounting.md and are not claimed fixed; this does not change the required-check verdict"
+  ],
+  "disclosedTruncated": 0
+}

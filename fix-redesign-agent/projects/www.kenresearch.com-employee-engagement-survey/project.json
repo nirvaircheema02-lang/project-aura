@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "www.kenresearch.com-employee-engagement-survey",
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "auditProjectName": "www.kenresearch.com-employee-engagement-survey",
+  "auditProjectDir": "/Users/sachin/Project-aura/audit-agent/projects/www.kenresearch.com-employee-engagement-survey",
+  "redesignRunIds": [
+    "employee-engagement-survey-page-audit-v4-redesign-20261028-061404",
+    "employee-engagement-survey-page-audit-v4-redesign-20261028-072024"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "www.kenresearch.com-customer-satisfaction-survey",
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "auditProjectName": "www.kenresearch.com-customer-satisfaction-survey",
+  "auditProjectDir": "/Users/sachin/Project-aura/audit-agent/projects/www.kenresearch.com-customer-satisfaction-survey",
+  "redesignRunIds": [
+    "customer-satisfaction-survey-page-audit-v4-redesign-20261027-111641"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "www.kenresearch.com-consulting-deals-and-ipo-consulting",
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "auditProjectName": "www.kenresearch.com-consulting-deals-and-ipo-consulting",
+  "auditProjectDir": "/Users/sachin/Project-aura/audit-agent/projects/www.kenresearch.com-consulting-deals-and-ipo-consulting",
+  "redesignRunIds": [
+    "deals-and-ipo-consulting-test-redesign-20260923-104125",
+    "deals-and-ipo-consulting-test-redesign-20260923-104236",
+    "deals-and-ipo-consulting-test-button-rematch-redesign-20261006-063253"
+  ]
+}

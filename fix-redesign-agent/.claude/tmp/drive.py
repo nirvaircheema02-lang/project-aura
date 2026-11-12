@@ -1,0 +1,18 @@
+import json,glob,subprocess,sys,os,re
+R='dealers-voice-survey-page-audit-v3-redesign-20261012-104005'
+J=glob.glob(f'projects/*/redesigns/{R}/judgments')[0]
+def sh(c): return subprocess.run(c,shell=True,capture_output=True,text=True).stdout
+for cycle in range(40):
+    out=sh(f'pnpm run agent resume {R} 2>&1')
+    open('.claude/tmp/last.log','w').write(out)
+    print('cycle',cycle,[l[:160] for l in out.splitlines() if re.search(r'Awaiting|R8 ·|failed',l)][-3:],flush=True)
+    if 'Awaiting gate G2' in out: print('DONE-G2'); break
+    m=re.search(r'bundle ([0-9a-f]{16})',out)
+    if 'Awaiting judgment' not in out or not m: print('STOP-OTHER'); break
+    b=m.group(1); node=json.load(open(f'{J}/{b}.bundle.json'))['nodeId']
+    prev=sorted([f for f in glob.glob(f'{J}/*.result.json') if json.load(open(f))['nodeId']==node],key=os.path.getmtime)
+    if node=='R3':
+        print(sh(f'python3 .claude/tmp/gen_r3.py {b}')); print(sh(f'pnpm run agent judgment submit {R} --file .claude/tmp/ans.json --bundle {b} 2>&1 | tail -1')[:80],flush=True); continue
+    if node not in ('RV',) or not prev: print('STOP-NODE',node,b); break
+    json.dump(json.load(open(prev[-1]))['data'],open('.claude/tmp/ans.json','w'))
+    print('submit',node,b,'from',os.path.basename(prev[-1]),sh(f'pnpm run agent judgment submit {R} --file .claude/tmp/ans.json --bundle {b} 2>&1 | tail -1')[:100],flush=True)

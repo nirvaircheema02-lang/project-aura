@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-10-09.1",
+  "approvedBy": "user (Fix & Redesign Agent brief, 2026-10-09)",
+  "approvedOn": "2026-10-09",
+  "referenceProjectsRoot": "/Users/sachin/Project-aura/project_aura1-main/projects",
+  "projects": [
+    {
+      "name": "survey-product-detail-page",
+      "relativeDir": "survey-product-detail-page",
+      "kind": "next",
+      "inspectionUrl": "http://localhost:3050",
+      "role": "Survey product detail page built from Project Aura DS section components on Next.js; a reference for how a long product page composes DS sections and cards.",
+      "preferredFor": [],
+      "notes": [
+        "Large Next.js + Tailwind v4 app with its own .git. Most styling is Tailwind utility classes inside TSX; the tsx-classes pattern kind is not implemented by this module, so only the hand-written rules in src/app/globals.css are catalogued.",
+        "src/vendor/ holds a vendored COPY of the design system and its tokens. That copy is not the DS: never read DS values from it.",
+        "--bg-pure-white is redefined to a translucent white inside the cinematic HeroSection scope, so any rule that reads it (for example the .pdp-card background) is not catalogued.",
+        "The --pdp-card-* tokens exist only in this project, so the colours are not used by name: the 6% border maps to the nearest suitable DS hairline token and the two-layer shadow to the DS card shadow (the dropped 2% layer is recorded). The 10px radius is a hardcoded length, so the card verifies as a proposed local variant."
+      ],
+      "patterns": [
+        {
+          "id": "pdp-card-rest",
+          "category": "card-separation",
+          "purpose": "Light separation of a card from the page with a 6%-alpha hairline border and a faint two-layer shadow",
+          "description": "Rest state of the canonical .pdp-card (derived from the Report Store Card, per its source comment): 10px radius, 1px rgba(0,0,0,0.06) border, 0 1px 3px rgba(0,0,0,0.04) plus 0 1px 2px rgba(0,0,0,0.02) shadow. Background, hover lift and transition are not catalogued.",
+          "source": { "file": "src/app/globals.css", "kind": "css-rule", "locator": ".pdp-card" },
+          "declarations": {
+            "border-radius": "var(--pdp-card-radius)",
+            "border": "var(--pdp-card-border-rest)",
+            "box-shadow": "var(--pdp-card-shadow-rest)"
+          },
+          "appliesTo": { "surfaces": ["light"], "viewports": ["any"], "elementKinds": ["card", "panel"] },
+          "whenNotToUse": "Not inside the cinematic/dark hero scope. Not when a flat card with no shadow at all is wanted (use competition-benchmarking-v2-react flat-hairline-card). Its tokens exist only in this project, so applying it yields a proposed local variant, never an official DS component."
+        }
+      ]
+    },
+    {
+      "name": "case-study-v2",
+      "relativeDir": "case-study-v2",
+      "kind": "next",
+      "inspectionUrl": "http://localhost:3060",
+      "role": "Case-study page with five switchable templates (A to E) on Next.js; a composition reference for case-study heroes, stat strips and timelines.",
+      "preferredFor": [],
+      "notes": [
+        "All styling is one hand-written src/app/globals.css built on project-local tokens (--ink, --slate, --mist, --smoke, --fog, --surface, --red ...) that are not DS tokens, with a dev template switcher.",
+        "No pattern is catalogued: no rule is both DS-grounded and clearly reusable, and the project-local palette would only ever verify as hardcoded values."
+      ],
+      "patterns": []
+    },
+    {
+      "name": "ken-auth-redesign",
+      "relativeDir": "ken-auth-redesign",
+      "kind": "docs-and-specs",
+      "inspectionUrl": "http://localhost:3091",
+      "role": "Loop-engineering paper trail for the sign-up / sign-in modal redesign: PROJECT.md, README.md, specs/, comparisons/ and a Next.js build under builds/.",
+      "preferredFor": [],
+      "notes": [
+        "Not a src app at the project root: it is a docs/specs/builds/comparisons folder (references/ and renders/ are empty). The runnable app lives in builds/ and depends on workspace packages that are not in the folder.",
+        "builds/src/app/globals.css is only 54 lines (Tailwind source, body and a token mapping) and the screens are styled with Tailwind classes, so there are no CSS rules to catalogue. Consult specs/ and builds/src/components only for AuthModal/OTP composition when the DS has no suitable form-field treatment."
+      ],
+      "patterns": []
+    },
+    {
+      "name": "expert-interview-page",
+      "relativeDir": "expert-interview-page",
+      "kind": "static-html",
+      "inspectionUrl": "http://localhost:4177",
+      "role": "Expert-interview page as plain static HTML (index.html plus assets); a layout reference for interview/quote-driven pages.",
+      "preferredFor": [],
+      "notes": [
+        "Plain static HTML with embedded <style> blocks and no TypeScript source. The html-style pattern kind is not implemented by this module, so nothing is catalogued."
+      ],
+      "patterns": []
+    },
+    {
+      "name": "report-store-legacy",
+      "relativeDir": "report-store-legacy",
+      "kind": "legacy-readonly",
+      "inspectionUrl": "http://localhost:5183",
+      "role": "Frozen Report Store UI (Vite/React, Figma Make export, marked LEGACY-READONLY.md): visual truth for older Report Store treatments such as cards, filters and the icon badge.",
+      "preferredFor": [],
+      "notes": [
+        "LEGACY-READONLY: frozen 2026-05-08, never edited. Consult it only after the DS and competition-benchmarking-v2-react have no suitable treatment.",
+        "A same-named folder also exists at design-system-audit/worked-examples/report-store-legacy. It is NOT approved; resolution rejects it because its realpath is not this folder.",
+        "Components are Tailwind v4 classes in TSX (tsx-classes is not implemented by this module) plus src/styles/theme.css tokens, so no hand-written CSS rule is catalogued."
+      ],
+      "patterns": []
+    },
+    {
+      "name": "competition-benchmarking-v2-react",
+      "relativeDir": "competition-benchmarking-v2-react",
+      "kind": "react-vite",
+      "inspectionUrl": "http://localhost:3095",
+      "role": "PREFERRED reference for subtle borders and light section/card separation: a Vite 6 + React 19 + TypeScript report page whose entire styling is src/globals.css, using soft black-alpha hairlines and flat cards instead of heavy boxy outlines.",
+      "preferredFor": ["card-separation", "subtle-border"],
+      "notes": [
+        "User preference (2026-10-09): when an authorized change needs a subtle border or light card/section separation, consult this project first and avoid heavy outlines.",
+        "All styling is src/globals.css: two :root blocks (design tokens, plus the .v1-* card tokens) and plain class rules. The catalogued rules were read from that file and are re-checked against it on every verification.",
+        "globals.css is a self-contained copy of Aura tokens, not an import of the DS package. A colour is never taken by its token name: it is read (alpha included) and mapped by VALUE to the DS token for the same role on the same surface. --border-soft, --tint-soft and --white carry the same values in the DS editorial-light scope (exact matches); --border-strong (15%) is NOT the DS --border-strong (18%) and maps to --border-input; --faq-border (#f5f5f5) maps exactly to a DS colour-ramp primitive.",
+        "A rule inside @media / @supports applies only when its condition holds for the need (prefers-color-scheme against the surface, width queries against the viewport); otherwise the base rule is read and the property is marked as conditioned. Only declarations that no media query overrides are catalogued; layout declarations of the same selectors (padding, flex direction, grid columns) are the page's own and are deliberately left out."
+      ],
+      "patterns": [
+        {
+          "id": "flat-hairline-card",
+          "category": "card-separation",
+          "purpose": "Light separation of a card from its section: a flat white card with a soft hairline border and small radius, no shadow and no heavy outline",
+          "description": "The shared .v1-card shell used by the Action Plan, Next Steps and Execution Plan cards: white fill, 1px --border-soft (rgba(0,0,0,.08)) border, --radius-sm (10px) corners, no box-shadow.",
+          "source": { "file": "src/globals.css", "kind": "css-rule", "locator": ".v1-card" },
+          "declarations": {
+            "background": "var(--white)",
+            "border": "1px solid var(--border-soft)",
+            "border-radius": "var(--radius-sm)"
+          },
+          "appliesTo": { "surfaces": ["light"], "viewports": ["any"], "elementKinds": ["card", "panel"] },
+          "whenNotToUse": "Not on dark surfaces (a black 8% hairline disappears on dark fills). Not where a card must read as elevated or interactive: it has no shadow and no hover state. Not when the DS Card already provides the required treatment."
+        },
+        {
+          "id": "tinted-hairline-panel",
+          "category": "card-separation",
+          "purpose": "Light separation of a callout or contact panel from a plain section: a barely tinted fill inside a soft hairline border",
+          "description": "The FAQ contact panel (.faq-contact): --tint-soft (rgba(0,0,0,.03)) fill, 1px --border-soft border, --radius-sm corners. Only the surface treatment is catalogued; its padding, margins and flex layout are the page's own.",
+          "source": { "file": "src/globals.css", "kind": "css-rule", "locator": ".faq-contact" },
+          "declarations": {
+            "background": "var(--tint-soft)",
+            "border": "1px solid var(--border-soft)",
+            "border-radius": "var(--radius-sm)"
+          },
+          "appliesTo": { "surfaces": ["light"], "viewports": ["any"], "elementKinds": ["panel", "section", "callout"] },
+          "whenNotToUse": "Not on dark surfaces. Not for content cards that should read as white on a tinted band (use flat-hairline-card). Do not take spacing or layout from this rule; those declarations are specific to the FAQ panel."
+        },
+        {
+          "id": "hairline-rule-strip",
+          "category": "subtle-border",
+          "purpose": "Separate a row of figures from the rest of the section with two soft hairline rules instead of a boxed outline",
+          "description": "The executive-summary KPI strip (.es-kpi-strip): bounded above and below by 1px --border-soft rules, with no side borders, fill or radius. An open editorial treatment that is deliberately not a card.",
+          "source": { "file": "src/globals.css", "kind": "css-rule", "locator": ".es-kpi-strip" },
+          "declarations": {
+            "border-top": "1px solid var(--border-soft)",
+            "border-bottom": "1px solid var(--border-soft)"
+          },
+          "appliesTo": { "surfaces": ["light"], "viewports": ["any"], "elementKinds": ["section", "row", "strip"] },
+          "whenNotToUse": "Not where the content needs a closed container, and not on dark surfaces. The column rules between items and the responsive reflow of the original strip are separate rules and are not part of this pattern."
+        },
+        {
+          "id": "faq-accordion-row",
+          "category": "accordion",
+          "purpose": "Question-and-answer accordion row separated by a very faint hairline border with rounded, clipped corners",
+          "description": "The FAQ row shell (.faq-row): 1px --faq-border (#f5f5f5) border, --radius-sm corners, overflow hidden so the collapsing answer is clipped to the rounded shell. The question button, chevron and grid-rows collapse are separate rules and are not catalogued.",
+          "source": { "file": "src/globals.css", "kind": "css-rule", "locator": ".faq-row" },
+          "declarations": {
+            "border": "1px solid var(--faq-border)",
+            "border-radius": "var(--radius-sm)",
+            "overflow": "hidden"
+          },
+          "appliesTo": { "surfaces": ["light"], "viewports": ["any"], "elementKinds": ["accordion", "row", "panel"] },
+          "whenNotToUse": "Not where the boundary must stay visible for contrast: #f5f5f5 is nearly invisible on white. Not a complete accordion; it carries none of the button, chevron or expand/collapse behaviour."
+        },
+        {
+          "id": "hairline-border-scale",
+          "category": "subtle-border",
+          "purpose": "The project's ladder of black-alpha hairline border colours for subtle borders: soft 8%, default 12%, strong 15%, active 20%",
+          "description": "Custom properties on :root behind every hairline in the project. --border-soft is the one used for card and section separation; --border-default for firmer dividers and some card outlines; --border-strong is commented as the input-hover border; --border-active as the focused or emphasised border.",
+          "source": { "file": "src/globals.css", "kind": "css-tokens", "locator": ":root" },
+          "declarations": {
+            "--border-soft": "rgba(0,0,0,.08)",
+            "--border-default": "rgba(0,0,0,.12)",
+            "--border-strong": "rgba(0,0,0,.15)",
+            "--border-active": "rgba(0,0,0,.20)"
+          },
+          "appliesTo": { "surfaces": ["light"], "viewports": ["any"], "elementKinds": ["card", "section", "panel", "row", "input"] },
+          "whenNotToUse": "These are literal alpha values of this project, not DS tokens: use them to choose or compare against a DS border token and do not copy them as magic numbers. Not for dark surfaces (see hairline-border-on-dark)."
+        },
+        {
+          "id": "hairline-border-on-dark",
+          "category": "subtle-border",
+          "purpose": "The project's hairline border colour for dark surfaces: white at 14% alpha",
+          "description": "Custom property --border-on-dark on :root. It is declared in this project but no rule reads it yet, so it has not been seen in a rendered dark section here.",
+          "source": { "file": "src/globals.css", "kind": "css-tokens", "locator": ":root" },
+          "declarations": {
+            "--border-on-dark": "rgba(255,255,255,.14)"
+          },
+          "appliesTo": { "surfaces": ["dark"], "viewports": ["any"], "elementKinds": ["card", "section", "panel", "row"] },
+          "whenNotToUse": "Not on light surfaces. Treat it as a candidate value only: it is unused and unverified in a rendered dark section, and it is a literal value of this project rather than a DS token."
+        }
+      ]
+    }
+  ]
+}

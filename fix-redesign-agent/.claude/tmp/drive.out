@@ -1,0 +1,2 @@
+cycle 0 ['  FAILED     78 of 199 resolved target(s) not verified in the rendered preview (34 failed)', '  UNVERIFIED design/state fidelity is INCOMPLETE: 87 of 1158 required check(s) not verified (1006 verified, 65 failed, 87 unverified: element 4, hover 83; 65 ac', '  FAILED  Design, state and composition are preserved except where a resolved target authorizes a change — 85 regression(s), 2400 authorized change(s), 1 not ch']
+DONE-G2

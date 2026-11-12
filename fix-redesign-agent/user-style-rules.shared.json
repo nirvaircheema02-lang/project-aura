@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    {
+      "id": "our-resources-read-now",
+      "section": "our-resources",
+      "match": {
+        "tag": "p",
+        "classIncludes": [
+          "text-[#806CE0]"
+        ]
+      },
+      "style": {
+        "color": "var(--semantic-ink-on-dark-body)"
+      },
+      "reason": "User (chat, 2026-10-27): the card's \"Read now\" is a link on a dark surface — the DS link treatment there is light text (CTALink onDark), not purple; the same on every page that has Our Resources"
+    },
+    {
+      "id": "faqs-no-fill",
+      "section": "faqs",
+      "match": {
+        "tag": "div",
+        "classIncludes": [
+          "bg-[#FCFCFC]",
+          "lg:max-w-[846px]"
+        ]
+      },
+      "style": {
+        "background-color": "transparent"
+      },
+      "reason": "User (chat, 2026-10-26): FAQs have no background fill behind or on the question rows — the row borders stay; the same on every page that has FAQs"
+    },
+    {
+      "id": "our-impact-read-more-right",
+      "section": "our-impact",
+      "match": {
+        "tag": "a",
+        "classIncludes": [
+          "justify-end",
+          "mt-5"
+        ]
+      },
+      "style": {
+        "justify-content": "flex-end"
+      },
+      "reason": "User (chat, 2026-10-28, Employee Engagement; adopted for every page with Our Impact on the CNDP page): the cards' \"Read More ↗\" CTA sits right-aligned (flex, justify-end) at the card's right edge, as on the original"
+    },
+    {
+      "id": "testimonial-author-name",
+      "section": "what-our-clients-say",
+      "match": {
+        "tag": "p",
+        "classIncludes": [
+          "text-xs",
+          "font-semibold"
+        ]
+      },
+      "style": {
+        "font-size": "var(--text-xs)",
+        "color": "var(--black-900)"
+      },
+      "reason": "Dealer Voice page, adopted for every page with testimonials: author name takes the DS type-scale step (--text-xs) and DS ink (--black-900)"
+    },
+    {
+      "id": "testimonial-author-role",
+      "section": "what-our-clients-say",
+      "match": {
+        "tag": "p",
+        "classIncludes": [
+          "text-xs",
+          "font-light"
+        ]
+      },
+      "style": {
+        "font-size": "var(--text-xs)",
+        "color": "var(--black-900)"
+      },
+      "reason": "Dealer Voice page, adopted for every page with testimonials: author role takes the DS type-scale step (--text-xs) and DS ink (--black-900)"
+    },
+    {
+      "id": "page-ink-141016-ds-black-900",
+      "section": "*",
+      "match": {
+        "classIncludes": [
+          "text-[#141016]"
+        ]
+      },
+      "style": {
+        "color": "var(--black-900)"
+      },
+      "reason": "User (chat, 2026-10-30, locked for every page): the site's own text ink #141016 is not a design-system colour — text takes the DS ink --black-900 (#171717) in every section, and the colour is never left raw on any page"
+    },
+    {
+      "id": "what-sets-us-apart-square-cards",
+      "section": "what-sets-us-apart",
+      "match": {
+        "tag": "div",
+        "classIncludes": [
+          "border-[#EDECFB]",
+          "h-[140px]"
+        ]
+      },
+      "style": {
+        "border-radius": "0"
+      },
+      "descendants": [
+        {
+          "match": {
+            "classIncludes": [
+              "rounded-"
+            ]
+          },
+          "style": {
+            "border-radius": "0"
+          }
+        }
+      ],
+      "reason": "User (chat, 2026-10-26 Brand Perception; again 2026-10-28 Employee Engagement; adopted for every page with these numbered cards): the 01–09 cards (and their hover overlay) have square corners — only these cards"
+    },
+    {
+      "id": "what-makes-our-way-different-square-cards",
+      "section": "what-makes-our-way-different",
+      "match": {
+        "tag": "div",
+        "classIncludes": [
+          "border-[#EDECFB]",
+          "h-[140px]"
+        ]
+      },
+      "style": {
+        "border-radius": "0"
+      },
+      "descendants": [
+        {
+          "match": {
+            "classIncludes": [
+              "rounded-"
+            ]
+          },
+          "style": {
+            "border-radius": "0"
+          }
+        }
+      ],
+      "reason": "User (chat, 2026-10-27 CSAT; again 2026-10-28 CNDP; same numbered cards as Brand Perception's What Sets Us Apart, adopted for every page with them): the numbered cards (and their hover overlay) have square corners — only these cards"
+    }
+  ]
+}

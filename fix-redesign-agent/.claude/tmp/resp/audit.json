@@ -1,0 +1,2400 @@
+{
+ "bp": {
+  "375": {
+   "docW": 375,
+   "over": [],
+   "tiny": [
+    {
+     "sec": "why-it-matters",
+     "fs": 6,
+     "t": "Your Brand positioning"
+    },
+    {
+     "sec": "why-it-matters",
+     "fs": 6,
+     "t": "What people think you do?"
+    },
+    {
+     "sec": "why-it-matters",
+     "fs": 6,
+     "t": "What you do?"
+    }
+   ],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "what-your-customers-think-isn-t-a-mystery-it-s-ametric",
+     535
+    ],
+    [
+     "see-your-brand-in-data",
+     359
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     983
+    ],
+    [
+     "why-it-matters",
+     264
+    ],
+    [
+     "competitor-advantages-overlooked",
+     528
+    ],
+    [
+     "how-we-do-it",
+     1183
+    ],
+    [
+     "what-sets-us-apart",
+     928
+    ],
+    [
+     "our-impact",
+     679
+    ],
+    [
+     "what-our-clients-say",
+     1222
+    ],
+    [
+     "faqs",
+     1682
+    ],
+    [
+     "our-resources",
+     792
+    ],
+    [
+     "explore-other-surveys",
+     548
+    ]
+   ]
+  },
+  "768": {
+   "docW": 903,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 634,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 729,
+     "r": 836,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 729,
+     "r": 810,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 818,
+     "r": 836,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 818,
+     "r": 836,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 823,
+     "r": 831,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 791,
+     "r": 809,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 796,
+     "r": 804,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 922,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1017,
+     "r": 1124,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1017,
+     "r": 1098,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1106,
+     "r": 1124,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "what-your-customers-think-isn-t-a-mystery-it-s-ametric",
+     650
+    ],
+    [
+     "see-your-brand-in-data",
+     724
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     875
+    ],
+    [
+     "why-it-matters",
+     685
+    ],
+    [
+     "competitor-advantages-overlooked",
+     600
+    ],
+    [
+     "how-we-do-it",
+     718
+    ],
+    [
+     "what-sets-us-apart",
+     714
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     1503
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  },
+  "1024": {
+   "docW": 1031,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 982,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1077,
+     "r": 1184,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1077,
+     "r": 1158,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1166,
+     "r": 1184,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1166,
+     "r": 1184,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1171,
+     "r": 1179,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1139,
+     "r": 1157,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1144,
+     "r": 1152,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "what-your-customers-think-isn-t-a-mystery-it-s-ametric",
+     650
+    ],
+    [
+     "see-your-brand-in-data",
+     724
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     800
+    ],
+    [
+     "why-it-matters",
+     685
+    ],
+    [
+     "competitor-advantages-overlooked",
+     600
+    ],
+    [
+     "how-we-do-it",
+     718
+    ],
+    [
+     "what-sets-us-apart",
+     574
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     1324
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  }
+ },
+ "dv": {
+  "375": {
+   "docW": 375,
+   "over": [],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "your-dealers-know-what-your-data-doesn-t",
+     551
+    ],
+    [
+     "dealer-insights-dashboard",
+     359
+    ],
+    [
+     "our-clients",
+     1041
+    ],
+    [
+     "what-s-impacting-your-dealers",
+     620
+    ],
+    [
+     "how-we-capture-dealer-needs",
+     1183
+    ],
+    [
+     "what-makes-our-way-different",
+     955
+    ],
+    [
+     "our-impact",
+     703
+    ],
+    [
+     "what-our-clients-say",
+     1184
+    ],
+    [
+     "faqs",
+     1631
+    ],
+    [
+     "our-resources",
+     793
+    ],
+    [
+     "explore-other-surveys",
+     548
+    ]
+   ]
+  },
+  "768": {
+   "docW": 768,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 634,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 729,
+     "r": 836,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 729,
+     "r": 810,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 818,
+     "r": 836,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 818,
+     "r": 836,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 823,
+     "r": 831,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 791,
+     "r": 809,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 796,
+     "r": 804,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 922,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1017,
+     "r": 1124,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1017,
+     "r": 1098,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1106,
+     "r": 1124,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "your-dealers-know-what-your-data-doesn-t",
+     650
+    ],
+    [
+     "dealer-insights-dashboard",
+     724
+    ],
+    [
+     "our-clients",
+     899
+    ],
+    [
+     "what-s-impacting-your-dealers",
+     698
+    ],
+    [
+     "how-we-capture-dealer-needs",
+     718
+    ],
+    [
+     "what-makes-our-way-different",
+     714
+    ],
+    [
+     "our-impact",
+     685
+    ],
+    [
+     "what-our-clients-say",
+     704
+    ],
+    [
+     "faqs",
+     1426
+    ],
+    [
+     "our-resources",
+     760
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  },
+  "1024": {
+   "docW": 1024,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 982,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1077,
+     "r": 1184,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1077,
+     "r": 1158,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1166,
+     "r": 1184,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1166,
+     "r": 1184,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1171,
+     "r": 1179,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1139,
+     "r": 1157,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1144,
+     "r": 1152,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "your-dealers-know-what-your-data-doesn-t",
+     650
+    ],
+    [
+     "dealer-insights-dashboard",
+     724
+    ],
+    [
+     "our-clients",
+     824
+    ],
+    [
+     "what-s-impacting-your-dealers",
+     698
+    ],
+    [
+     "how-we-capture-dealer-needs",
+     718
+    ],
+    [
+     "what-makes-our-way-different",
+     574
+    ],
+    [
+     "our-impact",
+     685
+    ],
+    [
+     "what-our-clients-say",
+     704
+    ],
+    [
+     "faqs",
+     1273
+    ],
+    [
+     "our-resources",
+     760
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  }
+ },
+ "cs": {
+  "375": {
+   "docW": 375,
+   "over": [],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "know-what-your-customers-really-feel-not-just-what-they-say",
+     650
+    ],
+    [
+     "customer-satisfaction-dashboard",
+     428
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     1007
+    ],
+    [
+     "whats-impacting-your-customer",
+     666
+    ],
+    [
+     "how-we-help-you-understand-customers-better",
+     1230
+    ],
+    [
+     "what-makes-our-way-different",
+     955
+    ],
+    [
+     "our-impact",
+     679
+    ],
+    [
+     "what-our-clients-say",
+     830
+    ],
+    [
+     "faqs",
+     1123
+    ],
+    [
+     "our-resources",
+     792
+    ],
+    [
+     "explore-other-surveys",
+     548
+    ]
+   ]
+  },
+  "768": {
+   "docW": 768,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 634,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 745,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 745,
+     "r": 826,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 839,
+     "r": 847,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 807,
+     "r": 825,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 812,
+     "r": 820,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 922,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1033,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1033,
+     "r": 1114,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1122,
+     "r": 1140,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "know-what-your-customers-really-feel-not-just-what-they-say",
+     650
+    ],
+    [
+     "customer-satisfaction-dashboard",
+     738
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     899
+    ],
+    [
+     "whats-impacting-your-customer",
+     558
+    ],
+    [
+     "how-we-help-you-understand-customers-better",
+     738
+    ],
+    [
+     "what-makes-our-way-different",
+     714
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     1015
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  },
+  "1024": {
+   "docW": 1024,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 982,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1093,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1093,
+     "r": 1174,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1182,
+     "r": 1200,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1182,
+     "r": 1200,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1187,
+     "r": 1195,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1155,
+     "r": 1173,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1160,
+     "r": 1168,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "know-what-your-customers-really-feel-not-just-what-they-say",
+     650
+    ],
+    [
+     "customer-satisfaction-dashboard",
+     738
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     824
+    ],
+    [
+     "whats-impacting-your-customer",
+     558
+    ],
+    [
+     "how-we-help-you-understand-customers-better",
+     718
+    ],
+    [
+     "what-makes-our-way-different",
+     574
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     913
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  }
+ },
+ "ee": {
+  "375": {
+   "docW": 375,
+   "over": [],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "when-people-feel-heard-they-performeffectively",
+     582
+    ],
+    [
+     "employee-experience-dashboard",
+     428
+    ],
+    [
+     "use-real-feedback-from-real-employees-to-understand-what-drives-engagement-and-act-with-confidence-b",
+     1041
+    ],
+    [
+     "whats-impacting-your-employees",
+     831
+    ],
+    [
+     "how-we-understand-your-people",
+     1210
+    ],
+    [
+     "what-sets-us-apart",
+     928
+    ],
+    [
+     "our-impact",
+     679
+    ],
+    [
+     "what-our-clients-say",
+     830
+    ],
+    [
+     "faqs",
+     1123
+    ],
+    [
+     "our-resources",
+     792
+    ],
+    [
+     "explore-other-surveys",
+     548
+    ]
+   ]
+  },
+  "768": {
+   "docW": 768,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 634,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 745,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 745,
+     "r": 826,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 839,
+     "r": 847,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 807,
+     "r": 825,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 812,
+     "r": 820,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 922,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1033,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1033,
+     "r": 1114,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1122,
+     "r": 1140,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "when-people-feel-heard-they-performeffectively",
+     650
+    ],
+    [
+     "employee-experience-dashboard",
+     738
+    ],
+    [
+     "use-real-feedback-from-real-employees-to-understand-what-drives-engagement-and-act-with-confidence-b",
+     899
+    ],
+    [
+     "whats-impacting-your-employees",
+     741
+    ],
+    [
+     "how-we-understand-your-people",
+     718
+    ],
+    [
+     "what-sets-us-apart",
+     714
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     990
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  },
+  "1024": {
+   "docW": 1024,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 982,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1093,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1093,
+     "r": 1174,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1182,
+     "r": 1200,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1182,
+     "r": 1200,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1187,
+     "r": 1195,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1155,
+     "r": 1173,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1160,
+     "r": 1168,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "when-people-feel-heard-they-performeffectively",
+     650
+    ],
+    [
+     "employee-experience-dashboard",
+     738
+    ],
+    [
+     "use-real-feedback-from-real-employees-to-understand-what-drives-engagement-and-act-with-confidence-b",
+     824
+    ],
+    [
+     "whats-impacting-your-employees",
+     526
+    ],
+    [
+     "how-we-understand-your-people",
+     718
+    ],
+    [
+     "what-sets-us-apart",
+     574
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     913
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  }
+ },
+ "cn": {
+  "375": {
+   "docW": 375,
+   "over": [],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "what-your-customers-want-isn-t-hidden-it-s-unheard",
+     579
+    ],
+    [
+     "customer-needs-pain-points-dashboard",
+     428
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     1007
+    ],
+    [
+     "how-we-understand-what-your-customers-really-want",
+     1210
+    ],
+    [
+     "what-makes-our-way-different",
+     955
+    ],
+    [
+     "our-impact",
+     703
+    ],
+    [
+     "what-our-clients-say",
+     830
+    ],
+    [
+     "faqs",
+     1504
+    ],
+    [
+     "our-resources",
+     792
+    ],
+    [
+     "explore-other-surveys",
+     548
+    ]
+   ]
+  },
+  "768": {
+   "docW": 768,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 634,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 745,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 745,
+     "r": 826,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 839,
+     "r": 847,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 807,
+     "r": 825,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 812,
+     "r": 820,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 922,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1033,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1033,
+     "r": 1114,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1122,
+     "r": 1140,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "what-your-customers-want-isn-t-hidden-it-s-unheard",
+     650
+    ],
+    [
+     "customer-needs-pain-points-dashboard",
+     738
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     899
+    ],
+    [
+     "how-we-understand-what-your-customers-really-want",
+     753
+    ],
+    [
+     "what-makes-our-way-different",
+     714
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     1317
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  },
+  "1024": {
+   "docW": 1024,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 982,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1093,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1093,
+     "r": 1174,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1182,
+     "r": 1200,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1182,
+     "r": 1200,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1187,
+     "r": 1195,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1155,
+     "r": 1173,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1160,
+     "r": 1168,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "what-your-customers-want-isn-t-hidden-it-s-unheard",
+     650
+    ],
+    [
+     "customer-needs-pain-points-dashboard",
+     738
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     824
+    ],
+    [
+     "how-we-understand-what-your-customers-really-want",
+     718
+    ],
+    [
+     "what-makes-our-way-different",
+     574
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "faqs",
+     1164
+    ],
+    [
+     "our-resources",
+     759
+    ],
+    [
+     "explore-other-surveys",
+     554
+    ]
+   ]
+  }
+ },
+ "hm": {
+  "375": {
+   "docW": 375,
+   "over": [],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "survey-consulting-that-shapes-critical-decisions",
+     650
+    ],
+    [
+     "find-your-survey-s-sweet-spot",
+     862
+    ],
+    [
+     "because-every-voice-deserves-to-be-heard",
+     3209
+    ],
+    [
+     "reach-anyone-anywhere-with-purpose",
+     831
+    ],
+    [
+     "our-approach",
+     584
+    ],
+    [
+     "our-differentiators-what-distinguishes-our-survey-and-insight-capabilities",
+     828
+    ],
+    [
+     "what-our-clients-say",
+     830
+    ],
+    [
+     "coverage-across-audiences",
+     529
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     1007
+    ],
+    [
+     "our-impact",
+     679
+    ],
+    [
+     "faqs",
+     1395
+    ],
+    [
+     "explore-other-surveys",
+     648
+    ]
+   ]
+  },
+  "768": {
+   "docW": 768,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 634,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 745,
+     "r": 852,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 745,
+     "r": 826,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 834,
+     "r": 852,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 839,
+     "r": 847,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 807,
+     "r": 825,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 812,
+     "r": 820,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 922,
+     "r": 1140,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1017,
+     "r": 1124,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1017,
+     "r": 1098,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1106,
+     "r": 1124,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "survey-consulting-that-shapes-critical-decisions",
+     570
+    ],
+    [
+     "find-your-survey-s-sweet-spot",
+     583
+    ],
+    [
+     "because-every-voice-deserves-to-be-heard",
+     902
+    ],
+    [
+     "reach-anyone-anywhere-with-purpose",
+     790
+    ],
+    [
+     "our-approach",
+     782
+    ],
+    [
+     "our-differentiators-what-distinguishes-our-survey-and-insight-capabilities",
+     7200
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "coverage-across-audiences",
+     401
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     899
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "faqs",
+     1235
+    ],
+    [
+     "explore-other-surveys",
+     568
+    ]
+   ]
+  },
+  "1024": {
+   "docW": 1024,
+   "over": [
+    {
+     "sec": "our-impact",
+     "tag": "DIV",
+     "cls": "",
+     "l": 982,
+     "r": 1200,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "A",
+     "cls": "group inline-flex items-center gap-2 font-medium t",
+     "l": 1077,
+     "r": 1184,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "transition-colors duration-200",
+     "l": 1077,
+     "r": 1158,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "tag": "SPAN",
+     "cls": "relative inline-block overflow-visible align-middl",
+     "l": 1166,
+     "r": 1184,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1166,
+     "r": 1184,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1171,
+     "r": 1179,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "svg",
+     "cls": "lucide lucide-arrow-up-right absolute top-0 left-0",
+     "l": 1139,
+     "r": 1157,
+     "t": ""
+    },
+    {
+     "sec": "our-impact",
+     "tag": "path",
+     "cls": "",
+     "l": 1144,
+     "r": 1152,
+     "t": ""
+    }
+   ],
+   "tiny": [],
+   "small": [
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    },
+    {
+     "sec": "our-impact",
+     "w": 107,
+     "h": 24,
+     "t": "Read More"
+    }
+   ],
+   "secs": [
+    [
+     "survey-consulting-that-shapes-critical-decisions",
+     570
+    ],
+    [
+     "find-your-survey-s-sweet-spot",
+     586
+    ],
+    [
+     "because-every-voice-deserves-to-be-heard",
+     776
+    ],
+    [
+     "reach-anyone-anywhere-with-purpose",
+     592
+    ],
+    [
+     "our-approach",
+     782
+    ],
+    [
+     "our-differentiators-what-distinguishes-our-survey-and-insight-capabilities",
+     7200
+    ],
+    [
+     "what-our-clients-say",
+     718
+    ],
+    [
+     "coverage-across-audiences",
+     401
+    ],
+    [
+     "use-real-feedback-from-real-audiences-to-understand-what-drives-decisions-and-act-with-confidence",
+     824
+    ],
+    [
+     "our-impact",
+     661
+    ],
+    [
+     "faqs",
+     1235
+    ],
+    [
+     "explore-other-surveys",
+     568
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "projectSlug": "www.kenresearch.com-cndp-survey",
+  "auditAgentRepoRoot": "/Users/sachin/Project-aura/audit-agent",
+  "auditProjectName": "www.kenresearch.com-cndp-survey",
+  "auditProjectDir": "/Users/sachin/Project-aura/audit-agent/projects/www.kenresearch.com-cndp-survey",
+  "redesignRunIds": [
+    "cndp-survey-page-audit-v4-redesign-20261028-090140"
+  ]
+}

@@ -1,0 +1,7 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const c = await b.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' }); const p = await c.newPage();
+await p.goto('http://127.0.0.1:4585/', { waitUntil: 'networkidle' }); await p.waitForTimeout(1200);
+await p.locator('[data-pv-section="how-we-capture-dealer-needs"]').evaluate(e=>e.scrollIntoView({block:'center'})); await p.waitForTimeout(1200);
+const r = await p.evaluate(() => { const out=[]; const walk=(root)=>{ for(const e of root.querySelectorAll('*')){ if(e.tagName==='IMG'){ const s=getComputedStyle(e); const rc=e.getBoundingClientRect(); if(rc.width<2)continue; const par=e.parentElement; const ps=getComputedStyle(par); out.push({src:e.src.split('/').pop(), img:{bg:s.backgroundColor,bd:s.borderTopWidth+' '+s.borderTopColor,sh:s.boxShadow.slice(0,60),r:s.borderRadius,pad:s.padding}, par:{tag:par.tagName,bg:ps.backgroundColor,bgi:ps.backgroundImage.slice(0,60),bd:ps.borderTopWidth+' '+ps.borderTopColor,sh:ps.boxShadow.slice(0,80),r:ps.borderRadius,w:Math.round(par.getBoundingClientRect().width),h:Math.round(par.getBoundingClientRect().height)}}); } if(e.shadowRoot)walk(e.shadowRoot);} }; document.querySelectorAll('[data-pv-section="how-we-capture-dealer-needs"]').forEach(s=>{walk(s); if(s.shadowRoot)walk(s.shadowRoot);}); return out; });
+console.log(JSON.stringify(r.slice(0,3),null,1));
+await b.close();

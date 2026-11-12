@@ -1,0 +1,7 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const c = await b.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' }); const p = await c.newPage();
+await p.goto('http://127.0.0.1:4585/', { waitUntil: 'networkidle' }); await p.waitForTimeout(1500);
+const info = await p.evaluate(() => { const o={}; const walk=(r,c)=>{ for(const e of r.querySelectorAll('*')){ const t=e.tagName.toLowerCase(); const cs=getComputedStyle(e); const rc=e.getBoundingClientRect(); if(t==='img'){c.img.push({src:(e.currentSrc||e.src).slice(0,160),w:Math.round(rc.width),h:Math.round(rc.height),fit:cs.objectFit})} if(t==='canvas'||t==='video'||t==='iframe'||t==='picture')c.other.push(t+':'+Math.round(rc.width)+'x'+Math.round(rc.height)); if(t==='svg'&&e.outerHTML.length>=5000)c.svgBig.push(Math.round(rc.width)+'x'+Math.round(rc.height)+' len'+e.outerHTML.length); if(/url\(/.test(cs.backgroundImage))c.bg.push({bg:cs.backgroundImage.slice(0,160),w:Math.round(rc.width),h:Math.round(rc.height)}); for(const ps of ['::before','::after']){const pc=getComputedStyle(e,ps); if(pc.content!=='none'&&/url\(/.test(pc.backgroundImage))c.bg.push({pseudo:ps,bg:pc.backgroundImage.slice(0,120)});} if(e.shadowRoot)walk(e.shadowRoot,c);} };
+ document.querySelectorAll('[data-pv-section]').forEach(s=>{ const c={img:[],other:[],svgBig:[],bg:[]}; walk(s,c); if(s.shadowRoot)walk(s.shadowRoot,c); o[s.getAttribute('data-pv-section')]=c; }); return o; });
+console.log(JSON.stringify(info));
+await b.close();

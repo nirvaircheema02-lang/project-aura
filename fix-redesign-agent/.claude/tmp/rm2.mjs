@@ -1,0 +1,5 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto('http://127.0.0.1:4585/', { waitUntil: 'networkidle' });
+const out = await p.evaluate(() => { const h = document.querySelector('[data-pv-section="our-impact"]'); const as = [...h.querySelectorAll('a, [data-pv-island]')].filter(a => /Read More/.test(a.textContent)); const els = as.filter(a => !as.some(o => o !== a && a.contains(o))); return { n: els.length, items: els.map(a => { const r = a.getBoundingClientRect(); let c = null; const sr = h.shadowRoot; const slot = a.closest('[slot]'); return { tag: a.tagName, slot: slot && slot.getAttribute('slot'), a: [Math.round(r.x), Math.round(r.y + scrollY), Math.round(r.width), Math.round(r.height)] }; }), cards: [...h.shadowRoot.querySelectorAll('[class*="group"]')].filter(e => e.getBoundingClientRect().width > 200 && e.getBoundingClientRect().height > 200).map(e => { const r = e.getBoundingClientRect(); return [Math.round(r.x), Math.round(r.y + scrollY), Math.round(r.width), Math.round(r.height)]; }) }; });
+console.log(JSON.stringify(out)); await b.close();
