@@ -1,0 +1,697 @@
+- generic [active] [ref=e1] [box=0,0,1440,9409]:
+  - region "Notifications alt+T" [box=0,0,1440,0]
+  - generic [ref=e2] [box=0,0,1440,100]:
+    - generic [ref=e3] [box=0,0,1440,40]:
+      - generic [ref=e4] [box=16,0,275,39]:
+        - link "Procurement" [ref=e5] [cursor=pointer] [box=16,10,78,20]:
+          - /url: /procurement-research
+        - link "Expert Panel" [ref=e7] [cursor=pointer] [box=118,10,75,20]:
+          - /url: /expert-panel
+        - generic [ref=e9] [box=217,10,74,20]: Company
+      - generic [ref=e13] [box=1267,0,157,39]:
+        - generic [ref=e14] [cursor=pointer] [box=1267,10,57,20]: Sign in
+        - generic [ref=e17] [cursor=pointer] [box=1336,3,88,34]: Sign up
+    - navigation [ref=e21] [box=0,40,1440,60]:
+      - link [ref=e24] [cursor=pointer] [box=16,61,152,18]:
+        - /url: /
+        - img "Ken Research Logo" [ref=e25] [box=16,61,152,18]
+      - generic [ref=e26] [box=391,41,644,58]:
+        - link "Reports" [ref=e29] [cursor=pointer] [box=391,60,51,20]:
+          - /url: /report-store
+        - generic [ref=e32] [box=489,41,80,58]: Industries
+        - link "Surveys" [ref=e39] [cursor=pointer] [box=601,60,50,20]:
+          - /url: /survey
+        - link "Consulting" [ref=e44] [cursor=pointer] [box=700,60,69,20]:
+          - /url: /consulting
+        - generic [ref=e47] [box=817,41,66,58]: Insights
+        - generic [ref=e52] [cursor=pointer] [box=915,52,120,35]: Search
+      - link "Book discovery call" [ref=e63] [cursor=pointer] [box=1258,50,166,40]:
+        - /url: /book-a-discovery-call
+  - generic [ref=e65] [box=0,100,1440,8273]:
+    - generic [ref=e71] [box=0,100,1440,650]:
+      - img "/SurveyAssets/dots.png" [ref=e73] [box=0,100,1440,650]
+      - generic [ref=e74] [box=120,100,1200,882]:
+        - heading "What your customers think isn’t a mystery - it’s a metric." [level=1] [ref=e75] [box=360,212,720,152]:
+          - text: What your customers think isn’t a mystery - it’s a
+          - generic [ref=e76] [box=360,324,720,40]: metric.
+        - paragraph [ref=e77] [box=559,374,322,24]: See your brand the way your customers do.
+        - link [ref=e79] [cursor=pointer] [box=596,430,248,47]:
+          - /url: /talk-to-us
+        - generic [ref=e86] [box=532,497,376,41]:
+          - generic [ref=e87] [box=532,498,152,40]:
+            - img "/SurveyAssets/client1.png" [ref=e88] [box=532,498,40,40]
+            - img "/SurveyAssets/client2.png" [ref=e89] [box=560,498,40,40]
+            - img "/SurveyAssets/client3.png" [ref=e90] [box=588,498,40,40]
+            - img "/SurveyAssets/client4.png" [ref=e91] [box=616,498,40,40]
+            - img "/SurveyAssets/client5.png" [ref=e92] [box=644,498,40,40]
+          - paragraph [ref=e105] [box=692,514,216,24]: Rated by 1K+ Industry leaders
+        - generic [ref=e106] [box=170,558,1100,444]:
+          - generic [ref=e107] [box=210,558,327,444]:
+            - generic [ref=e108] [box=210,558,327,139]:
+              - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/dummycard1.png" [ref=e110] [box=210,558,153,136]
+              - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/first-grid-second-image.png" [ref=e112] [box=383,558,153,139]
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/brand-first-grid-last.png" [ref=e115] [box=210,717,327,285]
+          - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/brandMiddleImage.png" [ref=e117] [box=557,598,327,291]
+          - generic [ref=e118] [box=903,558,327,444]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/brandPerceptionnew.png" [ref=e120] [box=903,558,200,110]
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/brandPerceptionnew2.png" [ref=e122] [box=923,655,270,127]
+    - generic [ref=e124] [box=120,750,1200,738]:
+      - heading "See Your Brand in Data." [level=2] [ref=e125] [box=120,900,1200,48]
+      - generic [ref=e126] [box=120,878,1200,450]:
+        - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/powerbidashboard.jpg" [ref=e128] [box=-132,977,936,527]
+        - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/powerbidashboard.jpg" [ref=e130] [box=636,975,936,548]
+        - generic [ref=e131] [box=200,891,1040,585]:
+          - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/powerbidashboard.jpg" [ref=e132] [box=200,891,1040,585]
+          - link [ref=e134] [cursor=pointer] [box=583,1161,274,49]:
+            - /url: ""
+    - generic [ref=e141] [box=0,1488,1440,766]:
+      - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/map.png" [ref=e143] [box=0,1488,1440,766]
+      - generic [ref=e144] [box=120,1648,1200,446]:
+        - generic [ref=e145] [box=160,1648,1120,216]:
+          - generic [ref=e146] [box=160,1648,224,84]:
+            - heading "ABOUT KEN SURVEY" [level=2] [ref=e150] [box=188,1651,94,15]
+            - heading "Built on Reach, Research, and Real Voices" [level=3] [ref=e151] [box=160,1834,224,48]
+          - generic [ref=e152] [box=496,1648,784,216]:
+            - paragraph [ref=e153] [box=496,1798,784,68]: Use real feedback from real audiences to understand what drives decisions and act with confidence.
+            - generic [ref=e154] [box=496,1756,784,108]:
+              - generic [ref=e156] [box=496,1906,243,108]:
+                - paragraph [ref=e157] [box=496,1906,243,40]: 0+
+                - paragraph [ref=e158] [box=496,1966,243,48]: Respondents Engaged Across 50+ Markets
+              - generic [ref=e160] [box=767,1906,243,108]:
+                - paragraph [ref=e161] [box=767,1906,243,40]: 0+
+                - paragraph [ref=e162] [box=767,1966,243,48]: Brand Perception Survey Conducted
+              - generic [ref=e164] [box=1037,1906,243,108]:
+                - paragraph [ref=e165] [box=1037,1906,243,40]: 0+
+                - paragraph [ref=e166] [box=1037,1966,243,48]: C-Suite & Industry Experts in Our Network
+        - separator [ref=e167] [box=160,1928,1120,2]
+        - generic [ref=e168] [box=160,1994,1120,100]:
+          - heading "Our Clients" [level=4] [ref=e169] [box=673,1994,94,28]
+          - generic [ref=e171] [box=75,2054,1288,40]:
+            - img "Brand 0" [ref=e172] [box=75,2054,112,40]
+            - img "Brand 1" [ref=e173] [box=243,2054,61,40]
+            - img "Brand 2" [ref=e174] [box=360,2054,112,40]
+            - img "Brand 3" [ref=e175] [box=528,2054,112,40]
+            - img "Brand 4" [ref=e176] [box=696,2054,112,40]
+            - img "Brand 5" [ref=e177] [box=864,2054,80,40]
+            - img "Brand 6" [ref=e178] [box=1000,2054,112,40]
+            - img "Brand 7" [ref=e179] [box=1168,2054,61,40]
+            - img "Brand 8" [ref=e180] [box=1285,2054,112,40]
+            - img "Brand 9" [ref=e181] [box=1453,2054,112,40]
+            - img "Brand 10" [ref=e182] [box=1621,2054,112,40]
+            - img "Brand 11" [ref=e183] [box=1789,2054,80,40]
+            - img "Brand 12" [ref=e184] [box=1924,2054,112,40]
+            - img "Brand 13" [ref=e185] [box=2092,2054,61,40]
+            - img "Brand 14" [ref=e186] [box=2209,2054,112,40]
+            - img "Brand 15" [ref=e187] [box=2377,2054,112,40]
+            - img "Brand 16" [ref=e188] [box=2545,2054,112,40]
+            - img "Brand 17" [ref=e189] [box=2713,2054,80,40]
+            - img "Brand 18" [ref=e190] [box=2849,2054,112,40]
+            - img "Brand 19" [ref=e191] [box=3017,2054,61,40]
+            - img "Brand 20" [ref=e192] [box=3134,2054,112,40]
+            - img "Brand 21" [ref=e193] [box=3302,2054,112,40]
+            - img "Brand 22" [ref=e194] [box=3470,2054,112,40]
+            - img "Brand 23" [ref=e195] [box=3638,2054,80,40]
+    - generic [ref=e197] [box=120,2294,1200,411]:
+      - heading "Why It Matters" [level=2] [ref=e198] [box=360,2444,720,40]
+      - generic [ref=e200] [box=563,2390,315,315]:
+        - paragraph [ref=e203] [box=655,2757,178,28]: Your Brand positioning
+        - paragraph [ref=e206] [box=1033,2530,206,28]: What people think you do?
+        - paragraph [ref=e209] [box=309,2553,121,28]: What you do?
+    - generic [ref=e213] [box=160,3025,1120,440]:
+      - generic [ref=e224] [box=160,3105,573,280]:
+        - img [ref=e225] [box=172,3130,573,231]:
+          - heading "Pain Points" [level=2] [ref=e230] [box=186,3234,93,22]
+        - generic [ref=e231] [cursor=pointer] [box=355,3227,184,36]: Negative Brand Image
+        - generic [ref=e233] [cursor=pointer] [box=336,3277,220,36]: Declining Customer Loyalty
+        - generic [ref=e235] [cursor=pointer] [box=330,3327,232,36]: Market Positioning Confusion
+        - generic [ref=e237] [cursor=pointer] [box=297,3377,299,36]: Unfamiliarity with Target Demographics
+        - generic [ref=e239] [cursor=pointer] [box=352,3427,188,36]: Ineffective Advertising
+        - generic [box=447,3495,0,0]: Poor Customer Engagement
+        - generic [ref=e241] [cursor=pointer] [box=308,3027,277,36]: Competitor Advantages Overlooked
+        - generic [ref=e243] [cursor=pointer] [box=285,3077,323,36]: Unclear Customer Needs and Expectations
+        - generic [ref=e245] [cursor=pointer] [box=313,3127,267,36]: Difficulty Measuring Marketing ROI
+        - generic [ref=e247] [cursor=pointer] [box=316,3177,260,36]: New Product Launch Acceptance
+      - generic [ref=e249] [box=733,3171,547,148]:
+        - generic [ref=e251] [box=748,3171,209,148]:
+          - paragraph [ref=e252] [box=762,3177,181,56]: What It Means for the Brand
+          - paragraph [ref=e253] [box=762,3233,181,80]: Perception gaps create distrust, limiting customer advocacy and partner confidence.
+        - generic [ref=e254] [box=1057,3171,209,148]:
+          - paragraph [ref=e255] [box=1071,3181,181,28]: How Ken Solves It
+          - paragraph [ref=e256] [box=1071,3209,181,100]: Identify root causes of negative sentiment and reshape perception through data-backed repositioning.
+    - generic [ref=e258] [box=120,3625,1200,492]:
+      - heading "How We Do It" [level=2] [ref=e263] [box=578,3775,285,48]
+      - heading "Our 7-step approach turns feedback into focused, actionable brand strategy" [level=3] [ref=e264] [box=431,3831,577,20]
+      - generic [ref=e265] [box=256,3765,928,352]:
+        - generic [ref=e266] [box=232,3753,245,97]:
+          - generic [box=232,3878,245,108]:
+            - paragraph [box=240,3886,229,24]: Identify Brand Essence
+            - paragraph [box=240,3918,229,60]: Define the brand’s unique purpose, personality, and core message to establish a strong foundation.
+          - paragraph [ref=e267] [box=232,3753,59,26]: Step 01
+          - generic [ref=e268] [box=232,3795,245,55]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/icon1.png" [ref=e269] [box=232,3795,55,55]
+            - paragraph [ref=e270] [box=307,3811,170,24]: Identify Brand Essence
+        - generic [ref=e271] [box=296,3892,235,97]:
+          - generic [box=296,3782,235,128]:
+            - paragraph [box=304,3790,219,24]: Map Audience Voices
+            - paragraph [box=304,3822,219,80]: Gather insights from your audience to understand their preferences, emotions, and engagement levels.
+          - paragraph [ref=e272] [box=296,3892,62,26]: Step 02
+          - generic [ref=e273] [box=296,3934,235,55]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/map-audience.png" [ref=e274] [box=296,3934,55,55]
+            - paragraph [ref=e275] [box=371,3949,160,24]: Map Audience Voices
+        - generic [ref=e276] [box=599,3892,250,97]:
+          - generic [box=599,3782,250,108]:
+            - paragraph [box=607,3790,234,24]: Perceptions in Real-Time
+            - paragraph [box=607,3822,234,60]: Monitor how customers perceive your brand using live data and sentiment analysis.
+          - paragraph [ref=e277] [box=599,3892,62,26]: Step 03
+          - generic [ref=e278] [box=599,3934,250,55]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/person-real-time.png" [ref=e279] [box=599,3934,55,55]
+            - paragraph [ref=e280] [box=674,3937,175,48]: Perceptions in Real-Time
+        - generic [ref=e281] [box=924,3892,240,97]:
+          - generic [box=924,3782,240,108]:
+            - paragraph [box=932,3790,224,24]: Analyze Brand Metrics
+            - paragraph [box=932,3822,224,60]: Evaluate key performance indicators to measure awareness, loyalty, and overall brand strength.
+          - paragraph [ref=e282] [box=924,3892,63,26]: Step 04
+          - generic [ref=e283] [box=924,3934,240,55]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/analysis.png" [ref=e284] [box=924,3934,55,55]
+            - paragraph [ref=e285] [box=999,3949,165,24]: Analyze Brand Metrics
+        - generic [ref=e286] [box=966,3988,250,97]:
+          - generic [box=966,3878,250,108]:
+            - paragraph [box=974,3886,234,24]: Compare Market Positioning
+            - paragraph [box=974,3918,234,60]: Benchmark your brand against competitors to identify unique strengths and opportunities.
+          - paragraph [ref=e287] [box=1153,3988,63,26]: Step 05
+          - generic [ref=e288] [box=966,4030,250,55]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/market-position.png" [ref=e289] [box=1161,4030,55,55]
+            - paragraph [ref=e290] [box=966,4034,175,48]: Compare Market Positioning
+        - generic [ref=e291] [box=975,4100,209,97]:
+          - generic [box=975,3990,209,128]:
+            - paragraph [box=983,3998,193,24]: Track Brand Shifts
+            - paragraph [box=983,4030,193,80]: Observe changes in brand perception over time to adapt strategies and maintain relevance.
+          - paragraph [ref=e292] [box=975,4100,63,26]: Step 06
+          - generic [ref=e293] [box=975,4142,209,55]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/track-brand.png" [ref=e294] [box=975,4142,55,55]
+            - paragraph [ref=e295] [box=1050,4158,134,24]: Track Brand Shifts
+        - generic [ref=e296] [box=625,4100,250,97]:
+          - generic [box=625,3990,250,108]:
+            - paragraph [box=633,3998,234,24]: Consulting Beyond Data
+            - paragraph [box=633,4030,234,60]: Turn insights into strategic actions with expert consulting and long-term growth planning.
+          - paragraph [ref=e297] [box=625,4100,61,26]: Step 07
+          - generic [ref=e298] [box=625,4142,250,55]:
+            - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/consulting.png" [ref=e299] [box=625,4142,55,55]
+            - paragraph [ref=e300] [box=700,4146,175,48]: Consulting Beyond Data
+        - img [ref=e301] [box=256,3765,928,352]:
+          - link [ref=e306] [cursor=pointer] [box=310,4094,191,45]:
+            - /url: /book-a-discovery-call
+    - generic [ref=e314] [box=120,4357,1200,508]:
+      - heading "What Sets Us Apart" [level=2] [ref=e315] [box=160,4357,1120,48]
+      - generic [ref=e316] [box=160,4445,1120,420]:
+        - generic [ref=e317] [cursor=pointer] [box=160,4445,280,140]:
+          - paragraph [ref=e318] [box=173,4458,24,28]: "01"
+          - paragraph [ref=e319] [box=173,4548,159,24]: North Star Anchoring
+          - generic [box=370,4446,278,138]:
+            - paragraph [box=378,4454,262,24]: North Star Anchoring
+            - paragraph [box=378,4478,262,80]: Every insight is tied to business KPIs like sales uplift, NPS retention, or share of voice, making perception directly measurable against growth.
+        - generic [ref=e320] [cursor=pointer] [box=440,4445,280,140]:
+          - paragraph [ref=e321] [box=453,4458,24,28]: "02"
+          - paragraph [ref=e322] [box=453,4524,254,48]: Competitor Benchmarking in the Same Dashboard
+          - generic [box=650,4446,278,138]:
+            - paragraph [box=658,4454,262,48]: Competitor Benchmarking in the Same Dashboard
+            - paragraph [box=658,4502,262,80]: View your brand alongside 8–10 competitors on recall, equity, and consideration, all in one unified dashboard.
+        - generic [ref=e323] [cursor=pointer] [box=720,4445,280,140]:
+          - paragraph [ref=e324] [box=733,4458,24,28]: "03"
+          - paragraph [ref=e325] [box=733,4548,199,24]: Always-On Brand Tracking
+          - generic [box=930,4446,278,138]:
+            - paragraph [box=938,4454,262,24]: Always-On Brand Tracking
+            - paragraph [box=938,4478,262,80]: Move beyond one-time surveys with continuous micro-pulses and real-time dashboards that keep brand health visible year-round.
+        - generic [ref=e326] [cursor=pointer] [box=1000,4445,280,140]:
+          - paragraph [ref=e327] [box=1013,4458,24,28]: "04"
+          - paragraph [ref=e328] [box=1013,4524,254,48]: Layered with Social and Search Intelligence
+          - generic [box=793,4446,278,138]:
+            - paragraph [box=801,4454,262,48]: Layered with Social and Search Intelligence
+            - paragraph [box=801,4502,262,60]: Blend survey data with social sentiment and search trends to create a 360° view of what audiences say and do.
+        - generic [ref=e329] [cursor=pointer] [box=160,4585,280,140]:
+          - paragraph [ref=e330] [box=173,4598,24,28]: "05"
+          - paragraph [ref=e331] [box=173,4688,232,24]: Persona-Level Insight Mapping
+          - generic [box=370,4586,278,138]:
+            - paragraph [box=378,4594,262,24]: Persona-Level Insight Mapping
+            - paragraph [box=378,4618,262,80]: Translate perception into segmented personas by age, income, and mindset, revealing who connects most and where you’re losing traction.
+        - generic [ref=e332] [cursor=pointer] [box=440,4585,280,140]:
+          - paragraph [ref=e333] [box=453,4598,24,28]: "06"
+          - paragraph [ref=e334] [box=453,4688,235,24]: Predictive Perception Modeling
+          - generic [box=650,4586,278,138]:
+            - paragraph [box=658,4594,262,24]: Predictive Perception Modeling
+            - paragraph [box=658,4618,262,60]: Use data to forecast outcomes, linking trust lifts to market-share growth or intent-to-buy probabilities.
+        - generic [ref=e335] [cursor=pointer] [box=720,4585,280,140]:
+          - paragraph [ref=e336] [box=733,4598,24,28]: "07"
+          - paragraph [ref=e337] [box=733,4688,185,24]: Action-Ready Playbooks
+          - generic [box=930,4586,278,138]:
+            - paragraph [box=938,4594,262,24]: Action-Ready Playbooks
+            - paragraph [box=938,4618,262,80]: Every study ends with a “What Now” roadmap with clear priorities for messaging, audience, and channels to act on immediately.
+        - generic [ref=e338] [cursor=pointer] [box=1000,4585,280,140]:
+          - paragraph [ref=e339] [box=1013,4598,24,28]: "08"
+          - paragraph [ref=e340] [box=1013,4688,208,24]: Storytelling-Ready Outputs
+          - generic [box=793,4586,278,138]:
+            - paragraph [box=801,4594,262,24]: Storytelling-Ready Outputs
+            - paragraph [box=801,4618,262,80]: Boardroom-friendly dashboards, infographics, and short videos — designed so insights can be shared, not reworked.
+        - generic [ref=e341] [cursor=pointer] [box=160,4725,280,140]:
+          - paragraph [ref=e342] [box=173,4738,24,28]: "09"
+          - paragraph [ref=e343] [box=173,4804,254,48]: Integrated Employee Perception Layer
+          - generic [box=370,4726,278,138]:
+            - paragraph [box=378,4734,262,48]: Integrated Employee Perception Layer
+            - paragraph [box=378,4782,262,80]: Measure how employees view the brand versus customers, closing the inside-outside perception gap that shapes authenticity.
+        - link [ref=e345] [cursor=pointer] [box=469,4774,223,46]:
+          - /url: /book-a-discovery-call
+    - generic [ref=e353] [box=120,4945,1200,515]:
+      - heading "Our Impact" [level=2] [ref=e354] [box=160,4945,1120,48]
+      - paragraph [ref=e355] [box=160,4993,1120,24]: Real examples of how data and our strategies shaped stronger brands.
+      - generic [ref=e356] [box=160,5049,1120,411]:
+        - generic [ref=e357] [box=160,5049,268,411]:
+          - generic [ref=e359] [box=161,5066,266,104]:
+            - paragraph [ref=e360] [box=181,5066,226,72]: Improving Customer Loyalty and Service Perception for Telecom Leader in Middle East
+            - paragraph [ref=e361] [box=181,5150,226,20]: November 4, 2024
+          - generic [ref=e362] [box=161,5229,266,278]:
+            - generic [ref=e363] [box=178,5246,232,86]:
+              - paragraph [ref=e364] [box=178,5246,232,48]: 10%
+              - paragraph [ref=e365] [box=178,5300,232,32]: 10% growth in market penetration across MENA
+            - generic [ref=e366] [box=178,5348,232,86]:
+              - paragraph [ref=e367] [box=178,5348,232,48]: 32%
+              - paragraph [ref=e368] [box=178,5402,232,32]: 32% improvement in customer engagement and retention rates
+            - link "Read More" [ref=e369] [cursor=pointer] [box=178,5470,232,20]:
+              - /url: "#"
+        - generic [ref=e372] [box=444,5049,268,411]:
+          - generic [ref=e374] [box=445,5066,266,104]:
+            - paragraph [ref=e375] [box=465,5066,226,72]: Global Consumer Brand's Strategy to Boost GCC Market Position for Feminine Hygiene
+            - paragraph [ref=e376] [box=465,5150,226,20]: November 4, 2024
+          - generic [ref=e377] [box=445,5229,266,278]:
+            - generic [ref=e378] [box=462,5246,232,86]:
+              - paragraph [ref=e379] [box=462,5246,232,48]: "10"
+              - paragraph [ref=e380] [box=462,5300,232,32]: 10 partnerships with GCC distributors and retailers
+            - generic [ref=e381] [box=462,5348,232,86]:
+              - paragraph [ref=e382] [box=462,5348,232,48]: 25%
+              - paragraph [ref=e383] [box=462,5402,232,32]: 25% increase in GCC platform web traffic
+            - link "Read More" [ref=e384] [cursor=pointer] [box=462,5470,232,20]:
+              - /url: "#"
+        - generic [ref=e387] [box=728,5049,268,411]:
+          - generic [ref=e389] [box=729,5066,266,104]:
+            - paragraph [ref=e390] [box=749,5066,226,72]: Automotive Platform's Effort to Refine Brand Perception in the Philippine Auction Market
+            - paragraph [ref=e391] [box=749,5150,226,20]: November 4, 2024
+          - generic [ref=e392] [box=729,5229,266,278]:
+            - generic [ref=e393] [box=746,5246,232,86]:
+              - paragraph [ref=e394] [box=746,5246,232,48]: 33%
+              - paragraph [ref=e395] [box=746,5300,232,32]: 33% improved data utilization for customer insights
+            - generic [ref=e396] [box=746,5348,232,86]:
+              - paragraph [ref=e397] [box=746,5348,232,48]: "3"
+              - paragraph [ref=e398] [box=746,5402,232,32]: 3 strategic improvements from market analysis
+            - link "Read More" [ref=e399] [cursor=pointer] [box=746,5470,232,20]:
+              - /url: "#"
+        - generic [ref=e402] [box=1012,5049,268,411]:
+          - generic [ref=e404] [box=1013,5066,266,80]:
+            - paragraph [ref=e405] [box=1033,5066,226,48]: Qatar’s Strategy to Enhance Telecom User Satisfaction
+            - paragraph [ref=e406] [box=1033,5126,226,20]: November 4, 2024
+          - generic [ref=e407] [box=1013,5229,266,278]:
+            - generic [ref=e408] [box=1030,5246,232,86]:
+              - paragraph [ref=e409] [box=1030,5246,232,48]: 12+
+              - paragraph [ref=e410] [box=1030,5300,232,32]: 12+ actionable areas identified to boost customer satisfaction and services
+            - generic [ref=e411] [box=1030,5348,232,86]:
+              - paragraph [ref=e412] [box=1030,5348,232,48]: "13"
+              - paragraph [ref=e413] [box=1030,5402,232,32]: 13 high-value segments for targeted revenue growth
+            - link "Read More" [ref=e414] [cursor=pointer] [box=1030,5470,232,20]:
+              - /url: "#"
+    - generic [ref=e418] [box=120,5620,1200,558]:
+      - generic [ref=e419] [box=136,5620,1168,48]:
+        - heading "What Our Clients Say" [level=2] [ref=e420] [box=136,5620,312,48]
+        - generic [ref=e421] [box=1218,5624,86,39]:
+          - generic [ref=e422] [cursor=pointer] [box=1218,5624,39,39]
+          - generic [ref=e425] [cursor=pointer] [box=1265,5624,39,39]
+      - generic [ref=e429] [box=136,5708,1168,470]:
+        - generic [ref=e430] [box=-649,5708,1168,470]:
+          - generic [ref=e432] [box=-649,5708,383,424]:
+            - paragraph [ref=e445] [box=-624,5789,333,112]: The continuous pulse tracking changed how we plan campaigns. We no longer wait for quarterly reports; we can course-correct messaging in real time.
+            - generic [ref=e446] [box=-624,6071,127,36]:
+              - paragraph [ref=e447] [box=-624,6071,127,16]: Vicki Sharma
+              - paragraph [ref=e448] [box=-624,6091,127,16]: Chief Marketing Officer
+          - generic [ref=e450] [box=-257,5708,383,424]:
+            - paragraph [ref=e463] [box=-232,5789,333,140]: Their persona-level insights helped us understand how different patient segments perceived our brand. It directly informed our outreach and digital education strategy.
+            - generic [ref=e464] [box=-232,6071,94,36]:
+              - paragraph [ref=e465] [box=-232,6071,94,16]: Dr. Priya Sharma
+              - paragraph [ref=e466] [box=-232,6091,94,16]: Marketing Head
+          - generic [ref=e468] [box=136,5708,383,424]:
+            - paragraph [ref=e481] [box=161,5789,333,140]: The pre-launch survey wasn’t just data. It gave us confidence to place our pricing strategy two weeks before rollout. That saved us both time and reputation.
+            - generic [ref=e482] [box=161,6071,130,36]:
+              - paragraph [ref=e483] [box=161,6071,130,16]: Nida Verma
+              - paragraph [ref=e484] [box=161,6091,130,16]: Product Marketing Lead
+          - generic [ref=e486] [box=529,5708,383,424]:
+            - paragraph [ref=e499] [box=554,5789,333,140]: The perception audit gave us clarity on why customer advocacy had plateaued. The linkage between NPS and internal teams helped our marketing and product teams realign priorities.
+            - generic [ref=e500] [box=554,6071,147,36]:
+              - paragraph [ref=e501] [box=554,6071,147,16]: Sanjeev Iyer
+              - paragraph [ref=e502] [box=554,6091,147,16]: Vice President – Marketing
+          - generic [ref=e504] [box=921,5708,383,424]:
+            - paragraph [ref=e517] [box=946,5789,333,168]: Lens’ dual-lens approach between employees and customers helped us close the perception gap we didn’t even realize existed. It brought alignment between our HR and marketing narratives.
+            - generic [ref=e518] [box=946,6071,141,36]:
+              - paragraph [ref=e519] [box=946,6071,141,16]: Mahesh Patil
+              - paragraph [ref=e520] [box=946,6091,141,16]: Director Communications
+        - generic [ref=e521] [box=136,6146,1168,24]:
+          - generic [ref=e522] [cursor=pointer] [box=624,6160,32,3]
+          - generic [ref=e523] [cursor=pointer] [box=664,6160,32,3]
+          - generic [ref=e524] [cursor=pointer] [box=704,6160,32,3]
+          - generic [ref=e525] [cursor=pointer] [box=744,6160,32,3]
+          - generic [ref=e526] [cursor=pointer] [box=784,6160,32,3]
+    - generic [ref=e528] [box=120,6338,1200,632]:
+      - heading "FAQs" [level=2] [ref=e529] [box=120,6338,1200,48]
+      - list [ref=e531] [box=313,6410,814,560]:
+        - listitem [ref=e532] [cursor=pointer] [box=313,6410,814,45]:
+          - heading "How do I know whether poor sales are caused by weak brand perception or other market factors?" [level=3] [ref=e535] [box=337,6422,710,20]
+          - paragraph [box=337,6442,710,0]:
+            - paragraph [ref=e536] [box=337,6442,710,20]: "We analyze three layers together:"
+            - list [ref=e537] [box=337,6466,710,60]:
+              - listitem [ref=e538] [box=357,6466,690,20]: Market demand
+              - listitem [ref=e539] [box=357,6486,690,20]: Brand perception
+              - listitem [ref=e540] [box=357,6506,690,20]: Purchase behavior
+            - paragraph [ref=e541] [box=337,6530,710,40]: If perception drops while the category grows then it’s a brand issue. If perception is strong but conversions lag then it’s pricing, distribution, or product.
+            - paragraph [ref=e542] [box=337,6574,710,20]: Our survey isolates perception as a variable so you know whether the brand is the bottleneck or not.
+        - listitem [ref=e543] [cursor=pointer] [box=313,6455,814,45]:
+          - heading "Can a brand perception survey explain why marketing campaigns are underperforming?" [level=3] [ref=e546] [box=337,6467,710,20]
+          - paragraph [box=337,6487,710,0]:
+            - paragraph [ref=e547] [box=337,6487,710,40]: Yes, often very clearly. Campaigns fail not because of execution, but because they conflict with existing brand beliefs.
+            - paragraph [ref=e548] [box=337,6531,710,20]: If your communication claims something people do not already associate with your brand, it creates friction.
+            - paragraph [ref=e549] [box=337,6555,710,20]: Brand perception surveys reveal this misalignment before significant media budgets are wasted.
+        - listitem [ref=e550] [cursor=pointer] [box=313,6500,814,45]:
+          - heading "Can a brand perception study quantify hidden biases customers have about my brand?" [level=3] [ref=e553] [box=337,6512,710,20]
+          - paragraph [box=337,6532,710,0]:
+            - paragraph [ref=e554] [box=337,6532,710,40]: "Yes. Using indirect questioning, association testing, brand mapping, and sentiment analysis, we decode latent biases people don’t openly express such as:"
+            - list [ref=e555] [box=337,6576,710,60]:
+              - listitem [ref=e556] [box=357,6576,690,20]: This brand feels outdated.
+              - listitem [ref=e557] [box=357,6596,690,20]: This looks premium but I don’t trust it.
+              - listitem [ref=e558] [box=357,6616,690,20]: They’re good but not for people like me.
+            - paragraph [ref=e559] [box=337,6640,710,20]: We uncover what people think, not just what they say.
+        - listitem [ref=e560] [cursor=pointer] [box=313,6545,814,45]:
+          - heading "How do you measure brand trust, relevance, and preference in a way that drives real business decisions?" [level=3] [ref=e563] [box=337,6557,710,20]
+          - paragraph [box=337,6577,710,0]:
+            - paragraph [ref=e564] [box=337,6577,710,20]: "We measure each component with multi-dimensional indicators:"
+            - list [ref=e565] [box=337,6601,710,60]:
+              - listitem [ref=e566] [box=357,6601,690,20]: Trust – credibility, reliability, fairness, promise delivery
+              - listitem [ref=e567] [box=357,6621,690,20]: Relevance – category fit, modernity, customer alignment
+              - listitem [ref=e568] [box=357,6641,690,20]: Preference – likelihood of choosing the brand vs. alternatives
+            - paragraph [ref=e569] [box=337,6665,710,20]: Then we link each score to sales uplift, market share, customer lifetime value, and switching behavior.
+            - paragraph [ref=e570] [box=337,6689,710,20]: This makes perception actionable and not theoretical.
+        - listitem [ref=e571] [cursor=pointer] [box=313,6590,814,45]:
+          - heading "Can a Brand Perception Survey tell me why people choose my competitor even if they like my brand?" [level=3] [ref=e574] [box=337,6602,710,20]
+          - paragraph [box=337,6622,710,0]:
+            - paragraph [ref=e575] [box=337,6622,710,20]: "Absolutely. People may like your brand emotionally but choose competitors for functional reasons like:"
+            - list [ref=e576] [box=337,6646,710,100]:
+              - listitem [ref=e577] [box=357,6646,690,20]: Price
+              - listitem [ref=e578] [box=357,6666,690,20]: Distribution
+              - listitem [ref=e579] [box=357,6686,690,20]: Features
+              - listitem [ref=e580] [box=357,6706,690,20]: Convenience
+              - listitem [ref=e581] [box=357,6726,690,20]: Peer influence
+            - paragraph [ref=e582] [box=337,6750,710,40]: We map the difference between emotional liking and actual buying reasons, so you see where the real drop-off happens.
+        - listitem [ref=e583] [cursor=pointer] [box=313,6635,814,45]:
+          - heading "If my brand is new or mid-stage, will a perception study still give meaningful insights?" [level=3] [ref=e586] [box=337,6647,710,20]
+          - paragraph [box=337,6667,710,0]:
+            - paragraph [ref=e587] [box=337,6667,710,20]: "Yes, in fact, new brands benefit the most. You learn:"
+            - list [ref=e588] [box=337,6691,710,100]:
+              - listitem [ref=e589] [box=357,6691,690,20]: Your early reputation
+              - listitem [ref=e590] [box=357,6711,690,20]: First impressions
+              - listitem [ref=e591] [box=357,6731,690,20]: What messaging works
+              - listitem [ref=e592] [box=357,6751,690,20]: What positioning confuses people
+              - listitem [ref=e593] [box=357,6771,690,20]: Where you already outperform incumbents
+        - listitem [ref=e594] [cursor=pointer] [box=313,6680,814,65]:
+          - heading "Can you benchmark my brand perception against competitors, even if the competitors are not large brands?" [level=3] [ref=e597] [box=337,6692,710,40]
+          - paragraph [box=337,6732,710,0]:
+            - paragraph [ref=e598] [box=337,6732,710,20]: "Yes. We can benchmark against:"
+            - list [ref=e599] [box=337,6756,710,100]:
+              - listitem [ref=e600] [box=357,6756,690,20]: Direct competitors
+              - listitem [ref=e601] [box=357,6776,690,20]: Regional players
+              - listitem [ref=e602] [box=357,6796,690,20]: Category substitutes
+              - listitem [ref=e603] [box=357,6816,690,20]: Digital-first brands
+              - listitem [ref=e604] [box=357,6836,690,20]: Emerging challengers
+            - paragraph [ref=e605] [box=337,6860,710,20]: Perception benchmarking doesn’t require competitors to be large but only relevant.
+        - listitem [ref=e606] [cursor=pointer] [box=313,6745,814,45]:
+          - heading "What frameworks or models do you use to analyze perception gaps?" [level=3] [ref=e609] [box=337,6757,710,20]
+          - paragraph [box=337,6777,710,0]:
+            - list [ref=e610] [box=337,6777,710,120]:
+              - listitem [ref=e611] [box=357,6777,690,20]: Perception Gap Analysis (Internal vs. Market view)
+              - listitem [ref=e612] [box=357,6797,690,20]: Value Proposition Fit Matrix
+              - listitem [ref=e613] [box=357,6817,690,20]: Trust–Relevance–Preference Model
+              - listitem [ref=e614] [box=357,6837,690,20]: Emotional vs. Functional Attribute Mapping
+              - listitem [ref=e615] [box=357,6857,690,20]: 4D Brand Strength Index
+              - listitem [ref=e616] [box=357,6877,690,20]: Category Archetype Mapping
+            - paragraph [ref=e617] [box=337,6901,710,20]: These frameworks show precisely where your brand is losing or gaining ground.
+        - listitem [ref=e618] [cursor=pointer] [box=313,6790,814,45]:
+          - heading "How is a Brand Perception Survey different from a Customer Satisfaction or NPS survey?" [level=3] [ref=e621] [box=337,6802,710,20]
+          - paragraph [box=337,6822,710,0]:
+            - list [ref=e622] [box=337,6822,710,60]:
+              - listitem [ref=e623] [box=357,6822,690,20]: Brand Perception – What they think about the brand overall
+              - listitem [ref=e624] [box=357,6842,690,20]: Customer Satisfaction – How they feel after using your product
+              - listitem [ref=e625] [box=357,6862,690,20]: NPS – How likely they are to recommend you
+            - paragraph [ref=e626] [box=337,6886,710,20]: Perception is broader and includes non-users, competitors, and market views.
+        - listitem [ref=e627] [cursor=pointer] [box=313,6835,814,45]:
+          - heading "Can a perception study help me reposition or rebrand effectively?" [level=3] [ref=e630] [box=337,6847,710,20]
+          - paragraph [box=337,6867,710,0]:
+            - paragraph [ref=e631] [box=337,6867,710,20]: "Yes. It gives you a data-backed blueprint for:"
+            - list [ref=e632] [box=337,6891,710,120]:
+              - listitem [ref=e633] [box=357,6891,690,20]: What to keep
+              - listitem [ref=e634] [box=357,6911,690,20]: What to drop
+              - listitem [ref=e635] [box=357,6931,690,20]: What to amplify
+              - listitem [ref=e636] [box=357,6951,690,20]: Where perception is misaligned
+              - listitem [ref=e637] [box=357,6971,690,20]: What the market is ready to accept
+              - listitem [ref=e638] [box=357,6991,690,20]: What your new narrative should be
+            - paragraph [ref=e639] [box=337,7015,710,20]: Repositioning without perception insights is guesswork.
+        - listitem [ref=e640] [cursor=pointer] [box=313,6880,814,45]:
+          - heading "Will the study help identify which channels damage or lift perception?" [level=3] [ref=e643] [box=337,6892,710,20]
+          - paragraph [box=337,6912,710,0]:
+            - paragraph [ref=e644] [box=337,6912,710,20]: "Yes. We map perception scores by channel to show:"
+            - list [ref=e645] [box=337,6936,710,80]:
+              - listitem [ref=e646] [box=357,6936,690,20]: Where perception improves
+              - listitem [ref=e647] [box=357,6956,690,20]: Where it deteriorates
+              - listitem [ref=e648] [box=357,6976,690,20]: Which touchpoints build trust
+              - listitem [ref=e649] [box=357,6996,690,20]: Which erode credibility
+            - paragraph [ref=e650] [box=337,7020,710,20]: This tells you where to invest, reduce, or recalibrate visibility.
+        - listitem [ref=e651] [cursor=pointer] [box=313,6925,814,45]:
+          - heading "What does a complete brand perception dashboard look like?" [level=3] [ref=e654] [box=337,6937,710,20]
+          - paragraph [box=337,6957,710,0]:
+            - list [ref=e655] [box=337,6957,710,140]:
+              - listitem [ref=e656] [box=357,6957,690,20]: Brand Strength Score
+              - listitem [ref=e657] [box=357,6977,690,20]: Competitive positioning map
+              - listitem [ref=e658] [box=357,6997,690,20]: Key attribute performance
+              - listitem [ref=e659] [box=357,7017,690,20]: Messaging effectiveness
+              - listitem [ref=e660] [box=357,7037,690,20]: Sentiment analysis
+              - listitem [ref=e661] [box=357,7057,690,20]: Segment-wise perception scores
+              - listitem [ref=e662] [box=357,7077,690,20]: Recommended actions
+            - paragraph [ref=e663] [box=337,7101,710,20]: It acts as your brand control center.
+    - generic [ref=e664] [box=0,7050,1440,755]:
+      - img "Smell the Success in India’s Billion-Dollar Perfume Market" [ref=e665] [box=0,7050,1440,755]
+      - generic [ref=e667] [box=120,7090,1200,675]:
+        - heading "Our Resources" [level=2] [ref=e668] [box=160,7090,1120,48]
+        - generic [ref=e669] [box=160,7162,1120,179]:
+          - generic [ref=e670] [box=160,7162,1120,27]:
+            - paragraph [ref=e671] [box=160,7162,111,27]: Featured Post
+            - generic [ref=e672] [box=1032,7174,248,3]:
+              - generic [ref=e673] [cursor=pointer] [box=1032,7174,40,3]
+              - generic [ref=e674] [cursor=pointer] [box=1084,7174,40,3]
+              - generic [ref=e675] [cursor=pointer] [box=1136,7174,40,3]
+              - generic [ref=e676] [cursor=pointer] [box=1188,7174,40,3]
+              - generic [ref=e677] [cursor=pointer] [box=1240,7174,40,3]
+          - generic [ref=e678] [box=160,7205,1120,136]:
+            - generic [ref=e679] [box=160,7205,560,136]:
+              - heading "Smell the Success in India’s Billion-Dollar Perfume Market" [level=3] [ref=e680] [box=160,7205,560,96]
+              - link [ref=e681] [cursor=pointer] [box=160,7313,140,28]:
+                - /url: https://www.kenresearch.com/blog/india-perfume-luxury-market-trends
+            - paragraph [box=760,7205,520,0]
+        - generic [ref=e687] [box=160,7421,1120,344]:
+          - list [ref=e688] [box=180,7437,281,36]:
+            - listitem [ref=e689] [cursor=pointer] [box=180,7437,16,20]: All
+            - listitem [ref=e690] [cursor=pointer] [box=220,7437,34,20]: Blogs
+            - listitem [ref=e691] [cursor=pointer] [box=278,7437,85,20]: Case Studies
+            - listitem [ref=e692] [cursor=pointer] [box=387,7437,49,20]: Articles
+          - generic [ref=e694] [box=176,7437,1088,312]:
+            - link [ref=e695] [cursor=pointer] [box=176,7437,263,312]:
+              - /url: https://www.kenresearch.com/blog/insights-of-india-energy-bar-market
+              - generic [ref=e696] [box=176,7477,263,272]:
+                - img "What are Factors Influencing the Landscape of Energy Bars in India" [ref=e701] [box=176,7477,263,272]
+                - generic [ref=e703] [box=176,7489,263,96]:
+                  - paragraph [ref=e704] [box=192,7489,231,20]: Blog
+                  - heading "What are Factors Influencing the Landscape of Energy Bars in India" [level=4] [ref=e705] [box=192,7525,231,60]
+                - generic [ref=e706] [box=176,7725,263,16]:
+                  - paragraph [ref=e707] [box=192,7725,107,16]: September 11, 2024
+                  - paragraph [ref=e708] [box=364,7725,59,16]: 8 min read
+            - link [ref=e709] [cursor=pointer] [box=451,7437,263,312]:
+              - /url: https://www.kenresearch.com/blog/al-fujairahs-taxi-service-market-key-trends-and-strategic-opportunities-for-business-growth
+              - generic [ref=e710] [box=451,7477,263,272]:
+                - img "How Taxi Revolution of Al Fujairah Transforming the Transport Sector of UAE?" [ref=e714] [box=451,7477,263,272]
+                - generic [ref=e716] [box=451,7489,263,96]:
+                  - paragraph [ref=e717] [box=467,7489,231,20]: Blog
+                  - heading "How Taxi Revolution of Al Fujairah Transforming the Transport Sector of UAE?" [level=4] [ref=e718] [box=467,7525,231,60]
+                - generic [ref=e719] [box=451,7725,263,16]:
+                  - paragraph [ref=e720] [box=467,7725,93,16]: October 17, 2024
+                  - paragraph [ref=e721] [box=640,7725,58,16]: 7 min read
+            - link [ref=e722] [cursor=pointer] [box=726,7437,263,312]:
+              - /url: https://www.kenresearch.com/case-studies/mystery-shopping-automotive-sector
+              - generic [ref=e723] [box=726,7477,263,272]:
+                - img "Mystery Shopping Assessment in the Automotive Sector" [ref=e727] [box=726,7477,263,272]
+                - generic [ref=e729] [box=726,7489,263,96]:
+                  - paragraph [ref=e730] [box=742,7489,231,20]: Case Studies
+                  - heading "Mystery Shopping Assessment in the Automotive Sector" [level=4] [ref=e731] [box=742,7525,231,60]
+                - generic [ref=e732] [box=726,7725,263,16]:
+                  - paragraph [ref=e733] [box=742,7725,91,16]: August 24, 2026
+                  - paragraph [ref=e734] [box=914,7725,59,16]: 6 min read
+            - link [ref=e735] [cursor=pointer] [box=1001,7437,263,312]:
+              - /url: https://www.kenresearch.com/articles/food-delivery-market-digital-shift-and-opportunities
+              - generic [ref=e736] [box=1001,7477,263,272]:
+                - 'img "The Global Food Delivery Market: How Digital Platforms Are Transforming Dining?" [ref=e740] [box=1001,7477,263,272]'
+                - generic [ref=e742] [box=1001,7489,263,96]:
+                  - paragraph [ref=e743] [box=1017,7489,231,20]: Articles
+                  - 'heading "The Global Food Delivery Market: How Digital Platforms Are Transforming Dining?" [level=4] [ref=e744] [box=1017,7525,231,60]'
+                - generic [ref=e745] [box=1001,7725,263,16]:
+                  - paragraph [ref=e746] [box=1017,7725,106,16]: November 12, 2025
+                  - paragraph [ref=e747] [box=1189,7725,59,16]: 5 min read
+    - generic [ref=e748] [box=0,7805,1440,568]:
+      - img "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/other-surveys-bg.jpg" [ref=e749] [box=-161,7741,1761,697]
+      - generic [ref=e751] [box=120,7845,1200,478]:
+        - heading "Explore Other Surveys" [level=2] [ref=e752] [box=160,7845,1120,48]
+        - generic [ref=e753] [box=160,7893,1120,430]:
+          - generic [ref=e754] [box=160,7933,1120,400]:
+            - heading "Employee Engagement Surveys" [level=3] [ref=e755] [box=160,7933,1120,50]
+            - paragraph [ref=e756] [box=160,7999,1120,24]: Understand how your people feel, what keeps them motivated, and what they need to do their best every day.
+            - link [ref=e758] [cursor=pointer] [box=970,8043,310,46]:
+              - /url: /employee-engagement-survey
+          - generic [ref=e764] [box=160,8373,1120,400]:
+            - heading "Customer Satisfaction Surveys" [level=3] [ref=e765] [box=160,8373,1120,50]
+            - paragraph [ref=e766] [box=160,8439,1120,24]: Hear directly from your customers about what they love and what you could do better.
+            - link [ref=e768] [cursor=pointer] [box=973,8483,307,46]:
+              - /url: /customer-satisfaction-survey
+          - generic [ref=e774] [box=160,8813,1120,400]:
+            - heading "Dealer’s Voice Surveys" [level=3] [ref=e775] [box=160,8813,1120,50]
+            - paragraph [ref=e776] [box=160,8879,1120,24]: Get honest feedback from your channel partners to build stronger relationships and smoother operations.
+            - link [ref=e778] [cursor=pointer] [box=1038,8923,242,46]:
+              - /url: /dealers-voice-survey
+          - generic [ref=e784] [box=160,9253,1120,400]:
+            - heading "Customer Demand, Needs & Pain Point Surveys" [level=3] [ref=e785] [box=160,9253,1120,50]
+            - paragraph [ref=e786] [box=160,9319,1120,24]: Find out what your customers really want next and how you can make their experience better.
+            - link [ref=e788] [cursor=pointer] [box=845,9363,435,46]:
+              - /url: /cndp-survey
+      - generic [ref=e794] [box=0,8323,1440,50]:
+        - generic [ref=e795] [cursor=pointer] [box=0,8323,360,50]: Employee Engagement Surveys
+        - generic [ref=e797] [cursor=pointer] [box=360,8323,360,50]: Customer Satisfaction Surveys
+        - generic [ref=e799] [cursor=pointer] [box=720,8323,360,50]: Dealer’s Voice Surveys
+        - generic [ref=e801] [cursor=pointer] [box=1080,8323,360,50]: Customer Demand, Needs & Pain Point Surveys
+  - contentinfo [ref=e804] [box=0,8373,1440,1036]:
+    - generic [ref=e805] [box=120,8450,1200,919]:
+      - generic [ref=e806] [box=128,8450,1184,304]:
+        - generic [ref=e807] [box=128,8450,140,244]:
+          - heading "About Ken Research" [level=2] [ref=e808] [cursor=pointer] [box=128,8450,140,18]
+          - navigation [ref=e809] [box=128,8484,140,210]:
+            - link "Home" [ref=e812] [cursor=pointer] [box=149,8489,40,20]:
+              - /url: /
+            - link "About Us" [ref=e815] [cursor=pointer] [box=149,8519,64,20]:
+              - /url: /about-us
+            - link "Services" [ref=e818] [cursor=pointer] [box=149,8549,60,20]:
+              - /url: /services
+            - link "Categories" [ref=e821] [cursor=pointer] [box=149,8579,78,20]:
+              - /url: /categories
+            - link "News" [ref=e824] [cursor=pointer] [box=149,8609,38,20]:
+              - /url: /news
+            - link "Careers" [ref=e827] [cursor=pointer] [box=149,8639,56,20]:
+              - /url: /careers
+            - link "Contact Us" [ref=e830] [cursor=pointer] [box=149,8669,80,20]:
+              - /url: /contact-us
+        - generic [ref=e832] [box=429,8450,271,244]:
+          - heading "Resources" [level=2] [ref=e833] [cursor=pointer] [box=429,8450,76,18]
+          - navigation [ref=e834] [box=429,8484,271,210]:
+            - link "Blogs" [ref=e837] [cursor=pointer] [box=450,8489,39,20]:
+              - /url: /blog
+            - link "Industry Reports" [ref=e840] [cursor=pointer] [box=450,8519,118,20]:
+              - /url: /report-store
+            - link "Competition Benchmarking Reports" [ref=e843] [cursor=pointer] [box=450,8549,250,20]:
+              - /url: /report-store?reportTypes=competition_benchmarking
+            - link "Country Research Reports" [ref=e846] [cursor=pointer] [box=450,8579,186,20]:
+              - /url: /country-reports
+            - link "Dossier 360" [ref=e849] [cursor=pointer] [box=450,8609,83,20]:
+              - /url: /dossier360
+            - link "Go To Market Strategy" [ref=e852] [cursor=pointer] [box=450,8639,156,20]:
+              - /url: /consulting/strategy-consulting/market-entry-consulting
+            - link "Paid Press Release" [ref=e855] [cursor=pointer] [box=450,8669,132,20]:
+              - /url: /paid-press-release
+        - generic [ref=e857] [box=730,8450,158,274]:
+          - heading "Expertise & Services" [level=2] [ref=e858] [cursor=pointer] [box=730,8450,143,18]
+          - navigation [ref=e859] [box=730,8484,158,240]:
+            - link "Industry Speaks" [ref=e862] [cursor=pointer] [box=751,8489,112,20]:
+              - /url: /industry-speak
+            - link "Terms & Conditions" [ref=e865] [cursor=pointer] [box=751,8519,137,20]:
+              - /url: /terms-and-conditions#termsAndCondition
+            - link "Privacy Policy" [ref=e868] [cursor=pointer] [box=751,8549,96,20]:
+              - /url: /terms-and-conditions#privacyPolicy
+            - link "Disclaimer" [ref=e871] [cursor=pointer] [box=751,8579,73,20]:
+              - /url: /terms-and-conditions#privacyPolicydisclaimer
+            - link "FAQ's" [ref=e874] [cursor=pointer] [box=751,8609,38,20]:
+              - /url: /terms-and-conditions#faqs
+            - link "Site Map" [ref=e877] [cursor=pointer] [box=751,8639,61,20]:
+              - /url: /sitemap.xml
+            - link "IT Support" [ref=e880] [cursor=pointer] [box=751,8669,73,20]:
+              - /url: https://forms.office.com/pages/responsepage.aspx?id=9JnITJIKcEmR-hiEXezdZJURM4Fx-vRJglRe5yShhp1UQjkzSzNGNk1HNzJDN0I5MEhKSkhOWjlXTy4u&route=shorturl
+            - link "Website Issue" [ref=e883] [cursor=pointer] [box=751,8699,98,20]:
+              - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=9JnITJIKcEmR-hiEXezdZJURM4Fx-vRJglRe5yShhp1UOEw4NjVPQzZIT0RPUzlFN0hJM1UwREk4Ui4u
+        - generic [ref=e885] [box=1031,8450,292,304]:
+          - heading "How We Are Different?" [level=2] [ref=e886] [cursor=pointer] [box=1031,8450,157,18]
+          - navigation [ref=e887] [box=1031,8484,292,270]:
+            - link "Ken Research Vs. BCC Research" [ref=e890] [cursor=pointer] [box=1052,8489,223,20]:
+              - /url: /ken-research-vs-bcc-research
+            - link "Ken Research Vs. Euromonitor Int." [ref=e893] [cursor=pointer] [box=1052,8519,236,20]:
+              - /url: /ken-research-vs-euromonitor
+            - link "Ken Research Vs. Nielsen" [ref=e896] [cursor=pointer] [box=1052,8549,175,20]:
+              - /url: /ken-research-vs-nielsen-surveys
+            - link "Ken Research Vs. Marketsand Markets" [ref=e899] [cursor=pointer] [box=1052,8579,266,20]:
+              - /url: /ken-research-vs-marketsandmarkets
+            - link "Ken Research Vs. McKinsey" [ref=e902] [cursor=pointer] [box=1052,8609,190,20]:
+              - /url: /ken-research-vs-mckinsey
+            - link "Ken Research Vs. Mordor" [ref=e905] [cursor=pointer] [box=1052,8639,173,20]:
+              - /url: /ken-research-vs-mordor-intelligence
+            - link "Ken Research Vs. S&P Global" [ref=e908] [cursor=pointer] [box=1052,8669,199,20]:
+              - /url: /ken-research-vs-sp-global
+            - link "Ken Research Vs. Grand View Research" [ref=e911] [cursor=pointer] [box=1052,8699,271,20]:
+              - /url: /ken-research-vs-grand-view-research
+            - link "Ken Research Vs. Frost & Sullivan" [ref=e914] [cursor=pointer] [box=1052,8729,230,20]:
+              - /url: /ken-research-vs-frost-and-sullivan
+      - generic [ref=e916] [box=128,8774,1184,117]:
+        - heading "Company Overview" [level=2] [ref=e917] [box=128,8774,130,18]
+        - generic [ref=e918] [box=128,8808,1184,83]:
+          - generic [ref=e919] [box=128,8808,266,83]:
+            - heading "India" [level=2] [ref=e920] [box=128,8808,28,15]
+            - link "Unit 14, Tower B3, Spaze I Tech Business Park, Sohna Road, sector 49 Gurgaon, Haryana - 122001, India" [ref=e921] [cursor=pointer] [box=128,8831,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2CUnit%2014%2C%20Tower%20B3%2C%20Spaze%20I%20Tech%20Business%20Park%2C%20Sohna%20Road%2C%20sector%2049%20Gurgaon%2C%20Haryana%20-%20122001%2C%20India
+          - generic [ref=e922] [box=434,8808,266,83]:
+            - heading "UAE" [level=2] [ref=e923] [box=434,8808,21,15]
+            - link "105, Al Jaz1b, Street no 2 the Greens Dubai United Arab Emirates" [ref=e924] [cursor=pointer] [box=434,8831,266,40]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2C105%2C%20Al%20Jaz1b%2C%20Street%20no%202%20the%20Greens%20Dubai%20United%20Arab%20Emirates
+          - generic [ref=e925] [box=740,8808,266,83]:
+            - heading "Indonesia" [level=2] [ref=e926] [box=740,8808,56,15]
+            - link "The Icon BSD City, Jl. Verdant View IIIA No.15, Tangerang Regency, Province Banten-15345, Indonesia" [ref=e927] [cursor=pointer] [box=740,8831,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2CThe%20Icon%20BSD%20City%2C%20Jl.%20Verdant%20View%20IIIA%20No.15%2C%20Tangerang%20Regency%2C%20Province%20Banten-15345%2C%20Indonesia
+          - generic [ref=e928] [box=1046,8808,266,83]:
+            - heading "QATAR" [level=2] [ref=e929] [box=1046,8808,34,15]
+            - link "Office no. 9, Building no. 171 Zone no. 42, Street no. 230, Al-Rehab Complex, C-Ring road, Doha" [ref=e930] [cursor=pointer] [box=1046,8831,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2COffice%20no.%209%2C%20Building%20no.%20171%20Zone%20no.%2042%2C%20Street%20no.%20230%2C%20Al-Rehab%20Complex%2C%20C-Ring%20road%2C%20Doha
+      - generic [ref=e931] [box=128,8891,1184,318]:
+        - paragraph [ref=e933] [box=128,8799,590,534]: Ken
+        - generic [ref=e934] [box=838,9003,474,206]:
+          - generic [ref=e935] [box=838,9003,474,126]:
+            - link [ref=e936] [cursor=pointer] [box=838,9003,474,24]:
+              - /url: tel:+91-90153-78249
+              - paragraph [ref=e937] [box=838,9003,474,24]: "For Sale Enquiries: +91-9015378249"
+            - link [ref=e940] [cursor=pointer] [box=838,9035,474,36]:
+              - /url: mailto:ankur.gupta@kenresearch.com
+              - paragraph [ref=e941] [box=838,9035,474,24]: ankur.gupta@kenresearch.com
+            - paragraph [ref=e944] [box=838,9079,474,18]: Subscribe to our Newsletter
+            - paragraph [ref=e945] [box=838,9105,474,24]: Never miss out on an update from us
+          - generic [ref=e946] [box=838,9161,474,48]:
+            - textbox "Enter your email address" [ref=e948] [box=838,9161,341,48]
+            - button "Subscribe" [ref=e949] [cursor=pointer] [box=1195,9161,117,48]
+      - generic [ref=e952] [box=128,9351,1184,18]:
+        - generic [ref=e953] [box=128,9351,421,18]:
+          - link "Terms & Conditions" [ref=e954] [cursor=pointer] [box=128,9351,125,18]:
+            - /url: /terms-and-conditions#termsAndCondition
+          - link "Privacy Policy" [ref=e955] [cursor=pointer] [box=313,9351,89,18]:
+            - /url: /terms-and-conditions#privacyPolicy
+          - link "Cookie Policy" [ref=e956] [cursor=pointer] [box=462,9351,87,18]:
+            - /url: /cookie-policy
+        - paragraph [ref=e957] [box=921,9351,391,18]: © Copyright 2026, Ken Research Pvt. Ltd. All rights reserved.
+  - alert [ref=e958] [box=-1,9408,1,1]

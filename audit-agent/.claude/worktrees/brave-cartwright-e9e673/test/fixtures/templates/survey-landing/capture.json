@@ -1,0 +1,374 @@
+{
+  "requestedUrl": "https://www.kenresearch.com/brand-perception-survey",
+  "canonical": {
+    "pageUrl": "https://www.kenresearch.com/brand-perception-survey",
+    "declaredCanonical": "https://www.kenresearch.com/brand-perception-survey",
+    "source": "link-rel-canonical",
+    "notes": []
+  },
+  "httpStatus": 200,
+  "renderSettled": {
+    "settled": true,
+    "network": {
+      "settled": true,
+      "stillInFlight": [],
+      "staleInFlight": []
+    },
+    "viewportImages": {
+      "total": 14,
+      "incomplete": [],
+      "broken": []
+    },
+    "domQuiet": true,
+    "mutationCounts": {
+      "childList": 5,
+      "characterData": 0,
+      "attributes": 229
+    },
+    "fonts": {
+      "status": "loaded"
+    },
+    "gateStartedAtMs": 834,
+    "elapsedMs": 3113
+  },
+  "network": {
+    "total": 299,
+    "critical": 161,
+    "noiseByReason": {
+      "third-party-analytics": 12,
+      "next-router-prefetch-header": 126
+    },
+    "criticalFailures": [],
+    "speculativeFailures": [
+      {
+        "url": "https://www.kenresearch.com/case-studies?_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=energy-and-utilities-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=education-and-recruitment-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=defense-and-security-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/cybersecurity-perception-survey?_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/higher-education-brand-perception-survey?_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=consumer-products-and-retail-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/pov?type=consulting&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-0QKPLDBKRE&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&_p=1789116326973&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=596230139&_eu=AAAAAGAC&cid=1962888935.1789116328&ec_mode=a&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789116328&sct=1&seg=0&dl=https%3A%2F%2Fwww.kenresearch.com%2Fbrand-perception-survey&dt=Brand%20Perception%20Analysis%20%E2%80%93%20Data-Driven%20Insights%20for%20Your%20Business&en=page_view&_fv=1&_nsi=1&_ss=1&ep.debug_mode=true&tfd=3382",
+        "failure": "net::ERR_ABORTED",
+        "noise": "third-party-analytics"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=farm-automation-industry&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=conventional-seed&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=combine-harvesters&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=tractors&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=pest-and-disease-control-solutions&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=hybrid-seed&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=tillers&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=net-wrap&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=agriculture-chemical&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=healthcare-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=food-beverage-and-tobacco-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=energy-and-utilities-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=education-and-recruitment-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=defense-and-security-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=banking-financial-services-and-insurance-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=automotive-transportation-and-warehousing-market&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?reportTypes=global-market-research-reports&_rsc=7ZmwYYg0D6FIsQRo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/cybersecurity-perception-survey?_rsc=7YQFuzJ1K-o0eP8D",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/d2c-brand-customer-experience-survey?_rsc=eqzOKhFHduGT0FVd",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/higher-education-brand-perception-survey?_rsc=fyZ075uBsGxnofwk",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/plant-based-dairy-alternative-perception-survey?_rsc=cxJIsGOtIHMTJEot",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/sustainable-product-consumer-perception-survey?_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/case-studies/al-dawaa-market-expansion-strategy-ksa-pharmacy?_rsc=kuOeKmT6Jrh6KiI2",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/pov?_rsc=fwTrGcjEWL4SQzbo",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/case-studies?_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?_rsc=avhW4gSc0jLat9nT",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=energy-and-utilities-market&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=education-and-recruitment-market&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=defense-and-security-market&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=consumer-products-and-retail-market&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=banking-financial-services-and-insurance-market&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/custom-form?_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/case-studies/dhl-road-freight-warehousing-growth-israel?_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/pov?type=consulting&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?type=consulting&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/case-studies?type=consulting&_rsc=Y7TIVVZzmlJAYzsu",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-0QKPLDBKRE&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&_p=1789116326973&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=596230139&_eu=AAAAAGQC&cid=1962888935.1789116328&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789116328&sct=1&seg=0&dl=https%3A%2F%2Fwww.kenresearch.com%2Fbrand-perception-survey&dt=Brand%20Perception%20Analysis%20%E2%80%93%20Data-Driven%20Insights%20for%20Your%20Business&_s=2&tfd=8390",
+        "failure": "net::ERR_ABORTED",
+        "noise": "third-party-analytics"
+      }
+    ]
+  },
+  "console": {
+    "total": 4,
+    "kept": [
+      {
+        "type": "warning",
+        "text": "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters",
+        "locationUrl": "https://www.kenresearch.com/_next/static/chunks/0svhsiskmzwlu.js",
+        "verdict": {
+          "keep": true,
+          "reason": "known-meaningful-pattern",
+          "pattern": "swiper-loop-misconfiguration"
+        }
+      },
+      {
+        "type": "warning",
+        "text": "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters",
+        "locationUrl": "https://www.kenresearch.com/_next/static/chunks/0svhsiskmzwlu.js",
+        "verdict": {
+          "keep": true,
+          "reason": "known-meaningful-pattern",
+          "pattern": "swiper-loop-misconfiguration"
+        }
+      },
+      {
+        "type": "warning",
+        "text": "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters",
+        "locationUrl": "https://www.kenresearch.com/_next/static/chunks/0svhsiskmzwlu.js",
+        "verdict": {
+          "keep": true,
+          "reason": "known-meaningful-pattern",
+          "pattern": "swiper-loop-misconfiguration"
+        }
+      },
+      {
+        "type": "warning",
+        "text": "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters",
+        "locationUrl": "https://www.kenresearch.com/_next/static/chunks/0svhsiskmzwlu.js",
+        "verdict": {
+          "keep": true,
+          "reason": "known-meaningful-pattern",
+          "pattern": "swiper-loop-misconfiguration"
+        }
+      }
+    ],
+    "suppressedByReason": {},
+    "summary": "4 messages, 0 suppressed by policy, 4 kept as evidence"
+  },
+  "pageErrors": [
+    "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+  ],
+  "ariaElementCount": 569,
+  "placeholders": [
+    {
+      "id": "ph0",
+      "before": "0+",
+      "after": "250000+",
+      "changed": true,
+      "stabilized": true,
+      "stillPlaceholder": false,
+      "detectedAs": "0+"
+    },
+    {
+      "id": "ph1",
+      "before": "1200+",
+      "after": "1200+",
+      "changed": false,
+      "stabilized": true,
+      "stillPlaceholder": false,
+      "detectedAs": "0+"
+    },
+    {
+      "id": "ph2",
+      "before": "1500+",
+      "after": "1500+",
+      "changed": false,
+      "stabilized": true,
+      "stillPlaceholder": false,
+      "detectedAs": "0+"
+    }
+  ],
+  "renderingPolicy": {
+    "channel": "chromium",
+    "browserVersion": "153.0.8010.12",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "deviceScaleFactor": 1,
+    "colorScheme": "light",
+    "locale": "en-US",
+    "timezoneId": "Asia/Kolkata",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 KenResearchDSAudit/0.1"
+  },
+  "capturedAt": "2026-09-11T08:45:34.830Z"
+}

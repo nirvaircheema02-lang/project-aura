@@ -1,0 +1,26 @@
+{
+  "targetUrl": "https://www.kenresearch.com/consulting/deals-and-ipo-consulting",
+  "mode": "single-page",
+  "figmaFileKey": "cRrpdLpVRHizUrxwYPxKCf",
+  "figmaFileUrl": "https://www.figma.com/design/cRrpdLpVRHizUrxwYPxKCf",
+  "figmaTeamPlanKey": "team::1364202946001928079",
+  "figmaProjectId": null,
+  "figmaNodes": {
+    "pages": {
+      "00 Overview": "0:1",
+      "01 Page Audit": "1:2",
+      "02 Root Causes": "1:3",
+      "03 Component Findings": "1:4",
+      "04 Needs Review": "1:5",
+      "05 Global Components": "1:6"
+    },
+    "frames": {
+      "5682a9af946ac96f": "2:2",
+      "legend": "8:26",
+      "componentLibrarySection": "3:2"
+    },
+    "markers": {},
+    "imageHashes": {}
+  },
+  "createdAt": "2026-09-18T07:56:08.646Z"
+}

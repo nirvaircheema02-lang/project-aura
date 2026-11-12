@@ -1,0 +1,2130 @@
+- generic [active] [ref=e1] [box=0,0,1440,10647]:
+  - region "Notifications alt+T" [box=0,0,1440,0]
+  - generic [ref=e2] [box=0,0,1440,100]:
+    - generic [ref=e3] [box=0,0,1440,40]:
+      - generic [ref=e4] [box=16,0,275,39]:
+        - link "Procurement" [ref=e5] [cursor=pointer] [box=16,10,78,20]:
+          - /url: /procurement-research
+        - link "Expert Panel" [ref=e7] [cursor=pointer] [box=118,10,75,20]:
+          - /url: /expert-panel
+        - generic [ref=e9] [box=217,10,74,20]: Company
+      - generic [ref=e13] [box=1267,0,157,39]:
+        - generic [ref=e14] [cursor=pointer] [box=1267,10,57,20]: Sign in
+        - generic [ref=e17] [cursor=pointer] [box=1336,3,88,34]: Sign up
+    - navigation [ref=e21] [box=0,40,1440,60]:
+      - link [ref=e24] [cursor=pointer] [box=16,61,152,18]:
+        - /url: /
+        - img "Ken Research Logo" [ref=e25] [box=16,61,152,18]
+      - generic [ref=e26] [box=391,41,644,58]:
+        - link "Reports" [ref=e29] [cursor=pointer] [box=391,60,51,20]:
+          - /url: /report-store
+        - generic [ref=e32] [box=489,41,80,58]: Industries
+        - link "Surveys" [ref=e39] [cursor=pointer] [box=601,60,50,20]:
+          - /url: /survey
+        - link "Consulting" [ref=e44] [cursor=pointer] [box=700,60,69,20]:
+          - /url: /consulting
+        - generic [ref=e47] [box=817,41,66,58]: Insights
+        - generic [ref=e52] [cursor=pointer] [box=915,52,120,35]: Search
+      - link "Book discovery call" [ref=e63] [cursor=pointer] [box=1258,50,166,40]:
+        - /url: /book-a-discovery-call
+  - generic [ref=e65] [box=0,100,1440,9511]:
+    - generic [ref=e73] [box=120,100,1200,620]:
+      - generic [ref=e75] [box=120,140,672,429]:
+        - paragraph [ref=e76] [box=120,140,672,16]: Market Research Platform
+        - heading "Market Intelligence for Strategic Decisions" [level=1] [ref=e77] [box=120,168,672,109]:
+          - text: Market Intelligence
+          - generic [ref=e78] [box=120,225,672,53]: for Strategic Decisions
+        - paragraph [ref=e79] [box=120,293,448,52]: Access 2,50,000+ market research reports across 14 industries. Trusted by Fortune 500 companies.
+        - generic [ref=e81] [box=120,373,576,52]:
+          - textbox "Search reports, industries, regions" [ref=e86] [box=166,387,366,24]:
+            - /placeholder: Search reports, industries, regions...
+          - button "All Categories" [ref=e89] [cursor=pointer] [box=553,373,143,52]
+        - generic [ref=e93] [box=120,441,672,44]:
+          - link "Agriculture and Animal Care•" [ref=e94] [cursor=pointer] [box=120,441,180,20]:
+            - /url: /report-store?industry=agriculture-animal-care-market#featured-research
+          - link "Automotive, Transportation and Warehousing•" [ref=e95] [cursor=pointer] [box=304,441,275,20]:
+            - /url: /report-store?industry=automotive-transportation-and-warehousing-market#featured-research
+          - link "Banking Financial Services and Insurance•" [ref=e96] [cursor=pointer] [box=120,465,251,20]:
+            - /url: /report-store?industry=banking-financial-services-and-insurance-market#featured-research
+          - link "Consumer Products and Retail•" [ref=e97] [cursor=pointer] [box=375,465,193,20]:
+            - /url: /report-store?industry=consumer-products-and-retail-market#featured-research
+          - link "Defense and Security•" [ref=e98] [cursor=pointer] [box=572,465,143,20]:
+            - /url: /report-store?industry=defense-and-security-market#featured-research
+        - link "Talk to Expert" [ref=e100] [cursor=pointer] [box=120,513,216,56]:
+          - /url: /custom-form
+      - generic [ref=e113] [box=120,609,672,78]:
+        - generic [ref=e114] [box=120,609,167,78]:
+          - paragraph [ref=e115] [box=140,623,127,32]: 2,50,000+
+          - paragraph [ref=e116] [box=140,658,127,16]: Research Reports
+        - generic [ref=e117] [box=288,609,167,78]:
+          - paragraph [ref=e118] [box=308,623,127,32]: 2000+
+          - paragraph [ref=e119] [box=308,658,127,16]: Clients Served
+        - generic [ref=e120] [box=457,609,167,78]:
+          - paragraph [ref=e121] [box=477,623,127,32]: 100+
+          - paragraph [ref=e122] [box=477,658,127,16]: Countries Covered
+        - generic [ref=e123] [box=625,609,167,78]:
+          - paragraph [ref=e124] [box=645,623,127,32]: "14"
+          - paragraph [ref=e125] [box=645,658,127,16]: Industry Verticals
+    - main [ref=e126] [box=0,720,1440,8891]:
+      - generic [ref=e127] [box=80,720,1280,1722]:
+        - complementary [ref=e129] [box=120,760,300,703]:
+          - generic [ref=e130] [box=121,761,298,60]: Filters
+          - generic [ref=e136] [box=121,821,298,600]:
+            - generic [ref=e137] [box=121,821,298,193]:
+              - button [expanded] [ref=e138] [cursor=pointer] [box=121,821,298,48]:
+                - paragraph [ref=e144] [box=177,837,78,16]: Report type
+              - list [ref=e147] [box=121,869,298,144]:
+                - listitem [ref=e148] [box=121,869,298,36]:
+                  - generic [ref=e149] [cursor=pointer] [box=137,869,266,36]:
+                    - checkbox "Competition Benchmarking" [ref=e150] [box=139,880,14,14]
+                    - generic [ref=e151] [box=163,877,232,20]: Competition Benchmarking
+                - listitem [ref=e152] [box=121,905,298,36]:
+                  - generic [ref=e153] [cursor=pointer] [box=137,905,266,36]:
+                    - checkbox "Global Reports" [ref=e154] [box=139,916,14,14]
+                    - generic [ref=e155] [box=163,913,232,20]: Global Reports
+                - listitem [ref=e156] [box=121,941,298,36]:
+                  - generic [ref=e157] [cursor=pointer] [box=137,941,266,36]:
+                    - checkbox "Industry Reports" [ref=e158] [box=139,952,14,14]
+                    - generic [ref=e159] [box=163,949,232,20]: Industry Reports
+                - listitem [ref=e160] [box=121,977,298,36]:
+                  - generic [ref=e161] [cursor=pointer] [box=137,977,266,36]:
+                    - checkbox "Region Reports" [ref=e162] [box=139,988,14,14]
+                    - generic [ref=e163] [box=163,985,232,20]: Region Reports
+            - button [expanded] [ref=e164] [cursor=pointer] [box=121,1014,298,48]:
+              - paragraph [ref=e171] [box=177,1030,67,16]: Industries
+            - generic [ref=e175] [box=121,1062,298,56]:
+              - textbox "Search industries..." [ref=e176] [box=137,1071,266,38]
+              - button [ref=e177] [cursor=pointer] [box=379,1082,16,16]
+            - list [ref=e181] [box=121,1118,298,292]:
+              - listitem [ref=e182] [box=121,1118,298,40]:
+                - generic [ref=e185] [box=123,1118,296,40]:
+                  - button "Expand sub-industries" [ref=e186] [cursor=pointer] [box=131,1130,24,16]
+                  - button "Food, Beverage and Tobacco 17,005" [ref=e189] [cursor=pointer] [box=163,1120,256,36]:
+                    - generic [ref=e190] [box=163,1128,186,20]: Food, Beverage and Tobacco
+                    - generic [ref=e191] [box=376,1130,35,16]: 17,005
+              - listitem [ref=e192] [box=121,1160,298,40]:
+                - generic [ref=e195] [box=123,1160,296,40]:
+                  - button "Expand sub-industries" [ref=e196] [cursor=pointer] [box=131,1172,24,16]
+                  - button "Public Sector and Administration 330" [ref=e199] [cursor=pointer] [box=163,1162,256,36]:
+                    - generic [ref=e200] [box=163,1170,202,20]: Public Sector and Administration
+                    - generic [ref=e201] [box=389,1172,22,16]: "330"
+              - listitem [ref=e202] [box=121,1202,298,40]:
+                - generic [ref=e205] [box=123,1202,296,40]:
+                  - button "Expand sub-industries" [ref=e206] [cursor=pointer] [box=131,1214,24,16]
+                  - button "Defense and Security 5,420" [ref=e209] [cursor=pointer] [box=163,1204,256,36]:
+                    - generic [ref=e210] [box=163,1212,139,20]: Defense and Security
+                    - generic [ref=e211] [box=379,1214,32,16]: 5,420
+              - listitem [ref=e212] [box=121,1244,298,40]:
+                - generic [ref=e215] [box=123,1244,296,40]:
+                  - button "Expand sub-industries" [ref=e216] [cursor=pointer] [box=131,1256,24,16]
+                  - button "Healthcare 44,265" [ref=e219] [cursor=pointer] [box=163,1246,256,36]:
+                    - generic [ref=e220] [box=163,1254,70,20]: Healthcare
+                    - generic [ref=e221] [box=373,1256,38,16]: 44,265
+              - listitem [ref=e222] [box=121,1286,298,40]:
+                - generic [ref=e225] [box=123,1286,296,40]:
+                  - button "Expand sub-industries" [ref=e226] [cursor=pointer] [box=131,1298,24,16]
+                  - button "Banking Financial Services and Insurance 11,610" [ref=e229] [cursor=pointer] [box=163,1288,256,36]:
+                    - generic [ref=e230] [box=163,1296,195,20]: Banking Financial Services and Insurance
+                    - generic [ref=e231] [box=382,1298,29,16]: 11,610
+              - listitem [ref=e232] [box=121,1328,298,40]:
+                - generic [ref=e235] [box=123,1328,296,40]:
+                  - button "Expand sub-industries" [ref=e236] [cursor=pointer] [box=131,1340,24,16]
+                  - button "Media and Entertainment 5,040" [ref=e239] [cursor=pointer] [box=163,1330,256,36]:
+                    - generic [ref=e240] [box=163,1338,164,20]: Media and Entertainment
+                    - generic [ref=e241] [box=378,1340,33,16]: 5,040
+              - listitem [ref=e242] [box=121,1370,298,40]:
+                - generic [ref=e245] [box=123,1370,296,40]:
+                  - button "Expand sub-industries" [ref=e246] [cursor=pointer] [box=131,1382,24,16]
+                  - button "Consumer Products and Retail 23,360" [ref=e249] [cursor=pointer] [box=163,1372,256,36]:
+                    - generic [ref=e250] [box=163,1380,185,20]: Consumer Products and Retail
+                    - generic [ref=e251] [box=372,1382,39,16]: 23,360
+            - button "+ Show all 14 industries" [ref=e252] [cursor=pointer] [box=121,1410,298,50]
+            - button [ref=e255] [cursor=pointer] [box=137,1474,266,24]:
+              - paragraph [ref=e261] [box=177,1478,52,16]: Regions
+            - button [ref=e265] [cursor=pointer] [box=137,1529,266,24]:
+              - paragraph [ref=e270] [box=177,1533,82,16]: Publish year
+          - generic [ref=e273] [box=121,1421,298,41]: 2,00,000+ reports available
+        - generic [ref=e275] [box=420,760,900,1642]:
+          - generic [ref=e276] [box=444,760,876,602]:
+            - generic [ref=e277] [box=444,760,876,90]:
+              - paragraph [ref=e279] [box=444,760,71,18]: Featured
+              - generic [ref=e281] [box=444,786,333,64]:
+                - heading "Featured Research" [level=2] [ref=e282] [box=444,786,333,33]
+                - paragraph [ref=e283] [box=444,827,333,23]: Editor's choice — handpicked by our research team
+            - generic [ref=e284] [box=444,890,876,320]:
+              - img "Malaysia Industrial Packaging, Pallets & Supply Chain Packaging Solutions Market Assessment and Outlook to 2030" [ref=e285] [box=444,890,876,320]
+              - generic [ref=e287] [box=444,890,876,320]:
+                - generic [ref=e288] [box=468,914,828,24]:
+                  - generic [ref=e289] [box=468,914,204,24]:
+                    - generic [ref=e290] [box=468,914,96,24]: FEATURED
+                    - generic [ref=e294] [box=572,915,100,22]: HIGH DEMAND
+                  - generic [ref=e295] [box=1253,914,43,20]: Asia
+                - generic [ref=e299] [box=468,1026,576,160]:
+                  - generic [ref=e300] [box=468,1026,576,24]:
+                    - generic [ref=e301] [box=468,1026,229,24]: MANUFACTURING AND CONSTRUCTION
+                    - generic [ref=e302] [box=705,1026,168,24]: USD 2,230 Mn by 2030
+                  - heading "Malaysia Industrial Packaging, Pallets & Supply Chain Packaging Solutions Market Assessment and Outlook to 2030" [level=2] [ref=e306] [box=468,1062,576,84]
+                  - link "Read Report" [ref=e307] [cursor=pointer] [box=468,1158,113,28]:
+                    - /url: /malaysia-industrial-packaging-pallets-supply-chain-packaging-solutions-market
+            - link "thumbnail Manufacturing and Construction Jan 2026 Qatar Stability Test Chambers Market Report Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030 USD 42 million by 2030 Middle East View Report" [ref=e320] [cursor=pointer] [box=444,1242,876,121]:
+              - /url: /qatar-stability-test-chambers-market
+              - generic [ref=e321] [box=444,1242,876,121]:
+                - img "thumbnail" [ref=e323] [box=445,1243,64,119]
+                - generic [ref=e324] [box=509,1243,810,119]:
+                  - generic [ref=e325] [box=525,1253,778,20]:
+                    - generic [ref=e326] [box=525,1253,210,20]: Manufacturing and Construction
+                    - generic [ref=e327] [box=1235,1255,68,16]: Jan 2026
+                  - heading "Qatar Stability Test Chambers Market Report Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [level=3] [ref=e330] [box=525,1279,620,39]
+                  - generic [ref=e331] [box=525,1323,778,28]:
+                    - generic [ref=e332] [box=525,1329,240,16]:
+                      - generic [ref=e333] [box=525,1329,154,16]: USD 42 million by 2030
+                      - generic [ref=e338] [box=679,1329,80,16]: Middle East
+                    - button "View Report" [ref=e343] [box=1191,1323,112,28]
+          - generic [ref=e355] [box=444,1402,876,450]:
+            - generic [ref=e356] [box=444,1402,876,90]:
+              - paragraph [ref=e358] [box=444,1402,106,18]: Personalized
+              - generic [ref=e360] [box=444,1428,324,64]:
+                - heading "Recommended For You" [level=2] [ref=e361] [box=444,1428,324,33]
+                - paragraph [ref=e362] [box=444,1469,324,23]: Based on your browsing history and interests
+            - generic [ref=e363] [box=444,1512,876,340]:
+              - button [ref=e364] [cursor=pointer] [box=1276,1664,36,36]
+              - generic [ref=e368] [box=444,1532,876,300]:
+                - link [ref=e371] [cursor=pointer] [box=444,1532,256,300]:
+                  - /url: malaysia-industrial-packaging-pallets-supply-chain-packaging-solutions-market
+                  - article [ref=e372] [box=444,1532,256,300]:
+                    - img "Malaysia Industrial Packaging, Pallets & Supply Chain Packaging Solutions Market Assessment and Outlook to 2030" [ref=e373] [box=445,1533,254,144]
+                    - generic [ref=e374] [box=445,1695,254,136]:
+                      - generic [ref=e375] [box=461,1711,210,19]: Manufacturing and Construction
+                      - heading "Malaysia Industrial Packaging, Pallets & Supply Chain Packaging Solutions Market Assessment and Outlook to 2030" [level=3] [ref=e376] [box=461,1740,222,39]
+                      - generic [ref=e377] [box=461,1789,222,16]:
+                        - generic [ref=e378] [box=461,1789,107,16]: USD 2,230 Mn
+                        - generic [ref=e383] [box=568,1789,39,16]: Asia
+                - link [ref=e389] [cursor=pointer] [box=716,1532,256,300]:
+                  - /url: indonesia-offshore-rental-equipment-market
+                  - article [ref=e390] [box=716,1532,256,300]:
+                    - img "Indonesia Offshore Rental Equipment Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e391] [box=717,1533,254,144]
+                    - generic [ref=e392] [box=717,1695,254,136]:
+                      - generic [ref=e393] [box=733,1711,210,19]: Energy and Utilities
+                      - heading "Indonesia Offshore Rental Equipment Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e394] [box=733,1740,222,39]
+                      - generic [ref=e395] [box=733,1789,222,16]:
+                        - generic [ref=e396] [box=733,1789,106,16]: USD 1.3 billion
+                        - generic [ref=e401] [box=839,1789,39,16]: Asia
+                - link [ref=e407] [cursor=pointer] [box=988,1532,256,300]:
+                  - /url: vietnam-offshore-rental-equipment-market
+                  - article [ref=e408] [box=988,1532,256,300]:
+                    - img "Vietnam Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities Forecast 2025–2030" [ref=e409] [box=989,1533,254,144]
+                    - generic [ref=e410] [box=989,1695,254,136]:
+                      - generic [ref=e411] [box=1005,1711,210,19]: Manufacturing and Construction
+                      - heading "Vietnam Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities Forecast 2025–2030" [level=3] [ref=e412] [box=1005,1740,222,39]
+                      - generic [ref=e413] [box=1005,1789,222,16]:
+                        - generic [ref=e414] [box=1005,1789,84,16]: $15 billion
+                        - generic [ref=e419] [box=1089,1789,39,16]: Asia
+                - link [ref=e425] [cursor=pointer] [box=1260,1532,256,300]:
+                  - /url: united-arab-emirates-offshore-rental-equipment-market
+                  - article [ref=e426] [box=1260,1532,256,300]:
+                    - img "United Arab Emirates Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [ref=e427] [box=1261,1533,254,144]
+                    - generic [ref=e428] [box=1261,1695,254,136]:
+                      - generic [ref=e429] [box=1277,1711,210,19]: Manufacturing and Construction
+                      - heading "United Arab Emirates Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [level=3] [ref=e430] [box=1277,1740,222,39]
+                      - generic [ref=e431] [box=1277,1789,222,16]:
+                        - generic [ref=e432] [box=1277,1789,87,16]: $25 billion
+                        - generic [ref=e437] [box=1364,1789,80,16]: Middle East
+                - link [ref=e443] [cursor=pointer] [box=1532,1532,256,300]:
+                  - /url: new-zealand-sodium-silicate-market
+                  - article [ref=e444] [box=1532,1532,256,300]:
+                    - img "New Zealand Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [ref=e445] [box=1533,1533,254,144]
+                    - generic [ref=e446] [box=1533,1695,254,136]:
+                      - generic [ref=e447] [box=1549,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "New Zealand Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [level=3] [ref=e448] [box=1549,1740,222,39]
+                      - generic [ref=e449] [box=1549,1789,222,16]:
+                        - generic [ref=e450] [box=1549,1789,115,16]: USD 165 million
+                        - generic [ref=e455] [box=1664,1789,52,16]: Global
+                - link [ref=e461] [cursor=pointer] [box=1804,1532,256,300]:
+                  - /url: japan-sodium-silicate-market
+                  - article [ref=e462] [box=1804,1532,256,300]:
+                    - img "Japan Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e463] [box=1805,1533,254,144]
+                    - generic [ref=e464] [box=1805,1695,254,136]:
+                      - generic [ref=e465] [box=1821,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Japan Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e466] [box=1821,1740,222,39]
+                      - generic [ref=e467] [box=1821,1789,222,16]:
+                        - generic [ref=e468] [box=1821,1789,119,16]: USD 700 million
+                        - generic [ref=e473] [box=1940,1789,39,16]: Asia
+                - link [ref=e479] [cursor=pointer] [box=2076,1532,256,300]:
+                  - /url: bahrain-sodium-silicate-market
+                  - article [ref=e480] [box=2076,1532,256,300]:
+                    - img "Bahrain Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [ref=e481] [box=2077,1533,254,144]
+                    - generic [ref=e482] [box=2077,1695,254,136]:
+                      - generic [ref=e483] [box=2093,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Bahrain Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [level=3] [ref=e484] [box=2093,1740,222,39]
+                      - generic [ref=e485] [box=2093,1789,222,16]:
+                        - generic [ref=e486] [box=2093,1789,110,16]: USD 42 million
+                        - generic [ref=e491] [box=2203,1789,80,16]: Middle East
+                - link [ref=e497] [cursor=pointer] [box=2348,1532,256,300]:
+                  - /url: kuwait-sodium-silicate-market
+                  - article [ref=e498] [box=2348,1532,256,300]:
+                    - img "Kuwait Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e499] [box=2349,1533,254,144]
+                    - generic [ref=e500] [box=2349,1695,254,136]:
+                      - generic [ref=e501] [box=2365,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Kuwait Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e502] [box=2365,1740,222,39]
+                      - generic [ref=e503] [box=2365,1789,222,16]:
+                        - generic [ref=e504] [box=2365,1789,115,16]: USD 165 million
+                        - generic [ref=e509] [box=2480,1789,80,16]: Middle East
+                - link [ref=e515] [cursor=pointer] [box=2620,1532,256,300]:
+                  - /url: philippines-sodium-silicate-market
+                  - article [ref=e516] [box=2620,1532,256,300]:
+                    - img "Philippines Sodium Silicate Market Size Share Growth Drivers Trends Opportunities and Forecast 2025–2030" [ref=e517] [box=2621,1533,254,144]
+                    - generic [ref=e518] [box=2621,1695,254,136]:
+                      - generic [ref=e519] [box=2637,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Philippines Sodium Silicate Market Size Share Growth Drivers Trends Opportunities and Forecast 2025–2030" [level=3] [ref=e520] [box=2637,1740,222,39]
+                      - generic [ref=e521] [box=2637,1789,222,16]:
+                        - generic [ref=e522] [box=2637,1789,117,16]: USD 100 million
+                        - generic [ref=e527] [box=2754,1789,39,16]: Asia
+                - link [ref=e533] [cursor=pointer] [box=2892,1532,256,300]:
+                  - /url: thailand-sodium-silicate-market
+                  - article [ref=e534] [box=2892,1532,256,300]:
+                    - img "Thailand Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e535] [box=2893,1533,254,144]
+                    - generic [ref=e536] [box=2893,1695,254,136]:
+                      - generic [ref=e537] [box=2909,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Thailand Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e538] [box=2909,1740,222,39]
+                      - generic [ref=e539] [box=2909,1789,222,16]:
+                        - generic [ref=e540] [box=2909,1789,115,16]: USD 120 million
+                        - generic [ref=e545] [box=3024,1789,39,16]: Asia
+                - link [ref=e551] [cursor=pointer] [box=3164,1532,256,300]:
+                  - /url: malaysia-industrial-packaging-pallets-supply-chain-packaging-solutions-market
+                  - article [ref=e552] [box=3164,1532,256,300]:
+                    - img "Malaysia Industrial Packaging, Pallets & Supply Chain Packaging Solutions Market Assessment and Outlook to 2030" [ref=e553] [box=3165,1533,254,144]
+                    - generic [ref=e554] [box=3165,1695,254,136]:
+                      - generic [ref=e555] [box=3181,1711,210,19]: Manufacturing and Construction
+                      - heading "Malaysia Industrial Packaging, Pallets & Supply Chain Packaging Solutions Market Assessment and Outlook to 2030" [level=3] [ref=e556] [box=3181,1740,222,39]
+                      - generic [ref=e557] [box=3181,1789,222,16]:
+                        - generic [ref=e558] [box=3181,1789,107,16]: USD 2,230 Mn
+                        - generic [ref=e563] [box=3288,1789,39,16]: Asia
+                - link [ref=e569] [cursor=pointer] [box=3436,1532,256,300]:
+                  - /url: indonesia-offshore-rental-equipment-market
+                  - article [ref=e570] [box=3436,1532,256,300]:
+                    - img "Indonesia Offshore Rental Equipment Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e571] [box=3437,1533,254,144]
+                    - generic [ref=e572] [box=3437,1695,254,136]:
+                      - generic [ref=e573] [box=3453,1711,210,19]: Energy and Utilities
+                      - heading "Indonesia Offshore Rental Equipment Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e574] [box=3453,1740,222,39]
+                      - generic [ref=e575] [box=3453,1789,222,16]:
+                        - generic [ref=e576] [box=3453,1789,106,16]: USD 1.3 billion
+                        - generic [ref=e581] [box=3559,1789,39,16]: Asia
+                - link [ref=e587] [cursor=pointer] [box=3708,1532,256,300]:
+                  - /url: vietnam-offshore-rental-equipment-market
+                  - article [ref=e588] [box=3708,1532,256,300]:
+                    - img "Vietnam Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities Forecast 2025–2030" [ref=e589] [box=3709,1533,254,144]
+                    - generic [ref=e590] [box=3709,1695,254,136]:
+                      - generic [ref=e591] [box=3725,1711,210,19]: Manufacturing and Construction
+                      - heading "Vietnam Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities Forecast 2025–2030" [level=3] [ref=e592] [box=3725,1740,222,39]
+                      - generic [ref=e593] [box=3725,1789,222,16]:
+                        - generic [ref=e594] [box=3725,1789,84,16]: $15 billion
+                        - generic [ref=e599] [box=3809,1789,39,16]: Asia
+                - link [ref=e605] [cursor=pointer] [box=3980,1532,256,300]:
+                  - /url: united-arab-emirates-offshore-rental-equipment-market
+                  - article [ref=e606] [box=3980,1532,256,300]:
+                    - img "United Arab Emirates Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [ref=e607] [box=3981,1533,254,144]
+                    - generic [ref=e608] [box=3981,1695,254,136]:
+                      - generic [ref=e609] [box=3997,1711,210,19]: Manufacturing and Construction
+                      - heading "United Arab Emirates Offshore Rental Equipment Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [level=3] [ref=e610] [box=3997,1740,222,39]
+                      - generic [ref=e611] [box=3997,1789,222,16]:
+                        - generic [ref=e612] [box=3997,1789,87,16]: $25 billion
+                        - generic [ref=e617] [box=4084,1789,80,16]: Middle East
+                - link [ref=e623] [cursor=pointer] [box=4252,1532,256,300]:
+                  - /url: new-zealand-sodium-silicate-market
+                  - article [ref=e624] [box=4252,1532,256,300]:
+                    - img "New Zealand Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [ref=e625] [box=4253,1533,254,144]
+                    - generic [ref=e626] [box=4253,1695,254,136]:
+                      - generic [ref=e627] [box=4269,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "New Zealand Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [level=3] [ref=e628] [box=4269,1740,222,39]
+                      - generic [ref=e629] [box=4269,1789,222,16]:
+                        - generic [ref=e630] [box=4269,1789,115,16]: USD 165 million
+                        - generic [ref=e635] [box=4384,1789,52,16]: Global
+                - link [ref=e641] [cursor=pointer] [box=4524,1532,256,300]:
+                  - /url: japan-sodium-silicate-market
+                  - article [ref=e642] [box=4524,1532,256,300]:
+                    - img "Japan Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e643] [box=4525,1533,254,144]
+                    - generic [ref=e644] [box=4525,1695,254,136]:
+                      - generic [ref=e645] [box=4541,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Japan Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e646] [box=4541,1740,222,39]
+                      - generic [ref=e647] [box=4541,1789,222,16]:
+                        - generic [ref=e648] [box=4541,1789,119,16]: USD 700 million
+                        - generic [ref=e653] [box=4660,1789,39,16]: Asia
+                - link [ref=e659] [cursor=pointer] [box=4796,1532,256,300]:
+                  - /url: bahrain-sodium-silicate-market
+                  - article [ref=e660] [box=4796,1532,256,300]:
+                    - img "Bahrain Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [ref=e661] [box=4797,1533,254,144]
+                    - generic [ref=e662] [box=4797,1695,254,136]:
+                      - generic [ref=e663] [box=4813,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Bahrain Sodium Silicate Market Size Share Growth Drivers Trends Opportunities & Forecast 2025–2030" [level=3] [ref=e664] [box=4813,1740,222,39]
+                      - generic [ref=e665] [box=4813,1789,222,16]:
+                        - generic [ref=e666] [box=4813,1789,110,16]: USD 42 million
+                        - generic [ref=e671] [box=4923,1789,80,16]: Middle East
+                - link [ref=e677] [cursor=pointer] [box=5068,1532,256,300]:
+                  - /url: kuwait-sodium-silicate-market
+                  - article [ref=e678] [box=5068,1532,256,300]:
+                    - img "Kuwait Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e679] [box=5069,1533,254,144]
+                    - generic [ref=e680] [box=5069,1695,254,136]:
+                      - generic [ref=e681] [box=5085,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Kuwait Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e682] [box=5085,1740,222,39]
+                      - generic [ref=e683] [box=5085,1789,222,16]:
+                        - generic [ref=e684] [box=5085,1789,115,16]: USD 165 million
+                        - generic [ref=e689] [box=5200,1789,80,16]: Middle East
+                - link [ref=e695] [cursor=pointer] [box=5340,1532,256,300]:
+                  - /url: philippines-sodium-silicate-market
+                  - article [ref=e696] [box=5340,1532,256,300]:
+                    - img "Philippines Sodium Silicate Market Size Share Growth Drivers Trends Opportunities and Forecast 2025–2030" [ref=e697] [box=5341,1533,254,144]
+                    - generic [ref=e698] [box=5341,1695,254,136]:
+                      - generic [ref=e699] [box=5357,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Philippines Sodium Silicate Market Size Share Growth Drivers Trends Opportunities and Forecast 2025–2030" [level=3] [ref=e700] [box=5357,1740,222,39]
+                      - generic [ref=e701] [box=5357,1789,222,16]:
+                        - generic [ref=e702] [box=5357,1789,117,16]: USD 100 million
+                        - generic [ref=e707] [box=5474,1789,39,16]: Asia
+                - link [ref=e713] [cursor=pointer] [box=5612,1532,256,300]:
+                  - /url: thailand-sodium-silicate-market
+                  - article [ref=e714] [box=5612,1532,256,300]:
+                    - img "Thailand Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [ref=e715] [box=5613,1533,254,144]
+                    - generic [ref=e716] [box=5613,1695,254,136]:
+                      - generic [ref=e717] [box=5629,1711,210,19]: Metal, Mining and Chemicals
+                      - heading "Thailand Sodium Silicate Market Size, Share, Growth Drivers, Trends, Opportunities & Forecast 2025–2030" [level=3] [ref=e718] [box=5629,1740,222,39]
+                      - generic [ref=e719] [box=5629,1789,222,16]:
+                        - generic [ref=e720] [box=5629,1789,115,16]: USD 120 million
+                        - generic [ref=e725] [box=5744,1789,39,16]: Asia
+          - generic [ref=e729] [box=444,1892,876,510]:
+            - generic [ref=e730] [box=444,1892,876,90]:
+              - paragraph [ref=e732] [box=444,1892,77,18]: Coverage
+              - generic [ref=e734] [box=444,1918,257,64]:
+                - heading "Industry Coverage" [level=2] [ref=e735] [box=444,1918,257,33]
+                - paragraph [ref=e736] [box=444,1959,257,23]: Explore 14 industry verticals
+            - generic [ref=e737] [box=444,2030,876,372]:
+              - generic [ref=e738] [box=444,2030,430,372]:
+                - link "Healthcare 44,890" [ref=e739] [cursor=pointer] [box=445,2031,428,53]:
+                  - /url: /report-store?industry=/healthcare-market
+                  - generic [ref=e740] [box=445,2031,428,53]:
+                    - generic [ref=e741] [box=465,2043,108,28]: Healthcare
+                    - generic [ref=e747] [box=802,2049,51,16]: 44,890
+                - link "Technology & Telecom 34,315" [ref=e751] [cursor=pointer] [box=445,2084,428,53]:
+                  - /url: /report-store?industry=/technology-and-telecom-market
+                  - generic [ref=e752] [box=445,2084,428,53]:
+                    - generic [ref=e753] [box=465,2096,177,28]: Technology & Telecom
+                    - generic [ref=e758] [box=806,2102,47,16]: 34,315
+                - link "Banking & Financial Services 12,080" [ref=e762] [cursor=pointer] [box=445,2137,428,53]:
+                  - /url: /report-store?industry=/banking-financial-services-and-insurance-market
+                  - generic [ref=e763] [box=445,2137,428,53]:
+                    - generic [ref=e764] [box=465,2149,212,28]: Banking & Financial Services
+                    - generic [ref=e768] [box=804,2155,49,16]: 12,080
+                - link "Energy & Utilities 12,420" [ref=e772] [cursor=pointer] [box=445,2190,428,53]:
+                  - /url: /report-store?industry=/energy-and-utilities-market
+                  - generic [ref=e773] [box=445,2190,428,53]:
+                    - generic [ref=e774] [box=465,2202,145,28]: Energy & Utilities
+                    - generic [ref=e778] [box=806,2208,47,16]: 12,420
+                - link "Consumer & Retail 23,675" [ref=e782] [cursor=pointer] [box=445,2243,428,53]:
+                  - /url: /report-store?industry=/consumer-products-and-retail-market
+                  - generic [ref=e783] [box=445,2243,428,53]:
+                    - generic [ref=e784] [box=465,2255,154,28]: Consumer & Retail
+                    - generic [ref=e790] [box=804,2261,49,16]: 23,675
+                - link "Manufacturing 23,615" [ref=e794] [cursor=pointer] [box=445,2296,428,53]:
+                  - /url: /report-store?industry=/manufacturing-and-construction-market
+                  - generic [ref=e795] [box=445,2296,428,53]:
+                    - generic [ref=e796] [box=465,2308,129,28]: Manufacturing
+                    - generic [ref=e800] [box=806,2314,47,16]: 23,615
+                - link "Automotive & Transportation 24,410" [ref=e804] [cursor=pointer] [box=445,2349,428,52]:
+                  - /url: /report-store?industry=/automotive-transportation-and-warehousing-market
+                  - generic [ref=e805] [box=445,2349,428,52]:
+                    - generic [ref=e806] [box=465,2361,216,28]: Automotive & Transportation
+                    - generic [ref=e812] [box=806,2367,47,16]: 24,410
+              - generic [ref=e816] [box=890,2030,430,372]:
+                - link "Food & Beverage 13,685" [ref=e817] [cursor=pointer] [box=891,2031,428,53]:
+                  - /url: /report-store?industry=/food-beverage-and-tobacco-market
+                  - generic [ref=e818] [box=891,2031,428,53]:
+                    - generic [ref=e819] [box=911,2043,333,28]: Food & Beverage
+                    - generic [ref=e826] [box=1244,2049,47,16]: 13,685
+                - link "Education & Training 1,750" [ref=e830] [cursor=pointer] [box=891,2084,428,53]:
+                  - /url: /report-store?industry=/education-and-recruitment-market
+                  - generic [ref=e831] [box=891,2084,428,53]:
+                    - generic [ref=e832] [box=911,2096,340,28]: Education & Training
+                    - generic [ref=e837] [box=1251,2102,40,16]: 1,750
+                - link "Defense & Security 5,605" [ref=e841] [cursor=pointer] [box=891,2137,428,53]:
+                  - /url: /report-store?industry=/defense-and-security-market
+                  - generic [ref=e842] [box=891,2137,428,53]:
+                    - generic [ref=e843] [box=911,2149,335,28]: Defense & Security
+                    - generic [ref=e847] [box=1246,2155,45,16]: 5,605
+                - link "Agriculture 12,215" [ref=e851] [cursor=pointer] [box=891,2190,428,53]:
+                  - /url: /report-store?industry=/agriculture-animal-care-market
+                  - generic [ref=e852] [box=891,2190,428,53]:
+                    - generic [ref=e853] [box=911,2202,337,28]: Agriculture
+                    - generic [ref=e864] [box=1248,2208,43,16]: 12,215
+                - link "Media & Entertainment 5,295" [ref=e868] [cursor=pointer] [box=891,2243,428,53]:
+                  - /url: /report-store?industry=/media-and-entertainment-market
+                  - generic [ref=e869] [box=891,2243,428,53]:
+                    - generic [ref=e870] [box=911,2255,337,28]: Media & Entertainment
+                    - generic [ref=e874] [box=1248,2261,43,16]: 5,295
+                - link "Mining & Chemicals 20,920" [ref=e878] [cursor=pointer] [box=891,2296,428,53]:
+                  - /url: /report-store?industry=/metal-mining-and-chemicals-market
+                  - generic [ref=e879] [box=891,2296,428,53]:
+                    - generic [ref=e880] [box=911,2308,329,28]: Mining & Chemicals
+                    - generic [ref=e884] [box=1240,2314,51,16]: 20,920
+                - link "Public Sector 346" [ref=e888] [cursor=pointer] [box=891,2349,428,52]:
+                  - /url: /report-store?industry=/public-sector-and-administration-market
+                  - generic [ref=e889] [box=891,2349,428,52]:
+                    - generic [ref=e890] [box=911,2361,346,28]: Public Sector
+                    - generic [ref=e896] [box=1257,2367,34,16]: "346"
+      - generic [ref=e900] [box=240,2442,960,1976]:
+        - generic [ref=e901] [box=240,2482,960,90]:
+          - paragraph [ref=e903] [box=240,2482,137,18]: Industry Reports
+          - generic [ref=e905] [box=240,2508,701,64]:
+            - heading "Discover by Industry" [level=2] [ref=e906] [box=240,2508,701,33]
+            - paragraph [ref=e907] [box=240,2549,701,23]: Explore comprehensive insights across industries with strategic analysis of market trends and opportunities.
+        - generic [ref=e909] [box=240,2619,960,38]:
+          - button [ref=e910] [cursor=pointer] [box=1164,2624,28,28]
+          - generic [ref=e914] [box=240,2619,960,38]:
+            - button "Food, Beverage and Tobacco (17,005)" [ref=e916] [cursor=pointer] [box=240,2619,276,38]:
+              - generic [ref=e917] [box=257,2628,186,20]: Food, Beverage and Tobacco
+              - generic [ref=e918] [box=447,2628,52,20]: (17,005)
+            - button "Public Sector and Administration (330)" [ref=e920] [cursor=pointer] [box=520,2619,287,38]:
+              - generic [ref=e921] [box=537,2628,213,20]: Public Sector and Administration
+              - generic [ref=e922] [box=753,2628,36,20]: (330)
+            - button "Defense and Security (5,420)" [ref=e924] [cursor=pointer] [box=810,2619,224,38]:
+              - generic [ref=e925] [box=827,2628,139,20]: Defense and Security
+              - generic [ref=e926] [box=970,2628,47,20]: (5,420)
+            - button "Healthcare (44,265)" [ref=e928] [cursor=pointer] [box=1038,2619,163,38]:
+              - generic [ref=e929] [box=1055,2628,70,20]: Healthcare
+              - generic [ref=e930] [box=1129,2628,55,20]: (44,265)
+            - button "Banking Financial Services and Insurance (11,610)" [ref=e932] [cursor=pointer] [box=1205,2619,346,38]:
+              - generic [ref=e933] [box=1222,2628,264,20]: Banking Financial Services and Insurance
+              - generic [ref=e934] [box=1490,2628,44,20]: (11,610)
+            - button "Media and Entertainment (5,040)" [ref=e936] [cursor=pointer] [box=1555,2619,251,38]:
+              - generic [ref=e937] [box=1572,2628,164,20]: Media and Entertainment
+              - generic [ref=e938] [box=1741,2628,49,20]: (5,040)
+            - button "Consumer Products and Retail (23,360)" [ref=e940] [cursor=pointer] [box=1810,2619,290,38]:
+              - generic [ref=e941] [box=1827,2628,196,20]: Consumer Products and Retail
+              - generic [ref=e942] [box=2027,2628,55,20]: (23,360)
+            - button "Manufacturing and Construction (24,355)" [ref=e944] [cursor=pointer] [box=2104,2619,303,38]:
+              - generic [ref=e945] [box=2121,2628,210,20]: Manufacturing and Construction
+              - generic [ref=e946] [box=2335,2628,55,20]: (24,355)
+            - button "Education and Recruitment (1,645)" [ref=e948] [cursor=pointer] [box=2411,2619,258,38]:
+              - generic [ref=e949] [box=2428,2628,177,20]: Education and Recruitment
+              - generic [ref=e950] [box=2609,2628,43,20]: (1,645)
+            - button "Automotive, Transportation and Warehousing (23,790)" [ref=e952] [cursor=pointer] [box=2673,2619,385,38]:
+              - generic [ref=e953] [box=2690,2628,292,20]: Automotive, Transportation and Warehousing
+              - generic [ref=e954] [box=2986,2628,54,20]: (23,790)
+            - button "Metal, Mining and Chemicals (22,090)" [ref=e956] [cursor=pointer] [box=3062,2619,278,38]:
+              - generic [ref=e957] [box=3079,2628,184,20]: Metal, Mining and Chemicals
+              - generic [ref=e958] [box=3266,2628,57,20]: (22,090)
+            - button "Energy and Utilities (12,355)" [ref=e960] [cursor=pointer] [box=3344,2619,214,38]:
+              - generic [ref=e961] [box=3361,2628,125,20]: Energy and Utilities
+              - generic [ref=e962] [box=3490,2628,51,20]: (12,355)
+            - button "Agriculture and Animal Care (11,870)" [ref=e964] [cursor=pointer] [box=3562,2619,265,38]:
+              - generic [ref=e965] [box=3579,2628,181,20]: Agriculture and Animal Care
+              - generic [ref=e966] [box=3764,2628,46,20]: (11,870)
+            - button "Technology and Telecom (34,235)" [ref=e968] [cursor=pointer] [box=3831,2619,253,38]:
+              - generic [ref=e969] [box=3848,2628,160,20]: Technology and Telecom
+              - generic [ref=e970] [box=4012,2628,55,20]: (34,235)
+        - generic [ref=e971] [box=240,2677,960,36]:
+          - generic [ref=e973] [box=240,2680,719,30]:
+            - button [ref=e974] [cursor=pointer] [box=923,2681,28,28]
+            - generic [ref=e978] [box=240,2680,655,30]:
+              - button "All (17005)" [ref=e980] [cursor=pointer] [box=240,2680,85,30]
+              - generic [ref=e981] [box=341,2680,2247,30]:
+                - button "Dairy Products (5510)" [ref=e982] [cursor=pointer] [box=333,2680,146,30]
+                - button "General Food (6050)" [ref=e983] [cursor=pointer] [box=488,2680,143,30]
+                - button "Food Services (910)" [ref=e984] [cursor=pointer] [box=639,2680,135,30]
+                - button "Tobacco Products (455)" [ref=e985] [cursor=pointer] [box=781,2680,161,30]
+                - button "Alcoholic Beverages (910)" [ref=e986] [cursor=pointer] [box=950,2680,168,30]
+                - button "Non Alcoholic Beverages (1945)" [ref=e987] [cursor=pointer] [box=1126,2680,201,30]
+                - button "Food Manufacturing (650)" [ref=e988] [cursor=pointer] [box=1335,2680,171,30]
+                - button "Beverage and Tobacco product Manufacturing (165)" [ref=e989] [cursor=pointer] [box=1514,2680,313,30]
+                - button "Food Services and Drinking Places (25)" [ref=e990] [cursor=pointer] [box=1835,2680,242,30]
+                - button "Food (115)" [ref=e991] [cursor=pointer] [box=2085,2680,81,30]
+                - button "Other Food Services (10)" [ref=e992] [cursor=pointer] [box=2174,2680,163,30]
+                - button "Packaging and Labeling Services (220)" [ref=e993] [cursor=pointer] [box=2345,2680,239,30]
+          - generic [ref=e994] [box=959,2677,165,36]:
+            - button "metrics" [ref=e995] [cursor=pointer] [box=963,2681,72,28]: Metrics
+            - button "compact" [ref=e999] [cursor=pointer] [box=1038,2681,82,28]: Compact
+          - generic [ref=e1002] [box=1136,2678,64,34]:
+            - button "List view" [ref=e1003] [cursor=pointer] [box=1140,2682,26,26]
+            - button "Grid view" [ref=e1005] [cursor=pointer] [box=1170,2682,26,26]
+        - generic [ref=e1011] [box=240,2737,960,1578]:
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 India Iced and Ready-to-Drink Tea Market Size, Share & Forecast, By Product Type, Distribution Channel & Geography, 2025-2032 Asia View Report" [ref=e1012] [cursor=pointer] [box=240,2737,960,121]:
+            - /url: /industry-reports/india-iced-and-ready-to-drink-tea-market
+            - generic [ref=e1013] [box=240,2737,960,121]:
+              - img "thumbnail" [ref=e1015] [box=241,2738,64,119]
+              - generic [ref=e1016] [box=305,2738,894,119]:
+                - generic [ref=e1017] [box=321,2748,862,20]:
+                  - generic [ref=e1018] [box=321,2748,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1019] [box=1113,2750,70,16]: Aug 2026
+                - heading "India Iced and Ready-to-Drink Tea Market Size, Share & Forecast, By Product Type, Distribution Channel & Geography, 2025-2032" [level=3] [ref=e1022] [box=321,2774,620,39]
+                - generic [ref=e1023] [box=321,2819,862,28]:
+                  - generic [ref=e1024] [box=321,2825,45,16]: Asia
+                  - button "View Report" [ref=e1030] [box=1071,2819,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Global Hard-Boiled Sweets Market Size, Share & Forecast, By Product Form, Ingredient & Distribution Channel, 2025-2032 Global View Report" [ref=e1042] [cursor=pointer] [box=240,2870,960,121]:
+            - /url: /industry-reports/global-hard-boiled-sweets-market
+            - generic [ref=e1043] [box=240,2870,960,121]:
+              - img "thumbnail" [ref=e1045] [box=241,2871,64,119]
+              - generic [ref=e1046] [box=305,2871,894,119]:
+                - generic [ref=e1047] [box=321,2881,862,20]:
+                  - generic [ref=e1048] [box=321,2881,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1049] [box=1113,2883,70,16]: Aug 2026
+                - heading "Global Hard-Boiled Sweets Market Size, Share & Forecast, By Product Form, Ingredient & Distribution Channel, 2025-2032" [level=3] [ref=e1052] [box=321,2907,620,39]
+                - generic [ref=e1053] [box=321,2951,862,28]:
+                  - generic [ref=e1054] [box=321,2957,58,16]: Global
+                  - button "View Report" [ref=e1060] [box=1071,2951,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Asia-Pacific Residential Remodeling Market Size, Share & Forecast, By Remodeling Type, Property Type & Geography, 2025-2032 Asia View Report" [ref=e1072] [cursor=pointer] [box=240,3002,960,121]:
+            - /url: /industry-reports/asia-pacific-residential-remodeling-market
+            - generic [ref=e1073] [box=240,3002,960,121]:
+              - img "thumbnail" [ref=e1075] [box=241,3003,64,119]
+              - generic [ref=e1076] [box=305,3003,894,119]:
+                - generic [ref=e1077] [box=321,3013,862,20]:
+                  - generic [ref=e1078] [box=321,3013,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1079] [box=1113,3015,70,16]: Aug 2026
+                - heading "Asia-Pacific Residential Remodeling Market Size, Share & Forecast, By Remodeling Type, Property Type & Geography, 2025-2032" [level=3] [ref=e1082] [box=321,3039,620,39]
+                - generic [ref=e1083] [box=321,3084,862,28]:
+                  - generic [ref=e1084] [box=321,3090,45,16]: Asia
+                  - button "View Report" [ref=e1090] [box=1071,3084,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Latin America Coffee Market Size, Share & Forecast, By Product Type, Price Tier & Distribution Channel, 2025-2032 Global View Report" [ref=e1102] [cursor=pointer] [box=240,3135,960,121]:
+            - /url: /industry-reports/latin-america-coffee-market
+            - generic [ref=e1103] [box=240,3135,960,121]:
+              - img "thumbnail" [ref=e1105] [box=241,3136,64,119]
+              - generic [ref=e1106] [box=305,3136,894,119]:
+                - generic [ref=e1107] [box=321,3146,862,20]:
+                  - generic [ref=e1108] [box=321,3146,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1109] [box=1113,3148,70,16]: Aug 2026
+                - heading "Latin America Coffee Market Size, Share & Forecast, By Product Type, Price Tier & Distribution Channel, 2025-2032" [level=3] [ref=e1112] [box=321,3172,620,39]
+                - generic [ref=e1113] [box=321,3216,862,28]:
+                  - generic [ref=e1114] [box=321,3222,58,16]: Global
+                  - button "View Report" [ref=e1120] [box=1071,3216,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Middle East & Africa Telecom Market Size, Share & Forecast, By Service Type, Customer Type, Technology & Geography, 2025-2032 Global View Report" [ref=e1132] [cursor=pointer] [box=240,3267,960,121]:
+            - /url: /industry-reports/middle-east-africa-telecom-market
+            - generic [ref=e1133] [box=240,3267,960,121]:
+              - img "thumbnail" [ref=e1135] [box=241,3268,64,119]
+              - generic [ref=e1136] [box=305,3268,894,119]:
+                - generic [ref=e1137] [box=321,3278,862,20]:
+                  - generic [ref=e1138] [box=321,3278,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1139] [box=1113,3280,70,16]: Aug 2026
+                - heading "Middle East & Africa Telecom Market Size, Share & Forecast, By Service Type, Customer Type, Technology & Geography, 2025-2032" [level=3] [ref=e1142] [box=321,3304,620,39]
+                - generic [ref=e1143] [box=321,3349,862,28]:
+                  - generic [ref=e1144] [box=321,3355,58,16]: Global
+                  - button "View Report" [ref=e1150] [box=1071,3349,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Indonesia LED Lighting Market Size, Share & Forecast, By Product Type, Application & Distribution Channel, 2025-2032 Asia View Report" [ref=e1162] [cursor=pointer] [box=240,3400,960,121]:
+            - /url: /industry-reports/indonesia-led-lighting-market
+            - generic [ref=e1163] [box=240,3400,960,121]:
+              - img "thumbnail" [ref=e1165] [box=241,3401,64,119]
+              - generic [ref=e1166] [box=305,3401,894,119]:
+                - generic [ref=e1167] [box=321,3411,862,20]:
+                  - generic [ref=e1168] [box=321,3411,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1169] [box=1113,3413,70,16]: Aug 2026
+                - heading "Indonesia LED Lighting Market Size, Share & Forecast, By Product Type, Application & Distribution Channel, 2025-2032" [level=3] [ref=e1172] [box=321,3437,620,39]
+                - generic [ref=e1173] [box=321,3481,862,28]:
+                  - generic [ref=e1174] [box=321,3487,45,16]: Asia
+                  - button "View Report" [ref=e1180] [box=1071,3481,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Indonesia Medical Devices Market Size, Share & Forecast, By Product Type, Care Setting & End User, 2025-2032 Asia View Report" [ref=e1192] [cursor=pointer] [box=240,3532,960,121]:
+            - /url: /industry-reports/indonesia-medical-devices-market
+            - generic [ref=e1193] [box=240,3532,960,121]:
+              - img "thumbnail" [ref=e1195] [box=241,3533,64,119]
+              - generic [ref=e1196] [box=305,3533,894,119]:
+                - generic [ref=e1197] [box=321,3543,862,20]:
+                  - generic [ref=e1198] [box=321,3543,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1199] [box=1113,3545,70,16]: Aug 2026
+                - heading "Indonesia Medical Devices Market Size, Share & Forecast, By Product Type, Care Setting & End User, 2025-2032" [level=3] [ref=e1202] [box=321,3569,620,39]
+                - generic [ref=e1203] [box=321,3614,862,28]:
+                  - generic [ref=e1204] [box=321,3620,45,16]: Asia
+                  - button "View Report" [ref=e1210] [box=1071,3614,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Nigeria Infrastructure Market Size, Share & Forecast, By Project Type, Asset Type & End-Use Sector, 2025-2032 Africa View Report" [ref=e1222] [cursor=pointer] [box=240,3665,960,121]:
+            - /url: /industry-reports/nigeria-infrastructure-market
+            - generic [ref=e1223] [box=240,3665,960,121]:
+              - img "thumbnail" [ref=e1225] [box=241,3666,64,119]
+              - generic [ref=e1226] [box=305,3666,894,119]:
+                - generic [ref=e1227] [box=321,3676,862,20]:
+                  - generic [ref=e1228] [box=321,3676,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1229] [box=1113,3678,70,16]: Aug 2026
+                - heading "Nigeria Infrastructure Market Size, Share & Forecast, By Project Type, Asset Type & End-Use Sector, 2025-2032" [level=3] [ref=e1232] [box=321,3702,620,39]
+                - generic [ref=e1233] [box=321,3746,862,28]:
+                  - generic [ref=e1234] [box=321,3752,55,16]: Africa
+                  - button "View Report" [ref=e1240] [box=1071,3746,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Italy Logistics Real Estate Market Size, Share & Forecast, By Asset Type, Buyer Type & Transaction Type, 2025-2032 Europe View Report" [ref=e1252] [cursor=pointer] [box=240,3797,960,121]:
+            - /url: /industry-reports/italy-logistics-real-estate-market
+            - generic [ref=e1253] [box=240,3797,960,121]:
+              - img "thumbnail" [ref=e1255] [box=241,3798,64,119]
+              - generic [ref=e1256] [box=305,3798,894,119]:
+                - generic [ref=e1257] [box=321,3808,862,20]:
+                  - generic [ref=e1258] [box=321,3808,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1259] [box=1113,3810,70,16]: Aug 2026
+                - heading "Italy Logistics Real Estate Market Size, Share & Forecast, By Asset Type, Buyer Type & Transaction Type, 2025-2032" [level=3] [ref=e1262] [box=321,3834,620,39]
+                - generic [ref=e1263] [box=321,3879,862,28]:
+                  - generic [ref=e1264] [box=321,3885,61,16]: Europe
+                  - button "View Report" [ref=e1270] [box=1071,3879,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Saudi Arabia Breakfast Cereal Market Size, Share & Forecast, By Product Type, Price Tier & Distribution Channel, 2025-2032 Middle East View Report" [ref=e1282] [cursor=pointer] [box=240,3930,960,121]:
+            - /url: /industry-reports/saudi-arabia-breakfast-cereal-market
+            - generic [ref=e1283] [box=240,3930,960,121]:
+              - img "thumbnail" [ref=e1285] [box=241,3931,64,119]
+              - generic [ref=e1286] [box=305,3931,894,119]:
+                - generic [ref=e1287] [box=321,3941,862,20]:
+                  - generic [ref=e1288] [box=321,3941,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1289] [box=1113,3943,70,16]: Aug 2026
+                - heading "Saudi Arabia Breakfast Cereal Market Size, Share & Forecast, By Product Type, Price Tier & Distribution Channel, 2025-2032" [level=3] [ref=e1292] [box=321,3967,620,39]
+                - generic [ref=e1293] [box=321,4011,862,28]:
+                  - generic [ref=e1294] [box=321,4017,86,16]: Middle East
+                  - button "View Report" [ref=e1300] [box=1071,4011,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 UAE Fruits and Vegetables Market Size, Share & Forecast, By Product Type, Distribution Channel & Geography, 2025-2032 Middle East View Report" [ref=e1312] [cursor=pointer] [box=240,4062,960,121]:
+            - /url: /industry-reports/uae-fruits-and-vegetables-market
+            - generic [ref=e1313] [box=240,4062,960,121]:
+              - img "thumbnail" [ref=e1315] [box=241,4063,64,119]
+              - generic [ref=e1316] [box=305,4063,894,119]:
+                - generic [ref=e1317] [box=321,4073,862,20]:
+                  - generic [ref=e1318] [box=321,4073,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1319] [box=1113,4075,70,16]: Aug 2026
+                - heading "UAE Fruits and Vegetables Market Size, Share & Forecast, By Product Type, Distribution Channel & Geography, 2025-2032" [level=3] [ref=e1322] [box=321,4099,620,39]
+                - generic [ref=e1323] [box=321,4144,862,28]:
+                  - generic [ref=e1324] [box=321,4150,86,16]: Middle East
+                  - button "View Report" [ref=e1330] [box=1071,4144,112,28]
+          - link "thumbnail Food, Beverage and Tobacco Aug 2026 Japan Microgrid Market Size, Share & Opportunity Analysis, By Energy Source, Application & End User, 2025-2032 Asia View Report" [ref=e1342] [cursor=pointer] [box=240,4195,960,121]:
+            - /url: /industry-reports/japan-microgrid-market-duplicate
+            - generic [ref=e1343] [box=240,4195,960,121]:
+              - img "thumbnail" [ref=e1345] [box=241,4196,64,119]
+              - generic [ref=e1346] [box=305,4196,894,119]:
+                - generic [ref=e1347] [box=321,4206,862,20]:
+                  - generic [ref=e1348] [box=321,4206,210,20]: Food, Beverage and Tobacco
+                  - generic [ref=e1349] [box=1113,4208,70,16]: Aug 2026
+                - heading "Japan Microgrid Market Size, Share & Opportunity Analysis, By Energy Source, Application & End User, 2025-2032" [level=3] [ref=e1352] [box=321,4232,620,39]
+                - generic [ref=e1353] [box=321,4276,862,28]:
+                  - generic [ref=e1354] [box=321,4282,45,16]: Asia
+                  - button "View Report" [ref=e1360] [box=1071,4276,112,28]
+        - link "Explore all Food, Beverage and Tobacco Reports" [ref=e1373] [cursor=pointer] [box=553,4355,333,22]:
+          - /url: /report-store?industry=food-beverage-and-tobacco-market
+      - generic [ref=e1385] [box=0,4457,1440,5154]:
+        - generic [ref=e1387] [box=240,4521,960,460]:
+          - generic [ref=e1388] [box=240,4521,960,90]:
+            - paragraph [ref=e1390] [box=240,4521,122,18]: Expert Curated
+            - generic [ref=e1392] [box=240,4547,290,64]:
+              - heading "Analyst Picks" [level=2] [ref=e1393] [box=240,4547,290,33]
+              - paragraph [ref=e1394] [box=240,4588,290,23]: Hand-picked by our senior research analysts
+          - generic [ref=e1396] [box=240,4659,960,322]:
+            - button [ref=e1397] [cursor=pointer] [box=1156,4802,36,36]
+            - generic [ref=e1401] [box=240,4675,960,290]:
+              - article [ref=e1403] [cursor=pointer] [box=240,4675,320,290]:
+                - link "HS Harsh Saxena Principal · Consulting Expert Pick India Digital Watch Market Consumer Products and Retail India Digital Watch Market Asia · December 2025" [ref=e1404] [box=257,4692,286,256]:
+                  - /url: india-dgital-watch-markets
+                  - generic [ref=e1405] [box=257,4692,286,256]:
+                    - generic [ref=e1406] [box=257,4692,286,32]:
+                      - generic [ref=e1407] [box=257,4692,166,32]:
+                        - generic [ref=e1408] [box=257,4692,32,32]: HS
+                        - generic [ref=e1409] [box=301,4692,116,32]:
+                          - generic [ref=e1410] [box=301,4692,78,16]: Harsh Saxena
+                          - generic [ref=e1411] [box=301,4708,116,16]: Principal · Consulting
+                      - generic [ref=e1412] [box=427,4696,116,25]: Expert Pick
+                    - generic [ref=e1417] [box=257,4734,286,214]:
+                      - blockquote [ref=e1418] [box=257,4734,286,60]: "\"The 'India Digital Watch Market' report provided by KRR31 offers invaluable insights that are critic...\""
+                      - generic [ref=e1419] [box=257,4865,286,83]:
+                        - img "India Digital Watch Market" [ref=e1420] [box=258,4866,80,81]
+                        - generic [ref=e1421] [box=350,4866,192,81]:
+                          - generic [ref=e1422] [box=358,4874,176,19]: Consumer Products and Retail
+                          - paragraph [ref=e1423] [box=358,4897,176,20]: India Digital Watch Market
+                          - generic [ref=e1424] [box=358,4923,176,16]:
+                            - generic [ref=e1425] [box=358,4923,39,16]: Asia
+                            - generic [ref=e1429] [box=403,4923,2,16]: ·
+                            - generic [ref=e1430] [box=412,4923,107,16]: December 2025
+              - article [ref=e1434] [cursor=pointer] [box=576,4675,320,290]:
+                - link "SV Sunaiyna Varma Consultant · Consulting Expert Pick India Canned Market (2023-2030) Food, Beverage and Tobacco India Canned Market (2023-2030) Asia · March 2026" [ref=e1435] [box=593,4692,286,256]:
+                  - /url: india-canned-market
+                  - generic [ref=e1436] [box=593,4692,286,256]:
+                    - generic [ref=e1437] [box=593,4692,286,48]:
+                      - generic [ref=e1438] [box=593,4692,166,48]:
+                        - generic [ref=e1439] [box=593,4700,32,32]: SV
+                        - generic [ref=e1440] [box=637,4692,122,48]:
+                          - generic [ref=e1441] [box=637,4692,93,16]: Sunaiyna Varma
+                          - generic [ref=e1442] [box=637,4708,122,32]: Consultant · Consulting
+                      - generic [ref=e1443] [box=763,4704,116,25]: Expert Pick
+                    - generic [ref=e1448] [box=593,4750,286,198]:
+                      - blockquote [ref=e1449] [box=593,4750,286,60]: "\"The 'India Canned Market (2023-2030)' report provides invaluable insights into emerging trends and c...\""
+                      - generic [ref=e1450] [box=593,4845,286,103]:
+                        - img "India Canned Market (2023-2030)" [ref=e1451] [box=594,4846,80,101]
+                        - generic [ref=e1452] [box=686,4846,192,101]:
+                          - generic [ref=e1453] [box=694,4854,176,19]: Food, Beverage and Tobacco
+                          - paragraph [ref=e1454] [box=694,4877,176,40]: India Canned Market (2023-2030)
+                          - generic [ref=e1455] [box=694,4923,176,16]:
+                            - generic [ref=e1456] [box=694,4923,39,16]: Asia
+                            - generic [ref=e1460] [box=739,4923,2,16]: ·
+                            - generic [ref=e1461] [box=748,4923,83,16]: March 2026
+              - article [ref=e1465] [cursor=pointer] [box=912,4675,320,290]:
+                - link "AS Ayesha Siddiqui Engagement Manager · Consulting Expert Pick India Thermal Power Market (2023-2030) Energy and Utilities India Thermal Power Market (2023-2030) Asia · November 2025" [ref=e1466] [box=929,4692,286,256]:
+                  - /url: india-thermal-power-market
+                  - generic [ref=e1467] [box=929,4692,286,256]:
+                    - generic [ref=e1468] [box=929,4692,286,48]:
+                      - generic [ref=e1469] [box=929,4692,166,48]:
+                        - generic [ref=e1470] [box=929,4700,32,32]: AS
+                        - generic [ref=e1471] [box=973,4692,122,48]:
+                          - generic [ref=e1472] [box=973,4692,92,16]: Ayesha Siddiqui
+                          - generic [ref=e1473] [box=973,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e1474] [box=1099,4704,116,25]: Expert Pick
+                    - generic [ref=e1479] [box=929,4750,286,198]:
+                      - blockquote [ref=e1480] [box=929,4750,286,60]: "\"The 'India Thermal Power Market (2023-2030)' report provides invaluable insights into emerging trend...\""
+                      - generic [ref=e1481] [box=929,4845,286,103]:
+                        - img "India Thermal Power Market (2023-2030)" [ref=e1482] [box=930,4846,80,101]
+                        - generic [ref=e1483] [box=1022,4846,192,101]:
+                          - generic [ref=e1484] [box=1030,4854,176,19]: Energy and Utilities
+                          - paragraph [ref=e1485] [box=1030,4877,176,40]: India Thermal Power Market (2023-2030)
+                          - generic [ref=e1486] [box=1030,4923,176,16]:
+                            - generic [ref=e1487] [box=1030,4923,39,16]: Asia
+                            - generic [ref=e1491] [box=1075,4923,2,16]: ·
+                            - generic [ref=e1492] [box=1084,4923,106,16]: November 2025
+              - article [ref=e1496] [cursor=pointer] [box=1248,4675,320,290]:
+                - link "AS Ayesha Siddiqui Engagement Manager · Consulting Expert Pick India Kiwi Fruit Market (2023-2029) Agriculture and Animal Care India Kiwi Fruit Market (2023-2029) Asia · April 2026" [ref=e1497] [box=1265,4692,286,256]:
+                  - /url: india-kiwi-fruit-market
+                  - generic [ref=e1498] [box=1265,4692,286,256]:
+                    - generic [ref=e1499] [box=1265,4692,286,48]:
+                      - generic [ref=e1500] [box=1265,4692,166,48]:
+                        - generic [ref=e1501] [box=1265,4700,32,32]: AS
+                        - generic [ref=e1502] [box=1309,4692,122,48]:
+                          - generic [ref=e1503] [box=1309,4692,92,16]: Ayesha Siddiqui
+                          - generic [ref=e1504] [box=1309,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e1505] [box=1435,4704,116,25]: Expert Pick
+                    - generic [ref=e1510] [box=1265,4750,286,198]:
+                      - blockquote [ref=e1511] [box=1265,4750,286,60]: "\"The 'India Kiwi Fruit Market (2023-2029)' report provides invaluable insights into emerging trends a...\""
+                      - generic [ref=e1512] [box=1265,4845,286,103]:
+                        - img "India Kiwi Fruit Market (2023-2029)" [ref=e1513] [box=1266,4846,80,101]
+                        - generic [ref=e1514] [box=1358,4846,192,101]:
+                          - generic [ref=e1515] [box=1366,4854,176,19]: Agriculture and Animal Care
+                          - paragraph [ref=e1516] [box=1366,4877,176,40]: India Kiwi Fruit Market (2023-2029)
+                          - generic [ref=e1517] [box=1366,4923,176,16]:
+                            - generic [ref=e1518] [box=1366,4923,39,16]: Asia
+                            - generic [ref=e1522] [box=1411,4923,2,16]: ·
+                            - generic [ref=e1523] [box=1420,4923,74,16]: April 2026
+              - article [ref=e1527] [cursor=pointer] [box=1584,4675,320,290]:
+                - link "RV Rishabh Verma Senior Research Analyst · Consulting Expert Pick KSA Fitness Services Market (2022-2027) Healthcare KSA Fitness Services Market (2022-2027) Middle East · December 2025" [ref=e1528] [box=1601,4692,286,256]:
+                  - /url: ksa-fitness-services-markets
+                  - generic [ref=e1529] [box=1601,4692,286,256]:
+                    - generic [ref=e1530] [box=1601,4692,286,48]:
+                      - generic [ref=e1531] [box=1601,4692,166,48]:
+                        - generic [ref=e1532] [box=1601,4700,32,32]: RV
+                        - generic [ref=e1533] [box=1645,4692,122,48]:
+                          - generic [ref=e1534] [box=1645,4692,86,16]: Rishabh Verma
+                          - generic [ref=e1535] [box=1645,4708,122,32]: Senior Research Analyst · Consulting
+                      - generic [ref=e1536] [box=1771,4704,116,25]: Expert Pick
+                    - generic [ref=e1541] [box=1601,4750,286,198]:
+                      - blockquote [ref=e1542] [box=1601,4750,286,60]: "\"The 'KSA Fitness Services Market (2022-2027)' report delivers invaluable insights into emerging tren...\""
+                      - generic [ref=e1543] [box=1601,4823,286,125]:
+                        - img "KSA Fitness Services Market (2022-2027)" [ref=e1544] [box=1602,4824,80,123]
+                        - generic [ref=e1545] [box=1694,4824,192,123]:
+                          - generic [ref=e1546] [box=1702,4832,176,19]: Healthcare
+                          - paragraph [ref=e1547] [box=1702,4855,176,40]: KSA Fitness Services Market (2022-2027)
+                          - generic [ref=e1548] [box=1702,4901,176,38]:
+                            - generic [ref=e1549] [box=1702,4901,80,16]: Middle East
+                            - generic [ref=e1553] [box=1788,4901,2,16]: ·
+                            - generic [ref=e1554] [box=1702,4923,107,16]: December 2025
+              - article [ref=e1558] [cursor=pointer] [box=1920,4675,320,290]:
+                - link "SV Sunaiyna Varma Consultant · Consulting Expert Pick Al Fujairah Taxi Service Market (2022-2028) Automotive, Transportation and Warehousing Al Fujairah Taxi Service Market (2022-2028) Middle East · November 2025" [ref=e1559] [box=1937,4692,286,256]:
+                  - /url: al-fujairah-taxi-service-markets
+                  - generic [ref=e1560] [box=1937,4692,286,256]:
+                    - generic [ref=e1561] [box=1937,4692,286,48]:
+                      - generic [ref=e1562] [box=1937,4692,166,48]:
+                        - generic [ref=e1563] [box=1937,4700,32,32]: SV
+                        - generic [ref=e1564] [box=1981,4692,122,48]:
+                          - generic [ref=e1565] [box=1981,4692,93,16]: Sunaiyna Varma
+                          - generic [ref=e1566] [box=1981,4708,122,32]: Consultant · Consulting
+                      - generic [ref=e1567] [box=2107,4704,116,25]: Expert Pick
+                    - generic [ref=e1572] [box=1937,4750,286,198]:
+                      - blockquote [ref=e1573] [box=1937,4750,286,60]: "\"The 'Al Fujairah Taxi Service Market (2022-2028)' report offers a comprehensive analysis that is cru...\""
+                      - generic [ref=e1574] [box=1937,4823,286,125]:
+                        - img "Al Fujairah Taxi Service Market (2022-2028)" [ref=e1575] [box=1938,4824,80,123]
+                        - generic [ref=e1576] [box=2030,4824,192,123]:
+                          - generic [ref=e1577] [box=2038,4832,176,19]: Automotive, Transportation and Warehousing
+                          - paragraph [ref=e1578] [box=2038,4855,176,40]: Al Fujairah Taxi Service Market (2022-2028)
+                          - generic [ref=e1579] [box=2038,4901,176,38]:
+                            - generic [ref=e1580] [box=2038,4901,80,16]: Middle East
+                            - generic [ref=e1584] [box=2124,4901,2,16]: ·
+                            - generic [ref=e1585] [box=2038,4923,106,16]: November 2025
+              - article [ref=e1589] [cursor=pointer] [box=2256,4675,320,290]:
+                - link "VG Varnika Goel Project Lead · Consulting Expert Pick India Herbal Shampoo Market (2023-2029) Consumer Products and Retail India Herbal Shampoo Market (2023-2029) Asia · March 2026" [ref=e1590] [box=2273,4692,286,256]:
+                  - /url: india-herbal-shampoo-market
+                  - generic [ref=e1591] [box=2273,4692,286,256]:
+                    - generic [ref=e1592] [box=2273,4692,286,48]:
+                      - generic [ref=e1593] [box=2273,4692,166,48]:
+                        - generic [ref=e1594] [box=2273,4700,32,32]: VG
+                        - generic [ref=e1595] [box=2317,4692,122,48]:
+                          - generic [ref=e1596] [box=2317,4692,73,16]: Varnika Goel
+                          - generic [ref=e1597] [box=2317,4708,122,32]: Project Lead · Consulting
+                      - generic [ref=e1598] [box=2443,4704,116,25]: Expert Pick
+                    - generic [ref=e1603] [box=2273,4750,286,198]:
+                      - blockquote [ref=e1604] [box=2273,4750,286,60]: "\"The 'India Herbal Shampoo Market (2023-2029)' report provided invaluable insights into emerging cons...\""
+                      - generic [ref=e1605] [box=2273,4845,286,103]:
+                        - img "India Herbal Shampoo Market (2023-2029)" [ref=e1606] [box=2274,4846,80,101]
+                        - generic [ref=e1607] [box=2366,4846,192,101]:
+                          - generic [ref=e1608] [box=2374,4854,176,19]: Consumer Products and Retail
+                          - paragraph [ref=e1609] [box=2374,4877,176,40]: India Herbal Shampoo Market (2023-2029)
+                          - generic [ref=e1610] [box=2374,4923,176,16]:
+                            - generic [ref=e1611] [box=2374,4923,39,16]: Asia
+                            - generic [ref=e1615] [box=2419,4923,2,16]: ·
+                            - generic [ref=e1616] [box=2428,4923,83,16]: March 2026
+              - article [ref=e1620] [cursor=pointer] [box=2592,4675,320,290]:
+                - link "AS Aakash Singh Engagement Manager · Consulting Expert Pick Global Anesthesia Market (2023-2029) Healthcare Global Anesthesia Market (2023-2029) Global · April 2026" [ref=e1621] [box=2609,4692,286,256]:
+                  - /url: global-anesthesia-market
+                  - generic [ref=e1622] [box=2609,4692,286,256]:
+                    - generic [ref=e1623] [box=2609,4692,286,48]:
+                      - generic [ref=e1624] [box=2609,4692,166,48]:
+                        - generic [ref=e1625] [box=2609,4700,32,32]: AS
+                        - generic [ref=e1626] [box=2653,4692,122,48]:
+                          - generic [ref=e1627] [box=2653,4692,77,16]: Aakash Singh
+                          - generic [ref=e1628] [box=2653,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e1629] [box=2779,4704,116,25]: Expert Pick
+                    - generic [ref=e1634] [box=2609,4750,286,198]:
+                      - blockquote [ref=e1635] [box=2609,4750,286,60]: "\"The 'Global Anesthesia Market (2023-2029)' report provides invaluable insights that are critical for...\""
+                      - generic [ref=e1636] [box=2609,4845,286,103]:
+                        - img "Global Anesthesia Market (2023-2029)" [ref=e1637] [box=2610,4846,80,101]
+                        - generic [ref=e1638] [box=2702,4846,192,101]:
+                          - generic [ref=e1639] [box=2710,4854,176,19]: Healthcare
+                          - paragraph [ref=e1640] [box=2710,4877,176,40]: Global Anesthesia Market (2023-2029)
+                          - generic [ref=e1641] [box=2710,4923,176,16]:
+                            - generic [ref=e1642] [box=2710,4923,52,16]: Global
+                            - generic [ref=e1646] [box=2768,4923,2,16]: ·
+                            - generic [ref=e1647] [box=2776,4923,74,16]: April 2026
+              - article [ref=e1651] [cursor=pointer] [box=2928,4675,320,290]:
+                - link "ST Shashank Thakur Project Lead · Consulting Expert Pick Global Affordable Robotics Market (2023-2029) Technology and Telecom Global Affordable Robotics Market (2023-2029) Global · March 2026" [ref=e1652] [box=2945,4692,286,256]:
+                  - /url: global-affordable-robotics-market
+                  - generic [ref=e1653] [box=2945,4692,286,256]:
+                    - generic [ref=e1654] [box=2945,4692,286,48]:
+                      - generic [ref=e1655] [box=2945,4692,166,48]:
+                        - generic [ref=e1656] [box=2945,4700,32,32]: ST
+                        - generic [ref=e1657] [box=2989,4692,122,48]:
+                          - generic [ref=e1658] [box=2989,4692,98,16]: Shashank Thakur
+                          - generic [ref=e1659] [box=2989,4708,122,32]: Project Lead · Consulting
+                      - generic [ref=e1660] [box=3115,4704,116,25]: Expert Pick
+                    - generic [ref=e1665] [box=2945,4750,286,198]:
+                      - blockquote [ref=e1666] [box=2945,4750,286,60]: "\"The 'Global Affordable Robotics Market (2023-2029)' report provided us with invaluable insights into...\""
+                      - generic [ref=e1667] [box=2945,4845,286,103]:
+                        - img "Global Affordable Robotics Market (2023-2029)" [ref=e1668] [box=2946,4846,80,101]
+                        - generic [ref=e1669] [box=3038,4846,192,101]:
+                          - generic [ref=e1670] [box=3046,4854,176,19]: Technology and Telecom
+                          - paragraph [ref=e1671] [box=3046,4877,176,40]: Global Affordable Robotics Market (2023-2029)
+                          - generic [ref=e1672] [box=3046,4923,176,16]:
+                            - generic [ref=e1673] [box=3046,4923,52,16]: Global
+                            - generic [ref=e1677] [box=3104,4923,2,16]: ·
+                            - generic [ref=e1678] [box=3112,4923,83,16]: March 2026
+              - article [ref=e1682] [cursor=pointer] [box=3264,4675,320,290]:
+                - link "ST Shashank Thakur Project Lead · Consulting Expert Pick UAE IT Services Market 2022-2027 Technology and Telecom UAE IT Services Market 2022-2027 Middle East · November 2025" [ref=e1683] [box=3281,4692,286,256]:
+                  - /url: uae-it-services-markets
+                  - generic [ref=e1684] [box=3281,4692,286,256]:
+                    - generic [ref=e1685] [box=3281,4692,286,48]:
+                      - generic [ref=e1686] [box=3281,4692,166,48]:
+                        - generic [ref=e1687] [box=3281,4700,32,32]: ST
+                        - generic [ref=e1688] [box=3325,4692,122,48]:
+                          - generic [ref=e1689] [box=3325,4692,98,16]: Shashank Thakur
+                          - generic [ref=e1690] [box=3325,4708,122,32]: Project Lead · Consulting
+                      - generic [ref=e1691] [box=3451,4704,116,25]: Expert Pick
+                    - generic [ref=e1696] [box=3281,4750,286,198]:
+                      - blockquote [ref=e1697] [box=3281,4750,286,60]: "\"The 'UAE IT Services Market 2022-2027' report provides invaluable insights into emerging trends and ...\""
+                      - generic [ref=e1698] [box=3281,4823,286,125]:
+                        - img "UAE IT Services Market 2022-2027" [ref=e1699] [box=3282,4824,80,123]
+                        - generic [ref=e1700] [box=3374,4824,192,123]:
+                          - generic [ref=e1701] [box=3382,4832,176,19]: Technology and Telecom
+                          - paragraph [ref=e1702] [box=3382,4855,176,40]: UAE IT Services Market 2022-2027
+                          - generic [ref=e1703] [box=3382,4901,176,38]:
+                            - generic [ref=e1704] [box=3382,4901,80,16]: Middle East
+                            - generic [ref=e1708] [box=3468,4901,2,16]: ·
+                            - generic [ref=e1709] [box=3382,4923,106,16]: November 2025
+              - article [ref=e1713] [cursor=pointer] [box=3600,4675,320,290]:
+                - link "ST Shashank Thakur Project Lead · Consulting Expert Pick India Gelatin Market (2023-2030) Food, Beverage and Tobacco India Gelatin Market (2023-2030) Asia · December 2025" [ref=e1714] [box=3617,4692,286,256]:
+                  - /url: india-gelatin-markets
+                  - generic [ref=e1715] [box=3617,4692,286,256]:
+                    - generic [ref=e1716] [box=3617,4692,286,48]:
+                      - generic [ref=e1717] [box=3617,4692,166,48]:
+                        - generic [ref=e1718] [box=3617,4700,32,32]: ST
+                        - generic [ref=e1719] [box=3661,4692,122,48]:
+                          - generic [ref=e1720] [box=3661,4692,98,16]: Shashank Thakur
+                          - generic [ref=e1721] [box=3661,4708,122,32]: Project Lead · Consulting
+                      - generic [ref=e1722] [box=3787,4704,116,25]: Expert Pick
+                    - generic [ref=e1727] [box=3617,4750,286,198]:
+                      - blockquote [ref=e1728] [box=3617,4750,286,60]: "\"The 'India Gelatin Market (2023-2030)' report provides invaluable insights into emerging trends and ...\""
+                      - generic [ref=e1729] [box=3617,4845,286,103]:
+                        - img "India Gelatin Market (2023-2030)" [ref=e1730] [box=3618,4846,80,101]
+                        - generic [ref=e1731] [box=3710,4846,192,101]:
+                          - generic [ref=e1732] [box=3718,4854,176,19]: Food, Beverage and Tobacco
+                          - paragraph [ref=e1733] [box=3718,4877,176,40]: India Gelatin Market (2023-2030)
+                          - generic [ref=e1734] [box=3718,4923,176,16]:
+                            - generic [ref=e1735] [box=3718,4923,39,16]: Asia
+                            - generic [ref=e1739] [box=3763,4923,2,16]: ·
+                            - generic [ref=e1740] [box=3772,4923,107,16]: December 2025
+              - article [ref=e1744] [cursor=pointer] [box=3936,4675,320,290]:
+                - link "HS Harsh Saxena Principal · Consulting Expert Pick UAE Used Car Market (2023-2028) Automotive, Transportation and Warehousing UAE Used Car Market (2023-2028) Middle East · January 2026" [ref=e1745] [box=3953,4692,286,256]:
+                  - /url: uae-used-car-markets
+                  - generic [ref=e1746] [box=3953,4692,286,256]:
+                    - generic [ref=e1747] [box=3953,4692,286,32]:
+                      - generic [ref=e1748] [box=3953,4692,166,32]:
+                        - generic [ref=e1749] [box=3953,4692,32,32]: HS
+                        - generic [ref=e1750] [box=3997,4692,116,32]:
+                          - generic [ref=e1751] [box=3997,4692,78,16]: Harsh Saxena
+                          - generic [ref=e1752] [box=3997,4708,116,16]: Principal · Consulting
+                      - generic [ref=e1753] [box=4123,4696,116,25]: Expert Pick
+                    - generic [ref=e1758] [box=3953,4734,286,214]:
+                      - blockquote [ref=e1759] [box=3953,4734,286,60]: "\"The 'UAE Used Car Market (2023-2028)' report offers invaluable insights into emerging trends and con...\""
+                      - generic [ref=e1760] [box=3953,4845,286,103]:
+                        - img "UAE Used Car Market (2023-2028)" [ref=e1761] [box=3954,4846,80,101]
+                        - generic [ref=e1762] [box=4046,4846,192,101]:
+                          - generic [ref=e1763] [box=4054,4854,176,12]: Automotive, Transportation and Warehousing
+                          - paragraph [ref=e1764] [box=4054,4870,176,25]: UAE Used Car Market (2023-2028)
+                          - generic [ref=e1765] [box=4054,4901,176,38]:
+                            - generic [ref=e1766] [box=4054,4901,80,16]: Middle East
+                            - generic [ref=e1770] [box=4140,4901,2,16]: ·
+                            - generic [ref=e1771] [box=4054,4923,92,16]: January 2026
+              - article [ref=e1775] [cursor=pointer] [box=4272,4675,320,290]:
+                - link "RV Rishabh Verma Senior Research Analyst · Consulting Expert Pick India Fintech Industry (2022-2029) Banking Financial Services and Insurance India Fintech Industry (2022-2029) Asia · November 2025" [ref=e1776] [box=4289,4692,286,256]:
+                  - /url: india-fintech-industries
+                  - generic [ref=e1777] [box=4289,4692,286,256]:
+                    - generic [ref=e1778] [box=4289,4692,286,48]:
+                      - generic [ref=e1779] [box=4289,4692,166,48]:
+                        - generic [ref=e1780] [box=4289,4700,32,32]: RV
+                        - generic [ref=e1781] [box=4333,4692,122,48]:
+                          - generic [ref=e1782] [box=4333,4692,86,16]: Rishabh Verma
+                          - generic [ref=e1783] [box=4333,4708,122,32]: Senior Research Analyst · Consulting
+                      - generic [ref=e1784] [box=4459,4704,116,25]: Expert Pick
+                    - generic [ref=e1789] [box=4289,4750,286,198]:
+                      - blockquote [ref=e1790] [box=4289,4750,286,60]: "\"The 'India Fintech Industry (2022-2029)' report is an indispensable resource that provides deep insi...\""
+                      - generic [ref=e1791] [box=4289,4845,286,103]:
+                        - img "India Fintech Industry (2022-2029)" [ref=e1792] [box=4290,4846,80,101]
+                        - generic [ref=e1793] [box=4382,4846,192,101]:
+                          - generic [ref=e1794] [box=4390,4854,176,19]: Banking Financial Services and Insurance
+                          - paragraph [ref=e1795] [box=4390,4877,176,40]: India Fintech Industry (2022-2029)
+                          - generic [ref=e1796] [box=4390,4923,176,16]:
+                            - generic [ref=e1797] [box=4390,4923,39,16]: Asia
+                            - generic [ref=e1801] [box=4435,4923,2,16]: ·
+                            - generic [ref=e1802] [box=4444,4923,106,16]: November 2025
+              - article [ref=e1806] [cursor=pointer] [box=4608,4675,320,290]:
+                - link "SV Sunaiyna Varma Consultant · Consulting Expert Pick India Premium and Luxury Cars Market (2023-2029) Automotive, Transportation and Warehousing India Premium and Luxury Cars Market (2023-2029) Asia · November 2025" [ref=e1807] [box=4625,4692,286,256]:
+                  - /url: india-premium-and-luxury-cars-market
+                  - generic [ref=e1808] [box=4625,4692,286,256]:
+                    - generic [ref=e1809] [box=4625,4692,286,48]:
+                      - generic [ref=e1810] [box=4625,4692,166,48]:
+                        - generic [ref=e1811] [box=4625,4700,32,32]: SV
+                        - generic [ref=e1812] [box=4669,4692,122,48]:
+                          - generic [ref=e1813] [box=4669,4692,93,16]: Sunaiyna Varma
+                          - generic [ref=e1814] [box=4669,4708,122,32]: Consultant · Consulting
+                      - generic [ref=e1815] [box=4795,4704,116,25]: Expert Pick
+                    - generic [ref=e1820] [box=4625,4750,286,198]:
+                      - blockquote [ref=e1821] [box=4625,4750,286,60]: "\"The 'India Premium and Luxury Cars Market (2023-2029)' report offers invaluable insights into shifti...\""
+                      - generic [ref=e1822] [box=4625,4845,286,103]:
+                        - img "India Premium and Luxury Cars Market (2023-2029)" [ref=e1823] [box=4626,4846,80,101]
+                        - generic [ref=e1824] [box=4718,4846,192,101]:
+                          - generic [ref=e1825] [box=4726,4854,176,19]: Automotive, Transportation and Warehousing
+                          - paragraph [ref=e1826] [box=4726,4877,176,40]: India Premium and Luxury Cars Market (2023-2029)
+                          - generic [ref=e1827] [box=4726,4923,176,16]:
+                            - generic [ref=e1828] [box=4726,4923,39,16]: Asia
+                            - generic [ref=e1832] [box=4771,4923,2,16]: ·
+                            - generic [ref=e1833] [box=4780,4923,106,16]: November 2025
+              - article [ref=e1837] [cursor=pointer] [box=4944,4675,320,290]:
+                - link "AS Ayesha Siddiqui Engagement Manager · Consulting Expert Pick Indonesia Edible Oil (2022-2027) Energy and Utilities Indonesia Edible Oil (2022-2027) Asia · November 2025" [ref=e1838] [box=4961,4692,286,256]:
+                  - /url: indonesia-edible-oil-markets
+                  - generic [ref=e1839] [box=4961,4692,286,256]:
+                    - generic [ref=e1840] [box=4961,4692,286,48]:
+                      - generic [ref=e1841] [box=4961,4692,166,48]:
+                        - generic [ref=e1842] [box=4961,4700,32,32]: AS
+                        - generic [ref=e1843] [box=5005,4692,122,48]:
+                          - generic [ref=e1844] [box=5005,4692,92,16]: Ayesha Siddiqui
+                          - generic [ref=e1845] [box=5005,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e1846] [box=5131,4704,116,25]: Expert Pick
+                    - generic [ref=e1851] [box=4961,4750,286,198]:
+                      - blockquote [ref=e1852] [box=4961,4750,286,60]: "\"The 'Indonesia Edible Oil (2022-2027)' report provided invaluable insights into market trends and co...\""
+                      - generic [ref=e1853] [box=4961,4845,286,103]:
+                        - img "Indonesia Edible Oil (2022-2027)" [ref=e1854] [box=4962,4846,80,101]
+                        - generic [ref=e1855] [box=5054,4846,192,101]:
+                          - generic [ref=e1856] [box=5062,4854,176,19]: Energy and Utilities
+                          - paragraph [ref=e1857] [box=5062,4877,176,40]: Indonesia Edible Oil (2022-2027)
+                          - generic [ref=e1858] [box=5062,4923,176,16]:
+                            - generic [ref=e1859] [box=5062,4923,39,16]: Asia
+                            - generic [ref=e1863] [box=5107,4923,2,16]: ·
+                            - generic [ref=e1864] [box=5116,4923,106,16]: November 2025
+              - article [ref=e1868] [cursor=pointer] [box=5280,4675,320,290]:
+                - link "HS Harsh Saxena Principal · Consulting Expert Pick India Used Two-Wheeler Market (2023-2028) Automotive, Transportation and Warehousing India Used Two-Wheeler Market (2023-2028) Asia · December 2025" [ref=e1869] [box=5297,4692,286,256]:
+                  - /url: india-used-two-wheeler-markets
+                  - generic [ref=e1870] [box=5297,4692,286,256]:
+                    - generic [ref=e1871] [box=5297,4692,286,32]:
+                      - generic [ref=e1872] [box=5297,4692,166,32]:
+                        - generic [ref=e1873] [box=5297,4692,32,32]: HS
+                        - generic [ref=e1874] [box=5341,4692,116,32]:
+                          - generic [ref=e1875] [box=5341,4692,78,16]: Harsh Saxena
+                          - generic [ref=e1876] [box=5341,4708,116,16]: Principal · Consulting
+                      - generic [ref=e1877] [box=5467,4696,116,25]: Expert Pick
+                    - generic [ref=e1882] [box=5297,4734,286,214]:
+                      - blockquote [ref=e1883] [box=5297,4734,286,60]: "\"The 'India Used Two-Wheeler Market (2023-2028)' report provides invaluable insights into emerging tr...\""
+                      - generic [ref=e1884] [box=5297,4845,286,103]:
+                        - img "India Used Two-Wheeler Market (2023-2028)" [ref=e1885] [box=5298,4846,80,101]
+                        - generic [ref=e1886] [box=5390,4846,192,101]:
+                          - generic [ref=e1887] [box=5398,4854,176,19]: Automotive, Transportation and Warehousing
+                          - paragraph [ref=e1888] [box=5398,4877,176,40]: India Used Two-Wheeler Market (2023-2028)
+                          - generic [ref=e1889] [box=5398,4923,176,16]:
+                            - generic [ref=e1890] [box=5398,4923,39,16]: Asia
+                            - generic [ref=e1894] [box=5443,4923,2,16]: ·
+                            - generic [ref=e1895] [box=5452,4923,107,16]: December 2025
+              - article [ref=e1899] [cursor=pointer] [box=5616,4675,320,290]:
+                - link "MG Manan Goenka Engagement Manager · Consulting Expert Pick Global Active & Passive Component Market (2023-2030) Technology and Telecom Global Active & Passive Component Market (2023-2030) Global · March 2026" [ref=e1900] [box=5633,4692,286,256]:
+                  - /url: global-active-passive-component-market
+                  - generic [ref=e1901] [box=5633,4692,286,256]:
+                    - generic [ref=e1902] [box=5633,4692,286,48]:
+                      - generic [ref=e1903] [box=5633,4692,166,48]:
+                        - generic [ref=e1904] [box=5633,4700,32,32]: MG
+                        - generic [ref=e1905] [box=5677,4692,122,48]:
+                          - generic [ref=e1906] [box=5677,4692,86,16]: Manan Goenka
+                          - generic [ref=e1907] [box=5677,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e1908] [box=5803,4704,116,25]: Expert Pick
+                    - generic [ref=e1913] [box=5633,4750,286,198]:
+                      - blockquote [ref=e1914] [box=5633,4750,286,60]: "\"The 'Global Active & Passive Component Market (2023-2030)' report provides invaluable insights that ...\""
+                      - generic [ref=e1915] [box=5633,4845,286,103]:
+                        - img "Global Active & Passive Component Market (2023-2030)" [ref=e1916] [box=5634,4846,80,101]
+                        - generic [ref=e1917] [box=5726,4846,192,101]:
+                          - generic [ref=e1918] [box=5734,4854,176,19]: Technology and Telecom
+                          - paragraph [ref=e1919] [box=5734,4877,176,40]: Global Active & Passive Component Market (2023-2030)
+                          - generic [ref=e1920] [box=5734,4923,176,16]:
+                            - generic [ref=e1921] [box=5734,4923,52,16]: Global
+                            - generic [ref=e1925] [box=5792,4923,2,16]: ·
+                            - generic [ref=e1926] [box=5800,4923,83,16]: March 2026
+              - article [ref=e1930] [cursor=pointer] [box=5952,4675,320,290]:
+                - link "RV Rishabh Verma Senior Research Analyst · Consulting Expert Pick India Vegetable Market (2023-2029) Agriculture and Animal Care India Vegetable Market (2023-2029) Asia · December 2025" [ref=e1931] [box=5969,4692,286,256]:
+                  - /url: india-vegetable-markets
+                  - generic [ref=e1932] [box=5969,4692,286,256]:
+                    - generic [ref=e1933] [box=5969,4692,286,48]:
+                      - generic [ref=e1934] [box=5969,4692,166,48]:
+                        - generic [ref=e1935] [box=5969,4700,32,32]: RV
+                        - generic [ref=e1936] [box=6013,4692,122,48]:
+                          - generic [ref=e1937] [box=6013,4692,86,16]: Rishabh Verma
+                          - generic [ref=e1938] [box=6013,4708,122,32]: Senior Research Analyst · Consulting
+                      - generic [ref=e1939] [box=6139,4704,116,25]: Expert Pick
+                    - generic [ref=e1944] [box=5969,4750,286,198]:
+                      - blockquote [ref=e1945] [box=5969,4750,286,60]: "\"The 'India Vegetable Market (2023-2029)' report provides invaluable insights into emerging trends an...\""
+                      - generic [ref=e1946] [box=5969,4845,286,103]:
+                        - img "India Vegetable Market (2023-2029)" [ref=e1947] [box=5970,4846,80,101]
+                        - generic [ref=e1948] [box=6062,4846,192,101]:
+                          - generic [ref=e1949] [box=6070,4854,176,19]: Agriculture and Animal Care
+                          - paragraph [ref=e1950] [box=6070,4877,176,40]: India Vegetable Market (2023-2029)
+                          - generic [ref=e1951] [box=6070,4923,176,16]:
+                            - generic [ref=e1952] [box=6070,4923,39,16]: Asia
+                            - generic [ref=e1956] [box=6115,4923,2,16]: ·
+                            - generic [ref=e1957] [box=6124,4923,107,16]: December 2025
+              - article [ref=e1961] [cursor=pointer] [box=6288,4675,320,290]:
+                - link "MG Manan Goenka Engagement Manager · Consulting Expert Pick India Oral Contraceptive Pills Market (2023-2029) Healthcare India Oral Contraceptive Pills Market (2023-2029) Asia · April 2026" [ref=e1962] [box=6305,4692,286,256]:
+                  - /url: india-oral-contraceptive-pills-market
+                  - generic [ref=e1963] [box=6305,4692,286,256]:
+                    - generic [ref=e1964] [box=6305,4692,286,48]:
+                      - generic [ref=e1965] [box=6305,4692,166,48]:
+                        - generic [ref=e1966] [box=6305,4700,32,32]: MG
+                        - generic [ref=e1967] [box=6349,4692,122,48]:
+                          - generic [ref=e1968] [box=6349,4692,86,16]: Manan Goenka
+                          - generic [ref=e1969] [box=6349,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e1970] [box=6475,4704,116,25]: Expert Pick
+                    - generic [ref=e1975] [box=6305,4750,286,198]:
+                      - blockquote [ref=e1976] [box=6305,4750,286,60]: "\"The 'India Oral Contraceptive Pills Market (2023-2029)' report provides invaluable insights into eme...\""
+                      - generic [ref=e1977] [box=6305,4845,286,103]:
+                        - img "India Oral Contraceptive Pills Market (2023-2029)" [ref=e1978] [box=6306,4846,80,101]
+                        - generic [ref=e1979] [box=6398,4846,192,101]:
+                          - generic [ref=e1980] [box=6406,4854,176,19]: Healthcare
+                          - paragraph [ref=e1981] [box=6406,4877,176,40]: India Oral Contraceptive Pills Market (2023-2029)
+                          - generic [ref=e1982] [box=6406,4923,176,16]:
+                            - generic [ref=e1983] [box=6406,4923,39,16]: Asia
+                            - generic [ref=e1987] [box=6451,4923,2,16]: ·
+                            - generic [ref=e1988] [box=6460,4923,74,16]: April 2026
+              - article [ref=e1992] [cursor=pointer] [box=6624,4675,320,290]:
+                - link "KS Kirti Saraswat Senior Research Analyst · Consulting Expert Pick India Display Fingerprint Market (2023-2029) Technology and Telecom India Display Fingerprint Market (2023-2029) Asia · March 2026" [ref=e1993] [box=6641,4692,286,256]:
+                  - /url: india-display-fingerprint-market
+                  - generic [ref=e1994] [box=6641,4692,286,256]:
+                    - generic [ref=e1995] [box=6641,4692,286,48]:
+                      - generic [ref=e1996] [box=6641,4692,166,48]:
+                        - generic [ref=e1997] [box=6641,4700,32,32]: KS
+                        - generic [ref=e1998] [box=6685,4692,122,48]:
+                          - generic [ref=e1999] [box=6685,4692,80,16]: Kirti Saraswat
+                          - generic [ref=e2000] [box=6685,4708,122,32]: Senior Research Analyst · Consulting
+                      - generic [ref=e2001] [box=6811,4704,116,25]: Expert Pick
+                    - generic [ref=e2006] [box=6641,4750,286,198]:
+                      - blockquote [ref=e2007] [box=6641,4750,286,60]: "\"The 'India Display Fingerprint Market (2023-2029)' report provides invaluable insights into emerging...\""
+                      - generic [ref=e2008] [box=6641,4845,286,103]:
+                        - img "India Display Fingerprint Market (2023-2029)" [ref=e2009] [box=6642,4846,80,101]
+                        - generic [ref=e2010] [box=6734,4846,192,101]:
+                          - generic [ref=e2011] [box=6742,4854,176,19]: Technology and Telecom
+                          - paragraph [ref=e2012] [box=6742,4877,176,40]: India Display Fingerprint Market (2023-2029)
+                          - generic [ref=e2013] [box=6742,4923,176,16]:
+                            - generic [ref=e2014] [box=6742,4923,39,16]: Asia
+                            - generic [ref=e2018] [box=6787,4923,2,16]: ·
+                            - generic [ref=e2019] [box=6796,4923,83,16]: March 2026
+              - article [ref=e2023] [cursor=pointer] [box=6960,4675,320,290]:
+                - link "AS Ayesha Siddiqui Engagement Manager · Consulting Expert Pick India Over the Counter Drugs Market (2022- 2029) Healthcare India Over the Counter Drugs Market (2022- 2029) Asia · March 2026" [ref=e2024] [box=6977,4692,286,256]:
+                  - /url: india-over-the-counter-drugs-market
+                  - generic [ref=e2025] [box=6977,4692,286,256]:
+                    - generic [ref=e2026] [box=6977,4692,286,48]:
+                      - generic [ref=e2027] [box=6977,4692,166,48]:
+                        - generic [ref=e2028] [box=6977,4700,32,32]: AS
+                        - generic [ref=e2029] [box=7021,4692,122,48]:
+                          - generic [ref=e2030] [box=7021,4692,92,16]: Ayesha Siddiqui
+                          - generic [ref=e2031] [box=7021,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e2032] [box=7147,4704,116,25]: Expert Pick
+                    - generic [ref=e2037] [box=6977,4750,286,198]:
+                      - blockquote [ref=e2038] [box=6977,4750,286,60]: "\"The 'India Over the Counter Drugs Market (2022-2029)' report provides invaluable insights that empow...\""
+                      - generic [ref=e2039] [box=6977,4845,286,103]:
+                        - img "India Over the Counter Drugs Market (2022- 2029)" [ref=e2040] [box=6978,4846,80,101]
+                        - generic [ref=e2041] [box=7070,4846,192,101]:
+                          - generic [ref=e2042] [box=7078,4854,176,19]: Healthcare
+                          - paragraph [ref=e2043] [box=7078,4877,176,40]: India Over the Counter Drugs Market (2022- 2029)
+                          - generic [ref=e2044] [box=7078,4923,176,16]:
+                            - generic [ref=e2045] [box=7078,4923,39,16]: Asia
+                            - generic [ref=e2049] [box=7123,4923,2,16]: ·
+                            - generic [ref=e2050] [box=7132,4923,83,16]: March 2026
+              - article [ref=e2054] [cursor=pointer] [box=7296,4675,320,290]:
+                - link "AS Aakash Singh Engagement Manager · Consulting Expert Pick Global Active Pharmaceutical Ingredient (API) Market (2023-2029) Healthcare Global Active Pharmaceutical Ingredient (API) Market (2023-2029) Global · March 2026" [ref=e2055] [box=7313,4692,286,256]:
+                  - /url: global-active-pharmaceutical-ingredient-market
+                  - generic [ref=e2056] [box=7313,4692,286,256]:
+                    - generic [ref=e2057] [box=7313,4692,286,48]:
+                      - generic [ref=e2058] [box=7313,4692,166,48]:
+                        - generic [ref=e2059] [box=7313,4700,32,32]: AS
+                        - generic [ref=e2060] [box=7357,4692,122,48]:
+                          - generic [ref=e2061] [box=7357,4692,77,16]: Aakash Singh
+                          - generic [ref=e2062] [box=7357,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e2063] [box=7483,4704,116,25]: Expert Pick
+                    - generic [ref=e2068] [box=7313,4750,286,198]:
+                      - blockquote [ref=e2069] [box=7313,4750,286,60]: "\"The 'Global Active Pharmaceutical Ingredient (API) Market (2023-2029)' report offers invaluable insi...\""
+                      - generic [ref=e2070] [box=7313,4845,286,103]:
+                        - img "Global Active Pharmaceutical Ingredient (API) Market (2023-2029)" [ref=e2071] [box=7314,4846,80,101]
+                        - generic [ref=e2072] [box=7406,4846,192,101]:
+                          - generic [ref=e2073] [box=7414,4854,176,19]: Healthcare
+                          - paragraph [ref=e2074] [box=7414,4877,176,40]: Global Active Pharmaceutical Ingredient (API) Market (2023-2029)
+                          - generic [ref=e2075] [box=7414,4923,176,16]:
+                            - generic [ref=e2076] [box=7414,4923,52,16]: Global
+                            - generic [ref=e2080] [box=7472,4923,2,16]: ·
+                            - generic [ref=e2081] [box=7480,4923,83,16]: March 2026
+              - article [ref=e2085] [cursor=pointer] [box=7632,4675,320,290]:
+                - link "HS Harsh Saxena Principal · Consulting Expert Pick Global Condom Market (2023-2029) Consumer Products and Retail Global Condom Market (2023-2029) Global · March 2026" [ref=e2086] [box=7649,4692,286,256]:
+                  - /url: global-condom-markets
+                  - generic [ref=e2087] [box=7649,4692,286,256]:
+                    - generic [ref=e2088] [box=7649,4692,286,32]:
+                      - generic [ref=e2089] [box=7649,4692,166,32]:
+                        - generic [ref=e2090] [box=7649,4692,32,32]: HS
+                        - generic [ref=e2091] [box=7693,4692,116,32]:
+                          - generic [ref=e2092] [box=7693,4692,78,16]: Harsh Saxena
+                          - generic [ref=e2093] [box=7693,4708,116,16]: Principal · Consulting
+                      - generic [ref=e2094] [box=7819,4696,116,25]: Expert Pick
+                    - generic [ref=e2099] [box=7649,4734,286,214]:
+                      - blockquote [ref=e2100] [box=7649,4734,286,60]: "\"The 'Global Condom Market (2023-2029)' report provides invaluable insights that are crucial for navi...\""
+                      - generic [ref=e2101] [box=7649,4845,286,103]:
+                        - img "Global Condom Market (2023-2029)" [ref=e2102] [box=7650,4846,80,101]
+                        - generic [ref=e2103] [box=7742,4846,192,101]:
+                          - generic [ref=e2104] [box=7750,4854,176,19]: Consumer Products and Retail
+                          - paragraph [ref=e2105] [box=7750,4877,176,40]: Global Condom Market (2023-2029)
+                          - generic [ref=e2106] [box=7750,4923,176,16]:
+                            - generic [ref=e2107] [box=7750,4923,52,16]: Global
+                            - generic [ref=e2111] [box=7808,4923,2,16]: ·
+                            - generic [ref=e2112] [box=7816,4923,83,16]: March 2026
+              - article [ref=e2116] [cursor=pointer] [box=7968,4675,320,290]:
+                - link "KS Kirti Saraswat Senior Research Analyst · Consulting Expert Pick USA Loan Aggregator Market, 2022-2027 Banking Financial Services and Insurance USA Loan Aggregator Market, 2022-2027 North America · November 2025" [ref=e2117] [box=7985,4692,286,256]:
+                  - /url: usa-loan-aggregator-market
+                  - generic [ref=e2118] [box=7985,4692,286,256]:
+                    - generic [ref=e2119] [box=7985,4692,286,48]:
+                      - generic [ref=e2120] [box=7985,4692,166,48]:
+                        - generic [ref=e2121] [box=7985,4700,32,32]: KS
+                        - generic [ref=e2122] [box=8029,4692,122,48]:
+                          - generic [ref=e2123] [box=8029,4692,80,16]: Kirti Saraswat
+                          - generic [ref=e2124] [box=8029,4708,122,32]: Senior Research Analyst · Consulting
+                      - generic [ref=e2125] [box=8155,4704,116,25]: Expert Pick
+                    - generic [ref=e2130] [box=7985,4750,286,198]:
+                      - blockquote [ref=e2131] [box=7985,4750,286,60]: "\"The 'USA Loan Aggregator Market, 2022-2027' report provides invaluable insights into market dynamics...\""
+                      - generic [ref=e2132] [box=7985,4823,286,125]:
+                        - img "USA Loan Aggregator Market, 2022-2027" [ref=e2133] [box=7986,4824,80,123]
+                        - generic [ref=e2134] [box=8078,4824,192,123]:
+                          - generic [ref=e2135] [box=8086,4832,176,19]: Banking Financial Services and Insurance
+                          - paragraph [ref=e2136] [box=8086,4855,176,40]: USA Loan Aggregator Market, 2022-2027
+                          - generic [ref=e2137] [box=8086,4901,176,38]:
+                            - generic [ref=e2138] [box=8086,4901,97,16]: North America
+                            - generic [ref=e2142] [box=8189,4901,2,16]: ·
+                            - generic [ref=e2143] [box=8086,4923,106,16]: November 2025
+              - article [ref=e2147] [cursor=pointer] [box=8304,4675,320,290]:
+                - link "HS Harsh Saxena Principal · Consulting Expert Pick Global Acrylic Fibers Market (2023-2030) Metal, Mining and Chemicals Global Acrylic Fibers Market (2023-2030) Global · March 2026" [ref=e2148] [box=8321,4692,286,256]:
+                  - /url: global-acrylic-fibers-market
+                  - generic [ref=e2149] [box=8321,4692,286,256]:
+                    - generic [ref=e2150] [box=8321,4692,286,32]:
+                      - generic [ref=e2151] [box=8321,4692,166,32]:
+                        - generic [ref=e2152] [box=8321,4692,32,32]: HS
+                        - generic [ref=e2153] [box=8365,4692,116,32]:
+                          - generic [ref=e2154] [box=8365,4692,78,16]: Harsh Saxena
+                          - generic [ref=e2155] [box=8365,4708,116,16]: Principal · Consulting
+                      - generic [ref=e2156] [box=8491,4696,116,25]: Expert Pick
+                    - generic [ref=e2161] [box=8321,4734,286,214]:
+                      - blockquote [ref=e2162] [box=8321,4734,286,60]: "\"The 'Global Acrylic Fibers Market (2023-2030)' report offers invaluable insights that are crucial fo...\""
+                      - generic [ref=e2163] [box=8321,4845,286,103]:
+                        - img "Global Acrylic Fibers Market (2023-2030)" [ref=e2164] [box=8322,4846,80,101]
+                        - generic [ref=e2165] [box=8414,4846,192,101]:
+                          - generic [ref=e2166] [box=8422,4854,176,19]: Metal, Mining and Chemicals
+                          - paragraph [ref=e2167] [box=8422,4877,176,40]: Global Acrylic Fibers Market (2023-2030)
+                          - generic [ref=e2168] [box=8422,4923,176,16]:
+                            - generic [ref=e2169] [box=8422,4923,52,16]: Global
+                            - generic [ref=e2173] [box=8480,4923,2,16]: ·
+                            - generic [ref=e2174] [box=8488,4923,83,16]: March 2026
+              - article [ref=e2178] [cursor=pointer] [box=8640,4675,320,290]:
+                - link "MG Manan Goenka Engagement Manager · Consulting Expert Pick India Cashew Market (2023-2029) Food, Beverage and Tobacco India Cashew Market (2023-2029) Asia · December 2025" [ref=e2179] [box=8657,4692,286,256]:
+                  - /url: india-cashew-markets
+                  - generic [ref=e2180] [box=8657,4692,286,256]:
+                    - generic [ref=e2181] [box=8657,4692,286,48]:
+                      - generic [ref=e2182] [box=8657,4692,166,48]:
+                        - generic [ref=e2183] [box=8657,4700,32,32]: MG
+                        - generic [ref=e2184] [box=8701,4692,122,48]:
+                          - generic [ref=e2185] [box=8701,4692,86,16]: Manan Goenka
+                          - generic [ref=e2186] [box=8701,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e2187] [box=8827,4704,116,25]: Expert Pick
+                    - generic [ref=e2192] [box=8657,4750,286,198]:
+                      - blockquote [ref=e2193] [box=8657,4750,286,60]: "\"The 'India Cashew Market (2023-2029)' report provided unparalleled insights into emerging trends and...\""
+                      - generic [ref=e2194] [box=8657,4845,286,103]:
+                        - img "India Cashew Market (2023-2029)" [ref=e2195] [box=8658,4846,80,101]
+                        - generic [ref=e2196] [box=8750,4846,192,101]:
+                          - generic [ref=e2197] [box=8758,4854,176,19]: Food, Beverage and Tobacco
+                          - paragraph [ref=e2198] [box=8758,4877,176,40]: India Cashew Market (2023-2029)
+                          - generic [ref=e2199] [box=8758,4923,176,16]:
+                            - generic [ref=e2200] [box=8758,4923,39,16]: Asia
+                            - generic [ref=e2204] [box=8803,4923,2,16]: ·
+                            - generic [ref=e2205] [box=8812,4923,107,16]: December 2025
+              - article [ref=e2209] [cursor=pointer] [box=8976,4675,320,290]:
+                - link "AS Ayesha Siddiqui Engagement Manager · Consulting Expert Pick Global Breakfast Cereal Market (2023-2029) Food, Beverage and Tobacco Global Breakfast Cereal Market (2023-2029) Global · April 2026" [ref=e2210] [box=8993,4692,286,256]:
+                  - /url: global-breakfast-cereal-market
+                  - generic [ref=e2211] [box=8993,4692,286,256]:
+                    - generic [ref=e2212] [box=8993,4692,286,48]:
+                      - generic [ref=e2213] [box=8993,4692,166,48]:
+                        - generic [ref=e2214] [box=8993,4700,32,32]: AS
+                        - generic [ref=e2215] [box=9037,4692,122,48]:
+                          - generic [ref=e2216] [box=9037,4692,92,16]: Ayesha Siddiqui
+                          - generic [ref=e2217] [box=9037,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e2218] [box=9163,4704,116,25]: Expert Pick
+                    - generic [ref=e2223] [box=8993,4750,286,198]:
+                      - blockquote [ref=e2224] [box=8993,4750,286,60]: "\"The 'Global Breakfast Cereal Market (2023-2029)' report provides invaluable insights into emerging t...\""
+                      - generic [ref=e2225] [box=8993,4845,286,103]:
+                        - img "Global Breakfast Cereal Market (2023-2029)" [ref=e2226] [box=8994,4846,80,101]
+                        - generic [ref=e2227] [box=9086,4846,192,101]:
+                          - generic [ref=e2228] [box=9094,4854,176,19]: Food, Beverage and Tobacco
+                          - paragraph [ref=e2229] [box=9094,4877,176,40]: Global Breakfast Cereal Market (2023-2029)
+                          - generic [ref=e2230] [box=9094,4923,176,16]:
+                            - generic [ref=e2231] [box=9094,4923,52,16]: Global
+                            - generic [ref=e2235] [box=9152,4923,2,16]: ·
+                            - generic [ref=e2236] [box=9160,4923,74,16]: April 2026
+              - article [ref=e2240] [cursor=pointer] [box=9312,4675,320,290]:
+                - link "AS Aakash Singh Engagement Manager · Consulting Expert Pick India Power Electronics Market (2023-2029) Energy and Utilities India Power Electronics Market (2023-2029) Asia · April 2026" [ref=e2241] [box=9329,4692,286,256]:
+                  - /url: india-power-electronics-market
+                  - generic [ref=e2242] [box=9329,4692,286,256]:
+                    - generic [ref=e2243] [box=9329,4692,286,48]:
+                      - generic [ref=e2244] [box=9329,4692,166,48]:
+                        - generic [ref=e2245] [box=9329,4700,32,32]: AS
+                        - generic [ref=e2246] [box=9373,4692,122,48]:
+                          - generic [ref=e2247] [box=9373,4692,77,16]: Aakash Singh
+                          - generic [ref=e2248] [box=9373,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e2249] [box=9499,4704,116,25]: Expert Pick
+                    - generic [ref=e2254] [box=9329,4750,286,198]:
+                      - blockquote [ref=e2255] [box=9329,4750,286,60]: "\"The 'India Power Electronics Market (2023-2029)' report provides invaluable insights that are critic...\""
+                      - generic [ref=e2256] [box=9329,4845,286,103]:
+                        - img "India Power Electronics Market (2023-2029)" [ref=e2257] [box=9330,4846,80,101]
+                        - generic [ref=e2258] [box=9422,4846,192,101]:
+                          - generic [ref=e2259] [box=9430,4854,176,19]: Energy and Utilities
+                          - paragraph [ref=e2260] [box=9430,4877,176,40]: India Power Electronics Market (2023-2029)
+                          - generic [ref=e2261] [box=9430,4923,176,16]:
+                            - generic [ref=e2262] [box=9430,4923,39,16]: Asia
+                            - generic [ref=e2266] [box=9475,4923,2,16]: ·
+                            - generic [ref=e2267] [box=9484,4923,74,16]: April 2026
+              - article [ref=e2271] [cursor=pointer] [box=9648,4675,320,290]:
+                - link "ST Shashank Thakur Project Lead · Consulting Expert Pick India Automotive Market (2023-2029 Automotive, Transportation and Warehousing India Automotive Market (2023-2029 Asia · February 2026" [ref=e2272] [box=9665,4692,286,256]:
+                  - /url: india-automotive-markets
+                  - generic [ref=e2273] [box=9665,4692,286,256]:
+                    - generic [ref=e2274] [box=9665,4692,286,48]:
+                      - generic [ref=e2275] [box=9665,4692,166,48]:
+                        - generic [ref=e2276] [box=9665,4700,32,32]: ST
+                        - generic [ref=e2277] [box=9709,4692,122,48]:
+                          - generic [ref=e2278] [box=9709,4692,98,16]: Shashank Thakur
+                          - generic [ref=e2279] [box=9709,4708,122,32]: Project Lead · Consulting
+                      - generic [ref=e2280] [box=9835,4704,116,25]: Expert Pick
+                    - generic [ref=e2285] [box=9665,4750,286,198]:
+                      - blockquote [ref=e2286] [box=9665,4750,286,60]: "\"The 'India Automotive Market (2023-2029)' report offers unparalleled insights into emerging trends a...\""
+                      - generic [ref=e2287] [box=9665,4845,286,103]:
+                        - img "India Automotive Market (2023-2029" [ref=e2288] [box=9666,4846,80,101]
+                        - generic [ref=e2289] [box=9758,4846,192,101]:
+                          - generic [ref=e2290] [box=9766,4854,176,19]: Automotive, Transportation and Warehousing
+                          - paragraph [ref=e2291] [box=9766,4877,176,40]: India Automotive Market (2023-2029
+                          - generic [ref=e2292] [box=9766,4923,176,16]:
+                            - generic [ref=e2293] [box=9766,4923,39,16]: Asia
+                            - generic [ref=e2297] [box=9811,4923,2,16]: ·
+                            - generic [ref=e2298] [box=9820,4923,98,16]: February 2026
+              - article [ref=e2302] [cursor=pointer] [box=9984,4675,320,290]:
+                - link "RV Rishabh Verma Senior Research Analyst · Consulting Expert Pick KSA Material Handling and Storage Systems Market (2023-2028) Automotive, Transportation and Warehousing KSA Material Handling and Storage Systems Market (2023-2028) Middle East · March 2026" [ref=e2303] [box=10001,4692,286,256]:
+                  - /url: ksa-material-handling-and-storage-systems-market
+                  - generic [ref=e2304] [box=10001,4692,286,256]:
+                    - generic [ref=e2305] [box=10001,4692,286,48]:
+                      - generic [ref=e2306] [box=10001,4692,166,48]:
+                        - generic [ref=e2307] [box=10001,4700,32,32]: RV
+                        - generic [ref=e2308] [box=10045,4692,122,48]:
+                          - generic [ref=e2309] [box=10045,4692,86,16]: Rishabh Verma
+                          - generic [ref=e2310] [box=10045,4708,122,32]: Senior Research Analyst · Consulting
+                      - generic [ref=e2311] [box=10171,4704,116,25]: Expert Pick
+                    - generic [ref=e2316] [box=10001,4750,286,198]:
+                      - blockquote [ref=e2317] [box=10001,4750,286,60]: "\"The 'KSA Material Handling and Storage Systems Market (2023-2028)' report provides essential insight...\""
+                      - generic [ref=e2318] [box=10001,4845,286,103]:
+                        - img "KSA Material Handling and Storage Systems Market (2023-2028)" [ref=e2319] [box=10002,4846,80,101]
+                        - generic [ref=e2320] [box=10094,4846,192,101]:
+                          - generic [ref=e2321] [box=10102,4854,176,12]: Automotive, Transportation and Warehousing
+                          - paragraph [ref=e2322] [box=10102,4870,176,25]: KSA Material Handling and Storage Systems Market (2023-2028)
+                          - generic [ref=e2323] [box=10102,4901,176,38]:
+                            - generic [ref=e2324] [box=10102,4901,80,16]: Middle East
+                            - generic [ref=e2328] [box=10188,4901,2,16]: ·
+                            - generic [ref=e2329] [box=10102,4923,83,16]: March 2026
+              - article [ref=e2333] [cursor=pointer] [box=10320,4675,320,290]:
+                - link "MG Manan Goenka Engagement Manager · Consulting Expert Pick India Air Conditioner Market (2022-2028) Consumer Products and Retail India Air Conditioner Market (2022-2028) Asia · February 2026" [ref=e2334] [box=10337,4692,286,256]:
+                  - /url: india-air-conditioner-markets
+                  - generic [ref=e2335] [box=10337,4692,286,256]:
+                    - generic [ref=e2336] [box=10337,4692,286,48]:
+                      - generic [ref=e2337] [box=10337,4692,166,48]:
+                        - generic [ref=e2338] [box=10337,4700,32,32]: MG
+                        - generic [ref=e2339] [box=10381,4692,122,48]:
+                          - generic [ref=e2340] [box=10381,4692,86,16]: Manan Goenka
+                          - generic [ref=e2341] [box=10381,4708,122,32]: Engagement Manager · Consulting
+                      - generic [ref=e2342] [box=10507,4704,116,25]: Expert Pick
+                    - generic [ref=e2347] [box=10337,4750,286,198]:
+                      - blockquote [ref=e2348] [box=10337,4750,286,60]: "\"The 'India Air Conditioner Market (2022-2028)' report provided us with invaluable insights into emer...\""
+                      - generic [ref=e2349] [box=10337,4845,286,103]:
+                        - img "India Air Conditioner Market (2022-2028)" [ref=e2350] [box=10338,4846,80,101]
+                        - generic [ref=e2351] [box=10430,4846,192,101]:
+                          - generic [ref=e2352] [box=10438,4854,176,19]: Consumer Products and Retail
+                          - paragraph [ref=e2353] [box=10438,4877,176,40]: India Air Conditioner Market (2022-2028)
+                          - generic [ref=e2354] [box=10438,4923,176,16]:
+                            - generic [ref=e2355] [box=10438,4923,39,16]: Asia
+                            - generic [ref=e2359] [box=10483,4923,2,16]: ·
+                            - generic [ref=e2360] [box=10492,4923,98,16]: February 2026
+        - generic [ref=e2363] [box=240,5045,960,510]:
+          - generic [ref=e2364] [box=240,5125,960,90]:
+            - paragraph [ref=e2366] [box=240,5125,163,18]: Market Intelligence
+            - generic [ref=e2368] [box=240,5151,311,64]:
+              - heading "Key Market Indicators" [level=2] [ref=e2369] [box=240,5151,311,33]
+              - paragraph [ref=e2370] [box=240,5192,311,23]: Real-time metrics from our research database
+          - generic [ref=e2371] [box=240,5263,960,213]:
+            - article [ref=e2372] [cursor=pointer] [box=240,5263,228,213]:
+              - generic [ref=e2373] [box=257,5280,194,134]:
+                - paragraph [ref=e2375] [box=257,5284,148,24]: Agriculture and Animal Care
+                - paragraph [box=257,5328,194,0]
+                - paragraph [ref=e2380] [box=257,5332,194,40]: "North America Agrochemical Market Outlook to 2030: Size, Share, Growth and Trends"
+                - paragraph [ref=e2381] [box=257,5372,194,42]: "North America Agrochemical Market Outlook to 2030: Size, Share, Growth and Trends"
+              - link [ref=e2382] [box=257,5417,194,41]:
+                - /url: /north-america-agrochemical-market
+                - button "View Reports" [ref=e2383] [box=257,5430,118,28]
+            - article [ref=e2395] [cursor=pointer] [box=484,5263,228,213]:
+              - generic [ref=e2396] [box=501,5280,194,134]:
+                - paragraph [ref=e2398] [box=501,5284,158,24]: Automotive, Transportation and Warehousing
+                - paragraph [box=501,5328,194,0]
+                - paragraph [ref=e2403] [box=501,5332,194,40]: Indonesia Modern Trade & Hypermarket Distribution Logistics Market Assessment and Outlook to 2030
+                - paragraph [ref=e2404] [box=501,5372,194,42]: Indonesia Modern Trade & Hypermarket Distribution Logistics Market Assessment and Outlook to 2030
+              - link [ref=e2405] [box=501,5417,194,41]:
+                - /url: /indonesia-modern-trade-hypermarket-distribution-logistics-market
+                - button "View Reports" [ref=e2406] [box=501,5430,118,28]
+            - article [ref=e2418] [cursor=pointer] [box=728,5263,228,213]:
+              - generic [ref=e2419] [box=745,5280,194,134]:
+                - paragraph [ref=e2421] [box=745,5284,158,24]: Banking Financial Services and Insurance
+                - paragraph [box=745,5328,194,0]
+                - paragraph [ref=e2426] [box=745,5332,194,40]: UAE Personal Loan Market OUtlook to 2030
+                - paragraph [ref=e2427] [box=745,5372,194,42]: UAE Personal Loan Market OUtlook to 2030
+              - link [ref=e2428] [box=745,5417,194,41]:
+                - /url: /uae-personal-loan-market
+                - button "View Reports" [ref=e2429] [box=745,5430,118,28]
+            - article [ref=e2441] [cursor=pointer] [box=972,5263,228,213]:
+              - generic [ref=e2442] [box=989,5280,194,134]:
+                - paragraph [ref=e2444] [box=989,5284,158,24]: Automotive, Transportation and Warehousing
+                - paragraph [box=989,5328,194,0]
+                - paragraph [ref=e2449] [box=989,5332,194,40]: Saudi Arabia Heavy-Duty Vehicle Fleet Maintenance & MRO Market Assessment and Outlook to 2030
+                - paragraph [ref=e2450] [box=989,5372,194,42]: Saudi Arabia Heavy-Duty Vehicle Fleet Maintenance & MRO Market Assessment and Outlook to 2030
+              - link [ref=e2451] [box=989,5417,194,41]:
+                - /url: /saudi-arabia-heavy-duty-vehicle-fleet-maintenance-mro-market
+                - button "View Reports" [ref=e2452] [box=989,5430,118,28]
+        - generic [ref=e2464] [box=240,5555,960,430]:
+          - generic [ref=e2465] [box=240,5635,960,90]:
+            - paragraph [ref=e2467] [box=240,5635,88,18]: Live Data
+            - generic [ref=e2470] [box=240,5661,297,64]:
+              - heading "Daily Data Highlights" [level=2] [ref=e2471] [box=240,5661,297,33]
+              - paragraph [ref=e2472] [box=240,5702,297,23]: Latest numbers from our intelligence desk
+          - generic [ref=e2473] [box=240,5773,960,133]:
+            - link "3 days ago Global Monitoring Tools Market Size, Share & Forecast, By Solution Type, Deployment Model & End-Use Industry, 2025-2032 Sep 08, 2026" [ref=e2474] [cursor=pointer] [box=240,5773,179,133]:
+              - /url: /global-monitoring-tools-market
+              - generic [ref=e2475] [box=240,5773,179,133]:
+                - generic [ref=e2476] [box=255,5788,149,19]: 3 days ago
+                - paragraph [box=255,5817,149,0]
+                - paragraph [ref=e2481] [box=255,5819,149,35]: Global Monitoring Tools Market Size, Share & Forecast, By Solution Type, Deployment Model & End-Use Industry, 2025-2032
+                - generic [ref=e2482] [box=255,5860,149,30]: Sep 08, 2026
+            - link "3 days ago Global Battery Market Size, Share & Forecast, By Battery Type, Application & End User, 2025-2032 Sep 08, 2026" [ref=e2486] [cursor=pointer] [box=435,5773,179,133]:
+              - /url: /global-battery-market
+              - generic [ref=e2487] [box=435,5773,179,133]:
+                - generic [ref=e2488] [box=450,5788,149,19]: 3 days ago
+                - paragraph [box=450,5817,149,0]
+                - paragraph [ref=e2493] [box=450,5819,149,35]: Global Battery Market Size, Share & Forecast, By Battery Type, Application & End User, 2025-2032
+                - generic [ref=e2494] [box=450,5860,149,30]: Sep 08, 2026
+            - link "3 days ago India Intraoral Cameras Market Size, Share & Forecast, By Product Type, Technology & End User, 2025-2032 Sep 08, 2026" [ref=e2498] [cursor=pointer] [box=630,5773,179,133]:
+              - /url: /india-intraoral-cameras-market
+              - generic [ref=e2499] [box=630,5773,179,133]:
+                - generic [ref=e2500] [box=645,5788,149,19]: 3 days ago
+                - paragraph [box=645,5817,149,0]
+                - paragraph [ref=e2505] [box=645,5819,149,35]: India Intraoral Cameras Market Size, Share & Forecast, By Product Type, Technology & End User, 2025-2032
+                - generic [ref=e2506] [box=645,5860,149,30]: Sep 08, 2026
+            - link "3 days ago India Small Caliber Ammunition Market Size, Share & Forecast, By Caliber, Customer Type & Application, 2025-2032 Sep 08, 2026" [ref=e2510] [cursor=pointer] [box=826,5773,179,133]:
+              - /url: /india-small-caliber-ammunition-market
+              - generic [ref=e2511] [box=826,5773,179,133]:
+                - generic [ref=e2512] [box=841,5788,149,19]: 3 days ago
+                - paragraph [box=841,5817,149,0]
+                - paragraph [ref=e2517] [box=841,5819,149,35]: India Small Caliber Ammunition Market Size, Share & Forecast, By Caliber, Customer Type & Application, 2025-2032
+                - generic [ref=e2518] [box=841,5860,149,30]: Sep 08, 2026
+            - link "3 days ago Global Surgical Equipment Market Size, Share & Forecast, By Product Type, Application & End User, 2025-2032 Sep 08, 2026" [ref=e2522] [cursor=pointer] [box=1021,5773,179,133]:
+              - /url: /global-surgical-equipment-market
+              - generic [ref=e2523] [box=1021,5773,179,133]:
+                - generic [ref=e2524] [box=1036,5788,149,19]: 3 days ago
+                - paragraph [box=1036,5817,149,0]
+                - paragraph [ref=e2529] [box=1036,5819,149,35]: Global Surgical Equipment Market Size, Share & Forecast, By Product Type, Application & End User, 2025-2032
+                - generic [ref=e2530] [box=1036,5860,149,30]: Sep 08, 2026
+        - generic [ref=e2534] [box=240,5986,960,1026]:
+          - generic [ref=e2535] [box=240,6066,960,112]:
+            - generic [ref=e2538] [box=240,6066,181,64]:
+              - heading "Quick Access" [level=2] [ref=e2539] [box=240,6066,181,33]
+              - paragraph [ref=e2540] [box=240,6107,181,23]: Find reports faster
+            - generic [ref=e2543] [box=1021,6108,167,38]:
+              - button "metrics" [ref=e2544] [cursor=pointer] [box=1026,6113,72,28]: Metrics
+              - button "compact" [ref=e2548] [cursor=pointer] [box=1101,6113,82,28]: Compact
+          - generic [ref=e2553] [box=240,6153,960,42]:
+            - button "Trending Now 54" [ref=e2554] [cursor=pointer] [box=240,6153,159,41]:
+              - text: Trending Now
+              - generic [ref=e2555] [box=352,6164,31,20]: "54"
+            - button "New This Week 65" [ref=e2557] [cursor=pointer] [box=399,6153,168,41]:
+              - text: New This Week
+              - generic [ref=e2558] [box=520,6164,31,20]: "65"
+            - button "Recently Updated 47807" [ref=e2559] [cursor=pointer] [box=567,6153,207,41]:
+              - text: Recently Updated
+              - generic [ref=e2560] [box=707,6164,51,20]: "47807"
+          - generic [ref=e2561] [box=240,6227,960,620]:
+            - link [ref=e2562] [cursor=pointer] [box=240,6227,307,300]:
+              - /url: india-canned-market
+              - article [ref=e2563] [box=240,6227,298,300]:
+                - img "India Canned Market (2023-2030)" [ref=e2564] [box=241,6228,296,144]
+                - generic [ref=e2565] [box=241,6394,296,132]:
+                  - generic [ref=e2566] [box=257,6410,210,19]: Food, Beverage and Tobacco
+                  - heading "India Canned Market (2023-2030)" [level=3] [ref=e2567] [box=257,6439,264,19]
+                  - generic [ref=e2568] [box=257,6468,264,16]:
+                    - generic [ref=e2569] [box=257,6468,43,16]: India
+                    - generic [ref=e2573] [box=312,6468,67,16]: Mar 2001
+                  - generic [ref=e2576] [box=257,6494,264,16]: Mar 2001
+            - link [ref=e2579] [cursor=pointer] [box=567,6227,307,300]:
+              - /url: uae-cold-storage-market-outlook-to-2029
+              - article [ref=e2580] [box=567,6227,298,300]:
+                - img "UAE Cold Storage Market Outlook to 2029" [ref=e2581] [box=568,6228,296,144]
+                - generic [ref=e2582] [box=568,6391,296,136]:
+                  - generic [ref=e2583] [box=584,6407,210,19]: Automotive, Transportation and Warehousing
+                  - heading "UAE Cold Storage Market Outlook to 2029" [level=3] [ref=e2584] [box=584,6436,264,39]
+                  - generic [ref=e2585] [box=584,6484,264,16]:
+                    - generic [ref=e2586] [box=584,6484,84,16]: $1400 Mn
+                    - generic [ref=e2591] [box=668,6484,134,16]: United Arab Emirates
+            - link [ref=e2595] [cursor=pointer] [box=893,6227,307,300]:
+              - /url: india-print-industry-market
+              - article [ref=e2596] [box=893,6227,298,300]:
+                - img "India Print Industry Market Outlook to 2030" [ref=e2597] [box=894,6228,296,144]
+                - generic [ref=e2598] [box=894,6391,296,136]:
+                  - generic [ref=e2599] [box=910,6407,210,19]: Manufacturing and Construction
+                  - heading "India Print Industry Market Outlook to 2030" [level=3] [ref=e2600] [box=910,6436,264,39]
+                  - generic [ref=e2601] [box=910,6484,264,16]:
+                    - generic [ref=e2602] [box=910,6484,122,16]: $USD 260 billion
+                    - generic [ref=e2607] [box=1033,6484,43,16]: India
+            - link [ref=e2611] [cursor=pointer] [box=240,6547,307,300]:
+              - /url: india-human-resource-market
+              - article [ref=e2612] [box=240,6547,298,300]:
+                - img "India Human Resource (HR) Market Outlook to 2030" [ref=e2613] [box=241,6548,296,144]
+                - generic [ref=e2614] [box=241,6711,296,136]:
+                  - generic [ref=e2615] [box=257,6727,210,19]: Education and Recruitment
+                  - heading "India Human Resource (HR) Market Outlook to 2030" [level=3] [ref=e2616] [box=257,6756,264,39]
+                  - generic [ref=e2617] [box=257,6804,264,16]:
+                    - generic [ref=e2618] [box=257,6804,101,16]: $USD 1.02 Bn
+                    - generic [ref=e2623] [box=358,6804,43,16]: India
+            - link [ref=e2627] [cursor=pointer] [box=567,6547,307,300]:
+              - /url: india-over-the-top-market
+              - article [ref=e2628] [box=567,6547,298,300]:
+                - img "India Over the Top (OTT) Market Outlook to 2030" [ref=e2629] [box=568,6548,296,144]
+                - generic [ref=e2630] [box=568,6711,296,136]:
+                  - generic [ref=e2631] [box=584,6727,210,19]: Media and Entertainment
+                  - heading "India Over the Top (OTT) Market Outlook to 2030" [level=3] [ref=e2632] [box=584,6756,264,39]
+                  - generic [ref=e2633] [box=584,6804,264,16]:
+                    - generic [ref=e2634] [box=584,6804,97,16]: $USD 3.5 Bn
+                    - generic [ref=e2639] [box=681,6804,43,16]: India
+            - link [ref=e2643] [cursor=pointer] [box=893,6547,307,300]:
+              - /url: philippines-pharmacy-retail-industry
+              - article [ref=e2644] [box=893,6547,298,300]:
+                - img "Philippines Pharmacy Retail Market Outlook to 2025" [ref=e2645] [box=894,6548,296,144]
+                - generic [ref=e2646] [box=894,6695,296,152]:
+                  - generic [ref=e2647] [box=910,6711,210,19]: Healthcare
+                  - heading "Philippines Pharmacy Retail Market Outlook to 2025" [level=3] [ref=e2648] [box=910,6740,264,39]
+                  - generic [ref=e2649] [box=910,6788,264,16]:
+                    - generic [ref=e2650] [box=910,6788,76,16]: Philippines
+                    - generic [ref=e2654] [box=998,6788,68,16]: Aug 2001
+                  - generic [ref=e2657] [box=910,6814,264,16]: Aug 2001
+          - generic [ref=e2660] [box=240,6887,960,44]:
+            - button "Previous" [box=557,6887,91,44]
+            - button "1" [ref=e2661] [cursor=pointer] [box=653,6891,36,36]
+            - button "2" [ref=e2662] [cursor=pointer] [box=695,6891,36,36]
+            - button "3" [ref=e2663] [cursor=pointer] [box=737,6891,36,36]
+            - button "4" [ref=e2664] [cursor=pointer] [box=779,6891,36,36]
+            - button "Next" [ref=e2665] [cursor=pointer] [box=821,6887,62,44]
+        - generic [ref=e2666] [box=240,7011,960,562]:
+          - generic [ref=e2667] [box=240,7091,960,90]:
+            - paragraph [ref=e2669] [box=240,7091,87,18]: What's Hot
+            - generic [ref=e2670] [box=240,7117,960,64]:
+              - generic [ref=e2671] [box=240,7117,344,64]:
+                - heading "Trending Topics" [level=2] [ref=e2672] [box=240,7117,344,33]
+                - paragraph [ref=e2673] [box=240,7158,344,23]: Research areas gaining the most traction this quarter
+              - link "View All Topics" [ref=e2676] [cursor=pointer] [box=1080,7159,120,22]:
+                - /url: /tags/automotive-transportation-and-warehousing-market
+          - generic [ref=e2688] [box=240,7229,960,264]:
+            - link "+156% Seed 1,520 reports" [ref=e2689] [cursor=pointer] [box=240,7229,179,124]:
+              - /url: /seed-market
+              - generic [ref=e2690] [box=240,7229,179,124]:
+                - generic [ref=e2691] [box=257,7246,145,48]:
+                  - generic [ref=e2692] [box=257,7246,145,19]: +156%
+                  - heading "Seed" [level=4] [ref=e2696] [box=257,7273,145,21]
+                - generic [ref=e2697] [box=257,7308,145,28]: 1,520 reports
+            - link "+89% Crop Protection 5,340 reports" [ref=e2701] [cursor=pointer] [box=435,7229,179,124]:
+              - /url: /crop-protection-market
+              - generic [ref=e2702] [box=435,7229,179,124]:
+                - generic [ref=e2703] [box=452,7246,145,48]:
+                  - generic [ref=e2704] [box=452,7246,145,19]: +89%
+                  - heading "Crop Protection" [level=4] [ref=e2708] [box=452,7273,145,21]
+                - generic [ref=e2709] [box=452,7308,145,28]: 5,340 reports
+            - link "+234% Agriculture Equipment 1,580 reports" [ref=e2713] [cursor=pointer] [box=630,7229,179,124]:
+              - /url: /agriculture-equipment-market
+              - generic [ref=e2714] [box=630,7229,179,124]:
+                - generic [ref=e2715] [box=647,7246,145,48]:
+                  - generic [ref=e2716] [box=647,7246,145,19]: +234%
+                  - heading "Agriculture Equipment" [level=4] [ref=e2720] [box=647,7273,145,21]
+                - generic [ref=e2721] [box=647,7308,145,28]: 1,580 reports
+            - link "+178% Warehousing 2,510 reports" [ref=e2725] [cursor=pointer] [box=826,7229,179,124]:
+              - /url: /warehousing-and-storage-industry
+              - generic [ref=e2726] [box=826,7229,179,124]:
+                - generic [ref=e2727] [box=843,7246,145,48]:
+                  - generic [ref=e2728] [box=843,7246,145,19]: +178%
+                  - heading "Warehousing" [level=4] [ref=e2732] [box=843,7273,145,21]
+                - generic [ref=e2733] [box=843,7308,145,28]: 2,510 reports
+            - link "+45% In Vitro Diagnostics 6,900 reports" [ref=e2737] [cursor=pointer] [box=1021,7229,179,124]:
+              - /url: /in-vitro-diagnostics
+              - generic [ref=e2738] [box=1021,7229,179,124]:
+                - generic [ref=e2739] [box=1038,7246,145,48]:
+                  - generic [ref=e2740] [box=1038,7246,145,19]: +45%
+                  - heading "In Vitro Diagnostics" [level=4] [ref=e2744] [box=1038,7273,145,21]
+                - generic [ref=e2745] [box=1038,7308,145,28]: 6,900 reports
+            - link "+92% Healthcare IT 6,370 reports" [ref=e2749] [cursor=pointer] [box=240,7369,179,124]:
+              - /url: /healthcare-it
+              - generic [ref=e2750] [box=240,7369,179,124]:
+                - generic [ref=e2751] [box=257,7386,145,48]:
+                  - generic [ref=e2752] [box=257,7386,145,19]: +92%
+                  - heading "Healthcare IT" [level=4] [ref=e2756] [box=257,7413,145,21]
+                - generic [ref=e2757] [box=257,7448,145,28]: 6,370 reports
+            - link "+38% Car Rental 1,640 reports" [ref=e2761] [cursor=pointer] [box=435,7369,179,124]:
+              - /url: /car-rental
+              - generic [ref=e2762] [box=435,7369,179,124]:
+                - generic [ref=e2763] [box=452,7386,145,48]:
+                  - generic [ref=e2764] [box=452,7386,145,19]: +38%
+                  - heading "Car Rental" [level=4] [ref=e2768] [box=452,7413,145,21]
+                - generic [ref=e2769] [box=452,7448,145,28]: 1,640 reports
+            - link "+72% Real Estate 2,990 reports" [ref=e2773] [cursor=pointer] [box=630,7369,179,124]:
+              - /url: /real-estate-market
+              - generic [ref=e2774] [box=630,7369,179,124]:
+                - generic [ref=e2775] [box=647,7386,145,48]:
+                  - generic [ref=e2776] [box=647,7386,145,19]: +72%
+                  - heading "Real Estate" [level=4] [ref=e2780] [box=647,7413,145,21]
+                - generic [ref=e2781] [box=647,7448,145,28]: 2,990 reports
+            - link "+48% Remittance 750 reports" [ref=e2785] [cursor=pointer] [box=826,7369,179,124]:
+              - /url: /remittance
+              - generic [ref=e2786] [box=826,7369,179,124]:
+                - generic [ref=e2787] [box=843,7386,145,48]:
+                  - generic [ref=e2788] [box=843,7386,145,19]: +48%
+                  - heading "Remittance" [level=4] [ref=e2792] [box=843,7413,145,21]
+                - generic [ref=e2793] [box=843,7448,145,28]: 750 reports
+            - link "+61% Catering 1,120 reports" [ref=e2797] [cursor=pointer] [box=1021,7369,179,124]:
+              - /url: /catering
+              - generic [ref=e2798] [box=1021,7369,179,124]:
+                - generic [ref=e2799] [box=1038,7386,145,48]:
+                  - generic [ref=e2800] [box=1038,7386,145,19]: +61%
+                  - heading "Catering" [level=4] [ref=e2804] [box=1038,7413,145,21]
+                - generic [ref=e2805] [box=1038,7448,145,28]: 1,120 reports
+        - generic [ref=e2809] [box=240,7573,960,839]:
+          - generic [ref=e2810] [box=240,7653,960,90]:
+            - paragraph [ref=e2812] [box=240,7653,176,18]: Geographic Coverage
+            - generic [ref=e2813] [box=240,7679,960,64]:
+              - generic [ref=e2814] [box=240,7679,351,64]:
+                - heading "Explore by Region" [level=2] [ref=e2815] [box=240,7679,351,33]
+                - paragraph [ref=e2816] [box=240,7720,351,23]: Market intelligence across every major economic zone
+              - link "Explore All Regions" [ref=e2819] [cursor=pointer] [box=1055,7721,145,22]:
+                - /url: /country-reports
+          - generic [ref=e2831] [box=240,7791,960,541]:
+            - button [ref=e2832] [cursor=pointer] [box=1156,8043,36,36]
+            - generic [ref=e2836] [box=240,7791,960,541]:
+              - article [ref=e2838] [box=240,7791,320,541]:
+                - generic [ref=e2839] [box=241,7792,318,170]:
+                  - generic [ref=e2845] [box=313,7812,59,42]:
+                    - heading "Africa" [level=3] [ref=e2846] [box=313,7812,59,18]
+                    - generic [ref=e2847] [box=313,7834,59,16]: 911 reports
+                  - generic [ref=e2848] [box=261,7869,278,18]:
+                    - link "Comoros" [ref=e2849] [cursor=pointer] [box=261,7869,91,18]:
+                      - /url: /report-store?regions=Africa&countries=comoros
+                    - link "Djibouti" [ref=e2855] [cursor=pointer] [box=358,7869,83,18]:
+                      - /url: /report-store?regions=Africa&countries=djibouti
+                    - link "Eritrea" [ref=e2861] [cursor=pointer] [box=447,7869,76,18]:
+                      - /url: /report-store?regions=Africa&countries=eritrea
+                  - generic [ref=e2867] [box=261,7897,278,48]:
+                    - generic [ref=e2868] [cursor=pointer] [box=261,7897,206,21]: Agriculture and Animal Care
+                    - generic [ref=e2872] [cursor=pointer] [box=261,7925,186,21]: Technology and Telecom
+                - generic [ref=e2877] [box=241,7963,318,316]:
+                  - paragraph [ref=e2878] [box=257,7975,286,18]: Top Reports
+                  - generic [ref=e2879] [box=257,8001,286,211]:
+                    - link "1 Nigeria Animal Health and Veterinary Services Market Size, Share & Forecast, By Product Type, Animal Type & Service Type, 2026–2031 · Agriculture and Animal Care" [ref=e2880] [cursor=pointer] [box=251,8001,298,65]:
+                      - /url: nigeria-animal-health-and-veterinary-services-market
+                      - generic [ref=e2881] [box=257,8007,20,20]: "1"
+                      - generic [ref=e2882] [box=285,8007,258,53]:
+                        - paragraph [ref=e2883] [box=285,8007,258,33]: Nigeria Animal Health and Veterinary Services Market Size, Share & Forecast, By Product Type, Animal Type & Service Type, 2026–2031
+                        - generic [ref=e2884] [box=285,8042,258,18]:
+                          - generic [ref=e2885] [box=293,8042,2,18]: ·
+                          - generic [ref=e2886] [box=303,8042,155,18]: Agriculture and Animal Care
+                    - link "2 Africa Telecom Towers And Allied Markets Market $USD 3.5 billion · Technology and Telecom" [ref=e2887] [cursor=pointer] [box=251,8074,298,65]:
+                      - /url: africa-telecom-towers-and-allied-markets-market
+                      - generic [ref=e2888] [box=257,8080,20,20]: "2"
+                      - generic [ref=e2889] [box=285,8080,258,53]:
+                        - paragraph [ref=e2890] [box=285,8080,258,33]: Africa Telecom Towers And Allied Markets Market
+                        - generic [ref=e2891] [box=285,8115,258,18]:
+                          - generic [ref=e2892] [box=285,8115,86,18]: $USD 3.5 billion
+                          - generic [ref=e2893] [box=379,8115,2,18]: ·
+                          - generic [ref=e2894] [box=389,8115,137,18]: Technology and Telecom
+                    - link "3 Vietnam Business Process Outsourcing (BPO) Market Outlook to 2030 · Technology and Telecom" [ref=e2895] [cursor=pointer] [box=251,8147,298,65]:
+                      - /url: vietnam-business-process-outsourcing-market
+                      - generic [ref=e2896] [box=257,8153,20,20]: "3"
+                      - generic [ref=e2897] [box=285,8153,258,53]:
+                        - paragraph [ref=e2898] [box=285,8153,258,33]: Vietnam Business Process Outsourcing (BPO) Market Outlook to 2030
+                        - generic [ref=e2899] [box=285,8188,258,18]:
+                          - generic [ref=e2900] [box=293,8188,2,18]: ·
+                          - generic [ref=e2901] [box=303,8188,137,18]: Technology and Telecom
+                - link "Explore Africa" [ref=e2903] [cursor=pointer] [box=257,8287,286,28]:
+                  - /url: /report-store?regions=Africa
+              - article [ref=e2916] [box=576,7791,320,541]:
+                - generic [ref=e2917] [box=577,7792,318,221]:
+                  - generic [ref=e2923] [box=649,7812,175,42]:
+                    - heading "Central and South America" [level=3] [ref=e2924] [box=649,7812,175,18]
+                    - generic [ref=e2925] [box=649,7834,66,16]: 646 reports
+                  - generic [ref=e2926] [box=597,7869,278,42]:
+                    - link "Anguilla" [ref=e2927] [cursor=pointer] [box=597,7869,83,18]:
+                      - /url: /report-store?regions=Central and South America&countries=anguilla
+                    - link "Antigua and Barbuda" [ref=e2933] [cursor=pointer] [box=686,7869,157,18]:
+                      - /url: /report-store?regions=Central and South America&countries=antigua and barbuda
+                    - link "Aruba" [ref=e2939] [cursor=pointer] [box=597,7893,73,18]:
+                      - /url: /report-store?regions=Central and South America&countries=aruba
+                    - link "Bahamas" [ref=e2945] [cursor=pointer] [box=676,7893,90,18]:
+                      - /url: /report-store?regions=Central and South America&countries=bahamas
+                  - generic [ref=e2951] [box=597,7921,278,76]:
+                    - generic [ref=e2952] [cursor=pointer] [box=597,7921,210,21]: Food, Beverage and Tobacco
+                    - generic [ref=e2956] [cursor=pointer] [box=597,7949,206,21]: Agriculture and Animal Care
+                    - generic [ref=e2960] [cursor=pointer] [box=597,7976,219,21]: Consumer Products and Retail
+                - generic [ref=e2965] [box=577,8014,318,265]:
+                  - paragraph [ref=e2966] [box=593,8026,286,18]: Top Reports
+                  - generic [ref=e2967] [box=593,8052,286,211]:
+                    - link "1 Peru Nutritional and Dietary Supplements Market Size, Share and Forecast, By Product Type, Form, Consumer Group and Distribution Channel, 2026-2031 · Food, Beverage and Tobacco" [ref=e2968] [cursor=pointer] [box=587,8052,298,65]:
+                      - /url: peru-nutritional-dietary-supplements-market
+                      - generic [ref=e2969] [box=593,8058,20,20]: "1"
+                      - generic [ref=e2970] [box=621,8058,258,53]:
+                        - paragraph [ref=e2971] [box=621,8058,258,33]: Peru Nutritional and Dietary Supplements Market Size, Share and Forecast, By Product Type, Form, Consumer Group and Distribution Channel, 2026-2031
+                        - generic [ref=e2972] [box=621,8093,258,18]:
+                          - generic [ref=e2973] [box=629,8093,2,18]: ·
+                          - generic [ref=e2974] [box=639,8093,159,18]: Food, Beverage and Tobacco
+                    - link "2 Brazil Fertilizers Market Size, Share & Forecast, By Product Type, Crop Type & Application, 2026-2031 · Agriculture and Animal Care" [ref=e2975] [cursor=pointer] [box=587,8125,298,65]:
+                      - /url: brazil-fertilizers-market
+                      - generic [ref=e2976] [box=593,8131,20,20]: "2"
+                      - generic [ref=e2977] [box=621,8131,258,53]:
+                        - paragraph [ref=e2978] [box=621,8131,258,33]: Brazil Fertilizers Market Size, Share & Forecast, By Product Type, Crop Type & Application, 2026-2031
+                        - generic [ref=e2979] [box=621,8166,258,18]:
+                          - generic [ref=e2980] [box=629,8166,2,18]: ·
+                          - generic [ref=e2981] [box=639,8166,155,18]: Agriculture and Animal Care
+                    - link "3 Brazil Online Sports & Athletic Apparel Market Size, Share & Forecast, 2026-2031 · Consumer Products and Retail" [ref=e2982] [cursor=pointer] [box=587,8198,298,65]:
+                      - /url: brazil-online-sports-and-athletic-apparel-market
+                      - generic [ref=e2983] [box=593,8204,20,20]: "3"
+                      - generic [ref=e2984] [box=621,8204,258,53]:
+                        - paragraph [ref=e2985] [box=621,8204,258,33]: Brazil Online Sports & Athletic Apparel Market Size, Share & Forecast, 2026-2031
+                        - generic [ref=e2986] [box=621,8239,258,18]:
+                          - generic [ref=e2987] [box=629,8239,2,18]: ·
+                          - generic [ref=e2988] [box=639,8239,168,18]: Consumer Products and Retail
+                - link "Explore Central and South America" [ref=e2990] [cursor=pointer] [box=593,8287,286,28]:
+                  - /url: /report-store?regions=Central and South America
+              - article [ref=e3003] [box=912,7791,320,541]:
+                - generic [ref=e3004] [box=913,7792,318,194]:
+                  - generic [ref=e3010] [box=985,7812,94,42]:
+                    - heading "North America" [level=3] [ref=e3011] [box=985,7812,94,18]
+                    - generic [ref=e3012] [box=985,7834,76,16]: 2,509 reports
+                  - generic [ref=e3013] [box=933,7869,278,42]:
+                    - link "Minnesota" [ref=e3014] [cursor=pointer] [box=933,7869,98,18]:
+                      - /url: /report-store?regions=North America&countries=minnesota
+                    - link "Mexico" [ref=e3020] [cursor=pointer] [box=1037,7869,79,18]:
+                      - /url: /report-store?regions=North America&countries=mexico
+                    - link "Bermuda" [ref=e3026] [cursor=pointer] [box=933,7893,90,18]:
+                      - /url: /report-store?regions=North America&countries=bermuda
+                    - link "Canada" [ref=e3032] [cursor=pointer] [box=1029,7893,83,18]:
+                      - /url: /report-store?regions=North America&countries=canada
+                  - generic [ref=e3038] [box=933,7921,278,48]:
+                    - generic [ref=e3039] [cursor=pointer] [box=933,7921,210,21]: Food, Beverage and Tobacco
+                    - generic [ref=e3043] [cursor=pointer] [box=933,7949,155,21]: Consumer Services
+                - generic [ref=e3048] [box=913,7987,318,292]:
+                  - paragraph [ref=e3049] [box=929,7999,286,18]: Top Reports
+                  - generic [ref=e3050] [box=929,8025,286,195]:
+                    - link "1 United States Cookies Market $7.6 Bn · Food, Beverage and Tobacco" [ref=e3051] [cursor=pointer] [box=923,8025,298,49]:
+                      - /url: united-states-cookies-market
+                      - generic [ref=e3052] [box=929,8031,20,20]: "1"
+                      - generic [ref=e3053] [box=957,8031,258,37]:
+                        - paragraph [ref=e3054] [box=957,8031,258,17]: United States Cookies Market
+                        - generic [ref=e3055] [box=957,8049,258,18]:
+                          - generic [ref=e3056] [box=957,8049,40,18]: $7.6 Bn
+                          - generic [ref=e3057] [box=1005,8049,2,18]: ·
+                          - generic [ref=e3058] [box=1015,8049,159,18]: Food, Beverage and Tobacco
+                    - link "2 United States Coffee Shop Market Size, Share, Trends & Forecast, 2026–2032 · Food, Beverage and Tobacco" [ref=e3059] [cursor=pointer] [box=923,8081,298,65]:
+                      - /url: united-states-coffee-shop-market
+                      - generic [ref=e3060] [box=929,8087,20,20]: "2"
+                      - generic [ref=e3061] [box=957,8087,258,53]:
+                        - paragraph [ref=e3062] [box=957,8087,258,33]: United States Coffee Shop Market Size, Share, Trends & Forecast, 2026–2032
+                        - generic [ref=e3063] [box=957,8122,258,18]:
+                          - generic [ref=e3064] [box=965,8122,2,18]: ·
+                          - generic [ref=e3065] [box=975,8122,159,18]: Food, Beverage and Tobacco
+                    - link "3 USA Jeans Market Size, Share & Forecast, Customer Type, Price Tier & Distribution Channel, 2025–2031 · Consumer Services" [ref=e3066] [cursor=pointer] [box=923,8154,298,65]:
+                      - /url: usa-jeans-market
+                      - generic [ref=e3067] [box=929,8160,20,20]: "3"
+                      - generic [ref=e3068] [box=957,8160,258,53]:
+                        - paragraph [ref=e3069] [box=957,8160,258,33]: USA Jeans Market Size, Share & Forecast, Customer Type, Price Tier & Distribution Channel, 2025–2031
+                        - generic [ref=e3070] [box=957,8195,258,18]:
+                          - generic [ref=e3071] [box=965,8195,2,18]: ·
+                          - generic [ref=e3072] [box=975,8195,108,18]: Consumer Services
+                - link "Explore North America" [ref=e3074] [cursor=pointer] [box=929,8287,286,28]:
+                  - /url: /report-store?regions=North America
+              - article [ref=e3087] [box=1248,7791,320,541]:
+                - generic [ref=e3088] [box=1249,7792,318,197]:
+                  - generic [ref=e3094] [box=1321,7812,75,42]:
+                    - heading "Asia" [level=3] [ref=e3095] [box=1321,7812,75,18]
+                    - generic [ref=e3096] [box=1321,7834,75,16]: 9,598 reports
+                  - generic [ref=e3097] [box=1269,7869,278,18]:
+                    - link "Palau" [ref=e3098] [cursor=pointer] [box=1269,7869,69,18]:
+                      - /url: /report-store?regions=Asia&countries=palau
+                    - link "Afganistan" [ref=e3104] [cursor=pointer] [box=1344,7869,98,18]:
+                      - /url: /report-store?regions=Asia&countries=afganistan
+                    - link "Armenia" [ref=e3110] [cursor=pointer] [box=1449,7869,86,18]:
+                      - /url: /report-store?regions=Asia&countries=armenia
+                  - generic [ref=e3116] [box=1269,7897,278,76]:
+                    - generic [ref=e3117] [cursor=pointer] [box=1269,7897,232,21]: Manufacturing and Construction
+                    - generic [ref=e3121] [cursor=pointer] [box=1269,7925,202,21]: Education and Recruitment
+                    - generic [ref=e3125] [cursor=pointer] [box=1269,7952,190,21]: Media and Entertainment
+                - generic [ref=e3130] [box=1249,7990,318,289]:
+                  - paragraph [ref=e3131] [box=1265,8002,286,18]: Top Reports
+                  - generic [ref=e3132] [box=1265,8028,286,213]:
+                    - link "1 India Print Industry Market Outlook to 2030 $USD 260 billion · Manufacturing and Construction" [ref=e3133] [cursor=pointer] [box=1259,8028,298,67]:
+                      - /url: india-print-industry-market
+                      - generic [ref=e3134] [box=1265,8034,20,20]: "1"
+                      - generic [ref=e3135] [box=1293,8034,258,55]:
+                        - paragraph [ref=e3136] [box=1293,8034,258,17]: India Print Industry Market Outlook to 2030
+                        - generic [ref=e3137] [box=1293,8052,258,36]:
+                          - generic [ref=e3138] [box=1293,8052,81,36]: $USD 260 billion
+                          - generic [ref=e3139] [box=1382,8061,2,18]: ·
+                          - generic [ref=e3140] [box=1392,8052,159,36]: Manufacturing and Construction
+                    - link "2 India Human Resource (HR) Market Outlook to 2030 $USD 1.02 Bn · Education and Recruitment" [ref=e3141] [cursor=pointer] [box=1259,8102,298,65]:
+                      - /url: india-human-resource-market
+                      - generic [ref=e3142] [box=1265,8108,20,20]: "2"
+                      - generic [ref=e3143] [box=1293,8108,258,53]:
+                        - paragraph [ref=e3144] [box=1293,8108,258,33]: India Human Resource (HR) Market Outlook to 2030
+                        - generic [ref=e3145] [box=1293,8143,258,18]:
+                          - generic [ref=e3146] [box=1293,8143,71,18]: $USD 1.02 Bn
+                          - generic [ref=e3147] [box=1372,8143,2,18]: ·
+                          - generic [ref=e3148] [box=1383,8143,152,18]: Education and Recruitment
+                    - link "3 India Over the Top (OTT) Market Outlook to 2030 $USD 3.5 Bn · Media and Entertainment" [ref=e3149] [cursor=pointer] [box=1259,8175,298,65]:
+                      - /url: india-over-the-top-market
+                      - generic [ref=e3150] [box=1265,8181,20,20]: "3"
+                      - generic [ref=e3151] [box=1293,8181,258,53]:
+                        - paragraph [ref=e3152] [box=1293,8181,258,33]: India Over the Top (OTT) Market Outlook to 2030
+                        - generic [ref=e3153] [box=1293,8216,258,18]:
+                          - generic [ref=e3154] [box=1293,8216,67,18]: $USD 3.5 Bn
+                          - generic [ref=e3155] [box=1368,8216,2,18]: ·
+                          - generic [ref=e3156] [box=1379,8216,141,18]: Media and Entertainment
+                - link "Explore Asia" [ref=e3158] [cursor=pointer] [box=1265,8287,286,28]:
+                  - /url: /report-store?regions=Asia
+              - article [ref=e3171] [box=1584,7791,320,541]:
+                - generic [ref=e3172] [box=1585,7792,318,221]:
+                  - generic [ref=e3178] [box=1657,7812,72,42]:
+                    - heading "Europe" [level=3] [ref=e3179] [box=1657,7812,72,18]
+                    - generic [ref=e3180] [box=1657,7834,72,16]: 2,301 reports
+                  - generic [ref=e3181] [box=1605,7869,278,42]:
+                    - link "Scandinavia" [ref=e3182] [cursor=pointer] [box=1605,7869,107,18]:
+                      - /url: /report-store?regions=Europe&countries=scandinavia
+                    - link "Isle of Man" [ref=e3188] [cursor=pointer] [box=1718,7869,99,18]:
+                      - /url: /report-store?regions=Europe&countries=isle of man
+                    - link "Albania" [ref=e3194] [cursor=pointer] [box=1605,7893,81,18]:
+                      - /url: /report-store?regions=Europe&countries=albania
+                    - link "Andorra" [ref=e3200] [cursor=pointer] [box=1692,7893,85,18]:
+                      - /url: /report-store?regions=Europe&countries=andorra
+                  - generic [ref=e3206] [box=1605,7921,278,76]:
+                    - generic [ref=e3207] [cursor=pointer] [box=1605,7921,232,21]: Manufacturing and Construction
+                    - generic [ref=e3211] [cursor=pointer] [box=1605,7949,155,21]: Consumer Services
+                    - generic [ref=e3215] [cursor=pointer] [box=1605,7976,186,21]: Technology and Telecom
+                - generic [ref=e3220] [box=1585,8014,318,265]:
+                  - paragraph [ref=e3221] [box=1601,8026,286,18]: Top Reports
+                  - generic [ref=e3222] [box=1601,8052,286,211]:
+                    - link "1 Germany Real Estate Digital Platforms Market Size, Share & Forecast, By 2026-2031 · Manufacturing and Construction" [ref=e3223] [cursor=pointer] [box=1595,8052,298,65]:
+                      - /url: germany-real-estate-digital-platforms-market
+                      - generic [ref=e3224] [box=1601,8058,20,20]: "1"
+                      - generic [ref=e3225] [box=1629,8058,258,53]:
+                        - paragraph [ref=e3226] [box=1629,8058,258,33]: Germany Real Estate Digital Platforms Market Size, Share & Forecast, By 2026-2031
+                        - generic [ref=e3227] [box=1629,8093,258,18]:
+                          - generic [ref=e3228] [box=1637,8093,2,18]: ·
+                          - generic [ref=e3229] [box=1647,8093,180,18]: Manufacturing and Construction
+                    - link "2 UK Health and Fitness Clubs Market Size, Share & Forecast, By Service Type, Customer Type & Delivery Model, 2026-2031 · Consumer Services" [ref=e3230] [cursor=pointer] [box=1595,8125,298,65]:
+                      - /url: uk-health-and-fitness-clubs-market
+                      - generic [ref=e3231] [box=1601,8131,20,20]: "2"
+                      - generic [ref=e3232] [box=1629,8131,258,53]:
+                        - paragraph [ref=e3233] [box=1629,8131,258,33]: UK Health and Fitness Clubs Market Size, Share & Forecast, By Service Type, Customer Type & Delivery Model, 2026-2031
+                        - generic [ref=e3234] [box=1629,8166,258,18]:
+                          - generic [ref=e3235] [box=1637,8166,2,18]: ·
+                          - generic [ref=e3236] [box=1647,8166,108,18]: Consumer Services
+                    - 'link "3 Europe Unified Communications Market Outlook to 2030: Size, Share, Growth and Trends $USD 57,820 Mn · Technology and Telecom" [ref=e3237] [cursor=pointer] [box=1595,8198,298,65]':
+                      - /url: europe-unified-communications-market
+                      - generic [ref=e3238] [box=1601,8204,20,20]: "3"
+                      - generic [ref=e3239] [box=1629,8204,258,53]:
+                        - paragraph [ref=e3240] [box=1629,8204,258,33]: "Europe Unified Communications Market Outlook to 2030: Size, Share, Growth and Trends"
+                        - generic [ref=e3241] [box=1629,8239,258,18]:
+                          - generic [ref=e3242] [box=1629,8239,91,18]: $USD 57,820 Mn
+                          - generic [ref=e3243] [box=1728,8239,2,18]: ·
+                          - generic [ref=e3244] [box=1738,8239,137,18]: Technology and Telecom
+                - link "Explore Europe" [ref=e3246] [cursor=pointer] [box=1601,8287,286,28]:
+                  - /url: /report-store?regions=Europe
+              - article [ref=e3259] [box=1920,7791,320,541]:
+                - generic [ref=e3260] [box=1921,7792,318,221]:
+                  - generic [ref=e3266] [box=1993,7812,79,42]:
+                    - heading "Middle East" [level=3] [ref=e3267] [box=1993,7812,79,18]
+                    - generic [ref=e3268] [box=1993,7834,79,16]: 15,543 reports
+                  - generic [ref=e3269] [box=1941,7869,278,42]:
+                    - link "Bahrain" [ref=e3270] [cursor=pointer] [box=1941,7869,81,18]:
+                      - /url: /report-store?regions=Middle East&countries=bahrain
+                    - link "Iraq" [ref=e3276] [cursor=pointer] [box=2028,7869,61,18]:
+                      - /url: /report-store?regions=Middle East&countries=iraq
+                    - link "Iran" [ref=e3282] [cursor=pointer] [box=2096,7869,61,18]:
+                      - /url: /report-store?regions=Middle East&countries=iran
+                    - link "Israel" [ref=e3288] [cursor=pointer] [box=1941,7893,69,18]:
+                      - /url: /report-store?regions=Middle East&countries=israel
+                  - generic [ref=e3294] [box=1941,7921,278,76]:
+                    - generic [ref=e3295] [cursor=pointer] [box=1941,7921,232,21]: Manufacturing and Construction
+                    - generic [ref=e3299] [cursor=pointer] [box=1941,7949,219,21]: Consumer Products and Retail
+                    - generic [ref=e3303] [cursor=pointer] [box=1941,7976,154,21]: Energy and Utilities
+                - generic [ref=e3308] [box=1921,8014,318,265]:
+                  - paragraph [ref=e3309] [box=1937,8026,286,18]: Top Reports
+                  - generic [ref=e3310] [box=1937,8052,286,180]:
+                    - link "1 KSA Construction Market Outlook to 2030 $USD 70.2 billion · Manufacturing and Construction" [ref=e3311] [cursor=pointer] [box=1931,8052,298,67]:
+                      - /url: ksa-construction-market
+                      - generic [ref=e3312] [box=1937,8058,20,20]: "1"
+                      - generic [ref=e3313] [box=1965,8058,258,55]:
+                        - paragraph [ref=e3314] [box=1965,8058,258,17]: KSA Construction Market Outlook to 2030
+                        - generic [ref=e3315] [box=1965,8076,258,36]:
+                          - generic [ref=e3316] [box=1965,8076,81,36]: $USD 70.2 billion
+                          - generic [ref=e3317] [box=2054,8085,2,18]: ·
+                          - generic [ref=e3318] [box=2065,8076,158,36]: Manufacturing and Construction
+                    - link "2 KSA Retail Market Outlook to 2030 $590 billion · Consumer Products and Retail" [ref=e3319] [cursor=pointer] [box=1931,8126,298,49]:
+                      - /url: ksa-retail-market
+                      - generic [ref=e3320] [box=1937,8132,20,20]: "2"
+                      - generic [ref=e3321] [box=1965,8132,258,37]:
+                        - paragraph [ref=e3322] [box=1965,8132,258,17]: KSA Retail Market Outlook to 2030
+                        - generic [ref=e3323] [box=1965,8151,258,18]:
+                          - generic [ref=e3324] [box=1965,8151,66,18]: $590 billion
+                          - generic [ref=e3325] [box=2039,8151,2,18]: ·
+                          - generic [ref=e3326] [box=2049,8151,168,18]: Consumer Products and Retail
+                    - link "3 United Arab Emirates Oil And Gas Market $112 Bn · Energy and Utilities" [ref=e3327] [cursor=pointer] [box=1931,8183,298,49]:
+                      - /url: united-arab-emirates-oil-and-gas-market
+                      - generic [ref=e3328] [box=1937,8189,20,20]: "3"
+                      - generic [ref=e3329] [box=1965,8189,258,37]:
+                        - paragraph [ref=e3330] [box=1965,8189,258,17]: United Arab Emirates Oil And Gas Market
+                        - generic [ref=e3331] [box=1965,8207,258,18]:
+                          - generic [ref=e3332] [box=1965,8207,39,18]: $112 Bn
+                          - generic [ref=e3333] [box=2012,8207,2,18]: ·
+                          - generic [ref=e3334] [box=2022,8207,107,18]: Energy and Utilities
+                - link "Explore Middle East" [ref=e3336] [cursor=pointer] [box=1937,8287,286,28]:
+                  - /url: /report-store?regions=Middle East
+        - generic [ref=e3349] [box=240,8492,960,532]:
+          - generic [ref=e3352] [box=464,8492,512,111]:
+            - heading "Trusted by Industry Leaders" [level=2] [ref=e3353] [box=464,8492,512,45]
+            - paragraph [ref=e3354] [box=464,8549,512,54]: Join 50,000+ professionals who rely on our research for strategic decision-making
+          - generic [ref=e3355] [box=240,8643,960,245]:
+            - generic [ref=e3356] [box=240,8643,309,245]:
+              - paragraph [ref=e3371] [box=257,8684,275,114]: “Ken Research's healthcare reports have been instrumental in our strategic planning. The depth of analysis and accuracy of projections are unmatched in the industry.”
+              - generic [ref=e3372] [box=257,8818,275,53]:
+                - generic [ref=e3373] [box=257,8833,36,36]: RK
+                - generic [ref=e3374] [box=305,8831,186,40]:
+                  - generic [ref=e3375] [box=305,8831,186,21]: Rajesh Kumar
+                  - generic [ref=e3376] [box=305,8852,186,19]: VP Strategy, Reliance Industries
+            - generic [ref=e3377] [box=565,8643,309,245]:
+              - paragraph [ref=e3392] [box=582,8684,275,114]: “We rely on Ken Research for our energy sector intelligence. Their GCC coverage is the most comprehensive available in the market today.”
+              - generic [ref=e3393] [box=582,8818,275,53]:
+                - generic [ref=e3394] [box=582,8833,36,36]: SA
+                - generic [ref=e3395] [box=630,8831,155,40]:
+                  - generic [ref=e3396] [box=630,8831,155,21]: Sarah Al-Mazrouei
+                  - generic [ref=e3397] [box=630,8852,155,19]: Head of Research, ADNOC
+            - generic [ref=e3398] [box=891,8643,309,245]:
+              - paragraph [ref=e3413] [box=908,8684,275,114]: “The data quality and timeliness of Ken Research reports consistently exceed our expectations. A trusted resource for our consulting engagements.”
+              - generic [ref=e3414] [box=908,8818,275,53]:
+                - generic [ref=e3415] [box=908,8833,36,36]: DC
+                - generic [ref=e3416] [box=956,8831,179,40]:
+                  - generic [ref=e3417] [box=956,8831,179,21]: David Chen
+                  - generic [ref=e3418] [box=956,8852,179,19]: Partner, McKinsey & Company
+          - generic [ref=e3419] [box=240,8928,960,96]:
+            - generic [ref=e3420] [box=547,8961,347,15]: Trusted by leading organizations worldwide
+            - generic [ref=e3422] [box=-489,8996,3646,28]:
+              - img "Adidas" [ref=e3424] [box=-489,8996,42,28]
+              - img "Aramex" [ref=e3426] [box=-400,8996,166,28]
+              - img "BCG" [ref=e3428] [box=-186,8996,68,28]
+              - img "BMW" [ref=e3430] [box=-69,8996,28,28]
+              - img "Bosch" [ref=e3432] [box=7,8996,132,28]
+              - img "Cisco" [ref=e3434] [box=187,8996,54,28]
+              - img "Deloitte" [ref=e3436] [box=288,8996,146,28]
+              - img "Flipkart" [ref=e3438] [box=482,8996,107,28]
+              - img "KPMG" [ref=e3440] [box=637,8996,70,28]
+              - img "Logitech" [ref=e3442] [box=755,8996,109,28]
+              - img "Mahindra" [ref=e3444] [box=912,8996,58,28]
+              - img "PWC" [ref=e3446] [box=1018,8996,58,28]
+              - img "Roche" [ref=e3448] [box=1124,8996,54,28]
+              - img "Samsung" [ref=e3450] [box=1226,8996,84,28]
+              - img "Adidas" [ref=e3452] [box=1358,8996,42,28]
+              - img "Aramex" [ref=e3454] [box=1447,8996,166,28]
+              - img "BCG" [ref=e3456] [box=1661,8996,68,28]
+              - img "BMW" [ref=e3458] [box=1778,8996,28,28]
+              - img "Bosch" [ref=e3460] [box=1854,8996,132,28]
+              - img "Cisco" [ref=e3462] [box=2034,8996,54,28]
+              - img "Deloitte" [ref=e3464] [box=2135,8996,146,28]
+              - img "Flipkart" [ref=e3466] [box=2329,8996,107,28]
+              - img "KPMG" [ref=e3468] [box=2484,8996,70,28]
+              - img "Logitech" [ref=e3470] [box=2602,8996,109,28]
+              - img "Mahindra" [ref=e3472] [box=2760,8996,58,28]
+              - img "PWC" [ref=e3474] [box=2865,8996,58,28]
+              - img "Roche" [ref=e3476] [box=2971,8996,54,28]
+              - img "Samsung" [ref=e3478] [box=3073,8996,84,28]
+        - generic [ref=e3483] [box=240,9184,960,347]:
+          - generic [ref=e3484] [box=240,9184,456,347]:
+            - generic [ref=e3485] [box=240,9184,196,33]: Custom Research Solutions
+            - heading "Need tailored market intelligence?" [level=2] [ref=e3487] [box=240,9241,456,90]
+            - paragraph [ref=e3488] [box=240,9347,448,104]: Our team of 200+ expert analysts can deliver custom research reports tailored to your specific business requirements. From market sizing to competitive benchmarking, we provide enterprise-grade insights.
+            - link "Request Custom Research" [ref=e3490] [cursor=pointer] [box=240,9483,279,48]:
+              - /url: /custom-form
+          - generic [ref=e3495] [box=744,9279,456,158]:
+            - generic [ref=e3496] [box=744,9279,144,158]:
+              - paragraph [ref=e3501] [box=765,9352,102,30]: 500+
+              - paragraph [ref=e3502] [box=765,9386,102,30]: Custom Reports Delivered
+            - generic [ref=e3503] [box=900,9279,144,158]:
+              - paragraph [ref=e3510] [box=921,9352,102,30]: 200+
+              - paragraph [ref=e3511] [box=921,9386,102,15]: Expert Analysts
+            - generic [ref=e3512] [box=1056,9279,144,158]:
+              - paragraph [ref=e3517] [box=1077,9352,102,30]: 45-50 days
+              - paragraph [ref=e3518] [box=1077,9386,102,15]: Avg. Delivery Time
+      - button "Back to top" [box=1379,846,34,34]
+  - contentinfo [ref=e3519] [box=0,9611,1440,1036]:
+    - generic [ref=e3520] [box=120,9688,1200,919]:
+      - generic [ref=e3521] [box=128,9688,1184,304]:
+        - generic [ref=e3522] [box=128,9688,140,244]:
+          - heading "About Ken Research" [level=2] [ref=e3523] [cursor=pointer] [box=128,9688,140,18]
+          - navigation [ref=e3524] [box=128,9722,140,210]:
+            - link "Home" [ref=e3527] [cursor=pointer] [box=149,9727,40,20]:
+              - /url: /
+            - link "About Us" [ref=e3530] [cursor=pointer] [box=149,9757,64,20]:
+              - /url: /about-us
+            - link "Services" [ref=e3533] [cursor=pointer] [box=149,9787,60,20]:
+              - /url: /services
+            - link "Categories" [ref=e3536] [cursor=pointer] [box=149,9817,78,20]:
+              - /url: /categories
+            - link "News" [ref=e3539] [cursor=pointer] [box=149,9847,38,20]:
+              - /url: /news
+            - link "Careers" [ref=e3542] [cursor=pointer] [box=149,9877,56,20]:
+              - /url: /careers
+            - link "Contact Us" [ref=e3545] [cursor=pointer] [box=149,9907,80,20]:
+              - /url: /contact-us
+        - generic [ref=e3547] [box=429,9688,271,244]:
+          - heading "Resources" [level=2] [ref=e3548] [cursor=pointer] [box=429,9688,76,18]
+          - navigation [ref=e3549] [box=429,9722,271,210]:
+            - link "Blogs" [ref=e3552] [cursor=pointer] [box=450,9727,39,20]:
+              - /url: /blog
+            - link "Industry Reports" [ref=e3555] [cursor=pointer] [box=450,9757,118,20]:
+              - /url: /report-store
+            - link "Competition Benchmarking Reports" [ref=e3558] [cursor=pointer] [box=450,9787,250,20]:
+              - /url: /report-store?reportTypes=competition_benchmarking
+            - link "Country Research Reports" [ref=e3561] [cursor=pointer] [box=450,9817,186,20]:
+              - /url: /country-reports
+            - link "Dossier 360" [ref=e3564] [cursor=pointer] [box=450,9847,83,20]:
+              - /url: /dossier360
+            - link "Go To Market Strategy" [ref=e3567] [cursor=pointer] [box=450,9877,156,20]:
+              - /url: /consulting/strategy-consulting/market-entry-consulting
+            - link "Paid Press Release" [ref=e3570] [cursor=pointer] [box=450,9907,132,20]:
+              - /url: /paid-press-release
+        - generic [ref=e3572] [box=730,9688,158,274]:
+          - heading "Expertise & Services" [level=2] [ref=e3573] [cursor=pointer] [box=730,9688,143,18]
+          - navigation [ref=e3574] [box=730,9722,158,240]:
+            - link "Industry Speaks" [ref=e3577] [cursor=pointer] [box=751,9727,112,20]:
+              - /url: /industry-speak
+            - link "Terms & Conditions" [ref=e3580] [cursor=pointer] [box=751,9757,137,20]:
+              - /url: /terms-and-conditions#termsAndCondition
+            - link "Privacy Policy" [ref=e3583] [cursor=pointer] [box=751,9787,96,20]:
+              - /url: /terms-and-conditions#privacyPolicy
+            - link "Disclaimer" [ref=e3586] [cursor=pointer] [box=751,9817,73,20]:
+              - /url: /terms-and-conditions#privacyPolicydisclaimer
+            - link "FAQ's" [ref=e3589] [cursor=pointer] [box=751,9847,38,20]:
+              - /url: /terms-and-conditions#faqs
+            - link "Site Map" [ref=e3592] [cursor=pointer] [box=751,9877,61,20]:
+              - /url: /sitemap.xml
+            - link "IT Support" [ref=e3595] [cursor=pointer] [box=751,9907,73,20]:
+              - /url: https://forms.office.com/pages/responsepage.aspx?id=9JnITJIKcEmR-hiEXezdZJURM4Fx-vRJglRe5yShhp1UQjkzSzNGNk1HNzJDN0I5MEhKSkhOWjlXTy4u&route=shorturl
+            - link "Website Issue" [ref=e3598] [cursor=pointer] [box=751,9937,98,20]:
+              - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=9JnITJIKcEmR-hiEXezdZJURM4Fx-vRJglRe5yShhp1UOEw4NjVPQzZIT0RPUzlFN0hJM1UwREk4Ui4u
+        - generic [ref=e3600] [box=1031,9688,292,304]:
+          - heading "How We Are Different?" [level=2] [ref=e3601] [cursor=pointer] [box=1031,9688,157,18]
+          - navigation [ref=e3602] [box=1031,9722,292,270]:
+            - link "Ken Research Vs. BCC Research" [ref=e3605] [cursor=pointer] [box=1052,9727,223,20]:
+              - /url: /ken-research-vs-bcc-research
+            - link "Ken Research Vs. Euromonitor Int." [ref=e3608] [cursor=pointer] [box=1052,9757,236,20]:
+              - /url: /ken-research-vs-euromonitor
+            - link "Ken Research Vs. Nielsen" [ref=e3611] [cursor=pointer] [box=1052,9787,175,20]:
+              - /url: /ken-research-vs-nielsen-surveys
+            - link "Ken Research Vs. Marketsand Markets" [ref=e3614] [cursor=pointer] [box=1052,9817,266,20]:
+              - /url: /ken-research-vs-marketsandmarkets
+            - link "Ken Research Vs. McKinsey" [ref=e3617] [cursor=pointer] [box=1052,9847,190,20]:
+              - /url: /ken-research-vs-mckinsey
+            - link "Ken Research Vs. Mordor" [ref=e3620] [cursor=pointer] [box=1052,9877,173,20]:
+              - /url: /ken-research-vs-mordor-intelligence
+            - link "Ken Research Vs. S&P Global" [ref=e3623] [cursor=pointer] [box=1052,9907,199,20]:
+              - /url: /ken-research-vs-sp-global
+            - link "Ken Research Vs. Grand View Research" [ref=e3626] [cursor=pointer] [box=1052,9937,271,20]:
+              - /url: /ken-research-vs-grand-view-research
+            - link "Ken Research Vs. Frost & Sullivan" [ref=e3629] [cursor=pointer] [box=1052,9967,230,20]:
+              - /url: /ken-research-vs-frost-and-sullivan
+      - generic [ref=e3631] [box=128,10012,1184,117]:
+        - heading "Company Overview" [level=2] [ref=e3632] [box=128,10012,130,18]
+        - generic [ref=e3633] [box=128,10046,1184,83]:
+          - generic [ref=e3634] [box=128,10046,266,83]:
+            - heading "India" [level=2] [ref=e3635] [box=128,10046,28,15]
+            - link "Unit 14, Tower B3, Spaze I Tech Business Park, Sohna Road, sector 49 Gurgaon, Haryana - 122001, India" [ref=e3636] [cursor=pointer] [box=128,10069,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2CUnit%2014%2C%20Tower%20B3%2C%20Spaze%20I%20Tech%20Business%20Park%2C%20Sohna%20Road%2C%20sector%2049%20Gurgaon%2C%20Haryana%20-%20122001%2C%20India
+          - generic [ref=e3637] [box=434,10046,266,83]:
+            - heading "UAE" [level=2] [ref=e3638] [box=434,10046,21,15]
+            - link "105, Al Jaz1b, Street no 2 the Greens Dubai United Arab Emirates" [ref=e3639] [cursor=pointer] [box=434,10069,266,40]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2C105%2C%20Al%20Jaz1b%2C%20Street%20no%202%20the%20Greens%20Dubai%20United%20Arab%20Emirates
+          - generic [ref=e3640] [box=740,10046,266,83]:
+            - heading "Indonesia" [level=2] [ref=e3641] [box=740,10046,56,15]
+            - link "The Icon BSD City, Jl. Verdant View IIIA No.15, Tangerang Regency, Province Banten-15345, Indonesia" [ref=e3642] [cursor=pointer] [box=740,10069,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2CThe%20Icon%20BSD%20City%2C%20Jl.%20Verdant%20View%20IIIA%20No.15%2C%20Tangerang%20Regency%2C%20Province%20Banten-15345%2C%20Indonesia
+          - generic [ref=e3643] [box=1046,10046,266,83]:
+            - heading "QATAR" [level=2] [ref=e3644] [box=1046,10046,34,15]
+            - link "Office no. 9, Building no. 171 Zone no. 42, Street no. 230, Al-Rehab Complex, C-Ring road, Doha" [ref=e3645] [cursor=pointer] [box=1046,10069,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2COffice%20no.%209%2C%20Building%20no.%20171%20Zone%20no.%2042%2C%20Street%20no.%20230%2C%20Al-Rehab%20Complex%2C%20C-Ring%20road%2C%20Doha
+      - generic [ref=e3646] [box=128,10129,1184,318]:
+        - paragraph [ref=e3648] [box=128,10037,590,534]: Ken
+        - generic [ref=e3649] [box=838,10241,474,206]:
+          - generic [ref=e3650] [box=838,10241,474,126]:
+            - link [ref=e3651] [cursor=pointer] [box=838,10241,474,24]:
+              - /url: tel:+91-90153-78249
+              - paragraph [ref=e3652] [box=838,10241,474,24]: "For Sale Enquiries: +91-9015378249"
+            - link [ref=e3655] [cursor=pointer] [box=838,10273,474,36]:
+              - /url: mailto:ankur.gupta@kenresearch.com
+              - paragraph [ref=e3656] [box=838,10273,474,24]: ankur.gupta@kenresearch.com
+            - paragraph [ref=e3659] [box=838,10317,474,18]: Subscribe to our Newsletter
+            - paragraph [ref=e3660] [box=838,10343,474,24]: Never miss out on an update from us
+          - generic [ref=e3661] [box=838,10399,474,48]:
+            - textbox "Enter your email address" [ref=e3663] [box=838,10399,341,48]
+            - button "Subscribe" [ref=e3664] [cursor=pointer] [box=1195,10399,117,48]
+      - generic [ref=e3667] [box=128,10589,1184,18]:
+        - generic [ref=e3668] [box=128,10589,421,18]:
+          - link "Terms & Conditions" [ref=e3669] [cursor=pointer] [box=128,10589,125,18]:
+            - /url: /terms-and-conditions#termsAndCondition
+          - link "Privacy Policy" [ref=e3670] [cursor=pointer] [box=313,10589,89,18]:
+            - /url: /terms-and-conditions#privacyPolicy
+          - link "Cookie Policy" [ref=e3671] [cursor=pointer] [box=462,10589,87,18]:
+            - /url: /cookie-policy
+        - paragraph [ref=e3672] [box=921,10589,391,18]: © Copyright 2026, Ken Research Pvt. Ltd. All rights reserved.
+  - alert [ref=e3673] [box=-1,10646,1,1]

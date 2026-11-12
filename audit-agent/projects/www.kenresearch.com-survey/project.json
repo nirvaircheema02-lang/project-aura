@@ -1,0 +1,55 @@
+{
+  "targetUrl": "https://www.kenresearch.com/survey",
+  "mode": "single-page",
+  "figmaFileKey": "m8qwjY50iPgEwIi0tZ44po",
+  "figmaFileUrl": "https://www.figma.com/design/m8qwjY50iPgEwIi0tZ44po",
+  "figmaTeamPlanKey": "team::1364202946001928079",
+  "figmaProjectId": null,
+  "figmaNodes": {
+    "pages": {
+      "00 Overview": "0:1",
+      "01 Page Audit": "1:2",
+      "02 Root Causes": "1:3",
+      "03 Component Findings": "1:4",
+      "04 Needs Review": "1:5",
+      "05 Global Components": "1:6"
+    },
+    "frames": {
+      "00 Overview / root": "61:2",
+      "01 Page Audit / Page Audit frame": "62:2",
+      "01 Page Audit / Legend": "64:34",
+      "01 Page Audit / Component library section": "63:2",
+      "02 Root Causes / root": "66:2",
+      "03 Component Findings / root": "67:2",
+      "04 Needs Review / root": "69:2",
+      "05 Global Components / root": "69:119"
+    },
+    "markers": {
+      "927211f007d36c7be05450ab491514b7": "63:24",
+      "04122dac9b76ae3b624751d98330c1a2": "63:43",
+      "82db2a689d53a15ba3f9c5ddae51dc90": "63:65",
+      "0c189a48482d319cf102b4f68bfb6748": "63:84",
+      "cda24d45de662a41b28ca4ad4c9d0c24": "63:106",
+      "70044c69f34b48939a3d27250da72c79": "63:122",
+      "d772a029cc7c07fb6caffca5f53d4a22": "63:142",
+      "bef06630256da7539ece1d761f199719": "63:164"
+    },
+    "imageHashes": {
+      "screenshots/139240056fa7aa01/page-tile-0.png": "ffe6e922ae160399def12fa37be9b278abd7fcd8",
+      "screenshots/139240056fa7aa01/page-tile-1.png": "176a6df0f25a0055b1f1c1cd6e8d8788db441dbe",
+      "screenshots/139240056fa7aa01/page-tile-2.png": "a5ece169b8583b370ed3e7afacb20ac3f2c22aca",
+      "screenshots/139240056fa7aa01/page-tile-3.png": "6672080085fb0019c3d69c3398e2722a86883cc7",
+      "screenshots/139240056fa7aa01/page-tile-4.png": "f4982620a4e6fae67439194be8eb02e630c52fa6",
+      "screenshots/139240056fa7aa01/page-tile-5.png": "f74c902d511030ea981610d553f1f3c436ea085d",
+      "screenshots/139240056fa7aa01/page-tile-6.png": "536ffb2c4016d0aa7be49299f3d4ea47765aa62f",
+      "screenshots/139240056fa7aa01/page-tile-7.png": "9d9f6f3407592e4a5a24503473a3a9196327e604",
+      "screenshots/139240056fa7aa01/page-tile-8.png": "2914e5506efa44fdb674e7e0705f3f4824c66894",
+      "screenshots/139240056fa7aa01/page-tile-9.png": "aefb1f65328c9292648b1fa5b4c9736a7435fbd1",
+      "screenshots/139240056fa7aa01/page-tile-10.png": "720f4fa9ee27767c1da1e0adf3a2ddf15f6ab312",
+      "screenshots/139240056fa7aa01/page-tile-11.png": "1dec06a30583e03645cb95d40fc2a1af9bafd19a"
+    }
+  },
+  "createdAt": "2026-09-16T07:14:45.167Z",
+  "lastPublishedRunId": "survey-home-page",
+  "lastPublishedAt": "2026-10-06T09:13:03.538Z"
+}

@@ -1,0 +1,5950 @@
+[
+  {
+    "url": "https://www.kenresearch.com/brand-perception-survey",
+    "method": "GET",
+    "resourceType": "document",
+    "isMainFrame": true,
+    "isNavigationRequest": true,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8,
+    "endedAtMs": 616,
+    "timing": {
+      "requestStart": 201.224,
+      "responseStart": 352.567,
+      "responseEnd": 606.095
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 374,
+    "endedAtMs": 916,
+    "timing": {
+      "requestStart": 0.423,
+      "responseStart": 251.086,
+      "responseEnd": 545.464
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/media/68d403cf9f2c68c5-s.p.0nhx~dwif.9~q.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 375,
+    "endedAtMs": 962,
+    "timing": {
+      "requestStart": 0.23,
+      "responseStart": 322.04,
+      "responseEnd": 571.713
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/media/a343f882a40d2cc9-s.p.0kho-wj7-y-w1.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 376,
+    "endedAtMs": 1029,
+    "timing": {
+      "requestStart": 0.113,
+      "responseStart": 322.45,
+      "responseEnd": 657.45
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/media/b4e85636e2ca4056-s.p.0c3c6tp9xl371.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 376,
+    "endedAtMs": 1036,
+    "timing": {
+      "requestStart": 0.1,
+      "responseStart": 323.925,
+      "responseEnd": 665.007
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2Fpublic%2FKen-White-3.png&w=256&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 376,
+    "endedAtMs": 1035,
+    "timing": {
+      "requestStart": 0.086,
+      "responseStart": 324.027,
+      "responseEnd": 665.081
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2Fken_logo.png&w=32&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 377,
+    "endedAtMs": 1035,
+    "timing": {
+      "requestStart": 0.077,
+      "responseStart": 324.132,
+      "responseEnd": 665.185
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client1.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 377,
+    "endedAtMs": 1831,
+    "timing": {
+      "requestStart": 421.109,
+      "responseStart": 591.728,
+      "responseEnd": 1454.423
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client2.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 378,
+    "endedAtMs": 1779,
+    "timing": {
+      "requestStart": 420.61,
+      "responseStart": 597.355,
+      "responseEnd": 1408.632
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client3.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 378,
+    "endedAtMs": 1791,
+    "timing": {
+      "requestStart": 457.646,
+      "responseStart": 597.418,
+      "responseEnd": 1419.35
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client4.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 378,
+    "endedAtMs": 1622,
+    "timing": {
+      "requestStart": 460.625,
+      "responseStart": 625.556,
+      "responseEnd": 1250.955
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client5.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 1883,
+    "timing": {
+      "requestStart": 460.55,
+      "responseStart": 634.703,
+      "responseEnd": 1512.967
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/EurekaForbes.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 1126,
+    "timing": {
+      "requestStart": 461.493,
+      "responseStart": 625.161,
+      "responseEnd": 755.858
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/ANL.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 1416,
+    "timing": {
+      "requestStart": 0.199,
+      "responseStart": 288.868,
+      "responseEnd": 1045.213
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/VOLVO.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 1831,
+    "timing": {
+      "requestStart": 0.176,
+      "responseStart": 406.195,
+      "responseEnd": 1452.757
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0jclfz_excn0i.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 717,
+    "timing": {
+      "requestStart": 0.137,
+      "responseStart": 320.981,
+      "responseEnd": 347.252
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/00zlua4qomc2h.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 822,
+    "timing": {
+      "requestStart": 0.11,
+      "responseStart": 321.18,
+      "responseEnd": 440.747
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0t..4saa59__n.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 823,
+    "timing": {
+      "requestStart": 0.08,
+      "responseStart": 320.715,
+      "responseEnd": 441.272
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/12sz1p847at0m.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 824,
+    "timing": {
+      "requestStart": 0.068,
+      "responseStart": 321.259,
+      "responseEnd": 441.7
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0iwmhi6~k~g3..css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 824,
+    "timing": {
+      "requestStart": 0.245,
+      "responseStart": 320.747,
+      "responseEnd": 441.958
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/10--e2tl49gto.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 825,
+    "timing": {
+      "requestStart": 0.172,
+      "responseStart": 320.741,
+      "responseEnd": 442.198
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/06-ea63lsocl4.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 825,
+    "timing": {
+      "requestStart": 0.079,
+      "responseStart": 333.636,
+      "responseEnd": 442.446
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0fh1k_r~b~e_o.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 379,
+    "endedAtMs": 1036,
+    "timing": {
+      "requestStart": 0.083,
+      "responseStart": 332.351,
+      "responseEnd": 664.789
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/02c1b70gqa-k6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1058,
+    "timing": {
+      "requestStart": 0.068,
+      "responseStart": 332.374,
+      "responseEnd": 675.224
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0er5j802zdnic.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1058,
+    "timing": {
+      "requestStart": 0.539,
+      "responseStart": 332.418,
+      "responseEnd": 675.44
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/17qma4hu_ko2g.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1261,
+    "timing": {
+      "requestStart": 0.064,
+      "responseStart": 332.209,
+      "responseEnd": 887.178
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/03jcn0h0_b8m6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1261,
+    "timing": {
+      "requestStart": 0.059,
+      "responseStart": 331.84,
+      "responseEnd": 887.618
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0en4k_71pr~bt.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1301,
+    "timing": {
+      "requestStart": 0.057,
+      "responseStart": 332.32,
+      "responseEnd": 928.574
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/turbopack-0u25-swtw0gqm.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1301,
+    "timing": {
+      "requestStart": 0.055,
+      "responseStart": 331.983,
+      "responseEnd": 928.819
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0k1_2s5s79aw1.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1330,
+    "timing": {
+      "requestStart": 0.056,
+      "responseStart": 332.24,
+      "responseEnd": 950.856
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/1099i7579~xpq.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 380,
+    "endedAtMs": 1330,
+    "timing": {
+      "requestStart": 0.052,
+      "responseStart": 332.343,
+      "responseEnd": 952.172
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0.swhlrxxmo0_.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1330,
+    "timing": {
+      "requestStart": 0.053,
+      "responseStart": 332.411,
+      "responseEnd": 952.365
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0fi5.tnezfwi3.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1626,
+    "timing": {
+      "requestStart": 0.054,
+      "responseStart": 332.507,
+      "responseEnd": 1251.34
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/02yr_a-1ysm1m.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1634,
+    "timing": {
+      "requestStart": 0.056,
+      "responseStart": 332.578,
+      "responseEnd": 1256.776
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0qdz97bh9kod2.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1635,
+    "timing": {
+      "requestStart": 0.053,
+      "responseStart": 332.841,
+      "responseEnd": 1257.896
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/10_57623kqsuf.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1634,
+    "timing": {
+      "requestStart": 0.057,
+      "responseStart": 332.535,
+      "responseEnd": 1258.128
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/070fm47e3oho4.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1634,
+    "timing": {
+      "requestStart": 0.059,
+      "responseStart": 332.967,
+      "responseEnd": 1258.536
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/11-9cmtxl_ki6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1635,
+    "timing": {
+      "requestStart": 0.057,
+      "responseStart": 332.637,
+      "responseEnd": 1260.055
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/00wje825rx8mn.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1653,
+    "timing": {
+      "requestStart": 0.052,
+      "responseStart": 333.114,
+      "responseEnd": 1277.459
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0g9kz7vm2dcrn.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1651,
+    "timing": {
+      "requestStart": 0.053,
+      "responseStart": 332.8,
+      "responseEnd": 1277.769
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/15a8mese9q3kd.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 383,
+    "endedAtMs": 1651,
+    "timing": {
+      "requestStart": 0.051,
+      "responseStart": 333.072,
+      "responseEnd": 1278.098
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0j.jw-~a~q34m.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1651,
+    "timing": {
+      "requestStart": 0.05,
+      "responseStart": 333.131,
+      "responseEnd": 1278.302
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0bu0a3d2-4tta.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1652,
+    "timing": {
+      "requestStart": 0.052,
+      "responseStart": 333.218,
+      "responseEnd": 1278.578
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/014ct4hfc6397.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1653,
+    "timing": {
+      "requestStart": 0.052,
+      "responseStart": 333.318,
+      "responseEnd": 1278.75
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/00h8186dsz9c0.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1653,
+    "timing": {
+      "requestStart": 0.049,
+      "responseStart": 333.392,
+      "responseEnd": 1279.123
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/09y.pvfs~yhd6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1836,
+    "timing": {
+      "requestStart": 0.058,
+      "responseStart": 333.704,
+      "responseEnd": 1454.992
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/07~f847-ieeau.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1833,
+    "timing": {
+      "requestStart": 0.05,
+      "responseStart": 333.34,
+      "responseEnd": 1454.497
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0o4rdn83ffrjg.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1843,
+    "timing": {
+      "requestStart": 0.053,
+      "responseStart": 333.632,
+      "responseEnd": 1459.941
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0l~om~ebo.8md.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1848,
+    "timing": {
+      "requestStart": 0.053,
+      "responseStart": 333.858,
+      "responseEnd": 1473.088
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/165q_~z4df7_0.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1852,
+    "timing": {
+      "requestStart": 0.053,
+      "responseStart": 333.559,
+      "responseEnd": 1476.312
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/160il43ul11uu.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1853,
+    "timing": {
+      "requestStart": 0.051,
+      "responseStart": 333.818,
+      "responseEnd": 1476.611
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0dt3ds_04qei6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1889,
+    "timing": {
+      "requestStart": 0.051,
+      "responseStart": 334.071,
+      "responseEnd": 1516.659
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0svhsiskmzwlu.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 384,
+    "endedAtMs": 1895,
+    "timing": {
+      "requestStart": 0.054,
+      "responseStart": 334.123,
+      "responseEnd": 1522.069
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/06y_z52d9.un~.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 385,
+    "endedAtMs": 1894,
+    "timing": {
+      "requestStart": 0.053,
+      "responseStart": 333.628,
+      "responseEnd": 1522.422
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0~uta5n0swq_0.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 385,
+    "endedAtMs": 1895,
+    "timing": {
+      "requestStart": 0.05,
+      "responseStart": 334.058,
+      "responseEnd": 1522.586
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0mn_iquucepsi.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 385,
+    "endedAtMs": 915,
+    "timing": {
+      "requestStart": 0.102,
+      "responseStart": 333.776,
+      "responseEnd": 543.197
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/procurement/maruti.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 385,
+    "endedAtMs": 1847,
+    "timing": {
+      "requestStart": 0.383,
+      "responseStart": 223.982,
+      "responseEnd": 1474.91
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/etisalat.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 385,
+    "endedAtMs": 1876,
+    "timing": {
+      "requestStart": 0.383,
+      "responseStart": 94.858,
+      "responseEnd": 1504.553
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/MahindraColored.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 385,
+    "endedAtMs": 1876,
+    "timing": {
+      "requestStart": 0.462,
+      "responseStart": 84.24,
+      "responseEnd": 1503.447
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/media/7546fe8f902b88b8-s.0ezg~kdx4q-_h.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 960,
+    "endedAtMs": 1837,
+    "timing": {
+      "requestStart": 0.057,
+      "responseStart": 868.456,
+      "responseEnd": 896.235
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Fdots.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 960,
+    "endedAtMs": 1988,
+    "timing": {
+      "requestStart": 0.678,
+      "responseStart": 867.946,
+      "responseEnd": 1022.695
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Fdummycard1.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 960,
+    "endedAtMs": 1988,
+    "timing": {
+      "requestStart": 0.185,
+      "responseStart": 867.791,
+      "responseEnd": 1022.732
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Ffirst-grid-second-image.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 961,
+    "endedAtMs": 1988,
+    "timing": {
+      "requestStart": 0.088,
+      "responseStart": 867.7,
+      "responseEnd": 1023.639
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Fbrand-first-grid-last.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 961,
+    "endedAtMs": 1988,
+    "timing": {
+      "requestStart": 0.067,
+      "responseStart": 867.814,
+      "responseEnd": 1023.762
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2FbrandMiddleImage.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 961,
+    "endedAtMs": 1988,
+    "timing": {
+      "requestStart": 0.063,
+      "responseStart": 867.907,
+      "responseEnd": 1026.136
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2FbrandPerceptionnew.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 961,
+    "endedAtMs": 2046,
+    "timing": {
+      "requestStart": 0.06,
+      "responseStart": 867.985,
+      "responseEnd": 1066.373
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2FbrandPerceptionnew2.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 962,
+    "endedAtMs": 2046,
+    "timing": {
+      "requestStart": 0.056,
+      "responseStart": 868.057,
+      "responseEnd": 1066.53
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Fpowerbidashboard.jpg&w=1920&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 962,
+    "endedAtMs": 2056,
+    "timing": {
+      "requestStart": 0.059,
+      "responseStart": 868.142,
+      "responseEnd": 1095.32
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Fpowerbidashboard.jpg&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 962,
+    "endedAtMs": 2095,
+    "timing": {
+      "requestStart": 0.054,
+      "responseStart": 868.445,
+      "responseEnd": 1133.105
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Fmap.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 962,
+    "endedAtMs": 2095,
+    "timing": {
+      "requestStart": 0.061,
+      "responseStart": 868.873,
+      "responseEnd": 1133.534
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KJNFVRG",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1959,
+    "endedAtMs": 2531,
+    "timing": {
+      "requestStart": 155.576,
+      "responseStart": 320.039,
+      "responseEnd": 572.212
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2Fpublic%2FlogoIcon.png&w=1080&q=75",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1959,
+    "endedAtMs": 2148,
+    "timing": {
+      "requestStart": 0.13,
+      "responseStart": 142.154,
+      "responseEnd": 142.681
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/employee-engagement-survey",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 301,
+    "failure": null,
+    "startedAtMs": 1960,
+    "endedAtMs": 2098,
+    "timing": {
+      "requestStart": 0.11,
+      "responseStart": 138.878,
+      "responseEnd": 140.17799999965064
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/customer-satisfaction-survey",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 301,
+    "failure": null,
+    "startedAtMs": 1960,
+    "endedAtMs": 2097,
+    "timing": {
+      "requestStart": 0.075,
+      "responseStart": 138.201,
+      "responseEnd": 139.54799999919487
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/dealers-voice-survey",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 301,
+    "failure": null,
+    "startedAtMs": 1961,
+    "endedAtMs": 2098,
+    "timing": {
+      "requestStart": 0.068,
+      "responseStart": 138.307,
+      "responseEnd": 139.472000000751
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/brand-perception-survey",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 301,
+    "failure": null,
+    "startedAtMs": 1961,
+    "endedAtMs": 2100,
+    "timing": {
+      "requestStart": 0.086,
+      "responseStart": 138.499,
+      "responseEnd": 139.67799999954877
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/cndp-survey",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 301,
+    "failure": null,
+    "startedAtMs": 1962,
+    "endedAtMs": 2100,
+    "timing": {
+      "requestStart": 0.068,
+      "responseStart": 138.667,
+      "responseEnd": 139.59100000101898
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/api/user",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1962,
+    "endedAtMs": 2101,
+    "timing": {
+      "requestStart": 0.065,
+      "responseStart": 138.56,
+      "responseEnd": 138.969
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/api/auth/session",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1962,
+    "endedAtMs": 2101,
+    "timing": {
+      "requestStart": 0.105,
+      "responseStart": 137.657,
+      "responseEnd": 138.312
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/book-a-discovery-call?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1963,
+    "endedAtMs": 2104,
+    "timing": {
+      "requestStart": 0.324,
+      "responseStart": 136.177,
+      "responseEnd": 136.738
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies/al-dawaa-market-expansion-strategy-ksa-pharmacy?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1963,
+    "endedAtMs": 2102,
+    "timing": {
+      "requestStart": 0.336,
+      "responseStart": 134.505,
+      "responseEnd": 134.989
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/blog?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1963,
+    "endedAtMs": 2103,
+    "timing": {
+      "requestStart": 0.453,
+      "responseStart": 134.693,
+      "responseEnd": 136.046
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/pov?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 1963,
+    "endedAtMs": 2104,
+    "timing": {
+      "requestStart": 0.099,
+      "responseStart": 134.33,
+      "responseEnd": 136.384
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/customer-satisfaction-survey/",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2097,
+    "endedAtMs": 2245,
+    "timing": {
+      "requestStart": 0.224,
+      "responseStart": 146.997,
+      "responseEnd": 150.505
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/dealers-voice-survey/",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2098,
+    "endedAtMs": 2226,
+    "timing": {
+      "requestStart": 0.118,
+      "responseStart": 126.396,
+      "responseEnd": 130.148
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/employee-engagement-survey/",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2098,
+    "endedAtMs": 2223,
+    "timing": {
+      "requestStart": 0.162,
+      "responseStart": 124.475,
+      "responseEnd": 128.413
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/brand-perception-survey/",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2100,
+    "endedAtMs": 2246,
+    "timing": {
+      "requestStart": 0.067,
+      "responseStart": 147.561,
+      "responseEnd": 151.321
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/app/survey/api/survey-products/service-type/cndp-survey/",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2100,
+    "endedAtMs": 2239,
+    "timing": {
+      "requestStart": 0.061,
+      "responseStart": 139.916,
+      "responseEnd": 143.692
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/talk-to-us?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2102,
+    "endedAtMs": 2268,
+    "timing": {
+      "requestStart": 0.067,
+      "responseStart": 167.433,
+      "responseEnd": 168.793
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0d506_kt3w3~0.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2103,
+    "endedAtMs": 2200,
+    "timing": {
+      "requestStart": 0.231,
+      "responseStart": 96.239,
+      "responseEnd": 96.891
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0x0dktbykvsn_.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2103,
+    "endedAtMs": 2201,
+    "timing": {
+      "requestStart": 0.136,
+      "responseStart": 97.379,
+      "responseEnd": 97.737
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2104,
+    "endedAtMs": 2240,
+    "timing": {
+      "requestStart": 0.112,
+      "responseStart": 131.243,
+      "responseEnd": 136.214
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2104,
+    "endedAtMs": 2240,
+    "timing": {
+      "requestStart": 0.086,
+      "responseStart": 135.397,
+      "responseEnd": 135.725
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=energy-and-utilities-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2104,
+    "endedAtMs": 2267,
+    "timing": {
+      "requestStart": 0.084,
+      "responseStart": 146.003,
+      "responseEnd": 163.184
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=education-and-recruitment-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2240,
+    "endedAtMs": 2335,
+    "timing": {
+      "requestStart": 0.165,
+      "responseStart": 92.337,
+      "responseEnd": 94.794
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=defense-and-security-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2240,
+    "endedAtMs": 2335,
+    "timing": {
+      "requestStart": 0.09,
+      "responseStart": 93.662,
+      "responseEnd": 95.246
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/cybersecurity-perception-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2267,
+    "endedAtMs": 2374,
+    "timing": {
+      "requestStart": 0.178,
+      "responseStart": 102.998,
+      "responseEnd": 106.229
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/d2c-brand-customer-experience-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2268,
+    "endedAtMs": 2376,
+    "timing": {
+      "requestStart": 0.102,
+      "responseStart": 102.929,
+      "responseEnd": 105.879
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/higher-education-brand-perception-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2335,
+    "endedAtMs": 2435,
+    "timing": {
+      "requestStart": 0.207,
+      "responseStart": 64.525,
+      "responseEnd": 100.072
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/plant-based-dairy-alternative-perception-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2336,
+    "endedAtMs": 2436,
+    "timing": {
+      "requestStart": 0.172,
+      "responseStart": 98.466,
+      "responseEnd": 99.163
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/sustainable-product-consumer-perception-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2374,
+    "endedAtMs": 2521,
+    "timing": {
+      "requestStart": 0.267,
+      "responseStart": 144.282,
+      "responseEnd": 145.003
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=consumer-products-and-retail-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2375,
+    "endedAtMs": 2522,
+    "timing": {
+      "requestStart": 0.153,
+      "responseStart": 144.952,
+      "responseEnd": 147.703
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=banking-financial-services-and-insurance-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2435,
+    "endedAtMs": 2736,
+    "timing": {
+      "requestStart": 0.217,
+      "responseStart": 297.355,
+      "responseEnd": 297.941
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=automotive-transportation-and-warehousing-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2436,
+    "endedAtMs": 2736,
+    "timing": {
+      "requestStart": 0.125,
+      "responseStart": 296.655,
+      "responseEnd": 297.389
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=agriculture-animal-care-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2520,
+    "endedAtMs": 2736,
+    "timing": {
+      "requestStart": 0.255,
+      "responseStart": 213.216,
+      "responseEnd": 213.787
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/custom-form?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2522,
+    "endedAtMs": 2736,
+    "timing": {
+      "requestStart": 0.209,
+      "responseStart": 210.558,
+      "responseEnd": 211.096
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-0QKPLDBKRE&cx=c&gtm=4e6992",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2594,
+    "endedAtMs": 3329,
+    "timing": {
+      "requestStart": 0.678,
+      "responseStart": 528.62,
+      "responseEnd": 752.232
+    }
+  },
+  {
+    "url": "https://www.clarity.ms/tag/tbmkqnp6hr?ref=gtm",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2594,
+    "endedAtMs": 4261,
+    "timing": {
+      "requestStart": 1042.941,
+      "responseStart": 1687.56,
+      "responseEnd": 1688.602
+    }
+  },
+  {
+    "url": "https://sc.lfeeder.com/lftracker_v1_JMvZ8gz2QQEa2pOd.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2595,
+    "endedAtMs": 3695,
+    "timing": {
+      "requestStart": 813.347,
+      "responseStart": 1118.475,
+      "responseEnd": 1119.619
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies/dhl-road-freight-warehousing-growth-israel?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2734,
+    "endedAtMs": 2854,
+    "timing": {
+      "requestStart": 0.198,
+      "responseStart": 117.558,
+      "responseEnd": 118.174
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/pov?type=consulting&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 2735,
+    "endedAtMs": 3098,
+    "timing": {
+      "requestStart": 0.112,
+      "responseStart": 117.937,
+      "responseEnd": 362.873
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?type=consulting&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2736,
+    "endedAtMs": 2855,
+    "timing": {
+      "requestStart": 0.098,
+      "responseStart": 117.227,
+      "responseEnd": 117.713
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies?type=consulting&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2736,
+    "endedAtMs": 3103,
+    "timing": {
+      "requestStart": 0.082,
+      "responseStart": 361.915,
+      "responseEnd": 362.361
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/contact-us?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2853,
+    "endedAtMs": 3104,
+    "timing": {
+      "requestStart": 0.214,
+      "responseStart": 244.841,
+      "responseEnd": 245.358
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/product-strategy-consulting?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 2855,
+    "endedAtMs": 3101,
+    "timing": {
+      "requestStart": 0.165,
+      "responseStart": 243.699,
+      "responseEnd": 244.156
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-penetration-consulting?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3099,
+    "endedAtMs": 3278,
+    "timing": {
+      "requestStart": 0.584,
+      "responseStart": 175.49,
+      "responseEnd": 177.9
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3101,
+    "endedAtMs": 3282,
+    "timing": {
+      "requestStart": 0.233,
+      "responseStart": 175.096,
+      "responseEnd": 181.798
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/172-9.1lg2m~..css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3101,
+    "endedAtMs": 3283,
+    "timing": {
+      "requestStart": 0.131,
+      "responseStart": 180.718,
+      "responseEnd": 182.016
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0upzh7s3fc7g~.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3102,
+    "endedAtMs": 3291,
+    "timing": {
+      "requestStart": 0.135,
+      "responseStart": 181.292,
+      "responseEnd": 189.995
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/12-ux6y01.m_7.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3103,
+    "endedAtMs": 3293,
+    "timing": {
+      "requestStart": 0.108,
+      "responseStart": 188.494,
+      "responseEnd": 190.266
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0yeygs6oke~5j.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3103,
+    "endedAtMs": 3294,
+    "timing": {
+      "requestStart": 0.216,
+      "responseStart": 188.634,
+      "responseEnd": 192.601
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/deals-and-ipo-consulting?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3103,
+    "endedAtMs": 3292,
+    "timing": {
+      "requestStart": 0.144,
+      "responseStart": 180.041,
+      "responseEnd": 189.442
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3104,
+    "endedAtMs": 3295,
+    "timing": {
+      "requestStart": 0.107,
+      "responseStart": 187.302,
+      "responseEnd": 191.423
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3278,
+    "endedAtMs": 3443,
+    "timing": {
+      "requestStart": 0.311,
+      "responseStart": 71.602,
+      "responseEnd": 72.31
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3282,
+    "endedAtMs": 3445,
+    "timing": {
+      "requestStart": 0.243,
+      "responseStart": 91.379,
+      "responseEnd": 93.566
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/pov?type=survey&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3293,
+    "endedAtMs": 3445,
+    "timing": {
+      "requestStart": 0.145,
+      "responseStart": 78.702,
+      "responseEnd": 83.221
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?type=survey&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3295,
+    "endedAtMs": 3445,
+    "timing": {
+      "requestStart": 0.258,
+      "responseStart": 100.525,
+      "responseEnd": 100.965
+    }
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-0QKPLDBKRE&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&_p=1789116326973&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=596230139&_eu=AAAAAGAC&cid=1962888935.1789116328&ec_mode=a&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789116328&sct=1&seg=0&dl=https%3A%2F%2Fwww.kenresearch.com%2Fbrand-perception-survey&dt=Brand%20Perception%20Analysis%20%E2%80%93%20Data-Driven%20Insights%20for%20Your%20Business&en=page_view&_fv=1&_nsi=1&_ss=1&ep.debug_mode=true&tfd=3382",
+    "method": "POST",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 3437,
+    "endedAtMs": 5159,
+    "timing": {
+      "requestStart": 1354.143,
+      "responseStart": 1767.263,
+      "responseEnd": 1768.831
+    }
+  },
+  {
+    "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-0QKPLDBKRE&cid=1962888935.1789116328&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&rcb=0&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153",
+    "method": "POST",
+    "resourceType": "ping",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 204,
+    "failure": null,
+    "startedAtMs": 3437,
+    "endedAtMs": 4745,
+    "timing": {
+      "requestStart": 1029.413,
+      "responseStart": 1350.782,
+      "responseEnd": 1351.834
+    }
+  },
+  {
+    "url": "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-0QKPLDBKRE&cid=1962888935.1789116328&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&rcb=0&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&z=42836987",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3437,
+    "endedAtMs": 4768,
+    "timing": {
+      "requestStart": 1040.445,
+      "responseStart": 1330.834,
+      "responseEnd": 1331.64
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0.7m41cqa9_.h.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3443,
+    "endedAtMs": 3797,
+    "timing": {
+      "requestStart": 0.236,
+      "responseStart": 353.744,
+      "responseEnd": 354.353
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies?type=survey&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3444,
+    "endedAtMs": 3830,
+    "timing": {
+      "requestStart": 0.849,
+      "responseStart": 383.388,
+      "responseEnd": 384.96
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey-all?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3444,
+    "endedAtMs": 3828,
+    "timing": {
+      "requestStart": 0.562,
+      "responseStart": 382.168,
+      "responseEnd": 383.417
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/cndp-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3445,
+    "endedAtMs": 3829,
+    "timing": {
+      "requestStart": 0.174,
+      "responseStart": 381.428,
+      "responseEnd": 383.745
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/employee-engagement-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3445,
+    "endedAtMs": 3830,
+    "timing": {
+      "requestStart": 0.121,
+      "responseStart": 382.368,
+      "responseEnd": 384.528
+    }
+  },
+  {
+    "url": "https://tr-rc.lfeeder.com/?sid=JMvZ8gz2QQEa2pOd&data=eyJnYVRyYWNraW5nSWRzIjpbXSwiZ2FNZWFzdXJlbWVudElkcyI6WyJHLTBRS1BMREJLUkUiXSwiZ2FDbGllbnRJZHMiOlsiMTk2Mjg4ODkzNS4xNzg5MTE2MzI4Il0sImNvbnRleHQiOnsibGlicmFyeSI6eyJuYW1lIjoibGZ0cmFja2VyIiwidmVyc2lvbiI6IjIuNzQuMiJ9LCJwYWdlVXJsIjoiaHR0cHM6Ly93d3cua2VucmVzZWFyY2guY29tL2JyYW5kLXBlcmNlcHRpb24tc3VydmV5IiwicGFnZVRpdGxlIjoiQnJhbmQgUGVyY2VwdGlvbiBBbmFseXNpcyDigJMgRGF0YS1Ecml2ZW4gSW5zaWdodHMgZm9yIFlvdXIgQnVzaW5lc3MiLCJyZWZlcnJlciI6IiJ9LCJldmVudCI6InRyYWNraW5nLWV2ZW50IiwiY2xpZW50RXZlbnRJZCI6IjFlZWRlZTZiMTQxMWY3N2QiLCJzY3JpcHRJZCI6IkpNdlo4Z3oyUVFFYTJwT2QiLCJjb29raWVzRW5hYmxlZCI6dHJ1ZSwiY29uc2VudExldmVsIjoibm9uZSIsImFub255bWl6ZUlwIjpmYWxzZSwibGZDbGllbnRJZCI6IkxGMS4xLmY4ODc5MjRjNmIzZmZhYjYuMTc4OTExNjMyODgyNCIsImZvcmVpZ25Db29raWVzIjpbXSwicHJvcGVydGllcyI6e30sImF1dG9UcmFja2luZ0VuYWJsZWQiOnRydWUsImF1dG9UcmFja2luZ01vZGUiOiJzcGEifQ==",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3805,
+    "endedAtMs": 5894,
+    "timing": {
+      "requestStart": 1618.69,
+      "responseStart": 2085.437,
+      "responseEnd": 2085.989
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/dealers-voice-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3828,
+    "endedAtMs": 4254,
+    "timing": {
+      "requestStart": 0.295,
+      "responseStart": 417.327,
+      "responseEnd": 427.491
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/customer-satisfaction-survey?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3829,
+    "endedAtMs": 4255,
+    "timing": {
+      "requestStart": 0.139,
+      "responseStart": 416.709,
+      "responseEnd": 425.623
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?reportTypes=competition_benchmarking&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 3830,
+    "endedAtMs": 4246,
+    "timing": {
+      "requestStart": 0.121,
+      "responseStart": 414.268,
+      "responseEnd": 414.859
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 3830,
+    "endedAtMs": 4247,
+    "timing": {
+      "requestStart": 0.098,
+      "responseStart": 414.161,
+      "responseEnd": 416.584
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/arrowCircle.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4115,
+    "endedAtMs": 5232,
+    "timing": {
+      "requestStart": 0.432,
+      "responseStart": 1115.066,
+      "responseEnd": 1116.157
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/image?url=https%3A%2F%2Fkenresearch.s3.ap-south-1.amazonaws.com%2Fnext_assets%2FSurveyAssets%2Ficon1.png&w=640&q=75",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4163,
+    "endedAtMs": 4340,
+    "timing": {
+      "requestStart": 0.262,
+      "responseStart": 175.858,
+      "responseEnd": 177.114
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4246,
+    "endedAtMs": 4348,
+    "timing": {
+      "requestStart": 0.255,
+      "responseStart": 100.407,
+      "responseEnd": 101.778
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=farm-automation-industry&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4247,
+    "endedAtMs": 4349,
+    "timing": {
+      "requestStart": 0.145,
+      "responseStart": 100.634,
+      "responseEnd": 103.763
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=conventional-seed&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4254,
+    "endedAtMs": 4350,
+    "timing": {
+      "requestStart": 0.1,
+      "responseStart": 92.596,
+      "responseEnd": 95.706
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=combine-harvesters&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4255,
+    "endedAtMs": 4349,
+    "timing": {
+      "requestStart": 0.115,
+      "responseStart": 91.647,
+      "responseEnd": 93.745
+    }
+  },
+  {
+    "url": "https://scripts.clarity.ms/0.8.69/clarity.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4261,
+    "endedAtMs": 6745,
+    "timing": {
+      "requestStart": 1724.496,
+      "responseStart": 2123.061,
+      "responseEnd": 2482.39
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=tractors&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4347,
+    "endedAtMs": 4444,
+    "timing": {
+      "requestStart": 0.185,
+      "responseStart": 87.414,
+      "responseEnd": 96.322
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=pest-and-disease-control-solutions&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4349,
+    "endedAtMs": 4445,
+    "timing": {
+      "requestStart": 0.148,
+      "responseStart": 90.353,
+      "responseEnd": 97.139
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=hybrid-seed&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4350,
+    "endedAtMs": 4439,
+    "timing": {
+      "requestStart": 0.122,
+      "responseStart": 83.853,
+      "responseEnd": 89.597
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=tillers&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4350,
+    "endedAtMs": 4446,
+    "timing": {
+      "requestStart": 0.094,
+      "responseStart": 91.83,
+      "responseEnd": 96.083
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=agricultural-implements-and-equipments&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4439,
+    "endedAtMs": 4739,
+    "timing": {
+      "requestStart": 0.171,
+      "responseStart": 296.062,
+      "responseEnd": 296.609
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=net-wrap&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4444,
+    "endedAtMs": 4738,
+    "timing": {
+      "requestStart": 0.163,
+      "responseStart": 291.491,
+      "responseEnd": 293.063
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=protected-cultivation&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4446,
+    "endedAtMs": 4738,
+    "timing": {
+      "requestStart": 0.127,
+      "responseStart": 289.234,
+      "responseEnd": 289.87
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=fertilizer&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4446,
+    "endedAtMs": 4739,
+    "timing": {
+      "requestStart": 0.098,
+      "responseStart": 289.412,
+      "responseEnd": 289.909
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=agriculture-chemical&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4737,
+    "endedAtMs": 4850,
+    "timing": {
+      "requestStart": 0.204,
+      "responseStart": 109.518,
+      "responseEnd": 113.801
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=healthcare-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4738,
+    "endedAtMs": 4855,
+    "timing": {
+      "requestStart": 0.155,
+      "responseStart": 111.654,
+      "responseEnd": 117.787
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=food-beverage-and-tobacco-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4739,
+    "endedAtMs": 4847,
+    "timing": {
+      "requestStart": 0.109,
+      "responseStart": 107.228,
+      "responseEnd": 109.405
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=energy-and-utilities-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4739,
+    "endedAtMs": 4856,
+    "timing": {
+      "requestStart": 0.091,
+      "responseStart": 112.069,
+      "responseEnd": 118.406
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=education-and-recruitment-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4847,
+    "endedAtMs": 5156,
+    "timing": {
+      "requestStart": 0.161,
+      "responseStart": 306.928,
+      "responseEnd": 308.16
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=defense-and-security-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4850,
+    "endedAtMs": 5158,
+    "timing": {
+      "requestStart": 0.19,
+      "responseStart": 303.808,
+      "responseEnd": 305.392
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=consumer-products-and-retail-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 4855,
+    "endedAtMs": 5159,
+    "timing": {
+      "requestStart": 0.127,
+      "responseStart": 299.747,
+      "responseEnd": 300.296
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=banking-financial-services-and-insurance-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 4856,
+    "endedAtMs": 5158,
+    "timing": {
+      "requestStart": 0.112,
+      "responseStart": 298.284,
+      "responseEnd": 300.032
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?industry=automotive-transportation-and-warehousing-market&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 5156,
+    "endedAtMs": 5290,
+    "timing": {
+      "requestStart": 0.705,
+      "responseStart": 132.349,
+      "responseEnd": 134.353
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/country-reports?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5158,
+    "endedAtMs": 5292,
+    "timing": {
+      "requestStart": 0.306,
+      "responseStart": 134.588,
+      "responseEnd": 135.134
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/report-store?reportTypes=global-market-research-reports&_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 5158,
+    "endedAtMs": 5292,
+    "timing": {
+      "requestStart": 0.426,
+      "responseStart": 132.597,
+      "responseEnd": 135.003
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5159,
+    "endedAtMs": 5264,
+    "timing": {
+      "requestStart": 0.287,
+      "responseStart": 105.374,
+      "responseEnd": 106.357
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/terms-and-conditions?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5264,
+    "endedAtMs": 5407,
+    "timing": {
+      "requestStart": 0.203,
+      "responseStart": 132.679,
+      "responseEnd": 133.493
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/careers?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5290,
+    "endedAtMs": 5403,
+    "timing": {
+      "requestStart": 0.745,
+      "responseStart": 100.245,
+      "responseEnd": 106.732
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/about-us?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5292,
+    "endedAtMs": 5399,
+    "timing": {
+      "requestStart": 0.146,
+      "responseStart": 98.776,
+      "responseEnd": 105.212
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/expert-panel?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5293,
+    "endedAtMs": 5405,
+    "timing": {
+      "requestStart": 0.127,
+      "responseStart": 103.028,
+      "responseEnd": 105.131
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0kecu7-2pe102.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5399,
+    "endedAtMs": 5831,
+    "timing": {
+      "requestStart": 0.346,
+      "responseStart": 430.945,
+      "responseEnd": 432.628
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Strategy%20_Consulting.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5400,
+    "endedAtMs": 5816,
+    "timing": {
+      "requestStart": 0.206,
+      "responseStart": 389.544,
+      "responseEnd": 418.439
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/M&A%20_%20Deals.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5400,
+    "endedAtMs": 5833,
+    "timing": {
+      "requestStart": 0.099,
+      "responseStart": 418.04,
+      "responseEnd": 435.62
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Economic_Consulting.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5400,
+    "endedAtMs": 5882,
+    "timing": {
+      "requestStart": 0.085,
+      "responseStart": 435.088,
+      "responseEnd": 484.666
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Organizational_Consulting.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5400,
+    "endedAtMs": 5888,
+    "timing": {
+      "requestStart": 0.079,
+      "responseStart": 484.116,
+      "responseEnd": 490.064
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Digital_Transformation.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5400,
+    "endedAtMs": 5872,
+    "timing": {
+      "requestStart": 0.08,
+      "responseStart": 449.028,
+      "responseEnd": 473.888
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Business_Optimization.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5400,
+    "endedAtMs": 5870,
+    "timing": {
+      "requestStart": 0.077,
+      "responseStart": 440.986,
+      "responseEnd": 472.063
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Supply_Chain_Management.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5401,
+    "endedAtMs": 6027,
+    "timing": {
+      "requestStart": 0.212,
+      "responseStart": 184.667,
+      "responseEnd": 628.181
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Brand_Consulting.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5401,
+    "endedAtMs": 6031,
+    "timing": {
+      "requestStart": 0.159,
+      "responseStart": 163.699,
+      "responseEnd": 632.568
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/Industry_Networking.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5401,
+    "endedAtMs": 6139,
+    "timing": {
+      "requestStart": 0.169,
+      "responseStart": 160.723,
+      "responseEnd": 740.445
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/procurement-research?_rsc=7ZmwYYg0D6FIsQRo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5401,
+    "endedAtMs": 5891,
+    "timing": {
+      "requestStart": 0.1,
+      "responseStart": 431.519,
+      "responseEnd": 491.184
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/product-details/loading.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5403,
+    "endedAtMs": 6147,
+    "timing": {
+      "requestStart": 0.143,
+      "responseStart": 273.815,
+      "responseEnd": 747.054
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Stratu_Mindset.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5403,
+    "endedAtMs": 6147,
+    "timing": {
+      "requestStart": 0.138,
+      "responseStart": 256.247,
+      "responseEnd": 748.101
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Competitive_Environment.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5403,
+    "endedAtMs": 6152,
+    "timing": {
+      "requestStart": 0.103,
+      "responseStart": 259.269,
+      "responseEnd": 752.479
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Inclusive_Environment.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5403,
+    "endedAtMs": 6258,
+    "timing": {
+      "requestStart": 0.523,
+      "responseStart": 219.645,
+      "responseEnd": 857.31
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Flexible_Work_Arrangements.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5403,
+    "endedAtMs": 6329,
+    "timing": {
+      "requestStart": 0.145,
+      "responseStart": 225.623,
+      "responseEnd": 927.176
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/GlobalImpact.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5403,
+    "endedAtMs": 6348,
+    "timing": {
+      "requestStart": 0.177,
+      "responseStart": 192.773,
+      "responseEnd": 949.047
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/employee_well_being.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5403,
+    "endedAtMs": 6332,
+    "timing": {
+      "requestStart": 0.155,
+      "responseStart": 142.397,
+      "responseEnd": 932.199
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/opportunitiestolearngrow.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5404,
+    "endedAtMs": 6350,
+    "timing": {
+      "requestStart": 0.126,
+      "responseStart": 179.533,
+      "responseEnd": 949.972
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/cybersecurity-perception-survey?_rsc=7YQFuzJ1K-o0eP8D",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 5404,
+    "endedAtMs": 5894,
+    "timing": {
+      "requestStart": 0.148,
+      "responseStart": 426.124,
+      "responseEnd": 490.202
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0t0vqwrk2_y-e.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 5831,
+    "timing": {
+      "requestStart": 0.168,
+      "responseStart": 428.723,
+      "responseEnd": 429.28
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Adidas.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 6351,
+    "timing": {
+      "requestStart": 0.096,
+      "responseStart": 197.951,
+      "responseEnd": 949.925
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/bosch.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 6674,
+    "timing": {
+      "requestStart": 0.179,
+      "responseStart": 353.613,
+      "responseEnd": 1272.896
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Aramex.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 6711,
+    "timing": {
+      "requestStart": 0.205,
+      "responseStart": 380.829,
+      "responseEnd": 1308.925
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/BCG.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 6708,
+    "timing": {
+      "requestStart": 0.122,
+      "responseStart": 371.812,
+      "responseEnd": 1306.532
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/EY.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 6704,
+    "timing": {
+      "requestStart": 0.124,
+      "responseStart": 353.736,
+      "responseEnd": 1302.207
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Deloitte.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 6716,
+    "timing": {
+      "requestStart": 0.086,
+      "responseStart": 360.516,
+      "responseEnd": 1314.069
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/flipkart.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 6731,
+    "timing": {
+      "requestStart": 0.081,
+      "responseStart": 364.638,
+      "responseEnd": 1329.408
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/kpmg.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 7056,
+    "timing": {
+      "requestStart": 0.179,
+      "responseStart": 246.797,
+      "responseEnd": 1653.548
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Logitech.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 7095,
+    "timing": {
+      "requestStart": 0.163,
+      "responseStart": 389.133,
+      "responseEnd": 1693.244
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/Mahindra.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5405,
+    "endedAtMs": 7103,
+    "timing": {
+      "requestStart": 0.099,
+      "responseStart": 393.001,
+      "responseEnd": 1701.489
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/pwc.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5406,
+    "endedAtMs": 7101,
+    "timing": {
+      "requestStart": 0.13,
+      "responseStart": 384.795,
+      "responseEnd": 1698.988
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/ROCHE.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5406,
+    "endedAtMs": 7106,
+    "timing": {
+      "requestStart": 0.106,
+      "responseStart": 387.672,
+      "responseEnd": 1703.969
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/expert-panel/step1.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5406,
+    "endedAtMs": 7107,
+    "timing": {
+      "requestStart": 0.143,
+      "responseStart": 376.104,
+      "responseEnd": 1705.254
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/expert-panel/step2.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5407,
+    "endedAtMs": 7201,
+    "timing": {
+      "requestStart": 0.174,
+      "responseStart": 145.457,
+      "responseEnd": 1798.764
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/expert-panel/step3.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5407,
+    "endedAtMs": 7228,
+    "timing": {
+      "requestStart": 0.135,
+      "responseStart": 124.399,
+      "responseEnd": 1824.434
+    }
+  },
+  {
+    "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/expert-panel/step4.png",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5407,
+    "endedAtMs": 7230,
+    "timing": {
+      "requestStart": 0.102,
+      "responseStart": 125.626,
+      "responseEnd": 1826.938
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/d2c-brand-customer-experience-survey?_rsc=eqzOKhFHduGT0FVd",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 5407,
+    "endedAtMs": 5895,
+    "timing": {
+      "requestStart": 0.097,
+      "responseStart": 425.7,
+      "responseEnd": 490.054
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0gul_ze1.icjl.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5407,
+    "endedAtMs": 5831,
+    "timing": {
+      "requestStart": 0.085,
+      "responseStart": 427.448,
+      "responseEnd": 427.741
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/higher-education-brand-perception-survey?_rsc=fyZ075uBsGxnofwk",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 5407,
+    "endedAtMs": 5894,
+    "timing": {
+      "requestStart": 0.091,
+      "responseStart": 426.54,
+      "responseEnd": 488.773
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0f14dwi1iac4f.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5891,
+    "endedAtMs": 6157,
+    "timing": {
+      "requestStart": 0.118,
+      "responseStart": 265.778,
+      "responseEnd": 266.147
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/plant-based-dairy-alternative-perception-survey?_rsc=cxJIsGOtIHMTJEot",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 5893,
+    "endedAtMs": 6163,
+    "timing": {
+      "requestStart": 0.136,
+      "responseStart": 265.052,
+      "responseEnd": 272.374
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey/sustainable-product-consumer-perception-survey?_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 5894,
+    "endedAtMs": 6164,
+    "timing": {
+      "requestStart": 0.127,
+      "responseStart": 264.216,
+      "responseEnd": 271.983
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/book-a-discovery-call?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5894,
+    "endedAtMs": 6161,
+    "timing": {
+      "requestStart": 0.584,
+      "responseStart": 267.498,
+      "responseEnd": 268.382
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/book-a-discovery-call?_rsc=9bNl2kjTyY3M9Ry1",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_index",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 5894,
+    "endedAtMs": 6163,
+    "timing": {
+      "requestStart": 0.399,
+      "responseStart": 267.364,
+      "responseEnd": 269.856
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/book-a-discovery-call?_rsc=xo52Njt3jnaGtSYu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/book-a-discovery-call",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6161,
+    "endedAtMs": 6328,
+    "timing": {
+      "requestStart": 0.371,
+      "responseStart": 158.583,
+      "responseEnd": 159.153
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/book-a-discovery-call?_rsc=YEmZRTfOPYrvymIs",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/book-a-discovery-call/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6163,
+    "endedAtMs": 6323,
+    "timing": {
+      "requestStart": 0.107,
+      "responseStart": 155.414,
+      "responseEnd": 157.467
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies/al-dawaa-market-expansion-strategy-ksa-pharmacy?_rsc=kuOeKmT6Jrh6KiI2",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 6163,
+    "endedAtMs": 6329,
+    "timing": {
+      "requestStart": 0.114,
+      "responseStart": 153.935,
+      "responseEnd": 161.24
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/blog?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6164,
+    "endedAtMs": 6329,
+    "timing": {
+      "requestStart": 0.117,
+      "responseStart": 157.305,
+      "responseEnd": 160.345
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0qigpg.6it2vt.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6323,
+    "endedAtMs": 6606,
+    "timing": {
+      "requestStart": 0.178,
+      "responseStart": 283.616,
+      "responseEnd": 284.63
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0g4r55qoeefh0.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6324,
+    "endedAtMs": 6607,
+    "timing": {
+      "requestStart": 0.225,
+      "responseStart": 283.489,
+      "responseEnd": 284.63
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0ep-rzef30ayc.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6324,
+    "endedAtMs": 6683,
+    "timing": {
+      "requestStart": 0.141,
+      "responseStart": 283.503,
+      "responseEnd": 361.026
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0jttq1if-6zrl.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6324,
+    "endedAtMs": 6689,
+    "timing": {
+      "requestStart": 0.087,
+      "responseStart": 360.348,
+      "responseEnd": 366.968
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0auy78~7jvof0.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6325,
+    "endedAtMs": 6693,
+    "timing": {
+      "requestStart": 0.081,
+      "responseStart": 361.419,
+      "responseEnd": 369.512
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0r48fhrix1799.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6325,
+    "endedAtMs": 7067,
+    "timing": {
+      "requestStart": 0.079,
+      "responseStart": 415.593,
+      "responseEnd": 743.182
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/blog?_rsc=gQzskXZefVxNKYW2",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/blog",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6325,
+    "endedAtMs": 7073,
+    "timing": {
+      "requestStart": 0.086,
+      "responseStart": 742.891,
+      "responseEnd": 743.54
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/blog?_rsc=20FGV3fzfWk6ZLvn",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/blog/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 6328,
+    "endedAtMs": 7068,
+    "timing": {
+      "requestStart": 0.138,
+      "responseStart": 742.043,
+      "responseEnd": 742.838
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/pov?_rsc=fwTrGcjEWL4SQzbo",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 6329,
+    "endedAtMs": 7073,
+    "timing": {
+      "requestStart": 0.135,
+      "responseStart": 740.587,
+      "responseEnd": 745.983
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies?_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 6329,
+    "endedAtMs": 7073,
+    "timing": {
+      "requestStart": 0.336,
+      "responseStart": 734.848,
+      "responseEnd": 744.703
+    }
+  },
+  {
+    "url": "https://i.clarity.ms/collect",
+    "method": "POST",
+    "resourceType": "xhr",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": null,
+    "failure": null,
+    "startedAtMs": 6868,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0srs_8wo8tt5..js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7069,
+    "endedAtMs": 7173,
+    "timing": {
+      "requestStart": 0.348,
+      "responseStart": 104.736,
+      "responseEnd": 105.184
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0hntepdn8zx7a.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7069,
+    "endedAtMs": 7173,
+    "timing": {
+      "requestStart": 0.182,
+      "responseStart": 104.906,
+      "responseEnd": 105.225
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0~g_1k9l8a~fz.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7069,
+    "endedAtMs": 7174,
+    "timing": {
+      "requestStart": 0.084,
+      "responseStart": 105.467,
+      "responseEnd": 105.974
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?_rsc=avhW4gSc0jLat9nT",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7069,
+    "endedAtMs": 7227,
+    "timing": {
+      "requestStart": 0.128,
+      "responseStart": 134.436,
+      "responseEnd": 158.054
+    }
+  },
+  {
+    "url": "https://c.clarity.ms/c.gif",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 302,
+    "failure": null,
+    "startedAtMs": 7069,
+    "endedAtMs": 8586,
+    "timing": {
+      "requestStart": 1041.51,
+      "responseStart": 1516.974,
+      "responseEnd": 1517.5629999994271
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=energy-and-utilities-market&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7073,
+    "endedAtMs": 7212,
+    "timing": {
+      "requestStart": 0.136,
+      "responseStart": 127.392,
+      "responseEnd": 142.034
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=education-and-recruitment-market&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7073,
+    "endedAtMs": 7214,
+    "timing": {
+      "requestStart": 0.1,
+      "responseStart": 134.405,
+      "responseEnd": 143.955
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=defense-and-security-market&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7073,
+    "endedAtMs": 7215,
+    "timing": {
+      "requestStart": 0.103,
+      "responseStart": 137.036,
+      "responseEnd": 144.038
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=consumer-products-and-retail-market&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7213,
+    "endedAtMs": 7311,
+    "timing": {
+      "requestStart": 0.188,
+      "responseStart": 94.02,
+      "responseEnd": 98.38
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=banking-financial-services-and-insurance-market&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7214,
+    "endedAtMs": 7312,
+    "timing": {
+      "requestStart": 0.14,
+      "responseStart": 93.19,
+      "responseEnd": 96.962
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=automotive-transportation-and-warehousing-market&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7215,
+    "endedAtMs": 7312,
+    "timing": {
+      "requestStart": 0.1,
+      "responseStart": 91.331,
+      "responseEnd": 94.95
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?category=agriculture-animal-care-market&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7227,
+    "endedAtMs": 7364,
+    "timing": {
+      "requestStart": 0.148,
+      "responseStart": 135.948,
+      "responseEnd": 136.882
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/custom-form?_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7311,
+    "endedAtMs": 7509,
+    "timing": {
+      "requestStart": 0.334,
+      "responseStart": 194.189,
+      "responseEnd": 195.785
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies/dhl-road-freight-warehousing-growth-israel?_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7312,
+    "endedAtMs": 7510,
+    "timing": {
+      "requestStart": 0.246,
+      "responseStart": 51.682,
+      "responseEnd": 195.858
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/pov?type=consulting&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7312,
+    "endedAtMs": 7508,
+    "timing": {
+      "requestStart": 0.096,
+      "responseStart": 193.317,
+      "responseEnd": 194.604
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?type=consulting&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7364,
+    "endedAtMs": 7511,
+    "timing": {
+      "requestStart": 0.176,
+      "responseStart": 142.654,
+      "responseEnd": 143.974
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies?type=consulting&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 7508,
+    "endedAtMs": 7632,
+    "timing": {
+      "requestStart": 0.472,
+      "responseStart": 100.781,
+      "responseEnd": 124.003
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/contact-us?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7510,
+    "endedAtMs": 7630,
+    "timing": {
+      "requestStart": 0.363,
+      "responseStart": 106.855,
+      "responseEnd": 119.635
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/contact-us?_rsc=dVaTzWnQZl2EVyVg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/contact-us",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7510,
+    "endedAtMs": 7629,
+    "timing": {
+      "requestStart": 0.125,
+      "responseStart": 101.222,
+      "responseEnd": 118.412
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/contact-us?_rsc=vgRqUABA7JWe1C6k",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/contact-us/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7511,
+    "endedAtMs": 7631,
+    "timing": {
+      "requestStart": 0.127,
+      "responseStart": 116.799,
+      "responseEnd": 120.359
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/product-strategy-consulting?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7629,
+    "endedAtMs": 7906,
+    "timing": {
+      "requestStart": 0.173,
+      "responseStart": 274.122,
+      "responseEnd": 274.976
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/product-strategy-consulting?_rsc=ebpLQxLV54U-K1ur",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7630,
+    "endedAtMs": 7907,
+    "timing": {
+      "requestStart": 0.113,
+      "responseStart": 274.063,
+      "responseEnd": 274.797
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/05fwbapvi_ccf.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7631,
+    "endedAtMs": 7908,
+    "timing": {
+      "requestStart": 0.087,
+      "responseStart": 274.482,
+      "responseEnd": 275.934
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0u5ry2y9~9ldy.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7631,
+    "endedAtMs": 7914,
+    "timing": {
+      "requestStart": 0.077,
+      "responseStart": 275.023,
+      "responseEnd": 279.854
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0.b4f85b7u0qx.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7631,
+    "endedAtMs": 7928,
+    "timing": {
+      "requestStart": 0.154,
+      "responseStart": 278.627,
+      "responseEnd": 294.912
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/07a7znmq4oeua.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7632,
+    "endedAtMs": 7921,
+    "timing": {
+      "requestStart": 0.114,
+      "responseStart": 282.539,
+      "responseEnd": 289.948
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/product-strategy-consulting?_rsc=0kS2lFlA2-cn-q0G",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7632,
+    "endedAtMs": 7912,
+    "timing": {
+      "requestStart": 0.084,
+      "responseStart": 273.691,
+      "responseEnd": 279.749
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/product-strategy-consulting?_rsc=gucUS4EEZbMFBvGg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/$d$subcategory",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7632,
+    "endedAtMs": 7914,
+    "timing": {
+      "requestStart": 0.135,
+      "responseStart": 273.969,
+      "responseEnd": 280.219
+    }
+  },
+  {
+    "url": "https://i.clarity.ms/collect",
+    "method": "POST",
+    "resourceType": "xhr",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": 204,
+    "failure": null,
+    "startedAtMs": 7865,
+    "endedAtMs": 8837,
+    "timing": {
+      "requestStart": 300.892,
+      "responseStart": 971.533,
+      "responseEnd": 972.518
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/product-strategy-consulting?_rsc=XdhVa_6Yjoylx22f",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/$d$subcategory/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7906,
+    "endedAtMs": 8084,
+    "timing": {
+      "requestStart": 0.309,
+      "responseStart": 170.956,
+      "responseEnd": 175.22
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-penetration-consulting?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7907,
+    "endedAtMs": 8088,
+    "timing": {
+      "requestStart": 0.18,
+      "responseStart": 176.771,
+      "responseEnd": 178.448
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-penetration-consulting?_rsc=gucUS4EEZbMFBvGg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/$d$subcategory",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7913,
+    "endedAtMs": 8088,
+    "timing": {
+      "requestStart": 0.571,
+      "responseStart": 170.692,
+      "responseEnd": 173.246
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-penetration-consulting?_rsc=XdhVa_6Yjoylx22f",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/$d$subcategory/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 7914,
+    "endedAtMs": 8088,
+    "timing": {
+      "requestStart": 0.13,
+      "responseStart": 170.145,
+      "responseEnd": 173.818
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0ammlvy956u1l.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8084,
+    "endedAtMs": 8228,
+    "timing": {
+      "requestStart": 0.424,
+      "responseStart": 141.775,
+      "responseEnd": 143.236
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0xj3hdnih~z5x.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8085,
+    "endedAtMs": 8330,
+    "timing": {
+      "requestStart": 0.234,
+      "responseStart": 243.558,
+      "responseEnd": 246.473
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0gwfytsobnm--.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8085,
+    "endedAtMs": 8330,
+    "timing": {
+      "requestStart": 0.297,
+      "responseStart": 247.154,
+      "responseEnd": 247.841
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0oqng9i4d5ih~.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8085,
+    "endedAtMs": 8438,
+    "timing": {
+      "requestStart": 0.118,
+      "responseStart": 347.069,
+      "responseEnd": 353.432
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0aeaw._m0ifvx.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8086,
+    "endedAtMs": 8438,
+    "timing": {
+      "requestStart": 1.132,
+      "responseStart": 353.663,
+      "responseEnd": 354.703
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/06udgiw8qrkq9.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8086,
+    "endedAtMs": 8438,
+    "timing": {
+      "requestStart": 0.126,
+      "responseStart": 351.704,
+      "responseEnd": 353.685
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0~sqgirid1pld.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8086,
+    "endedAtMs": 8456,
+    "timing": {
+      "requestStart": 0.106,
+      "responseStart": 363.191,
+      "responseEnd": 371.792
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/05zoeir-1wupe.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8086,
+    "endedAtMs": 8453,
+    "timing": {
+      "requestStart": 0.101,
+      "responseStart": 364.153,
+      "responseEnd": 370.012
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8086,
+    "endedAtMs": 8448,
+    "timing": {
+      "requestStart": 0.13,
+      "responseStart": 359.52,
+      "responseEnd": 363.455
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting?_rsc=gucUS4EEZbMFBvGg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/$d$subcategory",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8088,
+    "endedAtMs": 8455,
+    "timing": {
+      "requestStart": 0.429,
+      "responseStart": 361.546,
+      "responseEnd": 369.431
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting?_rsc=XdhVa_6Yjoylx22f",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/$d$subcategory/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8088,
+    "endedAtMs": 8459,
+    "timing": {
+      "requestStart": 0.137,
+      "responseStart": 368.549,
+      "responseEnd": 371.887
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/deals-and-ipo-consulting?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8088,
+    "endedAtMs": 8460,
+    "timing": {
+      "requestStart": 0.122,
+      "responseStart": 367.26,
+      "responseEnd": 370.532
+    }
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-0QKPLDBKRE&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&_p=1789116326973&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=596230139&_eu=AAAAAGQC&cid=1962888935.1789116328&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&gaf=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789116328&sct=1&seg=0&dl=https%3A%2F%2Fwww.kenresearch.com%2Fbrand-perception-survey&dt=Brand%20Perception%20Analysis%20%E2%80%93%20Data-Driven%20Insights%20for%20Your%20Business&_s=2&tfd=8390",
+    "method": "POST",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": "third-party-analytics",
+    "status": null,
+    "failure": "net::ERR_ABORTED",
+    "startedAtMs": 8398,
+    "endedAtMs": 9371,
+    "timing": {
+      "requestStart": 1.27,
+      "responseStart": 971.756,
+      "responseEnd": 973.592
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/deals-and-ipo-consulting?_rsc=0kS2lFlA2-cn-q0G",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8448,
+    "endedAtMs": 8616,
+    "timing": {
+      "requestStart": 0.511,
+      "responseStart": 166.884,
+      "responseEnd": 167.468
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/deals-and-ipo-consulting?_rsc=ek1knUIbWiHZjC90",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8455,
+    "endedAtMs": 8667,
+    "timing": {
+      "requestStart": 0.142,
+      "responseStart": 199.101,
+      "responseEnd": 210.122
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8459,
+    "endedAtMs": 8669,
+    "timing": {
+      "requestStart": 0.184,
+      "responseStart": 195.895,
+      "responseEnd": 206.839
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting/strategy-consulting?_rsc=ek1knUIbWiHZjC90",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/$d$category/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8460,
+    "endedAtMs": 8680,
+    "timing": {
+      "requestStart": 0.246,
+      "responseStart": 195.729,
+      "responseEnd": 220.288
+    }
+  },
+  {
+    "url": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=E66985EC71774AFAA8DFD2C5B44E1E5D&RedC=c.clarity.ms&MXFR=17B5841B1811614B369293CA1C116FC9",
+    "method": "GET",
+    "resourceType": "image",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": null,
+    "failure": null,
+    "startedAtMs": 8586,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8617,
+    "endedAtMs": 9150,
+    "timing": {
+      "requestStart": 0.228,
+      "responseStart": 530.262,
+      "responseEnd": 531.041
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/15n-gij1-lwx9.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8668,
+    "endedAtMs": 9441,
+    "timing": {
+      "requestStart": 0.326,
+      "responseStart": 771.801,
+      "responseEnd": 772.987
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/137.lteem~mho.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8668,
+    "endedAtMs": 9431,
+    "timing": {
+      "requestStart": 0.182,
+      "responseStart": 762.938,
+      "responseEnd": 763.503
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0d8_newx95nyp.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8668,
+    "endedAtMs": 9440,
+    "timing": {
+      "requestStart": 0.111,
+      "responseStart": 771,
+      "responseEnd": 772.927
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/08-55rd.843i9.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8669,
+    "endedAtMs": 9448,
+    "timing": {
+      "requestStart": 0.097,
+      "responseStart": 771.472,
+      "responseEnd": 781.417
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0imwsl3d.ci80.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8669,
+    "endedAtMs": 9452,
+    "timing": {
+      "requestStart": 0.088,
+      "responseStart": 779.922,
+      "responseEnd": 784.805
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/consulting?_rsc=ywvCHhHeWVxu1fjC",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/consulting/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8669,
+    "endedAtMs": 9446,
+    "timing": {
+      "requestStart": 0.088,
+      "responseStart": 770.181,
+      "responseEnd": 775.244
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8669,
+    "endedAtMs": 9552,
+    "timing": {
+      "requestStart": 0.084,
+      "responseStart": 797.87,
+      "responseEnd": 883.429
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/survey?_rsc=gy5ls4kJIgINnqho",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/survey/__PAGE__",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": 200,
+    "failure": null,
+    "startedAtMs": 8680,
+    "endedAtMs": 9555,
+    "timing": {
+      "requestStart": 0.101,
+      "responseStart": 785.737,
+      "responseEnd": 873.086
+    }
+  },
+  {
+    "url": "https://www.kenresearch.com/pov?type=survey&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9150,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/03p4a5202ej91.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9446,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0pqmy11k0xfch.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9447,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/articles?type=survey&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9447,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/case-studies?type=survey&_rsc=Y7TIVVZzmlJAYzsu",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9553,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/0fo5p.0780deb.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9555,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/_next/static/chunks/168e7di.~-138.js",
+    "method": "GET",
+    "resourceType": "script",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {},
+    "noise": null,
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9556,
+    "endedAtMs": null,
+    "timing": null
+  },
+  {
+    "url": "https://www.kenresearch.com/survey-all?_rsc=kSib7N2DD1Ypm9JY",
+    "method": "GET",
+    "resourceType": "fetch",
+    "isMainFrame": true,
+    "isNavigationRequest": false,
+    "headers": {
+      "next-router-prefetch": "1",
+      "next-router-segment-prefetch": "/_head",
+      "rsc": "1",
+      "next-url": "/brand-perception-survey"
+    },
+    "noise": "next-router-prefetch-header",
+    "status": null,
+    "failure": null,
+    "startedAtMs": 9556,
+    "endedAtMs": null,
+    "timing": null
+  }
+]

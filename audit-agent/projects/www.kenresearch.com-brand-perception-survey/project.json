@@ -1,0 +1,48 @@
+{
+  "targetUrl": "https://www.kenresearch.com/brand-perception-survey",
+  "mode": "single-page",
+  "figmaFileKey": "DabgFbE1qMgRYPvhCD3SjW",
+  "figmaFileUrl": "https://www.figma.com/design/DabgFbE1qMgRYPvhCD3SjW",
+  "figmaTeamPlanKey": "team::1364202946001928079",
+  "figmaProjectId": null,
+  "figmaNodes": {
+    "pages": {
+      "00 Overview": "0:1",
+      "01 Page Audit": "1:2",
+      "02 Root Causes": "1:3",
+      "03 Component Findings": "1:4",
+      "04 Needs Review": "1:5",
+      "05 Global Components": "1:6"
+    },
+    "frames": {
+      "00 Overview / root": "10:2",
+      "01 Page Audit / Page Audit frame": "1:7",
+      "01 Page Audit / Legend": "3:120",
+      "01 Page Audit / Component library section": "18:26",
+      "02 Root Causes / root": "10:78",
+      "03 Component Findings / root": "11:2",
+      "04 Needs Review / root": "14:2",
+      "05 Global Components / root": "14:117"
+    },
+    "markers": {
+      "4434cbfb07ba6e846c3f89352ddf030a": "2:16",
+      "d7b578bcd4f9ac651f69ef8fd17f4735": "2:34",
+      "9ab35812ab3f10cf4cb439d93bd57699": "2:52",
+      "83512f1eb017d7a3070f11fc4f51f45d": "2:69",
+      "6385a8d407c014ecc974834ccc5b7eca": "2:87",
+      "7552a06dad6b377f325ad347d8d45d61": "2:104",
+      "a96d10b17d1a0d68ef230ce5a4bbe419": "3:28",
+      "5514a5beb92afeb86afb0a485771c974": "3:45",
+      "a79fc32008683b11ee042351533c8d4c": "3:63",
+      "848b7408369b202ee0bebabe2e314891": "3:80",
+      "94388362f1bafd7d55eb8c00bf428837": "3:98",
+      "582a445514625ec7a90312b4748b83c7": "3:116"
+    },
+    "imageHashes": {
+      "screenshots/0fd65492660d35ec/page-tile-0.png": "19c7f8f3efdb23a9a2600f232b6f2566c402d2fb",
+      "screenshots/0fd65492660d35ec/page-tile-1.png": "0db5f5a10d9700c1e4a2f8fe7ec0556ffd513c85",
+      "screenshots/0fd65492660d35ec/page-tile-10.png": "44f1483053a57a766977fc60a9a3356a0bf0a6f8"
+    }
+  },
+  "createdAt": "2026-09-15T12:07:17.360Z"
+}

@@ -1,0 +1,303 @@
+{
+  "requestedUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting",
+  "canonical": {
+    "pageUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting",
+    "declaredCanonical": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting",
+    "source": "link-rel-canonical",
+    "notes": []
+  },
+  "httpStatus": 200,
+  "renderSettled": {
+    "settled": true,
+    "network": {
+      "settled": true,
+      "stillInFlight": [],
+      "staleInFlight": []
+    },
+    "viewportImages": {
+      "total": 1,
+      "incomplete": [],
+      "broken": []
+    },
+    "domQuiet": true,
+    "mutationCounts": {
+      "childList": 7,
+      "characterData": 0,
+      "attributes": 58
+    },
+    "fonts": {
+      "status": "loaded"
+    },
+    "gateStartedAtMs": 1614,
+    "elapsedMs": 10258
+  },
+  "network": {
+    "total": 296,
+    "critical": 163,
+    "noiseByReason": {
+      "long-lived-stream": 30,
+      "third-party-analytics": 16,
+      "next-router-prefetch-header": 87
+    },
+    "criticalFailures": [],
+    "speculativeFailures": [
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/DealsNIpoHomepage/ClientFeedbackVideo.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/DealsNIpoHomepage/genes.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/cybersecurity-perception-survey?_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/consulting-sub-bg/marketentrybg.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/DealsNIpoHomepage/genes.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/DealsNIpoHomepage/genes.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://www.kenresearch.com/articles?category=defense-and-security-market&_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/DealsNIpoHomepage/genes.mp4",
+        "failure": "net::ERR_ABORTED",
+        "noise": "long-lived-stream"
+      },
+      {
+        "url": "https://www.kenresearch.com/pov?type=consulting&_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-0QKPLDBKRE&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&_p=1789116288313&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=574686134&_eu=AAAAAGAC&cid=2014829794.1789116295&ec_mode=a&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789116294&sct=1&seg=0&dl=https%3A%2F%2Fwww.kenresearch.com%2Fconsulting%2Fstrategy-consulting%2Fmarket-entry-consulting&dt=Market%20Entry%20Consulting%20%7C%20Ken%20Research&en=page_view&_fv=1&_nsi=1&_ss=1&ep.debug_mode=true&tfd=11272",
+        "failure": "net::ERR_ABORTED",
+        "noise": "third-party-analytics"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-0QKPLDBKRE&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&_p=1789116288313&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=574686134&_eu=AAAAAGQC&cid=2014829794.1789116295&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&gaf=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789116294&sct=1&seg=0&dl=https%3A%2F%2Fwww.kenresearch.com%2Fconsulting%2Fstrategy-consulting%2Fmarket-entry-consulting&dt=Market%20Entry%20Consulting%20%7C%20Ken%20Research&_s=2&tfd=12034",
+        "failure": "net::ERR_ABORTED",
+        "noise": "third-party-analytics"
+      },
+      {
+        "url": "https://www.kenresearch.com/case-studies/residential-real-estate-shift-tier-2-impact?_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=farm-automation-industry&_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=agriculture-animal-care-market&topics=hybrid-seed&_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-0QKPLDBKRE&gtm=45je6992v9245750663z878076250za20gzb78076250zd78076250&_p=1789116288313&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=574686134&_eu=AAAAAGQC&cid=2014829794.1789116295&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&dp=%2Fconsulting%2Fstrategy-consulting%2Fmarket-entry-consulting&sid=1789116294&sct=1&seg=0&dl=https%3A%2F%2Fwww.kenresearch.com%2Fconsulting%2Fstrategy-consulting%2Fmarket-entry-consulting&dt=Market%20Entry%20Consulting%20%7C%20Ken%20Research&en=cta_impression&ep.debug_mode=true&ep.cta_id=Schedule%20A%20Call%20-%20Hero&ep.cta_label=Schedule%20A%20Call&ep.cta_location=Market%20Entry%20Consulting%20Page&ep.destination_type=lead_talk_to_us&ep.content_type=site_cta&ep.content_id=%2Ftalk-to-us&ep.content_name=Read%20more&evnid=a5d0ad7e-7b16-4029-880d-d845dfd06062&ep.schema_version=2.0.0&_et=5&tfd=17037",
+        "failure": "net::ERR_ABORTED",
+        "noise": "third-party-analytics"
+      },
+      {
+        "url": "https://www.kenresearch.com/report-store?industry=consumer-products-and-retail-market&_rsc=RrhsQG9yZhPTNwl_",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/case-studies/residential-real-estate-shift-tier-2-impact?_rsc=fexRGk7hrXBBYzgg",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/case-studies/dhl-road-freight-warehousing-growth-israel?_rsc=tpf_75LTSy1_hNdg",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      },
+      {
+        "url": "https://www.kenresearch.com/survey/cybersecurity-perception-survey?_rsc=_VXqHdzLiQGXanrj",
+        "failure": "net::ERR_ABORTED",
+        "noise": "next-router-prefetch-header"
+      }
+    ]
+  },
+  "console": {
+    "total": 17,
+    "kept": [],
+    "suppressedByReason": {
+      "benign-preload-warning": 17
+    },
+    "summary": "17 messages, 17 suppressed by policy, 0 kept as evidence"
+  },
+  "pageErrors": [],
+  "ariaElementCount": 472,
+  "placeholders": [
+    {
+      "id": "ph0",
+      "before": "0+",
+      "after": "1000+",
+      "changed": true,
+      "stabilized": true,
+      "stillPlaceholder": false,
+      "detectedAs": "0+"
+    },
+    {
+      "id": "ph1",
+      "before": "2000+",
+      "after": "2000+",
+      "changed": false,
+      "stabilized": true,
+      "stillPlaceholder": false,
+      "detectedAs": "0+"
+    },
+    {
+      "id": "ph2",
+      "before": "500+",
+      "after": "500+",
+      "changed": false,
+      "stabilized": true,
+      "stillPlaceholder": false,
+      "detectedAs": "0+"
+    },
+    {
+      "id": "ph3",
+      "before": "$500Mn",
+      "after": "$500Mn",
+      "changed": false,
+      "stabilized": true,
+      "stillPlaceholder": false,
+      "detectedAs": "$0Mn"
+    }
+  ],
+  "renderingPolicy": {
+    "channel": "chromium",
+    "browserVersion": "153.0.8010.12",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "deviceScaleFactor": 1,
+    "colorScheme": "light",
+    "locale": "en-US",
+    "timezoneId": "Asia/Kolkata",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 KenResearchDSAudit/0.1"
+  },
+  "capturedAt": "2026-09-11T08:45:03.086Z"
+}

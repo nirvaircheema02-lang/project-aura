@@ -1,0 +1,87 @@
+[
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client1.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client3.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://www.kenresearch.com/_next/static/chunks/0x0dktbykvsn_.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/procurement/maruti.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/VOLVO.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://www.kenresearch.com/_next/static/chunks/10--e2tl49gto.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/MahindraColored.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client4.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client5.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://www.kenresearch.com/_next/static/chunks/0mn_iquucepsi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/SurveyAssets/client2.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://www.kenresearch.com/_next/static/chunks/0.7m41cqa9_.h.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://www.kenresearch.com/_next/static/chunks/0d506_kt3w3~0.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/ANL.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/EurekaForbes.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://kenresearch.s3.ap-south-1.amazonaws.com/next_assets/public/etisalat.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  },
+  {
+    "type": "warning",
+    "text": "The resource https://www.kenresearch.com/_next/static/chunks/06-ea63lsocl4.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "locationUrl": "https://www.kenresearch.com/consulting/strategy-consulting/market-entry-consulting"
+  }
+]

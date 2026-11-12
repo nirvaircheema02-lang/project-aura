@@ -1,0 +1,37 @@
+{
+  "targetUrl": "https://www.kenresearch.com/survey/sustainable-product-consumer-perception-survey",
+  "mode": "single-page",
+  "figmaFileKey": "Xc8mzjDZqZKCEHJ9OFOOVi",
+  "figmaFileUrl": "https://www.figma.com/design/Xc8mzjDZqZKCEHJ9OFOOVi",
+  "figmaTeamPlanKey": "team::1364202946001928079",
+  "figmaProjectId": null,
+  "figmaNodes": {
+    "pages": {
+      "00 Overview": "0:1",
+      "01 Page Audit": "1:50",
+      "02 Root Causes": "1:404",
+      "03 Component Findings": "1:628",
+      "04 Needs Review": "1:882",
+      "05 Global Components": "6:2"
+    },
+    "frames": {
+      "ba0670fdb8483004": "1:51"
+    },
+    "markers": {
+      "329f65e68cde1bfb97ac0f4e03e49fae": "1:87",
+      "61aebbb4338546f98a355419e60e5f55": "1:114",
+      "27f21f7f307b4f209a362045d686fec5": "1:137",
+      "5f0b3acea8ff20e1548d9bb198c139e5": "1:160",
+      "b11b005ed3dba43a64f829d2b5edc4e0": "1:182",
+      "25d3f002355ef5b7d901e04b88a3a7bc": "1:209",
+      "6ab6e24c84b6b3c99c1b3968b8b74b8f": "1:233",
+      "e7eea417c685edd082ad90a2744e3374": "1:260",
+      "69d07525782b3a98e64b4d9c75ac6278": "1:287",
+      "f0b74a28990439ac9c66909d426a1c1e": "1:309",
+      "27034f6c41619933e73dd5aaf90f705f": "1:336",
+      "07984d93b6dd9012fe0941176fdf21a9": "1:358"
+    },
+    "imageHashes": {}
+  },
+  "createdAt": "2026-09-30T12:55:22.223Z"
+}

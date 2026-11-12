@@ -1,0 +1,20 @@
+# Audit run outputs — large, frequently-changing binaries (Excel, screenshots, history).
+# project.json stays tracked: it persists each project's Figma destination.
+projects/*/runs/
+
+# Local config / secrets (e.g. Figma tokens, DS source path overrides)
+.env
+.env.*
+
+.DS_Store
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# SQLite databases created by tests/local runs
+*.db
+*.db-journal
+*.db-wal
+*.db-shm

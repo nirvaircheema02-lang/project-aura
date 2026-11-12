@@ -1,0 +1,582 @@
+- generic [active] [ref=e1] [box=0,0,1440,9516]:
+  - region "Notifications alt+T" [box=0,0,1440,0]
+  - generic [ref=e2] [box=0,0,1440,100]:
+    - generic [ref=e3] [box=0,0,1440,40]:
+      - generic [ref=e4] [box=16,0,275,39]:
+        - link "Procurement" [ref=e5] [cursor=pointer] [box=16,10,78,20]:
+          - /url: /procurement-research
+        - link "Expert Panel" [ref=e7] [cursor=pointer] [box=118,10,75,20]:
+          - /url: /expert-panel
+        - generic [ref=e9] [box=217,10,74,20]: Company
+      - generic [ref=e13] [box=1267,0,157,39]:
+        - generic [ref=e14] [cursor=pointer] [box=1267,10,57,20]: Sign in
+        - generic [ref=e17] [cursor=pointer] [box=1336,3,88,34]: Sign up
+    - navigation [ref=e21] [box=0,40,1440,60]:
+      - link [ref=e24] [cursor=pointer] [box=16,61,152,18]:
+        - /url: /
+        - img "Ken Research Logo" [ref=e25] [box=16,61,152,18]
+      - generic [ref=e26] [box=391,41,644,58]:
+        - link "Reports" [ref=e29] [cursor=pointer] [box=391,60,51,20]:
+          - /url: /report-store
+        - generic [ref=e32] [box=489,41,80,58]: Industries
+        - link "Surveys" [ref=e39] [cursor=pointer] [box=601,60,50,20]:
+          - /url: /survey
+        - link "Consulting" [ref=e44] [cursor=pointer] [box=700,60,69,20]:
+          - /url: /consulting
+        - generic [ref=e47] [box=817,41,66,58]: Insights
+        - generic [ref=e52] [cursor=pointer] [box=915,52,120,35]: Search
+      - link "Book discovery call" [ref=e63] [cursor=pointer] [box=1258,50,166,40]:
+        - /url: /book-a-discovery-call
+  - generic [ref=e65] [box=0,100,1440,8300]:
+    - generic [ref=e66] [box=0,100,1440,650]:
+      - navigation [ref=e69] [box=120,196,440,26]:
+        - generic [ref=e70] [box=120,196,440,26]:
+          - generic [ref=e71] [box=120,199,61,20]:
+            - link "Home" [ref=e72] [cursor=pointer] [box=120,199,38,20]:
+              - /url: /
+            - generic [ref=e73] [box=166,199,7,20]: ❯
+          - generic [ref=e74] [box=189,199,94,20]:
+            - link "Consulting" [ref=e75] [cursor=pointer] [box=189,199,71,20]:
+              - /url: /consulting
+            - generic [ref=e76] [box=268,199,7,20]: ❯
+          - generic [ref=e77] [box=291,199,153,20]:
+            - link "Strategy Consulting" [ref=e78] [cursor=pointer] [box=291,199,130,20]:
+              - /url: /consulting/strategy-consulting
+            - generic [ref=e79] [box=429,199,7,20]: ❯
+          - button "Market Entry" [ref=e81] [cursor=pointer] [box=452,196,108,26]
+      - generic [ref=e85] [box=0,100,1440,650]:
+        - generic [ref=e86] [box=0,100,1440,650]:
+          - generic [ref=e89] [box=120,290,1095,270]:
+            - heading "Market Entry" [level=5] [ref=e90] [box=120,290,1095,22]
+            - heading "Accelerate Market Entry with 10x Differentiator" [level=1] [ref=e91] [box=120,324,876,116]
+            - heading "We ensure seamless market entry powered by data-driven feasibility analysis and strategic planning, accelerating your time-to-market." [level=5] [ref=e92] [box=120,448,602,44]
+            - link [ref=e93] [cursor=pointer] [box=120,516,210,44]:
+              - /url: /book-a-discovery-call
+          - generic [ref=e100] [box=0,100,1440,650]: Your browser does not support the video tag.
+        - generic [ref=e101] [box=1440,100,1440,650]:
+          - generic [ref=e104] [box=1560,327,1164,196]:
+            - paragraph [ref=e105] [box=1560,339,931,116]: Blockchain Strategy for Future-Ready Enterprises
+            - link [ref=e106] [cursor=pointer] [box=1560,479,1164,44]:
+              - /url: /pov/enterprise-blockchain-market-strategy
+          - generic [ref=e113] [box=1440,100,1440,650]: Your browser does not support the video tag.
+        - generic [ref=e114] [box=2880,100,1440,650]:
+          - generic [ref=e117] [box=3000,327,1058,196]:
+            - paragraph [ref=e118] [box=3000,339,846,116]: Building Enterprise Workflows with Agentic AI
+            - link [ref=e119] [cursor=pointer] [box=3000,479,1058,44]:
+              - /url: /pov/agentic-ai-strategy-for-enterprise-transformation
+          - generic [ref=e126] [box=2880,100,1440,650]: Your browser does not support the video tag.
+        - generic [ref=e127] [box=4320,100,1440,650]:
+          - generic [ref=e130] [box=4440,327,1140,196]:
+            - paragraph [ref=e131] [box=4440,339,912,116]: APAC Telcos Embrace the $300B Enterprise Shift
+            - link [ref=e132] [cursor=pointer] [box=4440,479,1140,44]:
+              - /url: /pov/apac-telcos-enterprise-pivot
+          - generic [ref=e139] [box=4320,100,1440,650]: Your browser does not support the video tag.
+        - generic [ref=e140] [box=5760,100,1440,650]:
+          - generic [ref=e143] [box=5880,327,1200,196]:
+            - paragraph [ref=e144] [box=5880,339,960,116]: Biosensor Innovation Positioned for $44.9B Upside by 2030
+            - link [ref=e145] [cursor=pointer] [box=5880,479,1200,44]:
+              - /url: /pov/biosensors-market-analysis-and-strategy
+          - generic [ref=e152] [box=5760,100,1440,650]: Your browser does not support the video tag.
+      - generic [ref=e154] [box=120,666,1200,30]:
+        - generic [ref=e155] [cursor=pointer] [box=120,666,72,30]
+        - paragraph [ref=e160] [box=209,671,84,20]: "Latest POV’s:"
+        - button "Blockchain Technology" [ref=e161] [cursor=pointer] [box=310,667,240,28]
+        - button "Agentic AI" [ref=e163] [cursor=pointer] [box=567,667,240,28]
+        - button "APAC Telecom" [ref=e165] [cursor=pointer] [box=823,667,240,28]
+        - button "Biosensors Innovation" [ref=e167] [cursor=pointer] [box=1080,667,240,28]
+    - generic [ref=e171] [box=120,830,1200,782]:
+      - heading "How We Can Help" [level=2] [ref=e172] [box=514,830,412,60]
+      - generic [ref=e174] [box=120,954,1200,538]:
+        - generic [ref=e175] [box=120,970,936,506]:
+          - img "Feasibility Assessment" [ref=e176] [box=120,970,936,506]
+          - generic [ref=e179] [box=120,970,936,506]:
+            - generic [ref=e180] [box=144,994,888,151]:
+              - paragraph [ref=e181] [box=144,994,808,24]: Feasibility Assessment
+              - paragraph [ref=e182] [box=144,1030,808,96]: Which are the most promising geographies for my business expansion?
+            - generic [ref=e183] [box=144,1161,888,172]:
+              - paragraph [ref=e184] [box=144,1161,888,20]: "We’ll help you with:"
+              - list [ref=e185] [box=144,1193,888,140]:
+                - listitem [ref=e186] [box=158,1193,874,20]: Market Demand Assessment
+                - listitem [ref=e187] [box=158,1217,874,20]: Financial Viability Evaluation
+                - listitem [ref=e188] [box=158,1241,874,20]: Operational Feasibility Analysis
+                - listitem [ref=e189] [box=158,1265,874,20]: Risk Mitigation Strategy
+                - listitem [ref=e190] [box=158,1289,874,20]: Regulatory Compliance and Legal Review
+                - listitem [ref=e191] [box=158,1313,874,20]: Technical Feasibility
+            - generic [ref=e192] [box=936,1412,96,40]:
+              - generic [ref=e193] [cursor=pointer] [box=936,1412,40,40]
+              - generic [ref=e196] [cursor=pointer] [box=992,1412,40,40]
+        - generic [ref=e199] [cursor=pointer] [box=1064,970,80,506]:
+          - img "Market Intelligence" [ref=e200] [box=1064,970,80,506]
+          - generic [ref=e203] [box=1064,970,850,506]:
+            - generic [ref=e204] [box=1088,994,802,103]:
+              - paragraph [ref=e205] [box=1088,994,722,24]: Market Intelligence
+              - paragraph [ref=e206] [box=1088,1030,722,48]: How compelling is my target market?
+            - generic [ref=e207] [box=1088,1113,802,100]:
+              - paragraph [ref=e208] [box=1088,1113,802,20]: "We’ll help you with:"
+              - list [ref=e209] [box=1088,1145,802,68]:
+                - listitem [ref=e210] [box=1102,1145,788,20]: Market Assessment – Gaining qualitative and quantitative insights of the market
+                - listitem [ref=e211] [box=1102,1169,788,20]: Competitive Assessment – Actionable insights into your competitors’ strategies
+                - listitem [ref=e212] [box=1102,1193,788,20]: Opportunity Mapping – Identification using TAM, SAM, SOM framework
+          - generic [ref=e220] [box=1064,970,80,506]: Market Intelligence
+        - generic [ref=e225] [cursor=pointer] [box=1152,970,80,506]:
+          - img "Go-to-Market" [ref=e226] [box=1152,970,80,506]
+          - generic [ref=e229] [box=1152,970,850,506]:
+            - generic [ref=e230] [box=1176,994,802,151]:
+              - paragraph [ref=e231] [box=1176,994,722,24]: Go-to-Market
+              - paragraph [ref=e232] [box=1176,1030,722,96]: How can I streamline my entry into my target market?
+            - generic [ref=e233] [box=1176,1161,802,100]:
+              - paragraph [ref=e234] [box=1176,1161,802,20]: "We’ll help you with:"
+              - list [ref=e235] [box=1176,1193,802,68]:
+                - listitem [ref=e236] [box=1190,1193,788,20]: Best route to market – alone vs acquisitions vs strategic partnerships
+                - listitem [ref=e237] [box=1190,1217,788,20]: ROI assessment – Financial modelling, projections, risk estimation, financial leverage
+                - listitem [ref=e238] [box=1190,1241,788,20]: "Market positioning using the 4Ps: Proct, Price, Promotion, Place"
+          - generic [ref=e246] [box=1152,970,80,506]: Go-to-Market
+        - generic [ref=e251] [cursor=pointer] [box=1240,970,80,506]:
+          - img "Implementation Roadmap" [ref=e252] [box=1240,970,80,506]
+          - generic [ref=e255] [box=1240,970,850,506]:
+            - generic [ref=e256] [box=1264,994,802,151]:
+              - paragraph [ref=e257] [box=1264,994,722,24]: Implementation Roadmap
+              - paragraph [ref=e258] [box=1264,1030,722,96]: How can I implement the strategic roadmap?
+            - generic [ref=e259] [box=1264,1161,802,124]:
+              - paragraph [ref=e260] [box=1264,1161,802,20]: "We’ll help you with:"
+              - list [ref=e261] [box=1264,1193,802,92]:
+                - listitem [ref=e262] [box=1278,1193,788,20]: Step-by-step implementation planning
+                - listitem [ref=e263] [box=1278,1217,788,20]: Project management
+                - listitem [ref=e264] [box=1278,1241,788,20]: Performance tracking
+                - listitem [ref=e265] [box=1278,1265,788,20]: Risk mitigation & corrective actions
+          - generic [ref=e273] [box=1240,970,80,506]: Implementation Roadmap
+      - link [ref=e278] [cursor=pointer] [box=581,1556,277,56]:
+        - /url: /talk-to-us
+    - generic [ref=e285] [box=144,1772,1152,476]:
+      - generic [ref=e286] [box=642,1772,156,20]: Company Highlights
+      - heading "Our Experience & Impact" [level=2] [ref=e287] [box=454,1808,532,48]
+      - generic [ref=e288] [box=144,1896,1152,132]:
+        - generic [ref=e289] [box=144,1896,264,132]:
+          - generic [ref=e291] [box=144,1920,56,48]: 0+
+          - generic [ref=e292] [box=144,2008,216,20]: New Business lines identified
+        - generic [ref=e293] [box=440,1896,264,132]:
+          - generic [ref=e295] [box=440,1920,56,48]: 0+
+          - generic [ref=e296] [box=440,2008,242,20]: Clients served in Go/No Decision
+        - generic [ref=e297] [box=736,1896,264,132]:
+          - generic [ref=e299] [box=736,1920,56,48]: 0+
+          - generic [ref=e300] [box=736,2008,180,20]: Successful market entry
+        - generic [ref=e301] [box=1032,1896,264,132]:
+          - generic [ref=e303] [box=1032,1920,124,48]: $0Mn
+          - generic [ref=e304] [box=1032,2008,118,20]: Revenue impact
+      - generic [ref=e305] [box=394,2124,652,28]: 13+ years expertise, trusted by Fortune 2,000 companies across 100+ countries
+      - generic [ref=e309] [box=-268,2176,23240,72]:
+        - img "Brand 0" [ref=e310] [box=-268,2192,112,40]
+        - img "Brand 1" [ref=e311] [box=-100,2192,112,40]
+        - img "Brand 2" [ref=e312] [box=68,2192,112,40]
+        - img "Brand 3" [ref=e313] [box=236,2192,112,40]
+        - img "Brand 4" [ref=e314] [box=404,2192,112,40]
+        - img "Brand 5" [ref=e315] [box=572,2192,112,40]
+        - img "Brand 6" [ref=e316] [box=740,2192,112,40]
+        - img "Brand 7" [ref=e317] [box=908,2192,112,40]
+        - img "Brand 8" [ref=e318] [box=1076,2192,112,40]
+        - img "Brand 9" [ref=e319] [box=1244,2192,112,40]
+        - img "Brand 10" [ref=e320] [box=1412,2192,112,40]
+        - img "Brand 11" [ref=e321] [box=1580,2192,112,40]
+        - img "Brand 12" [ref=e322] [box=1748,2192,112,40]
+        - img "Brand 13" [ref=e323] [box=1916,2192,112,40]
+        - img "Brand 14" [ref=e324] [box=2084,2192,112,40]
+        - img "Brand 15" [ref=e325] [box=2252,2192,112,40]
+        - img "Brand 16" [ref=e326] [box=2420,2192,112,40]
+        - img "Brand 17" [ref=e327] [box=2588,2192,112,40]
+        - img "Brand 18" [ref=e328] [box=2756,2192,112,40]
+        - img "Brand 19" [ref=e329] [box=2924,2192,112,40]
+        - img "Brand 20" [ref=e330] [box=3092,2192,112,40]
+        - img "Brand 21" [ref=e331] [box=3260,2192,112,40]
+        - img "Brand 22" [ref=e332] [box=3428,2192,112,40]
+        - img "Brand 23" [ref=e333] [box=3596,2192,112,40]
+        - img "Brand 24" [ref=e334] [box=3764,2192,112,40]
+        - img "Brand 25" [ref=e335] [box=3932,2192,112,40]
+        - img "Brand 26" [ref=e336] [box=4100,2192,112,40]
+        - img "Brand 27" [ref=e337] [box=4268,2192,112,40]
+    - generic [ref=e338] [box=120,2328,1200,893]:
+      - heading "Our Client Results" [level=3] [ref=e339] [box=536,2508,367,55]
+      - paragraph [ref=e340] [box=240,2575,960,22]: From startups to global brands, our strategies have driven real-world transformations across every industry.
+      - generic [ref=e342] [box=198,2513,1044,344]:
+        - generic [ref=e343] [cursor=pointer] [box=198,2513,128,344]:
+          - img "New Logo" [ref=e344] [box=242,2513,40,60]
+          - generic [ref=e345] [box=198,2577,128,280]:
+            - link [ref=e350] [box=198,2577,128,280]:
+              - /url: /case-studies/aramex-growth-priorities-competitive-positioning-logistics
+            - generic [box=198,2577,128,280]:
+              - generic [box=214,2597,96,26]:
+                - generic [box=214,2597,115,26]: Market Expansion
+                - generic [box=337,2597,66,26]: Logistics
+              - paragraph [box=214,2623,96,270]: Aramex unlocked 20+ clients across 6 countries with strategic mapping
+        - generic [ref=e351] [cursor=pointer] [box=346,2513,600,344]:
+          - img "New Logo" [ref=e352] [box=346,2513,100,60]
+          - generic [ref=e353] [box=346,2577,600,280]:
+            - link [ref=e358] [box=346,2577,600,280]:
+              - /url: "/case-studies/dhl-road-freight-warehousing-growth-israel "
+            - generic [ref=e359] [box=346,2577,600,280]:
+              - generic [ref=e360] [box=362,2597,568,26]:
+                - generic [ref=e361] [box=362,2597,87,26]: Market Entry
+                - generic [ref=e362] [box=457,2597,66,26]: Logistics
+              - paragraph [ref=e363] [box=362,2793,568,60]: In-depth market analysis of road freight and warehousing for DHL
+        - generic [ref=e364] [cursor=pointer] [box=966,2513,128,344]:
+          - img "New Logo" [ref=e365] [box=1010,2513,40,60]
+          - generic [ref=e366] [box=966,2577,128,280]:
+            - link [ref=e371] [box=966,2577,128,280]:
+              - /url: /case-studies/petronas-malaysia-strategic-product-expansion-assessment
+            - generic [box=966,2577,128,280]:
+              - generic [box=982,2597,96,26]:
+                - generic [box=982,2597,145,26]: Product Line Expansion
+                - generic [box=1135,2597,75,26]: Lubricants
+              - paragraph [box=982,2623,96,240]: Product line expansion strategy for Petronas Malaysia
+        - generic [ref=e372] [cursor=pointer] [box=1114,2513,128,344]:
+          - img "New Logo" [ref=e373] [box=1158,2513,40,60]
+          - generic [ref=e374] [box=1114,2577,128,280]:
+            - link [ref=e379] [box=1114,2577,128,280]:
+              - /url: /case-studies/residential-real-estate-shift-tier-2-impact
+            - generic [box=1114,2577,128,280]:
+              - generic [box=1130,2597,96,26]:
+                - generic [box=1130,2597,124,26]: Market Opportunity
+                - generic [box=1262,2597,79,26]: Real Estate
+              - paragraph [box=1130,2623,96,300]: Collaboration with DLF to identify residential market opportunity in TIER 2 cities of India
+      - generic [ref=e380] [box=120,2989,1200,126]:
+        - heading "In-depth market analysis of road freight and warehousing for DHL" [level=3] [ref=e381] [box=200,2989,1120,30]
+        - generic [ref=e383] [box=200,3019,1120,108]:
+          - paragraph [ref=e384] [box=200,3039,302,88]:
+            - generic [ref=e385] [box=213,3040,283,63]: 60+Competitors tracked across 6 different regions with coverage on 200+ operational and financial KPIs
+          - paragraph [ref=e386] [box=522,3039,302,88]:
+            - generic [ref=e387] [box=535,3040,272,85]: $5 Mn Resources allocated optimally considering growth projections for various business verticals across the identified geographies
+          - paragraph [ref=e388] [box=845,3039,302,88]:
+            - generic [ref=e389] [box=858,3040,254,41]: 30+ Business Clients added by DHL by identifying gaps in competition analysis
+      - link [ref=e391] [cursor=pointer] [box=200,3085,220,56]:
+        - /url: "/case-studies/dhl-road-freight-warehousing-growth-israel "
+    - generic [ref=e398] [box=120,3221,1200,655]:
+      - generic [ref=e399] [box=160,3301,672,495]:
+        - paragraph [ref=e402] [box=160,3384,672,24]: What our client say
+        - generic [ref=e405] [box=-520,3408,680,200]:
+          - generic [ref=e406] [box=-520,3408,680,200]:
+            - blockquote [ref=e407] [box=-520,3408,640,96]: Backed by strong logistics expertise, the report uncovered whitespaces and helped us drive impactful growth across key regions.
+            - generic [ref=e408] [box=-520,3528,640,48]:
+              - generic [ref=e409] [box=-520,3528,105,48]:
+                - paragraph [ref=e410] [box=-506,3528,91,24]: Aramex
+                - paragraph [ref=e411] [box=-506,3560,91,16]: Director, Aramex
+              - img "Testimonial Logo" [ref=e412] [box=-367,3532,100,40]
+          - generic [ref=e413] [box=160,3408,680,200]:
+            - blockquote [ref=e414] [box=160,3408,640,128]: Ken Research delivered a high level review of market assessment and competition assessment study to us which aided the client to get the know-how of road freight, warehousing and co-packing market in Israel.
+            - generic [ref=e415] [box=160,3560,640,48]:
+              - generic [ref=e416] [box=160,3560,111,48]:
+                - paragraph [ref=e417] [box=174,3560,97,24]: DHL
+                - paragraph [ref=e418] [box=174,3592,97,16]: Country Manager
+              - img "Testimonial Logo" [ref=e419] [box=319,3564,100,40]
+          - generic [ref=e420] [box=840,3408,680,200]:
+            - blockquote [ref=e421] [box=840,3408,640,128]: Ken's in-depth market assessment and strategic recommendations provided us with actionable insights to expand our product portfolio and strengthen our position in the Malaysian market.
+            - generic [ref=e422] [box=840,3560,640,48]:
+              - generic [ref=e423] [box=840,3560,93,48]:
+                - paragraph [ref=e424] [box=854,3560,79,24]: Petronas
+                - paragraph [ref=e425] [box=854,3592,79,16]: Strategy Head
+              - img "Testimonial Logo" [ref=e426] [box=981,3564,100,40]
+          - generic [ref=e427] [box=1520,3408,680,200]:
+            - blockquote [ref=e428] [box=1520,3408,640,96]: Ken Research’s market report provided us with actionable insights. Their expertise and dedication were instrumental in our strategic planning.
+            - generic [ref=e429] [box=1520,3528,640,48]:
+              - generic [ref=e430] [box=1520,3528,162,48]:
+                - paragraph [ref=e431] [box=1534,3528,148,24]: DLF
+                - paragraph [ref=e432] [box=1534,3560,148,16]: Regional Business Director
+              - img "Testimonial Logo" [ref=e433] [box=1730,3532,100,40]
+        - generic [ref=e436] [box=160,3673,672,40]:
+          - generic [ref=e437] [cursor=pointer] [box=160,3673,40,40]
+          - generic [ref=e440] [cursor=pointer] [box=208,3673,40,40]
+      - generic [ref=e445] [box=926,3592,330,172]:
+        - paragraph [ref=e446] [box=926,3616,330,84]: Maximize growth and revenue through our industry leading consulting strategies.
+        - link "Consult Today" [ref=e447] [cursor=pointer] [box=926,3730,159,45]:
+          - /url: /talk-to-us
+    - generic [ref=e450] [box=180,3956,1080,524]:
+      - generic [ref=e451] [box=180,3956,1080,100]:
+        - heading "Let's Connect" [level=2] [ref=e452] [box=180,4056,1080,72]
+        - paragraph [ref=e453] [box=396,4136,648,20]: Fill in your details and we’ll help you navigate strategy with insights truly worth your attention.
+      - generic [ref=e454] [box=396,4112,648,368]:
+        - generic [ref=e455] [box=396,4112,648,24]:
+          - textbox "e.g. Jhon Babel" [ref=e456] [box=396,4115,648,21]
+          - paragraph [ref=e457] [box=396,4102,62,20]: Full Name
+        - generic [ref=e458] [box=396,4176,648,24]:
+          - generic [ref=e459] [box=396,4176,312,24]:
+            - textbox "e.g. jhon.babel@company.com" [ref=e460] [box=396,4179,312,21]
+            - paragraph [ref=e461] [box=396,4166,82,20]: Official Email
+          - generic [ref=e462] [box=732,4176,312,24]:
+            - spinbutton "e.g. 962898xxxx" [ref=e463] [box=732,4179,312,21]
+            - paragraph [ref=e464] [box=732,4166,97,20]: Phone Number
+            - generic [box=732,4172,66,32]:
+              - generic [box=732,4172,66,32]:
+                - generic [box=732,4204,66,32]:
+                  - generic [box=757,4210,40,20]: "+91"
+                  - separator [box=801,4208,1,24]
+        - generic [ref=e465] [box=396,4240,648,24]:
+          - generic [ref=e466] [box=396,4240,312,24]:
+            - textbox "e.g. company" [ref=e467] [box=396,4243,312,21]
+            - paragraph [ref=e468] [box=396,4230,102,20]: Company Name
+          - generic [ref=e469] [box=732,4240,312,24]:
+            - textbox "e.g. designation" [ref=e470] [box=732,4243,312,21]
+            - paragraph [ref=e471] [box=732,4230,78,20]: Designation
+        - generic [ref=e472] [box=396,4304,648,24]:
+          - generic [ref=e473] [box=396,4304,312,24]:
+            - img [ref=e474] [cursor=pointer] [box=684,4296,16,16]
+            - textbox "Select Industry" [ref=e476] [cursor=pointer] [box=396,4307,312,21]
+            - paragraph [ref=e477] [box=396,4294,53,20]: Industry
+          - generic [ref=e478] [box=732,4304,312,24]:
+            - img [ref=e479] [cursor=pointer] [box=1020,4296,16,16]
+            - textbox [ref=e481] [cursor=pointer] [box=732,4307,312,21]
+            - paragraph [ref=e482] [box=732,4294,100,20]: Select Services
+        - generic [ref=e483] [box=396,4368,648,24]:
+          - textbox "e.g. comment..." [ref=e484] [box=396,4371,648,21]
+          - paragraph [ref=e485] [box=396,4358,71,20]: Comments
+        - button "Submit Now" [ref=e486] [cursor=pointer] [box=598,4432,245,48]
+    - generic [ref=e494] [box=120,4640,1200,507]:
+      - paragraph [ref=e496] [box=120,4640,347,120]: Master market entry with our expert experience.
+      - generic [ref=e497] [box=120,4800,1200,347]:
+        - img "ExpertPanel1" [ref=e499] [box=120,4800,347,347]
+        - generic [ref=e500] [box=491,4800,829,347]:
+          - generic [ref=e501] [box=491,4800,829,193]:
+            - generic [ref=e502] [box=491,4800,829,64]:
+              - paragraph [ref=e503] [box=491,4800,829,32]: Namit Goel
+              - paragraph [ref=e504] [box=491,4840,829,24]: Director, Research & Consulting
+            - paragraph [ref=e505] [box=491,4888,829,105]: Successful market penetration requires aligning strategy with market dynamics and competitive forces. We evaluate key drivers, refine pricing and optimize channels to expand your addressable market. Through TAM expansion, competitor analysis and targeted customer acquisition, we ensure rapid traction while building a scalable, data-driven framework for long-term growth and sustained market advantage.
+          - generic [ref=e506] [box=491,5001,829,62]:
+            - paragraph [ref=e507] [box=491,5028,269,24]: Seeking industry-specific advice?
+            - link "Connect with Expert" [ref=e508] [cursor=pointer] [box=927,5021,227,42]:
+              - /url: /book-a-discovery-call
+    - generic [ref=e513] [box=208,5307,1024,640]:
+      - heading "KEN's DNA" [level=2] [ref=e514] [box=208,5307,1024,48]
+      - generic [ref=e515] [box=413,5395,819,552]:
+        - generic [ref=e516] [box=413,5395,819,114]:
+          - img "Decade Strong Knowledge Bank" [ref=e518] [box=454,5436,36,36]
+          - generic [ref=e519] [box=527,5395,681,114]:
+            - generic [ref=e520] [box=548,5415,640,28]: Decade-Strong Knowledge Bank
+            - generic [ref=e521] [box=548,5449,640,40]: Access to 25,000+ sources including journals, annual reports, white papers, and government databases—backed by 10+ years of industry insight.
+        - generic [ref=e522] [box=413,5541,819,114]:
+          - img "15000+ Expert Network" [ref=e524] [box=454,5582,36,36]
+          - generic [ref=e525] [box=527,5541,681,114]:
+            - generic [ref=e526] [box=548,5561,640,28]: 15000+ Expert Network
+            - generic [ref=e527] [box=548,5595,640,40]: Consulting coverage across India, US, Middle East, China, Korea, Japan, Philippines & Indonesia. Robust panel of industry veterans, including in-house and external domain experts.
+        - generic [ref=e528] [box=413,5687,819,114]:
+          - img "Diverse Project Experience" [ref=e530] [box=454,5728,36,36]
+          - generic [ref=e531] [box=527,5687,681,114]:
+            - generic [ref=e532] [box=548,5707,640,28]: Diverse Project Experience
+            - generic [ref=e533] [box=548,5741,640,40]: Executed 250+ projects last year including market assessment, competition mapping, and monetization strategy.
+        - generic [ref=e534] [box=413,5833,819,114]:
+          - img "Trusted by the Best" [ref=e536] [box=454,5874,36,36]
+          - generic [ref=e537] [box=527,5833,681,114]:
+            - generic [ref=e538] [box=548,5853,640,28]: Trusted by the Best
+            - generic [ref=e539] [box=548,5887,640,40]: Worked with Fortune 2000 clients on complex, custom problem statements across 250+ sub-industry verticals.
+    - generic [ref=e541] [box=144,6107,1152,632]:
+      - heading "Our Consulting Services" [level=2] [ref=e542] [box=520,6107,400,40]
+      - paragraph [ref=e543] [box=457,6155,527,48]: Explore our expert-led strategy consulting, competitive intelligence and business transformation solutions, to make meaningful impact.
+      - generic [ref=e544] [box=370,6259,700,480]:
+        - generic [ref=e552] [box=624,6403,192,192]:
+          - img "Consulting Services" [ref=e553] [box=695,6446,50,50]
+          - generic [ref=e554] [box=679,6504,83,48]: ConsultingServices
+        - generic [ref=e555] [box=242,6339,320,64]:
+          - generic [ref=e556] [cursor=pointer] [box=242,6348,240,47]: Strategy Consulting
+          - img "Strategy Consulting" [ref=e560] [box=512,6353,36,36]
+          - generic [box=242,6403,240,0]:
+            - link [ref=e561] [cursor=pointer] [box=242,6403,240,47]:
+              - /url: /market-entry-consulting
+            - link [ref=e567] [cursor=pointer] [box=242,6450,240,47]:
+              - /url: /market-penetration-consulting
+            - link [ref=e573] [cursor=pointer] [box=242,6496,240,47]:
+              - /url: /product-strategy-consulting
+        - generic [ref=e579] [box=878,6339,320,64]:
+          - img "Deals and IPO Advisory" [ref=e583] [box=892,6353,36,36]
+          - link "Deals & IPO Advisory" [ref=e584] [cursor=pointer] [box=958,6348,240,47]:
+            - /url: /deals-and-ipo-consulting
+          - generic [box=958,6403,240,0]:
+            - link [ref=e585] [cursor=pointer] [box=958,6403,240,47]:
+              - /url: /deal-sourcing
+            - link [ref=e591] [cursor=pointer] [box=958,6450,240,47]:
+              - /url: /investor-relation-service
+            - link [ref=e597] [cursor=pointer] [box=958,6496,240,47]:
+              - /url: /ipo-advisory
+            - link [ref=e603] [cursor=pointer] [box=958,6543,240,69]:
+              - /url: /commercial-technical-due-diligence
+        - generic [ref=e609] [box=242,6595,320,64]:
+          - generic [ref=e610] [box=242,6604,240,47]: Digital Transformation
+          - img "Digital Transformation" [ref=e614] [box=512,6609,36,36]
+        - generic [ref=e615] [box=878,6595,320,64]:
+          - img "People Consulting" [ref=e619] [box=892,6609,36,36]
+          - generic [ref=e620] [box=958,6604,240,47]: People Consulting
+    - generic [ref=e621] [box=120,6819,1200,909]:
+      - heading "Our Resources" [level=3] [ref=e622] [box=569,6983,301,55]
+      - paragraph [ref=e623] [box=285,7050,870,44]: Stay ahead in the rapidly evolving world with the latest expert insights, strategic guidance and resources for smarter business decisions.
+      - generic [ref=e627] [box=192,7022,1056,340]:
+        - 'heading "Clinical Trial Site Selection Survey: Why India''s Sponsors Now Pick Sites on Recruitment Track Record, Not Cost" [level=3] [ref=e628] [box=212,7210,508,164]'
+        - paragraph [box=212,7382,356,0]
+        - link "Read More" [ref=e629] [cursor=pointer] [box=212,7282,1016,56]:
+          - /url: /articles/clinical-trial-site-selection-survey-india
+      - generic [ref=e636] [box=303,7402,834,262]:
+        - generic [ref=e639] [box=303,7541,270,111]:
+          - 'heading "The Protection Gap: How Health Insurance Purchase..." [level=3] [ref=e640] [box=315,7549,246,40]'
+          - paragraph [box=315,7597,246,0]
+          - link "Go to page" [ref=e641] [cursor=pointer] [box=315,7605,246,47]:
+            - /url: /articles/india-health-insurance-consumer-behavior-forecast
+        - generic [ref=e650] [box=585,7541,270,111]:
+          - heading "Smell the Success in India’s Billion-Dollar Perfume..." [level=3] [ref=e651] [box=597,7549,246,40]
+          - paragraph [box=597,7597,246,0]
+          - link "Go to page" [ref=e652] [cursor=pointer] [box=597,7605,246,47]:
+            - /url: /blog/india-perfume-luxury-market-trends
+        - generic [ref=e661] [box=867,7541,270,111]:
+          - heading "How Did India’s Shoe Industry Become a..." [level=3] [ref=e662] [box=879,7549,246,40]
+          - paragraph [box=879,7597,246,0]
+          - link "Go to page" [ref=e663] [cursor=pointer] [box=879,7605,246,47]:
+            - /url: /blog/india-footwear-market-growth-trends-investment-opportunities
+    - generic [ref=e670] [box=120,7728,1200,672]:
+      - generic [ref=e671] [box=200,7808,1040,40]:
+        - heading "FAQ's" [level=2] [ref=e672] [box=200,7808,312,40]
+        - paragraph [ref=e673] [box=976,7808,264,20]:
+          - text: Still Got Questions?
+          - link "Connect via Mail" [ref=e674] [cursor=pointer] [box=1112,7808,128,20]:
+            - /url: mailto:ankur.gupta@kenresearch.com
+      - generic [ref=e679] [box=200,7912,1040,392]:
+        - generic [ref=e680] [box=200,7912,1040,40]:
+          - heading "What are the key steps involved in a market entry strategy?" [level=2] [ref=e681] [cursor=pointer] [box=200,7912,1040,20]
+          - paragraph [box=200,7912,1040,0]: A market entry strategy typically involves market research, competitor analysis, regulatory review, defining a target market, financial projections and risk assessment. We help you build a customized plan based on your business goals.
+          - img [ref=e682] [cursor=pointer] [box=1224,7912,14,14]
+          - separator [ref=e684] [box=200,7950,1040,2]
+        - generic [ref=e685] [box=200,8000,1040,40]:
+          - heading "How do I know if my business is ready to expand internationally?" [level=2] [ref=e686] [cursor=pointer] [box=200,8000,1040,20]
+          - paragraph [box=200,8000,1040,0]: We assess your business's product readiness, operational capacity, financial health and market demand in the target country to determine your international expansion potential.
+          - img [ref=e687] [cursor=pointer] [box=1224,8000,14,14]
+          - separator [ref=e689] [box=200,8038,1040,2]
+        - generic [ref=e690] [box=200,8088,1040,40]:
+          - heading "What are the most common market entry strategies for businesses?" [level=2] [ref=e691] [cursor=pointer] [box=200,8088,1040,20]
+          - paragraph [box=200,8088,1040,0]: The most common strategies include direct investment, joint ventures, franchising, licensing and strategic alliances. We evaluate the best option based on market conditions, resource availability and business objectives.
+          - img [ref=e692] [cursor=pointer] [box=1224,8088,14,14]
+          - separator [ref=e694] [box=200,8126,1040,2]
+        - generic [ref=e695] [box=200,8176,1040,40]:
+          - heading "How do you conduct market research for market entry?" [level=2] [ref=e696] [cursor=pointer] [box=200,8176,1040,20]
+          - paragraph [box=200,8176,1040,0]: We conduct in-depth qualitative and quantitative research, including market size estimation, consumer behavior analysis and competitive landscape evaluation to provide you with the most accurate insights.
+          - img [ref=e697] [cursor=pointer] [box=1224,8176,14,14]
+          - separator [ref=e699] [box=200,8214,1040,2]
+        - generic [ref=e700] [box=200,8264,1040,40]:
+          - heading "What market entry barriers should we consider before entering a new market?" [level=2] [ref=e701] [cursor=pointer] [box=200,8264,1040,20]
+          - paragraph [box=200,8264,1040,0]: Barriers may include regulatory challenges, cultural differences, competition, supply chain complexities and legal issues. Our team helps you identify these barriers and create strategies to overcome them
+          - img [ref=e702] [cursor=pointer] [box=1224,8264,14,14]
+          - separator [ref=e704] [box=200,8302,1040,2]
+      - link [ref=e706] [cursor=pointer] [box=557,8344,326,56]:
+        - /url: /talk-to-us
+  - contentinfo [ref=e712] [box=0,8480,1440,1036]:
+    - generic [ref=e713] [box=120,8557,1200,919]:
+      - generic [ref=e714] [box=128,8557,1184,304]:
+        - generic [ref=e715] [box=128,8557,140,244]:
+          - heading "About Ken Research" [level=2] [ref=e716] [cursor=pointer] [box=128,8557,140,18]
+          - navigation [ref=e717] [box=128,8591,140,210]:
+            - link "Home" [ref=e720] [cursor=pointer] [box=149,8596,40,20]:
+              - /url: /
+            - link "About Us" [ref=e723] [cursor=pointer] [box=149,8626,64,20]:
+              - /url: /about-us
+            - link "Services" [ref=e726] [cursor=pointer] [box=149,8656,60,20]:
+              - /url: /services
+            - link "Categories" [ref=e729] [cursor=pointer] [box=149,8686,78,20]:
+              - /url: /categories
+            - link "News" [ref=e732] [cursor=pointer] [box=149,8716,38,20]:
+              - /url: /news
+            - link "Careers" [ref=e735] [cursor=pointer] [box=149,8746,56,20]:
+              - /url: /careers
+            - link "Contact Us" [ref=e738] [cursor=pointer] [box=149,8776,80,20]:
+              - /url: /contact-us
+        - generic [ref=e740] [box=429,8557,271,244]:
+          - heading "Resources" [level=2] [ref=e741] [cursor=pointer] [box=429,8557,76,18]
+          - navigation [ref=e742] [box=429,8591,271,210]:
+            - link "Blogs" [ref=e745] [cursor=pointer] [box=450,8596,39,20]:
+              - /url: /blog
+            - link "Industry Reports" [ref=e748] [cursor=pointer] [box=450,8626,118,20]:
+              - /url: /report-store
+            - link "Competition Benchmarking Reports" [ref=e751] [cursor=pointer] [box=450,8656,250,20]:
+              - /url: /report-store?reportTypes=competition_benchmarking
+            - link "Country Research Reports" [ref=e754] [cursor=pointer] [box=450,8686,186,20]:
+              - /url: /country-reports
+            - link "Dossier 360" [ref=e757] [cursor=pointer] [box=450,8716,83,20]:
+              - /url: /dossier360
+            - link "Go To Market Strategy" [ref=e760] [cursor=pointer] [box=450,8746,156,20]:
+              - /url: /consulting/strategy-consulting/market-entry-consulting
+            - link "Paid Press Release" [ref=e763] [cursor=pointer] [box=450,8776,132,20]:
+              - /url: /paid-press-release
+        - generic [ref=e765] [box=730,8557,158,274]:
+          - heading "Expertise & Services" [level=2] [ref=e766] [cursor=pointer] [box=730,8557,143,18]
+          - navigation [ref=e767] [box=730,8591,158,240]:
+            - link "Industry Speaks" [ref=e770] [cursor=pointer] [box=751,8596,112,20]:
+              - /url: /industry-speak
+            - link "Terms & Conditions" [ref=e773] [cursor=pointer] [box=751,8626,137,20]:
+              - /url: /terms-and-conditions#termsAndCondition
+            - link "Privacy Policy" [ref=e776] [cursor=pointer] [box=751,8656,96,20]:
+              - /url: /terms-and-conditions#privacyPolicy
+            - link "Disclaimer" [ref=e779] [cursor=pointer] [box=751,8686,73,20]:
+              - /url: /terms-and-conditions#privacyPolicydisclaimer
+            - link "FAQ's" [ref=e782] [cursor=pointer] [box=751,8716,38,20]:
+              - /url: /terms-and-conditions#faqs
+            - link "Site Map" [ref=e785] [cursor=pointer] [box=751,8746,61,20]:
+              - /url: /sitemap.xml
+            - link "IT Support" [ref=e788] [cursor=pointer] [box=751,8776,73,20]:
+              - /url: https://forms.office.com/pages/responsepage.aspx?id=9JnITJIKcEmR-hiEXezdZJURM4Fx-vRJglRe5yShhp1UQjkzSzNGNk1HNzJDN0I5MEhKSkhOWjlXTy4u&route=shorturl
+            - link "Website Issue" [ref=e791] [cursor=pointer] [box=751,8806,98,20]:
+              - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=9JnITJIKcEmR-hiEXezdZJURM4Fx-vRJglRe5yShhp1UOEw4NjVPQzZIT0RPUzlFN0hJM1UwREk4Ui4u
+        - generic [ref=e793] [box=1031,8557,292,304]:
+          - heading "How We Are Different?" [level=2] [ref=e794] [cursor=pointer] [box=1031,8557,157,18]
+          - navigation [ref=e795] [box=1031,8591,292,270]:
+            - link "Ken Research Vs. BCC Research" [ref=e798] [cursor=pointer] [box=1052,8596,223,20]:
+              - /url: /ken-research-vs-bcc-research
+            - link "Ken Research Vs. Euromonitor Int." [ref=e801] [cursor=pointer] [box=1052,8626,236,20]:
+              - /url: /ken-research-vs-euromonitor
+            - link "Ken Research Vs. Nielsen" [ref=e804] [cursor=pointer] [box=1052,8656,175,20]:
+              - /url: /ken-research-vs-nielsen-surveys
+            - link "Ken Research Vs. Marketsand Markets" [ref=e807] [cursor=pointer] [box=1052,8686,266,20]:
+              - /url: /ken-research-vs-marketsandmarkets
+            - link "Ken Research Vs. McKinsey" [ref=e810] [cursor=pointer] [box=1052,8716,190,20]:
+              - /url: /ken-research-vs-mckinsey
+            - link "Ken Research Vs. Mordor" [ref=e813] [cursor=pointer] [box=1052,8746,173,20]:
+              - /url: /ken-research-vs-mordor-intelligence
+            - link "Ken Research Vs. S&P Global" [ref=e816] [cursor=pointer] [box=1052,8776,199,20]:
+              - /url: /ken-research-vs-sp-global
+            - link "Ken Research Vs. Grand View Research" [ref=e819] [cursor=pointer] [box=1052,8806,271,20]:
+              - /url: /ken-research-vs-grand-view-research
+            - link "Ken Research Vs. Frost & Sullivan" [ref=e822] [cursor=pointer] [box=1052,8836,230,20]:
+              - /url: /ken-research-vs-frost-and-sullivan
+      - generic [ref=e824] [box=128,8881,1184,117]:
+        - heading "Company Overview" [level=2] [ref=e825] [box=128,8881,130,18]
+        - generic [ref=e826] [box=128,8915,1184,83]:
+          - generic [ref=e827] [box=128,8915,266,83]:
+            - heading "India" [level=2] [ref=e828] [box=128,8915,28,15]
+            - link "Unit 14, Tower B3, Spaze I Tech Business Park, Sohna Road, sector 49 Gurgaon, Haryana - 122001, India" [ref=e829] [cursor=pointer] [box=128,8938,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2CUnit%2014%2C%20Tower%20B3%2C%20Spaze%20I%20Tech%20Business%20Park%2C%20Sohna%20Road%2C%20sector%2049%20Gurgaon%2C%20Haryana%20-%20122001%2C%20India
+          - generic [ref=e830] [box=434,8915,266,83]:
+            - heading "UAE" [level=2] [ref=e831] [box=434,8915,21,15]
+            - link "105, Al Jaz1b, Street no 2 the Greens Dubai United Arab Emirates" [ref=e832] [cursor=pointer] [box=434,8938,266,40]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2C105%2C%20Al%20Jaz1b%2C%20Street%20no%202%20the%20Greens%20Dubai%20United%20Arab%20Emirates
+          - generic [ref=e833] [box=740,8915,266,83]:
+            - heading "Indonesia" [level=2] [ref=e834] [box=740,8915,56,15]
+            - link "The Icon BSD City, Jl. Verdant View IIIA No.15, Tangerang Regency, Province Banten-15345, Indonesia" [ref=e835] [cursor=pointer] [box=740,8938,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2CThe%20Icon%20BSD%20City%2C%20Jl.%20Verdant%20View%20IIIA%20No.15%2C%20Tangerang%20Regency%2C%20Province%20Banten-15345%2C%20Indonesia
+          - generic [ref=e836] [box=1046,8915,266,83]:
+            - heading "QATAR" [level=2] [ref=e837] [box=1046,8915,34,15]
+            - link "Office no. 9, Building no. 171 Zone no. 42, Street no. 230, Al-Rehab Complex, C-Ring road, Doha" [ref=e838] [cursor=pointer] [box=1046,8938,266,60]:
+              - /url: https://www.google.com/maps/search/?api=1&query=ken%20research%2COffice%20no.%209%2C%20Building%20no.%20171%20Zone%20no.%2042%2C%20Street%20no.%20230%2C%20Al-Rehab%20Complex%2C%20C-Ring%20road%2C%20Doha
+      - generic [ref=e839] [box=128,8998,1184,318]:
+        - paragraph [ref=e841] [box=128,8906,590,534]: Ken
+        - generic [ref=e842] [box=838,9110,474,206]:
+          - generic [ref=e843] [box=838,9110,474,126]:
+            - link [ref=e844] [cursor=pointer] [box=838,9110,474,24]:
+              - /url: tel:+91-90153-78249
+              - paragraph [ref=e845] [box=838,9110,474,24]: "For Sale Enquiries: +91-9015378249"
+            - link [ref=e848] [cursor=pointer] [box=838,9142,474,36]:
+              - /url: mailto:ankur.gupta@kenresearch.com
+              - paragraph [ref=e849] [box=838,9142,474,24]: ankur.gupta@kenresearch.com
+            - paragraph [ref=e852] [box=838,9186,474,18]: Subscribe to our Newsletter
+            - paragraph [ref=e853] [box=838,9212,474,24]: Never miss out on an update from us
+          - generic [ref=e854] [box=838,9268,474,48]:
+            - textbox "Enter your email address" [ref=e856] [box=838,9268,341,48]
+            - button "Subscribe" [ref=e857] [cursor=pointer] [box=1195,9268,117,48]
+      - generic [ref=e860] [box=128,9458,1184,18]:
+        - generic [ref=e861] [box=128,9458,421,18]:
+          - link "Terms & Conditions" [ref=e862] [cursor=pointer] [box=128,9458,125,18]:
+            - /url: /terms-and-conditions#termsAndCondition
+          - link "Privacy Policy" [ref=e863] [cursor=pointer] [box=313,9458,89,18]:
+            - /url: /terms-and-conditions#privacyPolicy
+          - link "Cookie Policy" [ref=e864] [cursor=pointer] [box=462,9458,87,18]:
+            - /url: /cookie-policy
+        - paragraph [ref=e865] [box=921,9458,391,18]: © Copyright 2026, Ken Research Pvt. Ltd. All rights reserved.
+  - alert [ref=e866] [box=-1,9515,1,1]

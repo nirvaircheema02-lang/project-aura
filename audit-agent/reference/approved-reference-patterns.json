@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "evidence": "Approved internal reference evidence — how the same semantic role is actually used on the approved Project Aura pages. SUPPORTING evidence only: it never replaces the Design System, and the audit consults it only when the Design System does not clearly define the role (B3 searches the DS family first).",
+  "measuredOn": "2026-10-07",
+  "pages": [
+    { "id": "report-store", "name": "Report Store", "folder": "projects/report-store-legacy", "note": "Vite · Tailwind 4 · the frozen visual truth of the report store (the only report-store folder on disk). Values resolved from its source (theme.css tokens, component classes); nothing rendered." },
+    { "id": "case-study", "name": "Case Study", "folder": "projects/case-study-v2", "note": "Next 16 · page-local CSS in src/app/globals.css (no Design System imports); templates A–E share one eyebrow, heading and intro treatment. Values resolved from its CSS; nothing rendered." },
+    { "id": "competition-benchmarking", "name": "Competition Benchmarking", "folder": "projects/competition-benchmarking-v2-react", "note": "Vite 6 · React 19 · the APPROVED Competition Benchmarking page (served at http://localhost:3095; confirmed 2026-10-07 — it replaces competition-benchmarking-v3, which an earlier version of this catalog measured and which is not used). All styling is hand-built in src/globals.css (design tokens + every component rule), outside the Design System workspace. Values read from that CSS and checked against the rendered page's computed styles (16px root): all 16 section heads share one eyebrow rule and one description rule." }
+  ],
+  "patterns": [
+    {
+      "role": "eyebrow",
+      "surface": "light",
+      "note": "Section eyebrow / supporting heading above a main section heading. The Design System DOES define it (OverheadText, SectionLabel — R4.8), so the audit audits against those and never consults this; the evidence is recorded because the approved pages do NOT agree with each other or with the DS: size 12–12.8px, weight 400–600, tracking 1.57–2.4px, and the Report Store's is neutral where the other two are Ken red.",
+      "observations": [
+        { "page": "report-store", "source": "report-store-legacy/src/app/components/SectionHeading.tsx:50-53", "properties": { "font-size": "12px", "font-weight": "400", "letter-spacing": "1.8px", "text-transform": "uppercase", "color": "rgba(0, 0, 0, 0.35)", "font-family": "DM Sans" } },
+        { "page": "case-study", "source": "case-study-v2/src/app/globals.css:708 (.ta-sec-eyebrow; .tb-label :848, .tc-sec-eyebrow :923, .td-label :1033, .te-eyebrow-red :1106 identical)", "properties": { "font-size": "12.8px", "font-weight": "400", "letter-spacing": "1.57px", "text-transform": "uppercase", "color": "#b01f24", "font-family": "DM Sans" } },
+        { "page": "competition-benchmarking", "source": "competition-benchmarking-v2-react/src/globals.css:198-207 (.label — the <span class=\"label\"> above the h2 of all 16 section heads; --brand-red #b01f24; .75rem / .2em at the 16px root; computed style checked on the rendered page. The hero pill .hero-pill :528 is a separate badge treatment: 11px / 700 / 0.99px)", "properties": { "font-size": "12px", "font-weight": "600", "letter-spacing": "2.4px", "text-transform": "uppercase", "color": "#b01f24", "font-family": "DM Sans" } }
+      ]
+    },
+    {
+      "role": "eyebrow",
+      "surface": "dark",
+      "note": "Eyebrow on a dark hero: the Report Store and the Case Study hero differ in size, weight and tracking.",
+      "observations": [
+        { "page": "report-store", "source": "report-store-legacy/src/app/components/ReportStoreHero.tsx:191-196", "properties": { "font-size": "12px", "font-weight": "400", "letter-spacing": "2.4px", "text-transform": "uppercase", "color": "rgba(255, 255, 255, 0.3)", "font-family": "DM Sans" } },
+        { "page": "case-study", "source": "case-study-v2/src/app/globals.css:650 (.ta-eyebrow)", "properties": { "font-size": "12.8px", "font-weight": "600", "letter-spacing": "1.1px", "text-transform": "uppercase", "color": "rgba(255, 255, 255, 0.5)", "font-family": "DM Sans" } }
+      ]
+    },
+    {
+      "role": "description",
+      "surface": "light",
+      "note": "Supporting copy under a section heading. All three approved pages set it at weight 400, but not at one size: the Report Store and the Case Study use 14px (not a size the DS's own description components use — SectionHeader 16px, SectionHeading subtitle 20px), Competition Benchmarking uses 16px (the SectionHeader size); line-height (1.625 / 1.75 / 1.65) and how muted the colour is (0.4 / 0.6 / 0.8 alpha) differ too.",
+      "observations": [
+        { "page": "report-store", "source": "report-store-legacy/src/app/components/SectionHeading.tsx:95-101", "properties": { "font-size": "14px", "font-weight": "400", "line-height": "1.625", "color": "rgba(0, 0, 0, 0.4)", "font-family": "DM Sans" } },
+        { "page": "case-study", "source": "case-study-v2/src/app/globals.css:711 (.ta-sec-intro; .tb-intro :854, .tc-intro :925, .td-intro :1038, .te-intro :1108)", "properties": { "font-size": "14px", "font-weight": "400", "line-height": "1.75", "color": "rgba(0, 0, 0, 0.6)", "font-family": "DM Sans" } },
+        { "page": "competition-benchmarking", "source": "competition-benchmarking-v2-react/src/globals.css:208-213 (.sub — the <p class=\"sub\"> under the h2 of every section head; 1rem = --text-sm, --text-muted rgba(0,0,0,.80), line-height 1.65 inherited from body :161-165; computed style checked on the rendered page)", "properties": { "font-size": "16px", "font-weight": "400", "line-height": "1.65", "color": "rgba(0, 0, 0, 0.8)", "font-family": "DM Sans" } }
+      ]
+    }
+  ]
+}
