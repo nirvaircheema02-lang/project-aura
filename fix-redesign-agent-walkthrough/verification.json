@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "chapters": 10,
+  "graphViews": 3,
+  "pipelineStages": 11,
+  "resolverExamples": 3,
+  "sourceExcerpts": 29,
+  "viewports": [
+    1440,
+    768,
+    390
+  ],
+  "offline": true,
+  "errors": [],
+  "externalRequests": [],
+  "overflow": []
+}

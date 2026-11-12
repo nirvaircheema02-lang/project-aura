@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "language": "en",
+  "chapters": 9,
+  "stages": 8,
+  "examples": 3,
+  "scenarios": 4,
+  "graphViews": [
+    "system",
+    "site",
+    "page"
+  ],
+  "queueDemoCapacities": [
+    1,
+    3
+  ],
+  "startBuilderModes": [
+    "single-page",
+    "full-site"
+  ],
+  "recoveryScenarios": 3,
+  "reviewOutputs": [
+    "HTML",
+    "Figma"
+  ],
+  "sourceExcerpts": 27,
+  "viewports": [
+    1440,
+    768,
+    390
+  ],
+  "offline": true,
+  "errors": [],
+  "externalRequests": [],
+  "overflow": []
+}
