@@ -1,0 +1,262 @@
+<meta charset="utf-8" />
+<title>Ken Research — Media Citations</title>
+<meta name="description" content="Where leading newsrooms cite Ken Research. Explore how journalists, publications, and business platforms use Ken Research data, forecasts, and market intelligence to frame stories across industries and geographies." />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="styles.css" />
+
+<div id="pageRoot">
+  <!-- ══ SITE HEADER (ported from SiteHeader.tsx) ══ -->
+  <header class="site-hd">
+    <div class="hd-util">
+      <div class="hd-util-in">
+        <div class="hd-util-grp">
+          <a href="#">Procurement</a>
+          <a href="#">Expert Panel</a>
+          <a href="#">Company <span class="hd-chev">▾</span></a>
+        </div>
+        <div class="hd-util-grp">
+          <a href="#">Sign in</a>
+          <a href="#" class="hd-signup">Sign up</a>
+        </div>
+      </div>
+    </div>
+    <div class="hd-nav">
+      <div class="hd-nav-in">
+        <div class="hd-logo">
+          <div class="nav-mark"><svg viewBox="0 0 18 18"><path d="M3 2h2.5v6l5-6H14l-5.5 6.5L14.5 16H11l-5.5-7V16H3z"/></svg></div>
+          <span class="hd-logo-tx">Ken Research</span>
+        </div>
+        <nav class="hd-menu">
+          <a href="#">Reports <span class="hd-chev">▾</span></a>
+          <a href="#">Industries <span class="hd-chev">▾</span></a>
+          <a href="#">Surveys <span class="hd-chev">▾</span></a>
+          <a href="#">Consulting <span class="hd-chev">▾</span></a>
+          <a href="#">Insights <span class="hd-chev">▾</span></a>
+        </nav>
+        <div class="hd-spacer"></div>
+        <div class="hd-search">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span>Search</span>
+        </div>
+        <button class="hd-book">Book discovery call</button>
+        <button class="hd-burger" aria-label="Open menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ VARIANT TABS (VariantTabs.tsx) ══ -->
+  <div class="vtabs-wrap">
+    <div class="vtabs" role="tablist" aria-label="Design variant">
+      <button type="button" role="tab" class="vtab" data-variant="design1">Design 1: Hero Citation Wall</button>
+      <button type="button" role="tab" class="vtab on" data-variant="design2">Design 2: Featured Logo Carousel</button>
+      <button type="button" role="tab" class="vtab" data-variant="design3">Design 3: Editorial Grid</button>
+    </div>
+  </div>
+
+  <!-- ══ VARIANT-DEPENDENT HERO + logo carousel (fades on tab switch,
+       mirrors AnimatePresence mode="wait" in MediaCitationsPage.tsx) ══ -->
+  <div id="variantFade" class="variant-fade">
+
+    <!-- Design 1: Hero Citation Wall (HeroCitationWall.tsx) -->
+    <section id="hero-design1" class="hero" hidden>
+      <div class="hero-in">
+        <div class="hero-grid">
+          <div class="hero-copy reveal reveal-hero">
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="#">Home</a><span class="sep">›</span><span class="cur">Media Citations</span>
+            </nav>
+            <div class="hero-live"><span class="hero-live-dot" aria-hidden="true"></span>Live Media Coverage</div>
+            <h1 class="hero-h1">Where leading newsrooms cite Ken Research</h1>
+            <p class="hero-sub">Explore how journalists, publications, and business platforms use Ken Research data, forecasts, and market intelligence to shape credible stories across industries and geographies.</p>
+            <div class="hero-meta"><span class="hero-dot"></span>Cited by 30+ global publications</div>
+          </div>
+          <div class="glass-stack" id="glassStack"><!-- top-4-by-popularity preview cards, rendered by script.js --></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design 2: Featured Logo Carousel hero (HeroCarouselClean.tsx) -->
+    <section id="hero-design2" class="hero hero--clean">
+      <div class="hero-in">
+        <div class="hero-clean-col reveal reveal-hero">
+          <nav class="crumb" aria-label="Breadcrumb">
+            <a href="#">Home</a><span class="sep">›</span><span class="cur">Media Citations</span>
+          </nav>
+          <div class="hero-live"><span class="hero-live-dot" aria-hidden="true"></span>Live Media Coverage</div>
+          <h1 class="hero-h1">Where leading newsrooms cite Ken Research</h1>
+          <p class="hero-sub">Explore how journalists, publications, and business platforms use Ken Research data, forecasts, and market intelligence to shape credible stories across industries and geographies.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design 3: Editorial Grid hero (HeroEditorial.tsx) -->
+    <section id="hero-design3" class="hero hero--editorial" hidden>
+      <div class="hero-in">
+        <div class="editorial-panel reveal reveal-hero">
+          <nav class="crumb" aria-label="Breadcrumb">
+            <a href="#">Home</a><span class="sep">›</span><span class="cur">Media Citations</span>
+          </nav>
+          <div class="hero-live"><span class="hero-live-dot" aria-hidden="true"></span>Live Media Coverage</div>
+          <h1 class="hero-h1">Where leading newsrooms cite Ken Research</h1>
+          <p class="hero-sub">Explore how journalists, publications, and business platforms use Ken Research data, forecasts, and market intelligence to shape credible stories across industries and geographies.</p>
+          <a class="editorial-about" href="#">About Media Citations
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ Publications logo carousel (PublicationsCarousel.tsx) — real
+         logo assets under assets/logos/, auto-scrolling via rAF in script.js ══ -->
+    <div class="pubcar">
+      <div class="pubcar-in">
+        <span class="pubcar-lbl">Trusted by</span>
+        <div class="pubcar-track" id="pubcarTrack">
+          <div class="pubcar-marquee" id="pubcarMarquee">
+            <img class="pubcar-logo" src="assets/logos/aws.webp" alt="AWS" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/google.webp" alt="Google" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/microsoft.webp" alt="Microsoft" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/dhl.webp" alt="DHL" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/maersk.webp" alt="Maersk" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/basf.webp" alt="BASF" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/deloitte.webp" alt="Deloitte" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/kpmg.webp" alt="KPMG" tabindex="0" loading="lazy" />
+            <!-- duplicated for seamless marquee loop, same as LOGOS ++ LOGOS in source -->
+            <img class="pubcar-logo" src="assets/logos/aws.webp" alt="AWS" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/google.webp" alt="Google" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/microsoft.webp" alt="Microsoft" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/dhl.webp" alt="DHL" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/maersk.webp" alt="Maersk" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/basf.webp" alt="BASF" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/deloitte.webp" alt="Deloitte" tabindex="0" loading="lazy" />
+            <img class="pubcar-logo" src="assets/logos/kpmg.webp" alt="KPMG" tabindex="0" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MAIN LISTING (filter sidebar + toolbar + cards + pagination) ══ -->
+  <section class="listing listing--white" id="listingSection">
+    <div class="listing-in" id="listingIn">
+      <aside class="fsb" id="filterSidebar" aria-label="Filter citations"><!-- rendered by script.js --></aside>
+
+      <div class="rcol">
+        <p class="rescount" id="rescount"></p>
+
+        <div class="tbar">
+          <div class="search">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="searchInput" placeholder="Search citations, publications or topics..." aria-label="Search media citations" />
+          </div>
+          <button type="button" class="mfilter" id="mfilterBtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="10" y1="18" x2="14" y2="18"/></svg>
+            Filters
+            <span class="badge" id="mfilterBadge" hidden></span>
+          </button>
+          <div class="sortwrap">
+            <label for="sortSelect">Sort by</label>
+            <div class="sortsel">
+              <select id="sortSelect">
+                <option value="recent">Most Recent</option>
+                <option value="popular">Most Popular</option>
+                <option value="publication">Publication A-Z</option>
+                <option value="year">Year</option>
+              </select>
+              <span class="caret"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </div>
+          </div>
+          <div class="sortwrap">
+            <label for="pageSizeSelect">Show</label>
+            <div class="sortsel">
+              <select id="pageSizeSelect">
+                <option value="10">10 per page</option>
+                <option value="20">20 per page</option>
+              </select>
+              <span class="caret"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chip-row" id="chipRow" aria-label="Applied filters" hidden></div>
+
+        <div id="citationList" class="clist"><!-- citation cards, rendered by script.js --></div>
+
+        <nav class="pag" id="pagination" aria-label="Pagination" hidden></nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ BOTTOM CTA (BottomCTA.tsx) — in-flow, fades in on scroll-into-view ══ -->
+  <div id="finalCtaAnchor">
+    <section class="fcta">
+      <div class="fcta-in reveal" id="bottomCtaIn">
+        <div class="fcta-wrap">
+          <div class="fcta-l">
+            <div class="fcta-ic" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="13" x2="14" y2="13"/></svg>
+            </div>
+            <div class="fcta-text">
+              <h2 class="fcta-h2">Need market data journalists trust?</h2>
+              <p class="fcta-sub">Talk to our analysts or request a sample report tailored to your story.</p>
+            </div>
+          </div>
+          <div class="fcta-btns">
+            <a class="btn-primary" href="#">Talk to an Analyst</a>
+            <a class="btn-outline" href="#">Request Sample Report
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ══ FOOTER (Footer.tsx) ══ -->
+  <footer class="foot">
+    <div class="foot-in">
+      <span class="foot-copy">© 2025 Ken Research Pvt. Ltd. All rights reserved.</span>
+      <nav class="foot-links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ══ MOBILE FILTER DRAWER (MobileFilterDrawer.tsx) ══ -->
+  <div class="drawer-scrim" id="drawerScrim" aria-hidden="true" style="pointer-events:none"></div>
+  <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Filters" aria-hidden="true">
+    <div class="drawer-hd">
+      <h3>Filters</h3>
+      <button type="button" class="drawer-x" id="drawerClose" aria-label="Close filters">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="drawerBody"><!-- rendered by script.js --></div>
+    <div class="drawer-foot">
+      <button type="button" class="btn-outline" id="drawerReset">Clear all</button>
+      <button type="button" class="btn-primary" id="drawerShow">Show results</button>
+    </div>
+  </div>
+
+  <!-- ══ STICKY CTA (StickyCTA.tsx) ══ -->
+  <div class="sticky-cta" id="stickyCta" aria-hidden="true">
+    <div class="sticky-cta-in" id="stickyCtaIn">
+      <div class="sticky-cta-wrap">
+        <p class="sticky-cta-txt">Need market data journalists trust?</p>
+        <div class="sticky-cta-btns">
+          <a class="btn-primary sm" href="#">Talk to an Analyst</a>
+          <a class="btn-outline sm sticky-cta-secondary" href="#">Request Sample Report</a>
+        </div>
+        <button type="button" class="sticky-cta-close" id="stickyCtaClose" aria-label="Dismiss for this session">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script defer src="script.js"></script>

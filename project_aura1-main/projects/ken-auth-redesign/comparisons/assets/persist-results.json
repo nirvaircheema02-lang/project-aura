@@ -1,0 +1,114 @@
+{
+  "baseline_scrollWidth": 1440,
+  "baseline_viewportWidth": 1440,
+  "baseline_overflow": false,
+  "modal_card_box": {
+    "x": 520,
+    "y": 255.578125,
+    "width": 400,
+    "height": 388.84375
+  },
+  "modal_outer_wrapper_box": {
+    "x": 520,
+    "y": 255.578125,
+    "width": 400,
+    "height": 388.84375
+  },
+  "close_button_visible": true,
+  "close_button_box": {
+    "x": 926,
+    "y": 205.578125,
+    "width": 44,
+    "height": 44
+  },
+  "step1_heading_text": "Create your account",
+  "check1_nudge_text_present": true,
+  "check1_nudge_full_text": "You already have an account with this email. Sign in instead",
+  "check1_email_field_visible": true,
+  "check1_email_field_readonly_attr": null,
+  "check1_email_field_disabled_attr": null,
+  "check1_email_field_value": "test@kenresearch.com",
+  "check1_nudge_paragraph_computed_style": {
+    "color": "rgb(115, 115, 115)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": "0px",
+    "borderColor": "rgb(115, 115, 115)",
+    "boxShadow": "none",
+    "borderRadius": "0px"
+  },
+  "check1_nudge_parent_wrapper_style": {
+    "parentTag": "FORM",
+    "parentBg": "rgba(0, 0, 0, 0)",
+    "parentBorder": "0px",
+    "parentBoxShadow": "none"
+  },
+  "check1_switched_to_signin_heading_visible": true,
+  "check1_switched_to_signin_heading_text": "Sign in",
+  "check1_email_preserved_after_switch": "test@kenresearch.com",
+  "check1_signin_otp_reached": true,
+  "check1_no_mismatch_shown_during_signin_otp": true,
+  "check2_step_otp_rendered": true,
+  "check2_step_complete_profile_rendered": true,
+  "check2_complete_profile_heading_text": "Complete your profile",
+  "check2_company_autofill_value": "Freshtest Inc",
+  "check2_step_success_rendered": true,
+  "check2_success_heading_text": "Your account is ready",
+  "check2_all_three_steps_confirmed_sequential": true,
+  "check3_signin_fresh1_reaches_otp_no_reload_yet": true,
+  "check3_no_mismatch_nudge_shown": true,
+  "check5_signin_fresh1_reaches_otp_after_2nd_reload": true,
+  "check5_no_mismatch_nudge_after_2nd_reload": true,
+  "check4_fresh2_reached_complete_profile": true,
+  "check4_fresh2_signin_shows_no_account_nudge": true,
+  "check4_fresh2_did_NOT_reach_otp": true,
+  "check6_demo_kenresearch_shows_no_account_nudge": true,
+  "check6_existing_kenresearch_shows_no_account_nudge": true,
+  "check7_preview_toggle_visible": true,
+  "check7_v2_selected_aria": "true",
+  "check7_v2_heading_text": "Create your account",
+  "check7_v1_reselected_aria": "true",
+  "check7_modal_card_box_final": {
+    "x": 520,
+    "y": 255.578125,
+    "width": 400,
+    "height": 388.84375
+  },
+  "check7_close_button_final_visible": true,
+  "check7_final_scrollWidth": 1440,
+  "check7_final_overflow": false,
+  "localStorage_raw_value": "[\"qa-fresh-1788512066-a@freshtest-inc.com\"]",
+  "localStorage_all_keys": [
+    "ken-auth-redesign:registered-emails"
+  ],
+  "localStorage_parsed_emails": [
+    "qa-fresh-1788512066-a@freshtest-inc.com"
+  ],
+  "localStorage_contains_fresh1": true,
+  "localStorage_contains_fresh2_should_be_False": false,
+  "localStorage_contains_test_seed_should_be_False": false,
+  "localStorage_contains_demo_should_be_False": false,
+  "localStorage_contains_existing_should_be_False": false,
+  "console_messages": [
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+    "[log] [HMR] connected"
+  ],
+  "page_errors": [],
+  "fresh_emails_used": {
+    "fresh1": "qa-fresh-1788512066-a@freshtest-inc.com",
+    "fresh2": "qa-fresh-1788512066-b@freshtest-inc.com"
+  }
+}

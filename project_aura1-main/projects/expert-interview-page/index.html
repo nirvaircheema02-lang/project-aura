@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Busbar Manufacturers, Data Centres Are Not the Direct Target | Ken Research Expert Interview</title>
+<meta name="description" content="Manish Israni, CTO of Westcon Comstor, on where busbars fit in data centre power architecture and why EPC consultants, system integrators and turnkey players — not data centre operators — control the buying decision.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;600;700&family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+:root{
+  --font-sans:'DM Sans',Arial,Helvetica,sans-serif;
+  --font-serif:'Noto Serif',Georgia,serif;
+  --bg-primary:#ffffff;
+  --bg-secondary:#f7f8fa;
+  --bg-hero:#0a0a0c;
+  --bg-hero-2:#1a1a1e;
+  --text-primary:#0a0a0c;
+  --text-body:#333333;
+  --text-secondary:#4b5563;
+  --text-tertiary:#6b7280;
+  --text-muted:#9ca3af;
+  --text-on-dark:#fafafa;
+  --text-on-dark-muted:#b8b8be;
+  --text-on-dark-faint:#8b8b91;
+  --border-tertiary:#e5e7eb;
+  --border-secondary:#d1d5db;
+  --accent:#b01f24;
+  --accent-bright:#eb484e;
+  --accent-hover:#8b1820;
+  --accent-tint:rgba(176,31,36,0.08);
+  --accent-tint-strong:rgba(176,31,36,0.14);
+  --accent-on-dark:#ff8f8a;
+  --secondary:#806ce0;
+  --secondary-tint:rgba(128,108,224,0.12);
+  --secondary-on-dark:#c3b8f5;
+  --shadow-sm:0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md:0 4px 12px rgba(0,0,0,0.12);
+  --shadow-lg:0 8px 24px rgba(0,0,0,0.15);
+  --radius-lg:12px;
+  --radius-md:8px;
+  --radius-sm:4px;
+  --radius-pill:24px;
+  --ease:cubic-bezier(0.4,0,0.2,1);
+  --maxw:1200px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-sans);background:var(--bg-primary);color:var(--text-body);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-serif);letter-spacing:-0.3px;color:var(--text-primary)}
+img{max-width:100%;display:block}
+a{color:var(--accent);text-decoration:none}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 40px}
+button{font-family:inherit}
+
+/* ---------- Navbar (sticky utility bar + mega-nav main row) ---------- */
+.navbar{display:flex;flex-direction:column;position:sticky;top:0;left:0;width:100%;z-index:1000;background:#fff;overflow-x:clip}
+
+.navbar-utility{background:#fafafa;border-bottom:1px solid rgba(0,0,0,0.05);height:40px;display:flex;align-items:center;justify-content:space-between;padding:0 100px;position:relative;z-index:20}
+.navbar-utility-left{display:flex;align-items:center;gap:24px;height:100%}
+.navbar-utility-left>a{font-family:var(--font-sans);font-size:13px;color:rgba(0,0,0,0.6);text-decoration:none;display:flex;align-items:center;transition:color .2s var(--ease)}
+.navbar-utility-left>a:hover{color:rgba(0,0,0,0.9)}
+.navbar-company{position:relative;display:flex;align-items:center;height:100%}
+.navbar-company-trigger{font-family:var(--font-sans);font-size:13px;color:rgba(0,0,0,0.6);display:flex;align-items:center;gap:4px;cursor:pointer;transition:color .2s var(--ease)}
+.navbar-company:hover .navbar-company-trigger,.navbar-company:focus-within .navbar-company-trigger{color:#000}
+.navbar-company-trigger svg{transition:transform .5s var(--ease)}
+.navbar-company:hover .navbar-company-trigger svg,.navbar-company:focus-within .navbar-company-trigger svg{transform:rotate(180deg)}
+.navbar-company-menu{position:absolute;left:0;top:100%;margin-top:8px;width:208px;border-radius:var(--radius-md);background:#fff;box-shadow:var(--shadow-lg);opacity:0;visibility:hidden;transform:translateY(0);pointer-events:none;transition:opacity .2s ease,transform .2s ease,visibility 0s linear .2s}
+.navbar-company:hover .navbar-company-menu,.navbar-company:focus-within .navbar-company-menu{opacity:1;visibility:visible;transform:translateY(8px);pointer-events:auto;transition:opacity .2s ease,transform .2s ease,visibility 0s linear 0s}
+.navbar-company-menu-list{display:flex;flex-direction:column;padding:8px 0}
+.navbar-company-menu-list a{padding:8px 20px;font-size:14px;font-family:var(--font-sans);color:rgba(0,0,0,0.6);text-decoration:none;transition:color .2s var(--ease)}
+.navbar-company-menu-list a:hover{color:#000}
+.navbar-company-menu-list a.is-policies{padding-top:8px;font-size:12px}
+.navbar-company-menu-divider{background:#d1d5db;width:90%;height:0.6px;margin:16px auto}
+.navbar-utility-right{display:flex;align-items:center;gap:12px;height:100%;position:relative}
+.navbar-signin{display:flex;align-items:center;font-size:13px;font-family:var(--font-sans);color:#656565;cursor:pointer;gap:4px;transition:color .2s var(--ease);background:none;border:none;padding:0}
+.navbar-signin:hover{color:var(--accent)}
+.navbar-signup{display:flex;align-items:center;font-size:13px;font-family:var(--font-sans);color:rgba(0,0,0,0.6);border:1px solid var(--border-secondary);padding:6px 12px;border-radius:var(--radius-sm);cursor:pointer;gap:4px;background:none;transition:color .2s var(--ease),background .2s var(--ease)}
+.navbar-signup:hover{color:#fff;background:#000}
+.navbar-user-menu{position:absolute;top:calc(100% + 8px);right:0;width:220px;background:#fff;z-index:100;border:1px solid rgba(20,16,22,0.08);box-shadow:0 12px 32px rgba(0,0,0,0.18);overflow:hidden;border-radius:var(--radius-md);transition:opacity .3s ease-in-out,transform .3s ease-in-out;opacity:0;transform:translateY(-8px) scale(0.95);visibility:hidden;pointer-events:none}
+.navbar-user-menu.is-open{opacity:1;transform:translateY(0) scale(1);visibility:visible;pointer-events:auto}
+.navbar-user-menu-head{padding:16px 16px 12px;border-bottom:1px solid rgba(20,16,22,0.06)}
+.navbar-user-menu-head p{font-family:var(--font-sans);font-size:13px;font-weight:500;color:#141016;text-transform:capitalize}
+.navbar-user-menu-head p.sub{font-size:11px;font-weight:400;color:#999;margin-top:2px}
+.navbar-user-menu-body{padding:8px}
+.navbar-signout{display:flex;width:100%;align-items:center;gap:8px;border-radius:var(--radius-sm);padding:8px 12px;font-size:14px;font-family:var(--font-sans);font-weight:500;color:var(--accent);background:none;border:none;cursor:pointer}
+.navbar-signout:hover{background:var(--accent-tint)}
+
+.navbar-main{position:relative;width:100%}
+.navbar-main-inner{display:flex;z-index:10;align-items:center;justify-content:space-between;width:100%;position:relative;background:#fff;height:60px;box-shadow:0 8px 12px -4px rgba(0,0,0,0.15);padding:0 24px}
+.navbar-logo-group{display:flex;align-items:center;gap:8px}
+.navbar-mobile-toggle{display:none;align-items:center;justify-content:center;padding:10px;border-radius:var(--radius-md);background:none;border:none;cursor:pointer;color:#141016;transition:background .3s var(--ease)}
+.navbar-mobile-toggle:hover{background:#f5f5f5}
+.navbar-logo{display:flex;align-items:center;font-family:var(--font-sans);font-weight:700;font-size:15px;color:#404040;letter-spacing:0.02em;text-decoration:none}
+.navbar-logo b{color:var(--accent)}
+.navbar-links{display:flex;align-items:center;gap:32px}
+.navbar-item{position:relative;display:flex;align-items:center}
+.navbar-item-trigger{display:flex;align-items:center;gap:6px;font-family:var(--font-sans);font-size:14px;color:#404040;text-decoration:none;padding:20px 0;cursor:pointer;background:none;border:none}
+.navbar-item-trigger svg{flex-shrink:0;transition:transform .3s var(--ease)}
+.navbar-item:hover .navbar-item-trigger svg,.navbar-item:focus-within .navbar-item-trigger svg{transform:rotate(180deg)}
+.navbar-item-underline{position:absolute;left:0;right:0;bottom:13px;height:2px;background:linear-gradient(90deg,#141016,var(--accent));border-radius:2px;transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease)}
+.navbar-item:hover .navbar-item-underline,.navbar-item:focus-within .navbar-item-underline{transform:scaleX(1)}
+.navbar-megamenu{position:absolute;left:0;top:100%;min-width:280px;background:#fff;border-radius:var(--radius-md);box-shadow:var(--shadow-lg);opacity:0;visibility:hidden;transform:translateY(0);pointer-events:none;transition:opacity .2s ease,transform .2s ease,visibility 0s linear .2s;z-index:30}
+.navbar-item:hover .navbar-megamenu,.navbar-item:focus-within .navbar-megamenu{opacity:1;visibility:visible;transform:translateY(8px);pointer-events:auto;transition:opacity .2s ease,transform .2s ease,visibility 0s linear 0s}
+.navbar-search{display:flex;align-items:center;height:35px;width:120px;cursor:pointer;flex-shrink:0}
+.navbar-search-inner{width:100%;height:100%;border-radius:99px;box-shadow:0 4px 12px rgba(0,0,0,0.12);padding:2px;position:relative;background:transparent}
+.navbar-search-glow{position:absolute;inset:0;border-radius:99px;background:#d3d5f9}
+.navbar-search-pill{padding:0 8px;width:100%;height:100%;display:flex;justify-content:space-between;align-items:center;position:relative;border-radius:99px;color:#404040;background:#fff;font-family:var(--font-sans);font-size:13px}
+.navbar-cta{position:relative;overflow:hidden;font-family:var(--font-sans);font-size:14px;color:#fff;font-weight:500;background-image:linear-gradient(90deg,var(--accent),var(--accent-bright),var(--accent));box-shadow:0 4px 16px rgba(176,31,36,0.15);height:40px;padding-inline:20px;min-width:112px;border-radius:5px;border:none;cursor:pointer;white-space:nowrap;display:flex;align-items:center;justify-content:center}
+.navbar-cta-sheen{position:absolute;inset:0;width:200%;background-image:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.35) 50%,rgba(255,255,255,0) 100%);transform:translateX(-100%);transition:transform .6s var(--ease)}
+.navbar-cta:hover .navbar-cta-sheen{transform:translateX(0)}
+
+.navbar-mobile-menu{position:fixed;inset:0;top:0;z-index:999;background:rgba(10,10,12,0.4);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .3s var(--ease),visibility 0s linear .3s}
+.navbar-mobile-menu.is-open{opacity:1;visibility:visible;pointer-events:auto;transition:opacity .3s var(--ease),visibility 0s linear 0s}
+.navbar-mobile-menu-panel{position:absolute;top:0;left:0;bottom:0;width:min(320px,84vw);background:#fff;box-shadow:var(--shadow-lg);display:flex;flex-direction:column;transform:translateX(-100%);transition:transform .3s var(--ease);overflow-y:auto}
+.navbar-mobile-menu.is-open .navbar-mobile-menu-panel{transform:translateX(0)}
+.navbar-mobile-menu-head{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--border-tertiary)}
+.navbar-mobile-close{background:none;border:none;cursor:pointer;color:#141016;padding:8px;border-radius:var(--radius-sm)}
+.navbar-mobile-close:hover{background:#f5f5f5}
+.navbar-mobile-links{display:flex;flex-direction:column;padding:8px 0}
+.navbar-mobile-links a{font-family:var(--font-sans);font-size:15px;color:#404040;text-decoration:none;padding:13px 20px}
+.navbar-mobile-links a:hover{background:var(--bg-secondary)}
+.navbar-mobile-divider{height:1px;background:var(--border-tertiary);margin:8px 20px}
+.navbar-mobile-utility{display:flex;flex-direction:column;padding:8px 0}
+.navbar-mobile-utility a{font-family:var(--font-sans);font-size:13px;color:var(--text-tertiary);text-decoration:none;padding:10px 20px}
+.navbar-mobile-cta{padding:20px}
+.navbar-mobile-cta-btn{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;width:100%;color:#fff;font-family:var(--font-sans);font-size:14px;font-weight:500;background-image:linear-gradient(90deg,var(--accent),var(--accent-bright),var(--accent));box-shadow:0 4px 16px rgba(176,31,36,0.15);border:none;border-radius:5px;padding:12px 16px;cursor:pointer}
+.navbar-mobile-cta-btn .navbar-cta-sheen{background-image:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.35) 50%,rgba(255,255,255,0) 100%)}
+.navbar-mobile-cta-btn:hover .navbar-cta-sheen{transform:translateX(0)}
+@media(prefers-reduced-motion:reduce){
+  .navbar-mobile-menu,.navbar-mobile-menu-panel,.navbar-user-menu,.navbar-company-menu,.navbar-megamenu,.navbar-item-underline,.navbar-cta-sheen{transition:opacity .01s linear!important;transform:none!important}
+}
+@media(max-width:1150px){.navbar-links,.navbar-utility,.navbar-search{display:none}.navbar-mobile-toggle{display:flex}}
+@media(max-width:600px){.navbar-main-inner{padding:13px 20px}}
+
+/* ---------- Navbar mega-menu content (Reports / Industries panels) ---------- */
+#megamenu-reports,#megamenu-industries{width:max-content;max-width:calc(100vw - 48px)}
+.navbar-megamenu-cols{display:flex;align-items:stretch}
+.navbar-megamenu-col{padding:28px 32px}
+.navbar-megamenu-col+.navbar-megamenu-col{border-left:1px solid var(--border-tertiary)}
+.navbar-megamenu-eyebrow{font-family:var(--font-sans);font-size:11px;line-height:14px;letter-spacing:0.72px;font-weight:600;color:rgba(0,0,0,0.4);text-transform:uppercase;margin-bottom:12px}
+.navbar-megamenu-search{display:flex;align-items:center;gap:6px;padding:10px 14px;margin-bottom:16px;border:1px solid rgba(20,16,22,0.1);border-radius:var(--radius-sm);font-family:var(--font-sans);font-size:13px;color:rgba(0,0,0,0.4)}
+.navbar-megamenu-links{display:flex;flex-direction:column;gap:2px}
+.navbar-megamenu-links a{font-family:var(--font-sans);font-size:14px;color:rgba(0,0,0,0.6);text-decoration:none;padding:6px 0;transition:color .2s var(--ease)}
+.navbar-megamenu-links a:hover{color:#000}
+.navbar-megamenu-col-reports{width:250px}
+.navbar-megamenu-col-types{width:340px}
+.navbar-megamenu-col-contact{width:280px}
+.navbar-megamenu-type-row{display:flex;align-items:center;gap:12px;text-decoration:none;padding:8px 0}
+.navbar-megamenu-type-icon{width:36px;height:36px;border-radius:5px;background:#f9f7f6;display:flex;align-items:center;justify-content:center;color:rgba(0,0,0,0.6);flex-shrink:0}
+.navbar-megamenu-type-label{font-family:var(--font-sans);font-size:14px;color:#404040;transition:color .2s var(--ease)}
+.navbar-megamenu-type-row:hover .navbar-megamenu-type-label{color:var(--accent)}
+.navbar-megamenu-promo{display:flex;flex-direction:column;gap:8px;margin-top:24px;padding:16px;border-radius:10px;background:linear-gradient(135deg,rgba(249,251,254,0.6),rgba(255,255,255,0.95));box-shadow:var(--shadow-sm);cursor:pointer;transition:box-shadow .3s var(--ease)}
+.navbar-megamenu-promo:hover{box-shadow:var(--shadow-md)}
+.navbar-megamenu-promo-title{font-family:var(--font-sans);font-size:16px;font-weight:700;color:rgba(0,0,0,0.7)}
+.navbar-megamenu-promo-text{font-family:var(--font-sans);font-size:12.8px;color:rgba(0,0,0,0.6);line-height:16px}
+.navbar-megamenu-col-industries{width:300px;display:flex;flex-direction:column;padding-bottom:16px}
+.navbar-megamenu-industry-list{max-height:400px;overflow-y:auto;display:flex;flex-direction:column;gap:2px;padding-bottom:24px;margin-bottom:-24px;-webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(to bottom,#000 calc(100% - 28px),transparent 100%)}
+.navbar-megamenu-industry-list::-webkit-scrollbar{width:5px}
+.navbar-megamenu-industry-list::-webkit-scrollbar-thumb{background:var(--border-secondary);border-radius:99px}
+.navbar-megamenu-industry-item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:var(--radius-sm);text-decoration:none;color:rgba(0,0,0,0.65);font-family:var(--font-sans);font-size:13.5px;transition:background .2s var(--ease),color .2s var(--ease)}
+.navbar-megamenu-industry-item:hover{background:#f5f5f5;color:#000}
+.navbar-megamenu-industry-item.is-active{background:#f0f0f0;color:#000;font-weight:500}
+.navbar-megamenu-industry-icon{width:18px;height:18px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:rgba(0,0,0,0.5)}
+.navbar-megamenu-industry-item.is-active .navbar-megamenu-industry-icon{color:var(--accent)}
+.navbar-megamenu-col-detail{width:420px}
+.navbar-megamenu-detail-head{display:flex;align-items:baseline;gap:8px;margin-bottom:16px}
+.navbar-megamenu-detail-title{font-family:var(--font-sans);font-size:16px;font-weight:700;color:#141016}
+.navbar-megamenu-detail-count{font-family:var(--font-sans);font-size:12px;color:rgba(0,0,0,0.4)}
+.navbar-megamenu-segment-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 16px;margin-bottom:20px}
+.navbar-megamenu-segment-grid a{font-family:var(--font-sans);font-size:13px;color:rgba(0,0,0,0.65);text-decoration:none;padding:3px 0;transition:color .2s var(--ease)}
+.navbar-megamenu-segment-grid a:hover{color:var(--accent)}
+.navbar-megamenu-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.navbar-megamenu-tag{position:relative;overflow:hidden;display:inline-flex;padding:6px 14px;border-radius:99px;background:#f5f5f5;font-family:var(--font-sans);font-size:12.5px;color:rgba(0,0,0,0.65);text-decoration:none;transition:color .2s var(--ease)}
+.navbar-megamenu-tag-sheen{position:absolute;inset:0;width:200%;background-image:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0) 100%);transform:translateX(-100%);transition:transform .6s var(--ease)}
+.navbar-megamenu-tag:hover{color:#000}
+.navbar-megamenu-tag:hover .navbar-megamenu-tag-sheen{transform:translateX(0)}
+.navbar-megamenu-col-quick{width:260px}
+.navbar-megamenu-quick-card{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--border-tertiary);border-radius:var(--radius-md);text-decoration:none;margin-bottom:10px;transition:border-color .2s var(--ease)}
+.navbar-megamenu-quick-card:hover{border-color:rgba(0,0,0,0.25)}
+.navbar-megamenu-quick-icon{width:36px;height:36px;border-radius:5px;background:#f9f7f6;display:flex;align-items:center;justify-content:center;color:rgba(0,0,0,0.6);flex-shrink:0}
+.navbar-megamenu-quick-text{display:flex;flex-direction:column;flex:1}
+.navbar-megamenu-quick-label{font-family:var(--font-sans);font-size:13.5px;font-weight:500;color:#141016}
+.navbar-megamenu-quick-sub{font-family:var(--font-sans);font-size:11.5px;color:rgba(0,0,0,0.45)}
+.navbar-megamenu-quick-chevron{color:rgba(0,0,0,0.3);transition:color .2s var(--ease);flex-shrink:0}
+.navbar-megamenu-quick-card:hover .navbar-megamenu-quick-chevron{color:var(--accent)}
+@media(max-width:1150px){#megamenu-reports,#megamenu-industries{display:none}}
+
+/* ---------- Navbar mega-menu content (Surveys / Consulting / Insights panels) ---------- */
+/* These three sit far enough right in the nav row that anchoring them to their
+   trigger's left edge (like Reports/Industries do) would push them off the right
+   side of the viewport at common desktop widths. Pin them centered under the
+   navbar instead so they always stay fully on-screen. */
+#megamenu-surveys,#megamenu-consulting,#megamenu-insights{position:fixed;left:50%;top:100px;width:max-content;max-width:calc(100vw - 48px);transform:translateX(-50%)}
+.navbar-item:hover #megamenu-surveys,.navbar-item:focus-within #megamenu-surveys,
+.navbar-item:hover #megamenu-consulting,.navbar-item:focus-within #megamenu-consulting,
+.navbar-item:hover #megamenu-insights,.navbar-item:focus-within #megamenu-insights{transform:translateX(-50%) translateY(8px)}
+.navbar-megamenu-col-verticals{width:260px;display:flex;flex-direction:column}
+.navbar-megamenu-col-survey-detail{width:320px}
+.navbar-megamenu-col-pubs{width:220px}
+.navbar-megamenu-col-capabilities{width:230px;display:flex;flex-direction:column}
+.navbar-megamenu-col-strategy{width:260px}
+.navbar-megamenu-col-consulting-pubs{width:240px}
+.navbar-megamenu-col-featured{width:300px}
+.navbar-megamenu-col-browse{width:200px;display:flex;flex-direction:column}
+.navbar-megamenu-col-insights-pubs{width:200px}
+.navbar-megamenu-industry-item.is-static{cursor:default}
+.navbar-megamenu-eyebrow-spaced{margin-top:20px}
+.navbar-megamenu-pill{display:inline-flex;align-items:center;padding:4px 10px;border-radius:99px;background:var(--accent-tint);color:var(--accent);font-family:var(--font-sans);font-size:10.5px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;width:fit-content}
+.navbar-megamenu-subscribe-link{display:block;margin-top:12px;font-family:var(--font-sans);font-size:12.5px;color:var(--accent);text-decoration:none;font-weight:500}
+.navbar-megamenu-subscribe-link:hover{text-decoration:underline}
+@media(max-width:1150px){#megamenu-surveys,#megamenu-consulting,#megamenu-insights{display:none}}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;
+  background:
+    linear-gradient(294.31deg, rgba(10,10,12,0.7) 13.956%, #000 57.423%, #000 86.044%),
+    url('assets/hero-bg-corridor.jpg');
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+  overflow:hidden;
+  padding:80px 120px 64px;
+}
+.hero-inner{position:relative;display:flex;justify-content:space-between;align-items:flex-start;gap:40px;width:100%;max-width:1200px;margin:0 auto}
+.hero-left{width:630px;flex:0 0 630px;display:flex;flex-direction:column;gap:24px}
+.hero-headgroup{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.hero-label{
+  font-family:var(--font-sans);
+  font-size:12px;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;
+  color:rgba(255,255,255,0.5);
+  display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:5px;
+  background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);
+}
+.hero-title{
+  margin:0;width:640px;max-width:100%;color:#fff;
+  font-weight:300;line-height:48px;letter-spacing:0;font-size:39px;
+}
+.hero-subgroup{display:flex;flex-direction:column;gap:8px}
+.hero-subtitle{font-family:var(--font-sans);font-size:16px;font-weight:600;line-height:20.8px;color:#fff;margin:0}
+.hero-desc{font-family:var(--font-sans);font-size:14px;line-height:22px;color:var(--text-on-dark-muted);max-width:630px;margin:0}
+
+.hero-byline{display:flex;align-items:stretch;gap:32px;padding-top:16px;width:563px;max-width:100%}
+.hero-byline-person{display:flex;align-items:center;gap:12px;height:69px}
+.hero-byline-divider{width:1px;flex:0 0 1px;background:rgba(255,255,255,0.1)}
+.hero:is([data-variant="image"],[data-variant="tooltip"]) .hero-byline-person.is-expert,
+.hero:is([data-variant="image"],[data-variant="tooltip"]) .hero-byline-divider{display:none}
+/* Collapsed rather than display:none: the sticky-player IntersectionObserver
+   watches this element's scroll position to know when the hero has passed,
+   and that trigger point must stay identical across all hero variants. */
+.hero:is([data-variant="video"],[data-variant="tooltip"]) .hero-audio-preview{height:1px;min-height:0;padding-top:0;border-top:0;overflow:hidden;opacity:0;pointer-events:none}
+.hero-byline img{width:40px;height:40px;flex:0 0 40px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,0.2)}
+.hero-byline-text{display:flex;flex-direction:column}
+.hero-byline-eyebrow{font-family:var(--font-sans);font-size:10px;line-height:15px;letter-spacing:1px;color:#6a7282;text-transform:uppercase}
+.hero-byline-name{padding-top:2px;font-family:var(--font-sans);font-size:14px;font-weight:600;line-height:20px;color:#fff}
+.hero-byline-role{font-family:var(--font-sans);font-size:12px;line-height:16px;color:#99a1af;white-space:nowrap}
+
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap}
+
+.btn-icon{width:16px;height:16px;flex-shrink:0;display:inline-flex}
+.btn{
+  font-family:var(--font-sans);
+  font-size:16px;font-weight:500;padding:12px 26px;border-radius:5px;
+  cursor:pointer;border:none;text-decoration:none;display:inline-flex;align-items:center;gap:8px;
+  letter-spacing:0.0875px;white-space:nowrap;
+  transition:all .35s var(--ease);
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:linear-gradient(90deg,var(--accent) 0%,var(--accent-bright) 50%,var(--accent) 100%);color:#fff;box-shadow:0 6px 20px rgba(176,31,36,0.28)}
+.btn-primary:hover{filter:brightness(1.07)}
+.btn-secondary{background:rgba(255,255,255,0.08);color:#fff;border:1px solid rgba(255,255,255,0.25)}
+.btn-secondary:hover{background:rgba(255,255,255,0.14)}
+.btn-outline{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+.btn-outline:hover{background:var(--accent-tint);color:var(--accent-hover);border-color:var(--accent-hover)}
+/* Shared design-system CTA arrow (hover-swap), matches Related Intelligence CTAs */
+.btn-arrow{position:relative;width:16px;height:16px;flex-shrink:0;display:inline-flex}
+.btn-arrow svg{position:absolute;inset:0;transition:opacity .3s var(--ease),transform .3s var(--ease)}
+.btn-arrow svg.arrow-1{opacity:1;transform:translate(0,0)}
+.btn-arrow svg.arrow-2{opacity:0;transform:translate(-16px,16px)}
+.btn:hover .btn-arrow svg.arrow-1{opacity:0;transform:translate(16px,-16px)}
+.btn:hover .btn-arrow svg.arrow-2{opacity:1;transform:translate(0,0)}
+
+.hero-audio-preview{width:630px;max-width:100%;padding-top:32px;border-top:1px solid rgba(255,255,255,0.1);display:flex;flex-direction:column;gap:16px}
+.hap-head{display:flex;flex-direction:column;gap:8px}
+.hap-title{font-family:var(--font-sans);font-size:12.8px;line-height:15px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,0.4)}
+.hap-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.hap-controls{display:flex;align-items:center;gap:6px}
+.hap-skip{position:relative;width:28px;height:28px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.75);flex-shrink:0;transition:color .18s ease}
+.hap-skip:hover{color:#fff}
+.hap-skip-n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:500;letter-spacing:-0.2px;margin-top:1px;font-family:var(--font-sans)}
+.hap-play{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,0.04);border:2px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:#fff;flex-shrink:0;transition:background-color .18s ease,border-color .18s ease,transform .18s ease}
+.hap-play:hover{background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.2);transform:scale(1.04)}
+.hap-play svg{margin-left:1px}
+.hap-time{font-family:var(--font-sans);font-size:12px;line-height:19.2px;color:rgba(255,255,255,0.7);font-variant-numeric:tabular-nums;white-space:nowrap}
+.hap-track{position:relative;width:220px;min-width:60px;max-width:220px;height:16px;display:flex;align-items:center;flex-shrink:0}
+.hap-track-bg{width:100%;height:4px;border-radius:2px;background:rgba(255,255,255,0.1);overflow:hidden}
+.hap-track-fill{height:100%;width:0%;background:#fff;border-radius:2px}
+.hap-track-thumb{position:absolute;top:50%;left:0;width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.25);transform:translate(-50%,-50%)}
+.hap-speed{font-family:var(--font-sans);font-size:12px;font-weight:500;line-height:15.6px;color:rgba(255,255,255,0.6);transition:color .18s ease}
+.hap-speed:hover{color:#fff}
+.hap-play:focus-visible,.hap-skip:focus-visible,.hap-track:focus-visible,.hap-speed:focus-visible{outline:2px solid #fff;outline-offset:3px;border-radius:var(--radius-sm)}
+
+.hp-name{font-family:var(--font-serif);font-size:13px;font-weight:700;color:#fff}
+.hp-title{font-size:11px;color:var(--text-on-dark-muted)}
+
+/* Hero right column: variant toggle + video/image + shared process strip */
+.hero-visual{position:relative;width:537px;flex:0 0 537px;display:flex;flex-direction:column;gap:14px}
+.hero-toggle{align-self:flex-end;z-index:5;display:flex;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.18);border-radius:var(--radius-pill);padding:2px;gap:2px}
+.hero-toggle button{font-family:var(--font-sans);font-size:9px;font-weight:600;letter-spacing:0.2px;text-transform:uppercase;padding:4px 9px;border:none;border-radius:var(--radius-pill);background:transparent;color:var(--text-on-dark-muted);cursor:pointer;transition:all .35s var(--ease)}
+.hero-toggle button:hover{color:#fff}
+.hero-toggle button[aria-selected="true"]{background:var(--accent);color:#fff;box-shadow:var(--shadow-sm)}
+
+.hero-variant-stack{display:grid}
+.hero-variant-stack>.hero-variant{grid-area:1/1;transition:opacity .22s var(--ease);opacity:0;visibility:hidden;pointer-events:none}
+.hero-variant-stack>.hero-variant.is-active{opacity:1;visibility:visible;pointer-events:auto}
+
+.media-card{position:relative;overflow:hidden;aspect-ratio:537/585;display:flex;flex-direction:column}
+.hero[data-variant="video"] .media-card{aspect-ratio:16/9}
+
+.video-player{position:relative;background:rgba(255,255,255,0.03);flex:1 1 auto;min-height:0}
+.video-player video{width:100%;height:100%;object-fit:cover;background:#000;display:block}
+.video-poster{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--bg-hero) 0%,var(--bg-hero-2) 100%);cursor:pointer;border:none;width:100%;padding:0}
+.video-poster-photos{display:flex}
+.video-poster-photos img{width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,0.2);margin-left:-20px}
+.video-poster-photos img:first-child{margin-left:0}
+.video-poster-photos img:last-child{object-position:57% 50%;box-shadow:0 0 0 4px var(--bg-hero)}
+.video-play-btn{margin-top:22px;width:64px;height:64px;border-radius:50%;background:linear-gradient(90deg,var(--accent) 0%,var(--accent-bright) 50%,var(--accent) 100%);border:none;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(176,31,36,0.22);cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
+.video-play-btn:hover{transform:scale(1.05);box-shadow:0 10px 34px rgba(176,31,36,0.38)}
+.video-poster-label{margin-top:12px;font-family:var(--font-sans);font-size:15px;line-height:21px;color:rgba(255,255,255,0.6)}
+.video-duration{position:absolute;bottom:10px;right:10px;font-family:var(--font-sans);font-size:11px;color:#fff;background:rgba(0,0,0,0.5);padding:3px 8px;border-radius:var(--radius-sm);z-index:2}
+
+/* Hero-right photo: transparent portrait cutout composited directly over the
+   hero's own background per Figma — the image is inset top-left at 77.654% x
+   83.419% of the card (not full-bleed), and the stat chip sits UNDER it so
+   Manish's shoulder crosses in front of the chip's edge. */
+.portrait-primary{position:relative;overflow:hidden;flex:1 1 auto;min-height:0}
+.portrait-primary img{position:absolute;z-index:1;left:0;top:0;width:77.654%;height:83.419%;object-fit:cover;object-position:50% 0%;display:block;border-radius:var(--radius-md) 0 0 0}
+.portrait-primary::after{
+  content:'';position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:
+    radial-gradient(107.921% 99.066% at 50% 0.934%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 100%),
+    linear-gradient(180deg, rgba(0,0,0,0) 59.285%, rgba(0,0,0,1) 84.536%, rgba(0,0,0,0) 100%);
+}
+.portrait-nameplate{position:absolute;z-index:3;left:5.587%;top:80.684%;width:222px;display:flex;flex-direction:column}
+.pn-label{font-family:var(--font-sans);font-size:10px;line-height:15px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,0.4)}
+.pn-name{font-family:var(--font-sans);font-size:20px;font-weight:600;line-height:28px;color:#fff}
+.pn-role{font-family:var(--font-sans);font-size:12px;line-height:16px;color:rgba(255,255,255,0.4)}
+
+.buying-route{
+  position:absolute;z-index:3;top:20.598%;left:59.218%;width:210px;max-width:210px;
+  background:rgba(10,10,12,0.4);
+  border:1px solid rgba(255,255,255,0.15);border-radius:5px;padding:12px 14px;
+  display:flex;align-items:flex-start;gap:10px;
+}
+.buying-route .bi{width:26px;height:26px;border-radius:2.5px;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.buying-route .bt{font-size:9.5px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:rgba(255,255,255,0.4);margin-bottom:4px}
+.buying-route .bv{font-size:12px;color:rgba(255,255,255,0.49);line-height:1.45}
+.buying-route .bv b{color:#fff;font-weight:600}
+.buying-route .bv+.bv{margin-top:4px}
+
+/* ---------- Hero media: "Insight" variant (Figma node 154:17867) ----------
+   Same composited-over-hero-background technique as the Portrait card (no
+   fill on the card itself), but here the whole card — quote/stat callout,
+   photo, and the audio player — is one bordered panel, and the audio
+   player lives inside this card instead of in the left column.
+   Figma's own frame for this variant is a near-even 578/575 column split
+   (not Portrait/Play interview's 630/537), so the card is wider here —
+   every position inside it is percentage-based, so it resolves to Figma's
+   exact pixel values once the card is actually 575px wide. Nested under a
+   min-width query so it never fights the >900px-only .hero-left/.hero-visual
+   width:100% mobile override (same specificity, would otherwise win on pixel
+   value alone regardless of viewport). */
+@media(min-width:901px){
+  .hero[data-variant="tooltip"] .hero-left{width:592px;flex:0 0 592px}
+  .hero[data-variant="tooltip"] .hero-visual{width:575px;flex:0 0 575px}
+}
+.hero[data-variant="tooltip"] .media-card{aspect-ratio:575/585}
+.tooltip-primary{position:relative;overflow:hidden;flex:1 1 auto;min-height:0}
+.tooltip-primary::after{
+  content:'';position:absolute;inset:0;z-index:2;pointer-events:none;
+  border-radius:var(--radius-md);border:1px solid rgba(255,255,255,0.05);
+  background:
+    radial-gradient(107.921% 99.066% at 50% 0.934%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 100%),
+    linear-gradient(180deg, rgba(0,0,0,0) 59.285%, rgba(0,0,0,1) 84.536%, rgba(0,0,0,0) 100%);
+}
+.tt-photo{position:absolute;z-index:1;left:39.652%;top:0;width:54.783%;height:75.556%;object-fit:cover;object-position:50% 0%;display:block}
+
+.tt-highlight{position:relative;z-index:3;left:0;top:0;width:53.739%;padding:32px 16px;display:flex;flex-direction:column;gap:36px}
+.tt-quote{position:absolute;left:11px;top:0;font-family:var(--font-serif);font-weight:700;font-size:60px;line-height:72px;color:var(--accent);opacity:0.8}
+.tt-stat{margin:0}
+.tt-stat-lead{font-family:var(--font-sans);font-weight:700;font-size:25px;line-height:40px;color:rgba(255,255,255,0.8)}
+.tt-stat-num{font-family:var(--font-sans);font-weight:700;font-size:32px;line-height:51.2px;color:var(--accent)}
+.tt-stat-sub{display:block;margin-top:8px;font-family:var(--font-sans);font-weight:400;font-size:16px;line-height:25.6px;color:rgba(255,255,255,0.6)}
+.tt-expert{display:flex;flex-direction:column}
+.tt-expert-label{font-family:var(--font-sans);font-size:12.8px;line-height:16px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,0.4)}
+.tt-expert-name{font-family:var(--font-sans);font-weight:600;font-size:20px;line-height:28px;color:#fff}
+.tt-expert-role{font-family:var(--font-sans);font-size:12.8px;line-height:16px;color:rgba(255,255,255,0.4)}
+
+.tt-audio{position:absolute;z-index:3;left:0;right:0;bottom:0;padding:16px;border-top:1px solid rgba(255,255,255,0.1);display:flex;flex-direction:column;gap:16px}
+.tt-audio-title{font-family:var(--font-sans);font-size:12.8px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,0.4)}
+.tt-audio-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.tt-audio-controls{display:flex;align-items:center;gap:6px}
+.tt-skip{position:relative;width:28px;height:28px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.75);flex-shrink:0;transition:color .18s ease}
+.tt-skip:hover{color:#fff}
+.tt-skip-n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:500;letter-spacing:-0.2px;margin-top:1px;font-family:var(--font-sans)}
+.tt-play{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,0.04);border:2px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;color:#fff;flex-shrink:0;transition:background-color .18s ease,border-color .18s ease,transform .18s ease}
+.tt-play:hover{background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.2);transform:scale(1.04)}
+.tt-play svg{margin-left:1px}
+.tt-time{font-family:var(--font-sans);font-size:12px;color:rgba(255,255,255,0.7);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tt-track{position:relative;width:201px;min-width:60px;max-width:220px;height:16px;display:flex;align-items:center;flex-shrink:0}
+.tt-track-bg{width:100%;height:4px;border-radius:2px;background:rgba(255,255,255,0.1);overflow:hidden}
+.tt-track-fill{height:100%;width:0%;background:#fff;border-radius:2px}
+.tt-track-thumb{position:absolute;top:50%;left:0;width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.25);transform:translate(-50%,-50%)}
+.tt-speed{font-family:var(--font-sans);font-size:12px;font-weight:500;color:rgba(255,255,255,0.6);transition:color .18s ease}
+.tt-speed:hover{color:#fff}
+
+@media(max-width:900px){
+  .hero{padding:64px 40px 48px}
+  .hero-inner{flex-direction:column;align-items:stretch;gap:48px}
+  .hero-left{width:100%;flex:1 1 auto}
+  .hero-audio-preview{width:100%}
+  .hero-title{font-size:32px;width:100%;max-width:100%}
+  .hero-subtitle{max-width:100%}
+  .hero-visual{width:100%;flex:1 1 auto}
+  .media-card{max-width:537px}
+  .hero-toggle{display:none !important}
+}
+@media(max-width:500px){
+  .container{padding:0 18px}
+  .hero{padding:32px 0 36px}
+  .hero-title{font-size:27px}
+  .hero-byline{flex-wrap:wrap;gap:20px;padding-top:0;width:100%}
+  .hero-byline-divider{display:none}
+  .hero-byline-role{white-space:normal}
+  .hero-ctas .btn{flex:1 1 100%;width:100%}
+  .hero:is([data-variant="image"],[data-variant="tooltip"]) .media-card{aspect-ratio:4/3}
+  .video-poster-photos img{width:84px;height:84px}
+  .video-poster-photos img:last-child{margin-left:-22px}
+  .video-play-btn{width:76px;height:76px;margin-top:26px}
+  .video-play-btn svg{width:28px;height:28px}
+  .video-poster-label{margin-top:16px}
+  .buying-route{bottom:auto;right:2%;left:auto;width:min(210px,62%);max-width:none;padding:9px 10px;gap:7px}
+  .buying-route .bt{font-size:8px}
+  .buying-route .bv{font-size:10px;line-height:1.35}
+}
+
+/* ---------- AudioBar (full-width bar, sibling of Hero — Figma node 34:8543) ----------
+   Player control design (skip/play/pause/scrub-track/speed) taken from the
+   provided ArticleAudioPlayer reference component; bar chrome, title/subtitle
+   and Share/Copy Link utilities kept from the site's own design. */
+.audiobar{background:#fff;border-bottom:1px solid var(--border-tertiary);box-shadow:0 1px 3px rgba(0,0,0,0.1),0 1px 2px -1px rgba(0,0,0,0.1);position:sticky;top:100px;z-index:60;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-8px);transition:opacity .24s ease-in,transform .24s ease-in,visibility 0s linear .24s}
+.audiobar.is-sticky-visible{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);transition:opacity .24s ease-out,transform .24s ease-out,visibility 0s linear 0s}
+@media(max-width:1150px){.audiobar{top:60px}}
+@media(prefers-reduced-motion:reduce){
+  .audiobar,.audiobar.is-sticky-visible{transition:opacity .01s linear;transform:none}
+}
+/* While the compact player is pinned at the top of the viewport, push the
+   sidebar's own sticky CTA down by the bar's real (measured, not guessed)
+   height so the two sticky elements never overlap. No-op below 960px,
+   where .side reverts to position:static. */
+.audiobar.is-sticky-visible ~ .page .side{top:calc(124px + var(--audiobar-h, 0px))}
+.audiobar-inner{display:flex;align-items:center;gap:14px;padding:12px 0}
+.ab-meta{display:flex;flex-direction:column;gap:0;min-width:0;flex-shrink:0}
+.ab-title{font-family:var(--font-sans);font-size:12px;font-weight:600;color:#101828;white-space:nowrap;line-height:16px;text-transform:uppercase}
+.ab-subtitle{font-family:var(--font-sans);font-size:10px;color:#6a7282;line-height:15px}
+
+.ab-controls{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.ab-skip{position:relative;display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:none;border:none;padding:0;cursor:pointer;color:rgba(0,0,0,0.6);flex-shrink:0;transition:color .2s}
+.ab-skip:hover{color:rgba(0,0,0,0.9)}
+.ab-skip .ab-skip-n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;margin-top:1px;font-family:var(--font-sans)}
+.ab-play{width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.04);border:2px solid rgba(0,0,0,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;cursor:pointer;color:rgba(0,0,0,0.8);transition:background .2s}
+.ab-play:hover{background:rgba(0,0,0,0.07)}
+.ab-play svg{margin-left:1px}
+
+.ab-time{font-family:var(--font-sans);font-size:12px;color:rgba(0,0,0,0.7);white-space:nowrap;font-variant-numeric:tabular-nums;flex-shrink:0}
+
+.ab-track{position:relative;flex:1 1 auto;min-width:60px;max-width:220px;height:16px;display:flex;align-items:center;cursor:pointer}
+.ab-track-bg{width:100%;height:4px;border-radius:2px;background:rgba(0,0,0,0.1);overflow:hidden}
+.ab-track-fill{height:100%;border-radius:2px;background:#000;width:0%}
+.ab-track-thumb{position:absolute;top:50%;width:12px;height:12px;border-radius:50%;background:#000;box-shadow:0 1px 2px rgba(0,0,0,0.25);transform:translate(-50%,-50%);left:0%}
+
+.ab-speed{font-family:var(--font-sans);font-size:12px;font-weight:500;color:rgba(0,0,0,0.6);background:none;border:none;padding:0;cursor:pointer;flex-shrink:0;transition:color .2s;font-variant-numeric:tabular-nums}
+.ab-speed:hover{color:rgba(0,0,0,0.9)}
+
+.ab-play:focus-visible,.ab-skip:focus-visible,.ab-track:focus-visible,.ab-speed:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:var(--radius-sm)}
+
+.ab-spacer{flex:1 1 auto}
+.ab-utils{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.ab-util-btn{display:flex;align-items:center;gap:6px;font-family:var(--font-sans);font-size:12px;font-weight:400;color:#4a5565;background:none;border:1px solid var(--border-tertiary);border-radius:4px;padding:6px 12px;cursor:pointer;transition:all .2s;white-space:nowrap}
+.ab-util-btn:hover{border-color:var(--accent);color:var(--accent)}
+.ab-util-btn.is-copied{color:var(--accent);border-color:var(--accent)}
+@media(max-width:900px){
+  .audiobar-inner{flex-wrap:wrap;padding:14px 0}
+  .ab-track{order:5;flex-basis:100%;max-width:none}
+  .ab-utils{order:6;flex-basis:100%;justify-content:flex-start;flex-wrap:wrap}
+}
+@media(max-width:500px){
+  .ab-skip,.ab-speed,.ab-utils{display:none}
+}
+
+/* Mobile compact section nav (replaces sticky sidebar nav on small screens) */
+.mobile-section-nav{display:none}
+@media(max-width:960px){
+  .mobile-section-nav{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:32px;-webkit-overflow-scrolling:touch}
+  .mobile-section-nav a{flex-shrink:0;font-family:var(--font-sans);font-size:11.5px;font-weight:600;color:var(--text-secondary);background:#fff;border:1px solid var(--border-tertiary);border-radius:var(--radius-pill);padding:7px 14px;white-space:nowrap}
+  .mobile-section-nav a[aria-current="true"]{color:#fff;background:var(--accent);border-color:var(--accent)}
+}
+
+/* ---------- Page layout ---------- */
+.page{padding:44px 0 0}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:44px;align-items:start;padding-top:32px}
+@media(max-width:960px){.layout{grid-template-columns:1fr}}
+/* Sidebar-left/content-right arrangement now applies unconditionally to
+   ALL hero variants (previously this was scoped to only the hero's 3rd/
+   "Insight"/tooltip variant via a data-hero-variant attribute on <body>;
+   Portrait and Play interview used the original content-left/sidebar-
+   right arrangement). Gated to the same >960px range .layout's own
+   two-column grid already requires, so mobile stacking is unaffected. */
+@media(min-width:961px){
+  .layout{grid-template-columns:340px minmax(0,1fr)}
+  .main{order:2}
+  .side{order:1}
+}
+/* "Expert in this interview" card: shown in Portrait and Play interview,
+   removed only in Insight (the hero card already carries his name/photo/
+   quote there). Everything else in .side (On This Page, Speak to an
+   Expert) stays exactly as-is in all three variants. */
+.main{counter-reset:qnum}
+
+#context,#takeaways,#qanda,#qa-chapter-1,#qa-chapter-2,#qa-chapter-3,#related-intelligence,#closing-cta{scroll-margin-top:20px}
+
+.section-eyebrow{
+  font-family:var(--font-sans);
+  font-size:12.8px;font-weight:400;text-transform:uppercase;letter-spacing:1.5656px;
+  color:var(--accent);margin-bottom:10px;
+}
+.section-title{font-size:31.25px;font-weight:300;letter-spacing:0;color:rgba(0,0,0,0.8);margin-bottom:16px;line-height:1.2}
+.section-sub{font-family:var(--font-sans);font-size:14px;color:rgba(0,0,0,0.6);margin-top:-4px;margin-bottom:32px}
+
+/* ---------- Executive Overview (merged Interview Context + Reveals — Figma node 22:4322) ---------- */
+.xo-para{
+  max-width:816px;font-family:var(--font-sans);
+  font-size:16px;line-height:1.75;color:rgba(0,0,0,0.6);margin-bottom:32px;
+}
+#context{padding-bottom:60px}
+.xo-grid{display:flex;flex-direction:column;padding-right:32px}
+.xo-card{background:transparent;padding:0;display:flex;align-items:center;gap:32px}
+.xo-card+.xo-card{margin-top:48px;padding-top:32px;border-top:1px solid rgba(0,0,0,0.06)}
+.xo-icon{width:40px;height:40px;border-radius:5px;background:#f9f7f6;display:flex;align-items:center;justify-content:center;color:rgba(0,0,0,0.6);flex-shrink:0}
+.xo-label-stack{width:231px;flex-shrink:0;display:flex;flex-direction:column;gap:4px}
+.xo-caption{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:0.9px;text-transform:uppercase;color:rgba(0,0,0,0.4)}
+.xo-value{font-family:var(--font-sans);font-size:16px;font-weight:600;line-height:1.4;color:rgba(0,0,0,0.8)}
+.xo-body{font-family:var(--font-sans);font-size:14px;line-height:1.5;color:rgba(0,0,0,0.6);flex:1}
+@media(max-width:700px){
+  .xo-grid{padding-right:0}
+  .xo-card{flex-wrap:wrap;gap:12px 16px}
+  .xo-label-stack{width:auto}
+}
+
+/* Expert snapshot (inline, mobile-first placement before Q&A on small screens) */
+
+/* ---------- Key Strategic Takeaways (Figma node 22:4357) ---------- */
+.takeaways-heading{font-size:30px;font-weight:400;letter-spacing:-0.3px;color:rgba(0,0,0,0.88);margin-bottom:8px;line-height:33px}
+.takeaways-intro{font-family:var(--font-sans);font-size:14px;color:rgba(0,0,0,0.4);margin-bottom:32px}
+.takeaways{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:80px;align-items:start}
+.takeaway-card{background:#fff;border:1px solid rgba(0,0,0,0.06);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:16px}
+.takeaway-head{display:flex;flex-direction:column;gap:8px}
+.takeaway-card h3{font-family:var(--font-sans);font-size:16px;font-weight:600;line-height:1.4;color:#000}
+.takeaway-subtext{font-family:var(--font-sans);font-size:14px;line-height:1.5;color:rgba(0,0,0,0.6)}
+.takeaway-divider{height:1px;background:#eae5e3;display:block}
+.takeaway-list{list-style:none;display:flex;flex-direction:column;gap:16px}
+.takeaway-list li{display:flex;align-items:flex-start;gap:8px;font-family:var(--font-sans);font-size:14px;line-height:22px;color:rgba(0,0,0,0.6)}
+.takeaway-check{width:14px;height:14px;flex-shrink:0;margin-top:3px;color:rgba(0,0,0,0.6)}
+@media(max-width:900px){.takeaways{grid-template-columns:1fr}}
+
+/* ---------- Q&A conversation ---------- */
+/* Q&A now flows full-width, single column -- the chapters-nav side rail was
+   removed from the Figma design; chapter identity is now shown inline via a
+   title+description header directly above each chapter's questions. */
+.qa-chapters{display:flex;flex-direction:column;gap:32px;margin-top:8px}
+.qa-chapter-title{font-family:var(--font-sans);font-size:12.8px;font-weight:400;text-transform:uppercase;letter-spacing:1.57px;color:rgba(0,0,0,0.4);margin-bottom:20px}
+.qa-chapter-divider{height:1px;background:var(--border-tertiary);margin:0}
+
+.qa-item{position:relative}
+.qa-item+.qa-item{margin-top:28px}
+.qa-exchange{position:relative}
+.qa-exchange::before{content:'';position:absolute;left:12px;top:24px;bottom:13px;width:1px;background:var(--border-tertiary)}
+.qa-row{display:flex;align-items:center;gap:9px}
+.qa-row+.qa-bubble{margin-top:7px;margin-left:35px}
+.qa-bubble+.qa-row{margin-top:27px}
+.qa-avatar{width:26px;height:26px;border-radius:50%;object-fit:cover;flex-shrink:0;position:relative;z-index:1}
+.qa-who{display:flex;align-items:baseline;gap:4px}
+.qa-name{font-family:var(--font-sans);font-size:12.8px;font-weight:600;color:var(--text-primary)}
+.qa-name.is-expert{color:var(--accent);font-weight:700}
+.qa-role{font-family:var(--font-sans);font-size:12.8px;color:var(--text-muted)}
+.qa-bubble{font-family:var(--font-sans);font-size:16px;font-weight:600;color:rgba(0,0,0,0.8);line-height:1.4}
+.qa-answer{font-family:var(--font-sans);font-size:14px;font-weight:400;color:rgba(0,0,0,0.6);line-height:1.6;margin-top:17px;margin-left:35px}
+.qa-answer p+p{margin-top:12px}
+
+.qa-quote-card{position:relative;overflow:hidden;background:#fff;border:1px solid rgba(0,0,0,0.1);border-radius:10px;padding:24px}
+.qa-chapter>.qa-quote-card{margin:32px 0}
+.qa-quote-mark{position:absolute;top:8px;right:20px;font-size:110px;font-family:var(--font-serif);font-weight:700;line-height:1;color:var(--accent);opacity:0.06;pointer-events:none;user-select:none;z-index:0}
+.qa-quote-eyebrow{position:relative;z-index:1;font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(0,0,0,0.4);margin:0 0 20px}
+.qa-quote-text{position:relative;z-index:1;margin:0 0 20px;font-family:var(--font-serif);font-weight:400;font-size:20px;line-height:1.55;letter-spacing:0;color:rgba(0,0,0,0.9);max-width:640px}
+.qa-quote-attrib{position:relative;z-index:1}
+.qa-quote-attrib .qa-quote-name{font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(0,0,0,0.9);margin:0 0 4px}
+.qa-quote-attrib .qa-quote-role{font-family:var(--font-sans);font-size:11px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:rgba(0,0,0,0.5);line-height:1.5;margin:0}
+@media(max-width:700px){.qa-quote-card{padding:24px 20px}.qa-quote-mark{font-size:80px;top:4px;right:12px}}
+
+/* Related intelligence — Figma node 29:5922 header, grid below sourced from
+   provided ConsultingSupport widget code (hairline-divider + title + desc + CTA) */
+.related-reports{margin-top:80px}
+.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:8px}
+@media(max-width:900px){.related-grid{grid-template-columns:repeat(2,1fr)}}
+.related-item{display:flex;flex-direction:column}
+.related-item-divider{width:100%;height:1px;background:rgba(0,0,0,0.1);margin-bottom:24px}
+.related-item-title{font-family:var(--font-sans);font-size:20px;font-weight:500;color:var(--text-primary);margin-bottom:12px;line-height:1.3}
+.related-item-desc{font-family:var(--font-sans);font-size:14px;color:rgba(0,0,0,0.65);line-height:1.6;margin-bottom:16px;flex-grow:1}
+.related-cta{position:relative;display:inline-flex;align-items:center;gap:6px;font-family:var(--font-sans);font-size:14px;font-weight:500;letter-spacing:0.0875px;text-decoration:none;margin-top:auto;color:var(--accent)}
+.related-cta-text{transition:color .3s var(--ease)}
+.related-cta:hover .related-cta-text,.related-cta:focus-visible .related-cta-text{background:linear-gradient(90deg,var(--accent) 0%,var(--accent-bright) 50%,var(--accent) 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.related-cta-arrow{position:relative;width:16px;height:16px;flex-shrink:0}
+.related-cta-arrow svg{position:absolute;inset:0;transition:opacity .3s var(--ease),transform .3s var(--ease)}
+.related-cta-arrow svg.arrow-1{opacity:1;transform:translate(0,0)}
+.related-cta-arrow svg.arrow-2{opacity:0;transform:translate(-16px,16px)}
+.related-cta:hover .related-cta-arrow svg.arrow-1,.related-cta:focus-visible .related-cta-arrow svg.arrow-1{opacity:0;transform:translate(16px,-16px)}
+.related-cta:hover .related-cta-arrow svg.arrow-2,.related-cta:focus-visible .related-cta-arrow svg.arrow-2{opacity:1;transform:translate(0,0)}
+@media(max-width:640px){.related-grid{grid-template-columns:1fr;gap:24px}}
+
+/* ---------- Sidebar ---------- */
+.side{position:sticky;top:124px;display:flex;flex-direction:column;gap:24px}
+.side-lbl{font-family:var(--font-sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent);margin-bottom:16px}
+.side>div:first-of-type>.side-lbl{margin-bottom:24px}
+
+.side-nav{display:flex;flex-direction:column}
+.toc-item+.toc-item{margin-top:2px}
+.toc-row{position:relative;display:flex;align-items:center;justify-content:space-between;gap:6px;margin-left:-9px;border-left:3px solid transparent;border-radius:0 4px 4px 0;transition:background .2s,border-color .2s}
+.toc-row:has(.toc-row-link[aria-current="true"]){background:rgba(176,31,36,0.04);border-left-color:var(--accent)}
+.toc-row-link{display:flex;align-items:baseline;gap:10px;min-width:0;flex:1 1 auto;padding:10px 8px 10px 9px;color:inherit;text-decoration:none}
+.toc-num{font-family:var(--font-sans);font-size:12px;color:var(--text-muted);flex-shrink:0;min-width:24px;font-variant-numeric:tabular-nums;line-height:1;transition:color .2s}
+.toc-title{font-family:var(--font-sans);font-size:13px;color:#525252;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition:color .2s}
+.toc-row-link[aria-current="true"] .toc-num,
+.toc-row-link[aria-current="true"] .toc-title{color:#171717;font-weight:700}
+.toc-chevron-btn{flex-shrink:0;width:24px;height:24px;margin-right:6px;display:flex;align-items:center;justify-content:center;color:rgba(0,0,0,0.35);background:none;border:none;cursor:pointer;transition:color .2s}
+.toc-chevron-btn:hover{color:rgba(0,0,0,0.7)}
+.toc-chevron-btn svg{transition:transform .26s ease-out}
+.toc-chevron-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.toc-collapse{display:grid;grid-template-rows:0fr;transition:grid-template-rows .26s ease-out}
+.toc-collapse.is-open{grid-template-rows:1fr}
+.toc-collapse-inner{overflow:hidden}
+.toc-collapse-content{display:flex;flex-direction:column;opacity:0;transition:opacity .22s ease-out}
+.toc-collapse.is-open .toc-collapse-content{opacity:1;padding-bottom:4px}
+.toc-sub-row{display:flex;align-items:center;gap:10px;padding:7px 8px 7px 25px;color:inherit;text-decoration:none}
+.toc-sub-dot{flex-shrink:0;width:5px;height:5px;border-radius:50%;background:rgba(0,0,0,0.1);transition:background .2s}
+.toc-sub-title{font-family:var(--font-sans);font-size:12.5px;color:#525252;line-height:1.35;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition:color .2s}
+.toc-sub-row[aria-current="true"] .toc-sub-dot{background:var(--accent)}
+.toc-sub-row[aria-current="true"] .toc-sub-title{color:#171717;font-weight:600}
+
+.sticky-cta{border:1px solid var(--border-tertiary);border-radius:5px;padding:16px 14px;background:#fff;margin-top:48px}
+.sticky-cta-head{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.sticky-cta-icon{width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.05);display:flex;align-items:center;justify-content:center;color:rgba(0,0,0,0.85);flex-shrink:0}
+.sticky-cta h4{font-family:var(--font-sans);font-size:13px;font-weight:800;margin:0;color:rgba(0,0,0,0.85);line-height:1.3}
+.sticky-cta p{font-family:var(--font-sans);font-size:12.5px;color:var(--text-muted);line-height:1.55;margin-bottom:14px}
+.sticky-cta .btn{width:100%;justify-content:center}
+
+@media(max-width:960px){.side{position:static}.side .side-nav-block{display:none}}
+
+/* ---------- Closing CTA band ---------- */
+.closing{
+  position:relative;overflow:hidden;
+  margin-top:80px;padding:80px 0;
+  background:var(--bg-secondary);
+  color:var(--text-primary);
+}
+.closing .container{position:relative;max-width:1120px;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.closing-text{flex:1 1 auto}
+.closing-eyebrow{font-family:var(--font-sans);font-size:12.5px;font-weight:400;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent);margin-bottom:14px}
+.closing h2{font-size:31.25px;font-weight:300;letter-spacing:0;margin-bottom:10px;color:rgba(0,0,0,0.9);max-width:640px}
+.closing p{font-family:var(--font-sans);font-size:16px;letter-spacing:-0.45px;color:rgba(0,0,0,0.7);max-width:560px;margin:0}
+.closing-ctas{display:flex;flex-direction:column;align-items:stretch;gap:16px;flex-shrink:0}
+.closing-ctas .btn{justify-content:center}
+@media(max-width:768px){
+  .closing .container{flex-direction:column;align-items:flex-start}
+  .closing-ctas{width:100%}
+}
+
+/* Footer handoff — existing site footer mounts after this spacer */
+.footer-handoff{background:var(--bg-primary);height:24px}
+
+/* ---------- Scroll reveal (fade + rise once, IntersectionObserver-driven) ---------- */
+.reveal-init{
+  opacity:0;transform:translateY(20px);
+  transition:opacity .55s cubic-bezier(0.22,1,0.36,1),transform .55s cubic-bezier(0.22,1,0.36,1);
+  transition-delay:var(--reveal-delay,0ms);
+}
+.reveal-init.is-visible{opacity:1;transform:translateY(0)}
+@media(prefers-reduced-motion:reduce){
+  .reveal-init{transition:opacity .2s ease;transform:none}
+  .reveal-init.is-visible{opacity:1}
+}
+</style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar-utility">
+    <div class="navbar-utility-left">
+      <a href="/procurement-research">Procurement</a>
+      <a href="/expert-panel">Expert Panel</a>
+      <div class="navbar-company">
+        <span class="navbar-company-trigger" tabindex="0">Company<svg width="12" height="12" viewBox="0 0 256 256" fill="currentColor"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"/></svg></span>
+        <div class="navbar-company-menu">
+          <div class="navbar-company-menu-list">
+            <a href="/about-us">About</a>
+            <a href="/careers#leadership">Leadership</a>
+            <a href="/careers">Careers</a>
+            <a href="/contact-us">Contact Us</a>
+            <span class="navbar-company-menu-divider"></span>
+            <a href="/terms-and-conditions#privacyPolicy" class="is-policies">Policies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-utility-right">
+      <button type="button" class="navbar-signin" id="navbarUserMenuToggle" aria-haspopup="true" aria-expanded="false"><svg width="12" height="12" viewBox="0 0 256 256" fill="currentColor"><path d="M120,216a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H56V208h56A8,8,0,0,1,120,216Zm109.66-93.66-40-40a8,8,0,0,0-11.32,11.32L204.69,120H112a8,8,0,0,0,0,16h92.69l-26.35,26.34a8,8,0,0,0,11.32,11.32l40-40A8,8,0,0,0,229.66,122.34Z"/></svg>Sign in</button>
+      <button type="button" class="navbar-signup" id="navbarUserMenuToggle2" aria-haspopup="true" aria-expanded="false"><svg width="12" height="12" viewBox="0 0 256 256" fill="currentColor"><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"/></svg>Sign up</button>
+      <div class="navbar-user-menu" id="navbarUserMenu">
+        <div class="navbar-user-menu-head">
+          <p>User</p>
+          <p class="sub">Access your account</p>
+        </div>
+        <div class="navbar-user-menu-body">
+          <button type="button" class="navbar-signout"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 17 5-5-5-5"/><path d="M21 12H9"/><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/></svg><span>Sign out</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-main">
+    <div class="navbar-main-inner">
+      <div class="navbar-logo-group">
+        <button type="button" class="navbar-mobile-toggle" id="navbarMobileToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navbarMobileMenu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+        </button>
+        <a href="/" class="navbar-logo"><b>K</b>EN RESEARCH</a>
+      </div>
+      <nav class="navbar-links">
+        <div class="navbar-item">
+          <a href="#" class="navbar-item-trigger">Reports <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 3.75L5 6.25L7.5 3.75" stroke="currentColor" stroke-width="1.2"/></svg></a>
+          <span class="navbar-item-underline"></span>
+          <div class="navbar-megamenu" id="megamenu-reports">
+            <div class="navbar-megamenu-cols">
+              <div class="navbar-megamenu-col navbar-megamenu-col-reports">
+                <div class="navbar-megamenu-search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg><span>Search reports...</span></div>
+                <div class="navbar-megamenu-eyebrow">Quick Links</div>
+                <div class="navbar-megamenu-links">
+                  <a href="/report-store">All Reports</a>
+                  <a href="/report-store#Segements">By Industry</a>
+                  <a href="/report-store#beseSellingReports">By Region</a>
+                  <a href="/report-store#latestInsights">Latest Release</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-types">
+                <div class="navbar-megamenu-eyebrow">Report Types</div>
+                <a href="/report-store" class="navbar-megamenu-type-row"><span class="navbar-megamenu-type-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></span><span class="navbar-megamenu-type-label">Industry Reports</span></a>
+                <a href="/report-store?reportTypes=global-market-research-reports" class="navbar-megamenu-type-row"><span class="navbar-megamenu-type-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></svg></span><span class="navbar-megamenu-type-label">Global Reports</span></a>
+                <a href="/country-reports" class="navbar-megamenu-type-row"><span class="navbar-megamenu-type-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg></span><span class="navbar-megamenu-type-label">Regional Reports</span></a>
+                <a href="/report-store?reportTypes=competition_benchmarking" class="navbar-megamenu-type-row"><span class="navbar-megamenu-type-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></span><span class="navbar-megamenu-type-label">Competition Benchmarking</span></a>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-contact">
+                <div class="navbar-megamenu-eyebrow">Get in Touch</div>
+                <div class="navbar-megamenu-links">
+                  <a href="/custom-form">Request on Demand</a>
+                  <a href="/talk-to-us">Talk to Analyst</a>
+                </div>
+                <div class="navbar-megamenu-promo">
+                  <span class="navbar-megamenu-promo-title">10 Lac+ Reports</span>
+                  <p class="navbar-megamenu-promo-text">Access comprehensive market research across 14+ industries worldwide</p>
+                  <a href="/report-store" class="related-cta"><span class="related-cta-text">Explore all reports</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <a href="#" class="navbar-item-trigger">Industries <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 3.75L5 6.25L7.5 3.75" stroke="currentColor" stroke-width="1.2"/></svg></a>
+          <span class="navbar-item-underline"></span>
+          <div class="navbar-megamenu" id="megamenu-industries">
+            <div class="navbar-megamenu-cols">
+              <div class="navbar-megamenu-col navbar-megamenu-col-industries">
+                <div class="navbar-megamenu-eyebrow">By Industries</div>
+                <div class="navbar-megamenu-industry-list">
+                  <a href="/report-store?industry=agriculture-animal-care-market" class="navbar-megamenu-industry-item is-active"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c0-4.4-3.5-8-8-8h.5C7 12 10 15.5 10 20"/><path d="M9.914 8.586a5.5 5.5 0 0 1 5.5-5.5c0 3.037-2.463 5.5-5.5 5.5"/><path d="M14 8c0-3.5 2.5-6 6-6 0 3.5-2.5 6-6 6"/></svg></span>Agriculture &amp; Animal Care</a>
+                  <a href="/report-store?industry=automotive-transportation-and-warehousing-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span>Automotive, Transportation &amp; Warehousing</a>
+                  <a href="/report-store?industry=banking-financial-services-and-insurance-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg></span>BFSI</a>
+                  <a href="/report-store?industry=consumer-products-and-retail-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></span>Consumer Products &amp; Retail</a>
+                  <a href="/report-store?industry=defense-and-security-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span>Defense &amp; Security</a>
+                  <a href="/report-store?industry=education-and-recruitment-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span>Education &amp; Recruitment</a>
+                  <a href="/report-store?industry=energy-and-utilities-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></span>Energy &amp; Utilities</a>
+                  <a href="/report-store?industry=food-beverage-and-tobacco-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"/><path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"/><path d="m2.1 21.8 6.4-6.3"/><path d="m19 5-7 7"/></svg></span>Food, Beverage &amp; Tobacco</a>
+                  <a href="/report-store?industry=healthcare-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 8.5h1.5l1.5 3 3-6 1.5 3h1.28"/></svg></span>Healthcare</a>
+                  <a href="/report-store?industry=metal-mining-and-chemicals-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22v-6.57"/><path d="M12 11h.01"/><path d="M12 7h.01"/><path d="M14 15.43V22"/><path d="M15 16a5 5 0 0 0-6 0"/><path d="M16 11h.01"/><path d="M16 7h.01"/><path d="M8 11h.01"/><path d="M8 7h.01"/><path d="M9 22v-6.5a3 3 0 0 1 6 0V22"/><rect x="4" y="2" width="16" height="20" rx="2"/></svg></span>Metal, Mining and Chemicals</a>
+                  <a href="/report-store?industry=manufacturing-and-construction-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01"/><path d="M16 16h.01"/><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><path d="M8 16h.01"/></svg></span>Manufacturing &amp; Construction</a>
+                  <a href="/report-store?industry=media-and-entertainment-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg></span>Media &amp; Entertainment</a>
+                  <a href="/report-store?industry=public-sector-and-administration-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>Public Sector and Administration</a>
+                  <a href="/report-store?industry=technology-and-telecom-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2"/><path d="M15 2v2"/><path d="M9 20v2"/><path d="M15 20v2"/><path d="M2 9h2"/><path d="M2 15h2"/><path d="M20 9h2"/><path d="M20 15h2"/></svg></span>Technology &amp; Telecom</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-detail">
+                <div class="navbar-megamenu-detail-head"><span class="navbar-megamenu-detail-title">Agriculture &amp; Animal Care</span><span class="navbar-megamenu-detail-count">8 Segments</span></div>
+                <div class="navbar-megamenu-segment-grid">
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=agriculture-chemical">Agriculture Chemical</a>
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=fertilizer">Fertilizer</a>
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=protected-cultivation">Protected Cultivation</a>
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=net-wrap">Net Wrap</a>
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=agricultural-equipments">Agricultural Equipments</a>
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=combine-harvesters">Combine Harvesters</a>
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=tillers">Tillers</a>
+                  <a href="/report-store?industry=agriculture-animal-care-market&amp;topics=hybrid-seed">Hybrid Seed</a>
+                </div>
+                <div class="navbar-megamenu-eyebrow">Popular Tags</div>
+                <div class="navbar-megamenu-tags">
+                  <a href="#" class="navbar-megamenu-tag"><span class="navbar-megamenu-tag-sheen"></span>Pest and Disease Control Solutions</a>
+                  <a href="#" class="navbar-megamenu-tag"><span class="navbar-megamenu-tag-sheen"></span>Tractors</a>
+                  <a href="#" class="navbar-megamenu-tag"><span class="navbar-megamenu-tag-sheen"></span>Combine Harvesters</a>
+                  <a href="#" class="navbar-megamenu-tag"><span class="navbar-megamenu-tag-sheen"></span>Conventional Seed</a>
+                  <a href="#" class="navbar-megamenu-tag"><span class="navbar-megamenu-tag-sheen"></span>Farm Automation</a>
+                </div>
+                <a href="/report-store?industry=agriculture-animal-care-market" class="related-cta"><span class="related-cta-text">Explore Agriculture &amp; Animal Care</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-quick">
+                <div class="navbar-megamenu-eyebrow">Quick Access</div>
+                <a href="/report-store" class="navbar-megamenu-quick-card">
+                  <span class="navbar-megamenu-quick-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></span>
+                  <span class="navbar-megamenu-quick-text"><span class="navbar-megamenu-quick-label">Industry Reports</span><span class="navbar-megamenu-quick-sub">All reports</span></span>
+                  <svg class="navbar-megamenu-quick-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+                <a href="/report-store?reportTypes=competition_benchmarking" class="navbar-megamenu-quick-card">
+                  <span class="navbar-megamenu-quick-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></span>
+                  <span class="navbar-megamenu-quick-text"><span class="navbar-megamenu-quick-label">Benchmarking</span><span class="navbar-megamenu-quick-sub">Competition Benchmarking</span></span>
+                  <svg class="navbar-megamenu-quick-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+                <a href="/case-studies" class="navbar-megamenu-quick-card">
+                  <span class="navbar-megamenu-quick-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01"/><path d="M16 16h.01"/><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><path d="M8 16h.01"/></svg></span>
+                  <span class="navbar-megamenu-quick-text"><span class="navbar-megamenu-quick-label">Insights</span><span class="navbar-megamenu-quick-sub">Industry Insights</span></span>
+                  <svg class="navbar-megamenu-quick-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <a href="#" class="navbar-item-trigger">Surveys <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 3.75L5 6.25L7.5 3.75" stroke="currentColor" stroke-width="1.2"/></svg></a>
+          <span class="navbar-item-underline"></span>
+          <div class="navbar-megamenu" id="megamenu-surveys">
+            <div class="navbar-megamenu-cols">
+              <div class="navbar-megamenu-col navbar-megamenu-col-verticals">
+                <div class="navbar-megamenu-eyebrow">Survey Verticals</div>
+                <div class="navbar-megamenu-industry-list">
+                  <a href="/brand-perception-survey" class="navbar-megamenu-industry-item is-active"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>Brand Perception</a>
+                  <a href="/customer-satisfaction-survey" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></span>C-SAT</a>
+                  <a href="/dealers-voice-survey" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span>Dealer's Voice</a>
+                  <a href="/employee-engagement-survey" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>Employee Engagement</a>
+                  <a href="/cndp-survey" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1.3.5 2.6 1.5 3.5.8.8 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></span>Customer Need Desire and Pain Point</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-survey-detail">
+                <div class="navbar-megamenu-eyebrow">Brand Perception</div>
+                <div class="navbar-megamenu-links">
+                  <a href="/survey/aerospace-defence-equipment-brand-credibility-and-procurement-head-survey">Aerospace &amp; Defence Equipment Brand Credibility &amp; Procurement Head Survey</a>
+                  <a href="/survey/affordable-housing-scheme-awareness-survey">Affordable Housing Scheme Awareness Survey</a>
+                  <a href="/survey/after-school-tutoring-brand-preference-and-board-exam-result-influence-survey">After-School Tutoring Brand Preference &amp; Board Exam Result Influence Survey</a>
+                  <a href="/survey/aftermarket-parts-brand-preference-survey">Aftermarket Parts Brand Preference Survey</a>
+                  <a href="/survey/agentic-ai-and-enterprise-tech-brand-positioning-and-cxo-adoption-survey">Agentic AI &amp; Enterprise Tech Brand Positioning &amp; CXO Adoption Survey</a>
+                </div>
+                <a href="/survey-all" class="related-cta"><span class="related-cta-text">Explore all Survey</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-pubs">
+                <div class="navbar-megamenu-eyebrow">Publications</div>
+                <div class="navbar-megamenu-links">
+                  <a href="/case-studies?type=survey">VOC Impact</a>
+                  <a href="/articles?type=survey">Articles</a>
+                  <a href="/pov?type=survey">Perspective</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-quick">
+                <div class="navbar-megamenu-eyebrow">Quick Access</div>
+                <a href="/survey" class="navbar-megamenu-quick-card">
+                  <span class="navbar-megamenu-quick-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg></span>
+                  <span class="navbar-megamenu-quick-text"><span class="navbar-megamenu-quick-label">Explore Surveys</span><span class="navbar-megamenu-quick-sub">Browse all templates</span></span>
+                  <svg class="navbar-megamenu-quick-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+                <a href="/custom-form" class="navbar-megamenu-quick-card">
+                  <span class="navbar-megamenu-quick-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span>
+                  <span class="navbar-megamenu-quick-text"><span class="navbar-megamenu-quick-label">Custom Survey</span><span class="navbar-megamenu-quick-sub">Tailored Research</span></span>
+                  <svg class="navbar-megamenu-quick-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </a>
+                <div class="navbar-megamenu-promo">
+                  <span class="navbar-megamenu-promo-title">Need help choosing?</span>
+                  <p class="navbar-megamenu-promo-text">Talk to our research team to find the right survey for your needs</p>
+                  <a href="/talk-to-us" class="related-cta"><span class="related-cta-text">Talk to an expert</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <a href="#" class="navbar-item-trigger">Consulting <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 3.75L5 6.25L7.5 3.75" stroke="currentColor" stroke-width="1.2"/></svg></a>
+          <span class="navbar-item-underline"></span>
+          <div class="navbar-megamenu" id="megamenu-consulting">
+            <div class="navbar-megamenu-cols">
+              <div class="navbar-megamenu-col navbar-megamenu-col-capabilities">
+                <div class="navbar-megamenu-eyebrow">Capabilities</div>
+                <div class="navbar-megamenu-industry-list">
+                  <a href="/consulting/strategy-consulting" class="navbar-megamenu-industry-item is-active"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></span>Strategy Consulting</a>
+                  <a href="/consulting/deals-and-ipo-consulting" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span>Deals &amp; IPO Advisory</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-strategy">
+                <div class="navbar-megamenu-eyebrow">Strategy Consulting</div>
+                <div class="navbar-megamenu-links">
+                  <a href="/consulting/strategy-consulting/market-entry-consulting">Market Entry</a>
+                  <a href="/consulting/strategy-consulting/market-penetration-consulting">Market Penetration</a>
+                  <a href="/consulting/strategy-consulting/product-strategy-consulting">Product Strategy</a>
+                  <a href="/contact-us">Startup Acceleration Strategy</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-consulting-pubs">
+                <div class="navbar-megamenu-eyebrow">Publications</div>
+                <div class="navbar-megamenu-links">
+                  <a href="/case-studies?type=consulting">Client Impact</a>
+                  <a href="/case-studies?type=consulting">Deal Spotlight</a>
+                  <a href="/articles?type=consulting">Articles</a>
+                  <a href="/pov?type=consulting">Perspective</a>
+                </div>
+                <div class="navbar-megamenu-eyebrow navbar-megamenu-eyebrow-spaced">Get in Touch</div>
+                <a href="/talk-to-us" class="related-cta"><span class="related-cta-text">Talk to Consultant</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-featured">
+                <div class="navbar-megamenu-promo">
+                  <span class="navbar-megamenu-pill">Case Study</span>
+                  <span class="navbar-megamenu-promo-title">Israel Logistics Market</span>
+                  <p class="navbar-megamenu-promo-text">Discover the growth opportunities in Israel's road freight and warehousing market</p>
+                  <a href="https://www.kenresearch.com/case-studies/dhl-road-freight-warehousing-growth-israel" class="related-cta"><span class="related-cta-text">Read more</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <a href="#" class="navbar-item-trigger">Insights <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 3.75L5 6.25L7.5 3.75" stroke="currentColor" stroke-width="1.2"/></svg></a>
+          <span class="navbar-item-underline"></span>
+          <div class="navbar-megamenu" id="megamenu-insights">
+            <div class="navbar-megamenu-cols">
+              <div class="navbar-megamenu-col navbar-megamenu-col-browse">
+                <div class="navbar-megamenu-eyebrow">Browse</div>
+                <div class="navbar-megamenu-industry-list">
+                  <span class="navbar-megamenu-industry-item is-active is-static"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></span>By Industry</span>
+                  <span class="navbar-megamenu-industry-item is-static"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>Featured</span>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-industries">
+                <div class="navbar-megamenu-eyebrow">By Industry</div>
+                <div class="navbar-megamenu-industry-list">
+                  <a href="/articles?category=agriculture-animal-care-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c0-4.4-3.5-8-8-8h.5C7 12 10 15.5 10 20"/><path d="M9.914 8.586a5.5 5.5 0 0 1 5.5-5.5c0 3.037-2.463 5.5-5.5 5.5"/><path d="M14 8c0-3.5 2.5-6 6-6 0 3.5-2.5 6-6 6"/></svg></span>Agriculture &amp; Animal Care</a>
+                  <a href="/articles?category=automotive-transportation-and-warehousing-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span>Automotive, Transportation &amp; Warehousing</a>
+                  <a href="/articles?category=banking-financial-services-and-insurance-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg></span>BFSI</a>
+                  <a href="/articles?category=consumer-products-and-retail-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></span>Consumer Products &amp; Retail</a>
+                  <a href="/articles?category=defense-and-security-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span>Defense &amp; Security</a>
+                  <a href="/articles?category=education-and-recruitment-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span>Education &amp; Recruitment</a>
+                  <a href="/articles?category=energy-and-utilities-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></span>Energy &amp; Utilities</a>
+                  <a href="/articles?category=food-beverage-and-tobacco-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"/><path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"/><path d="m2.1 21.8 6.4-6.3"/><path d="m19 5-7 7"/></svg></span>Food, Beverage &amp; Tobacco</a>
+                  <a href="/articles?category=healthcare-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 8.5h1.5l1.5 3 3-6 1.5 3h1.28"/></svg></span>Healthcare</a>
+                  <a href="/articles?category=metal-mining-and-chemicals-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22v-6.57"/><path d="M12 11h.01"/><path d="M12 7h.01"/><path d="M14 15.43V22"/><path d="M15 16a5 5 0 0 0-6 0"/><path d="M16 11h.01"/><path d="M16 7h.01"/><path d="M8 11h.01"/><path d="M8 7h.01"/><path d="M9 22v-6.5a3 3 0 0 1 6 0V22"/><rect x="4" y="2" width="16" height="20" rx="2"/></svg></span>Metal, Mining and Chemicals</a>
+                  <a href="/articles?category=manufacturing-and-construction-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01"/><path d="M16 16h.01"/><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><path d="M8 16h.01"/></svg></span>Manufacturing &amp; Construction</a>
+                  <a href="/articles?category=media-and-entertainment-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg></span>Media &amp; Entertainment</a>
+                  <a href="/articles?category=public-sector-and-administration-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>Public Sector and Administration</a>
+                  <a href="/articles?category=technology-and-telecom-market" class="navbar-megamenu-industry-item"><span class="navbar-megamenu-industry-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2"/><path d="M15 2v2"/><path d="M9 20v2"/><path d="M15 20v2"/><path d="M2 9h2"/><path d="M2 15h2"/><path d="M20 9h2"/><path d="M20 15h2"/></svg></span>Technology &amp; Telecom</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-insights-pubs">
+                <div class="navbar-megamenu-eyebrow">Publications</div>
+                <div class="navbar-megamenu-links">
+                  <a href="/articles">Articles</a>
+                  <a href="/case-studies">Case studies</a>
+                  <a href="/pov">Perspective</a>
+                  <a href="/blog">Blogs</a>
+                </div>
+              </div>
+              <div class="navbar-megamenu-col navbar-megamenu-col-featured">
+                <div class="navbar-megamenu-promo">
+                  <span class="navbar-megamenu-pill">Latest</span>
+                  <span class="navbar-megamenu-promo-title">Market Penetration Strategy for Al-Dawaa in the KSA Retail Pharmacy Market</span>
+                  <p class="navbar-megamenu-promo-text">Explore Al-Dawaa's strategy in the KSA retail pharmacy market</p>
+                  <a href="https://www.kenresearch.com/case-studies/al-dawaa-market-expansion-strategy-ksa-pharmacy" class="related-cta"><span class="related-cta-text">Read more</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+                </div>
+                <a href="#" class="navbar-megamenu-subscribe-link">Subscribe to Updates</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-search">
+          <div class="navbar-search-inner">
+            <div class="navbar-search-glow"></div>
+            <div class="navbar-search-pill">Search<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg></div>
+          </div>
+        </div>
+      </nav>
+      <button type="button" class="navbar-cta"><span class="navbar-cta-sheen"></span><span>Book discovery call</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="navbar-mobile-menu" id="navbarMobileMenu">
+  <div class="navbar-mobile-menu-panel">
+    <div class="navbar-mobile-menu-head">
+      <a href="/" class="navbar-logo"><b>K</b>EN RESEARCH</a>
+      <button type="button" class="navbar-mobile-close" id="navbarMobileClose" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+    <nav class="navbar-mobile-links">
+      <a href="#">Reports</a>
+      <a href="#">Industries</a>
+      <a href="#">Surveys</a>
+      <a href="#">Consulting</a>
+      <a href="#">Insights</a>
+    </nav>
+    <div class="navbar-mobile-divider"></div>
+    <nav class="navbar-mobile-utility">
+      <a href="/procurement-research">Procurement</a>
+      <a href="/expert-panel">Expert Panel</a>
+      <a href="/about-us">Company</a>
+    </nav>
+    <div class="navbar-mobile-divider"></div>
+    <nav class="navbar-mobile-utility">
+      <a href="#">Sign in</a>
+      <a href="#">Sign up</a>
+    </nav>
+    <div class="navbar-mobile-cta">
+      <button type="button" class="navbar-mobile-cta-btn"><span class="navbar-cta-sheen"></span><span>Book discovery call</span></button>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" data-variant="image">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-headgroup">
+        <div class="hero-label">Expert Interview</div>
+        <h1 class="hero-title">For Busbar Manufacturers, Data Centres Are Not the Direct Target</h1>
+      </div>
+
+      <div class="hero-subgroup">
+        <p class="hero-subtitle">EPCs, System Integrators and Turnkey Players Route</p>
+        <p class="hero-desc">A conversation on where busbars fit within data-centre electrical architecture, including main feeders, distribution rows and tap-off boxes, and why the commercial route runs through EPC consultants, system integrators and turnkey players.</p>
+      </div>
+
+      <!-- Expert is hidden here in the Portrait variant (he's identified via the
+           on-image nameplate instead); both people show once the media card
+           switches to the Play Interview placeholder, which carries no nameplate. -->
+      <div class="hero-byline">
+        <div class="hero-byline-person is-expert">
+          <img src="assets/manish-israni.jpg" alt="Manish Israni">
+          <div class="hero-byline-text">
+            <span class="hero-byline-eyebrow">Expert</span>
+            <span class="hero-byline-name">Manish Israni</span>
+            <span class="hero-byline-role">CTO, Westcon Comstor</span>
+          </div>
+        </div>
+        <span class="hero-byline-divider" aria-hidden="true"></span>
+        <div class="hero-byline-person">
+          <img src="assets/aakash-singh.jpg" alt="Aakash Singh">
+          <div class="hero-byline-text">
+            <span class="hero-byline-eyebrow">Host</span>
+            <span class="hero-byline-name">Aakash Singh</span>
+            <span class="hero-byline-role">Engagement Manager, Ken Research</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#speak-to-expert" class="btn btn-primary">Speak to an Expert <span class="btn-arrow" aria-hidden="true"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+        <a href="#related-intelligence" class="btn btn-secondary">Explore Related Insights</a>
+      </div>
+
+      <!-- Decorative preview of the audio player, embedded directly in the hero per
+           Figma (node 117:14932) — purely visual, not wired to real playback; the
+           functional player is the separate AudioBar section right below the hero. -->
+      <div class="hero-audio-preview">
+        <div class="hap-head">
+          <div class="hap-title">Full Interview &middot; Manish Israni</div>
+        </div>
+        <div class="hap-row">
+          <div class="hap-controls">
+            <div class="hap-skip" id="heroSkipBackBtn" role="button" tabindex="0" aria-label="Skip back 10 seconds">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+              <span class="hap-skip-n" aria-hidden="true">10</span>
+            </div>
+            <div class="hap-play" id="heroPlayBtn" role="button" tabindex="0" aria-label="Play full interview audio">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none" id="heroPlayIcon"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg>
+            </div>
+            <div class="hap-skip" id="heroSkipFwdBtn" role="button" tabindex="0" aria-label="Skip forward 10 seconds">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+              <span class="hap-skip-n" aria-hidden="true">10</span>
+            </div>
+          </div>
+          <div class="hap-time" id="heroAudioTime">0:00 / 0:00</div>
+          <div class="hap-track" id="heroTrack" role="slider" aria-label="Audio progress" tabindex="0">
+            <div class="hap-track-bg"><div class="hap-track-fill" id="heroTrackFill"></div></div>
+            <div class="hap-track-thumb" id="heroTrackThumb"></div>
+          </div>
+          <div class="hap-speed" id="heroSpeedBtn" role="button" tabindex="0" aria-label="Playback speed. Click to change.">1x</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-toggle" role="tablist" aria-label="Hero media variant">
+        <button type="button" role="tab" id="toggleImageBtn" aria-selected="true" aria-controls="imageVariant">Portrait</button>
+        <button type="button" role="tab" id="toggleVideoBtn" aria-selected="false" aria-controls="videoVariant">Play interview</button>
+        <button type="button" role="tab" id="toggleTooltipBtn" aria-selected="false" aria-controls="tooltipVariant">Insight</button>
+      </div>
+
+      <div class="hero-variant-stack">
+        <!-- V1: VIDEO -->
+        <div class="hero-variant" id="videoVariant" role="tabpanel" aria-labelledby="toggleVideoBtn">
+          <div class="media-card">
+            <div class="video-player">
+              <video id="heroVideo" preload="metadata" playsinline controls aria-label="Expert interview video with Aakash Singh and Manish Israni"></video>
+              <button type="button" class="video-poster" id="videoPoster" aria-label="Play expert interview video">
+                <div class="video-poster-photos">
+                  <img src="assets/aakash-singh.jpg" alt="">
+                  <img src="assets/manish-israni.jpg" alt="">
+                </div>
+                <span class="video-play-btn">
+                  <svg width="23" height="23" viewBox="0 0 14 14" fill="none" style="margin-left:3px"><path d="M3 2l9 5-9 5V2z" fill="#fff"/></svg>
+                </span>
+                <span class="video-poster-label">Play interview</span>
+              </button>
+              <div class="video-duration" id="videoDuration">--:--</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- V2: IMAGE -->
+        <div class="hero-variant is-active" id="imageVariant" role="tabpanel" aria-labelledby="toggleImageBtn">
+          <div class="media-card">
+            <div class="portrait-primary">
+              <div class="buying-route">
+                <div class="bi"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M2 12h2v-4H2v4zm5 0h2V4H7v8zm5 0h2V7h-2v5z" fill="#fff"/></svg></div>
+                <div>
+                  <div class="bt">Power density signal</div>
+                  <div class="bv"><b>1&ndash;3 MW</b> &rarr; <b>nearly 20 MW</b> per floor</div>
+                  <div class="bv">Driven by AI workloads and GPU clusters</div>
+                </div>
+              </div>
+              <img src="assets/manish-portrait-cutout.png" alt="Manish Israni, CTO, Westcon Comstor">
+              <div class="portrait-nameplate">
+                <span class="pn-label">Expert</span>
+                <span class="pn-name">Manish Israni</span>
+                <span class="pn-role">CTO, Westcon Comstor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- V3: INSIGHT (tooltip variation, Figma node 154:17867) -->
+        <div class="hero-variant" id="tooltipVariant" role="tabpanel" aria-labelledby="toggleTooltipBtn">
+          <div class="media-card">
+            <div class="tooltip-primary">
+              <img class="tt-photo" src="assets/manish-portrait-cutout.png" alt="Manish Israni, CTO, Westcon Comstor">
+              <div class="tt-highlight">
+                <span class="tt-quote" aria-hidden="true">&ldquo;</span>
+                <p class="tt-stat">
+                  <span class="tt-stat-lead">From 1&ndash;3 MW to nearly</span>
+                  <span class="tt-stat-num">20 MW,</span>
+                  <span class="tt-stat-sub">per data center floor &ndash; The full power distribution architecture has to become more modular.</span>
+                </p>
+                <div class="tt-expert">
+                  <span class="tt-expert-label">Expert</span>
+                  <span class="tt-expert-name">Manish Israni</span>
+                  <span class="tt-expert-role">CTO, Westcon Comstor</span>
+                </div>
+              </div>
+              <div class="tt-audio">
+                <div class="tt-audio-title">Full Interview &middot; Manish Israni</div>
+                <div class="tt-audio-row">
+                  <div class="tt-audio-controls">
+                    <div class="tt-skip" id="ttSkipBackBtn" role="button" tabindex="0" aria-label="Skip back 10 seconds">
+                      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                      <span class="tt-skip-n" aria-hidden="true">10</span>
+                    </div>
+                    <div class="tt-play" id="ttPlayBtn" role="button" tabindex="0" aria-label="Play full interview audio">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none" id="ttPlayIcon"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg>
+                    </div>
+                    <div class="tt-skip" id="ttSkipFwdBtn" role="button" tabindex="0" aria-label="Skip forward 10 seconds">
+                      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+                      <span class="tt-skip-n" aria-hidden="true">10</span>
+                    </div>
+                  </div>
+                  <div class="tt-time" id="ttAudioTime">0:00 / 0:00</div>
+                  <div class="tt-track" id="ttTrack" role="slider" aria-label="Audio progress" tabindex="0">
+                    <div class="tt-track-bg"><div class="tt-track-fill" id="ttTrackFill"></div></div>
+                    <div class="tt-track-thumb" id="ttTrackThumb"></div>
+                  </div>
+                  <div class="tt-speed" id="ttSpeedBtn" role="button" tabindex="0" aria-label="Playback speed. Click to change.">1x</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIOBAR (full-width bar, sibling of Hero) -->
+<div class="audiobar">
+  <div class="container audiobar-inner">
+    <div class="ab-meta">
+      <div class="ab-title">Full Interview · Manish Israni</div>
+    </div>
+
+    <div class="ab-controls">
+      <button class="ab-skip" id="skipBackBtn" type="button" aria-label="Skip back 10 seconds" title="Back 10 seconds">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        <span class="ab-skip-n" aria-hidden="true">10</span>
+      </button>
+      <button class="ab-play" id="playBtn" aria-label="Play full interview audio">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none" id="playIcon"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg>
+      </button>
+      <button class="ab-skip" id="skipFwdBtn" type="button" aria-label="Skip forward 10 seconds" title="Forward 10 seconds">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+        <span class="ab-skip-n" aria-hidden="true">10</span>
+      </button>
+    </div>
+
+    <div class="ab-time" id="audioTime">0:00 / 0:00</div>
+
+    <div class="ab-track" id="waveform" role="slider" aria-label="Audio progress" tabindex="0">
+      <div class="ab-track-bg"><div class="ab-track-fill" id="trackFill"></div></div>
+      <div class="ab-track-thumb" id="trackThumb"></div>
+    </div>
+
+    <button class="ab-speed" id="speedBtn" type="button" aria-label="Playback speed. Click to change.">1x</button>
+
+    <div class="ab-spacer"></div>
+    <div class="ab-utils">
+      <button class="ab-util-btn" id="shareBtn" type="button">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        <span class="ab-util-label">Share</span>
+      </button>
+      <button class="ab-util-btn" id="copyLinkBtn" type="button">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        <span class="ab-util-label">Copy Link</span>
+      </button>
+      <button class="ab-util-btn" id="downloadPdfBtn" type="button">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg>
+        <span class="ab-util-label">Download Interview PDF</span>
+      </button>
+    </div>
+    <audio id="interviewAudio" preload="metadata" src="assets/interview-audio-placeholder.wav"></audio>
+  </div>
+</div>
+
+<div class="page">
+<div class="container">
+
+  <nav class="mobile-section-nav" aria-label="Jump to section" id="mobileSectionNav">
+    <a href="#context">Overview</a>
+    <a href="#takeaways">Takeaways</a>
+    <a href="#qanda">Q&amp;A</a>
+    <a href="#related-intelligence">Related</a>
+    <a href="#closing-cta">Closing</a>
+  </nav>
+
+<div class="layout">
+
+  <!-- MAIN EDITORIAL COLUMN -->
+  <div class="main">
+
+    <!-- EXECUTIVE OVERVIEW (merged Interview Context + What This Interview Reveals) -->
+    <section id="context">
+      <div class="section-eyebrow reveal-init">Executive Overview</div>
+      <h2 class="section-title reveal-init">Interview Context</h2>
+      <p class="xo-para reveal-init">This interview was conducted with Manish Israni, CTO, Westcon Comstor, for a busbar manufacturer looking to expand product sales into data centres. The discussion explains where busbars fit across the data-centre electrical architecture, especially main feeders, distribution rows and tap-off boxes, and why the commercial route is shaped by EPC consultants, system integrators and turnkey players rather than direct targeting of data-centre operators alone.</p>
+      <div class="xo-grid">
+        <div class="xo-card reveal-init" style="--reveal-delay:0ms">
+          <span class="xo-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01"/><path d="M16 16h.01"/><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><path d="M8 16h.01"/></svg></span>
+          <div class="xo-label-stack">
+            <span class="xo-caption">Entry Case</span>
+            <span class="xo-value">Busbar manufacturer</span>
+          </div>
+          <p class="xo-body">Assessing how to expand its customer portfolio and target data centres for product-sales expansion.</p>
+        </div>
+        <div class="xo-card reveal-init" style="--reveal-delay:80ms">
+          <span class="xo-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></span>
+          <div class="xo-label-stack">
+            <span class="xo-caption">Core Components</span>
+            <span class="xo-value">Main feeder · Distribution rows · Tap-off boxes</span>
+          </div>
+          <p class="xo-body">Key areas where busbar systems support high-density power flow.</p>
+        </div>
+        <div class="xo-card reveal-init" style="--reveal-delay:160ms">
+          <span class="xo-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg></span>
+          <div class="xo-label-stack">
+            <span class="xo-caption">Decision Route</span>
+            <span class="xo-value">EPC consultants · System integrators · Turnkey players</span>
+          </div>
+          <p class="xo-body">Key stakeholders influencing busbar vendor selection.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY STRATEGIC TAKEAWAYS -->
+    <section id="takeaways">
+      <div class="section-eyebrow reveal-init">Ken Research Interpretation</div>
+      <h2 class="section-title takeaways-heading reveal-init">Key Strategic Takeaways</h2>
+      <div class="takeaways-intro reveal-init">Actionable implications derived from the expert conversation.</div>
+      <div class="takeaways">
+        <div class="takeaway-card reveal-init" style="--reveal-delay:0ms">
+          <div class="takeaway-head">
+            <h3>Busbar Manufacturers</h3>
+            <p class="takeaway-subtext">Market access depends on certification readiness and ecosystem trust.</p>
+          </div>
+          <span class="takeaway-divider"></span>
+          <ul class="takeaway-list">
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Certification is a market-access requirement.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Build vendor approval, integration comfort and trusted relationships.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Engage EPC consultants, system integrators and turnkey players rather than relying on direct sales.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Focus on main feeders, distribution rows and tap-off boxes as the key fitment areas.</li>
+          </ul>
+        </div>
+        <div class="takeaway-card reveal-init" style="--reveal-delay:80ms">
+          <div class="takeaway-head">
+            <h3>EPCs and System Integrators</h3>
+            <p class="takeaway-subtext">Modular busbars support faster and more flexible capacity expansion.</p>
+          </div>
+          <span class="takeaway-divider"></span>
+          <ul class="takeaway-list">
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Enable plug-and-play expansion.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Support faster installation and easier maintenance.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Reduce rework during upgrades.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Extend capacity without redesigning the complete cable map.</li>
+          </ul>
+        </div>
+        <div class="takeaway-card reveal-init" style="--reveal-delay:160ms">
+          <div class="takeaway-head">
+            <h3>Strategy and Market-Entry Teams</h3>
+            <p class="takeaway-subtext">Demand is increasing, but approval and specification remain the entry barriers.</p>
+          </div>
+          <span class="takeaway-divider"></span>
+          <ul class="takeaway-list">
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>AI and GPU clusters are increasing data-centre power density.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Floor-level capacity has moved from around 1–3 MW toward nearly 20 MW.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>The market behaves like a specification ecosystem, not a simple direct product sale.</li>
+            <li><svg class="takeaway-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Ecosystem acceptance may be a bigger barrier than manufacturing capability.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERVIEW Q&A -->
+    <section id="qanda">
+      <div class="section-eyebrow reveal-init">Expert Conversation</div>
+      <h2 class="section-title reveal-init">Interview Q&amp;A</h2>
+      <div class="section-sub reveal-init">A conversation on power architecture, modular expansion, certifications and the commercial route into data centres.</div>
+
+      <div class="qa-chapters">
+
+        <div class="qa-chapter" id="qa-chapter-1">
+          <h3 class="qa-chapter-title">Power Architecture and Busbar Fitment</h3>
+          <div class="qa-item">
+            <div class="qa-exchange reveal-init">
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/aakash-singh.jpg" alt="">
+              <div class="qa-who"><span class="qa-name">Aakash Singh</span><span class="qa-role">· Host</span></div>
+            </div>
+            <div class="qa-bubble">How is power distribution structured in modern data centres, and where do busbars fit in?</div>
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/manish-israni.jpg" alt="">
+              <div class="qa-who"><span class="qa-name is-expert">Manish Israni</span><span class="qa-role">· Expert</span></div>
+            </div>
+            </div>
+            <div class="qa-answer reveal-init" style="--reveal-delay:120ms">
+              <p>Power typically moves from the transformer to the UPS, then to LT panels or distribution boxes, and finally into busbar systems. For a busbar manufacturer, the key fitment areas are the main feeder, distribution rows and tap-off boxes.</p>
+              <p>Busbars are preferred because they simplify high-current distribution and make future upgrades easier than cable-heavy layouts.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="qa-chapter-divider"></div>
+
+        <div class="qa-chapter" id="qa-chapter-2">
+          <h3 class="qa-chapter-title">AI-led Power Density and Modularity</h3>
+          <div class="qa-item">
+            <div class="qa-exchange reveal-init">
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/aakash-singh.jpg" alt="">
+              <div class="qa-who"><span class="qa-name">Aakash Singh</span><span class="qa-role">· Host</span></div>
+            </div>
+            <div class="qa-bubble">How dramatically has power density changed in data centres, and what is driving it?</div>
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/manish-israni.jpg" alt="">
+              <div class="qa-who"><span class="qa-name is-expert">Manish Israni</span><span class="qa-role">· Expert</span></div>
+            </div>
+            </div>
+            <div class="qa-answer reveal-init" style="--reveal-delay:120ms">
+              <p>The change is significant. Earlier, one data centre floor could operate at around 1–3 MW. Today, AI has picked up across the globe. This has increased computing requirements massively, resulting in nearly 20 MW of capacity being deployed on a single floor of a data centre.</p>
+              <p>This is being driven by GPU clusters, AI compute and higher rack density. At that load, cable upgrades become difficult to manage, which makes modular busbars far more practical.</p>
+            </div>
+          </div>
+
+          <div class="qa-quote-card reveal-init">
+            <span aria-hidden="true" class="qa-quote-mark">&ldquo;</span>
+            <p class="qa-quote-eyebrow">Expert Commentary</p>
+            <blockquote class="qa-quote-text">&ldquo;When a floor moves from 1–3 MW to nearly 20 MW, the question is no longer just cabling. The full power distribution architecture has to become more modular.&rdquo;</blockquote>
+            <footer class="qa-quote-attrib">
+              <p class="qa-quote-name">Manish Israni</p>
+              <p class="qa-quote-role">CTO, Westcon Comstor</p>
+            </footer>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-exchange reveal-init">
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/aakash-singh.jpg" alt="">
+              <div class="qa-who"><span class="qa-name">Aakash Singh</span><span class="qa-role">· Host</span></div>
+            </div>
+            <div class="qa-bubble">Why is modular busbar architecture preferred over traditional cabling?</div>
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/manish-israni.jpg" alt="">
+              <div class="qa-who"><span class="qa-name is-expert">Manish Israni</span><span class="qa-role">· Expert</span></div>
+            </div>
+            </div>
+            <div class="qa-answer reveal-init" style="--reveal-delay:120ms">
+              <p>Modular busbars allow plug-and-play expansion, faster installation, easier maintenance and lower rework. If power demand increases, the system can be extended without redesigning the entire cable map.</p>
+              <p>That flexibility is important for data centre operators because power requirements can change quickly as workloads and rack densities increase.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="qa-chapter-divider"></div>
+
+        <div class="qa-chapter" id="qa-chapter-3">
+          <h3 class="qa-chapter-title">Certification, Trust and Commercial Entry</h3>
+          <div class="qa-item">
+            <div class="qa-exchange reveal-init">
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/aakash-singh.jpg" alt="">
+              <div class="qa-who"><span class="qa-name">Aakash Singh</span><span class="qa-role">· Host</span></div>
+            </div>
+            <div class="qa-bubble">How important are certifications and standards in this market?</div>
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/manish-israni.jpg" alt="">
+              <div class="qa-who"><span class="qa-name is-expert">Manish Israni</span><span class="qa-role">· Expert</span></div>
+            </div>
+            </div>
+            <div class="qa-answer reveal-init" style="--reveal-delay:120ms">
+              <p>Certifications are critical. IEC certification, IEEE certification, acceptance testing and standardisation carry strong weight because data centres are mission-critical environments.</p>
+              <p>For a new entrant, certification is not just paperwork. It is a market-access requirement that EPC consultants, system integrators and turnkey players have put in place.</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-exchange reveal-init">
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/aakash-singh.jpg" alt="">
+              <div class="qa-who"><span class="qa-name">Aakash Singh</span><span class="qa-role">· Host</span></div>
+            </div>
+            <div class="qa-bubble">How does this market behave commercially? Is it a direct product sale?</div>
+            <div class="qa-row">
+              <img class="qa-avatar" src="assets/manish-israni.jpg" alt="">
+              <div class="qa-who"><span class="qa-name is-expert">Manish Israni</span><span class="qa-role">· Expert</span></div>
+            </div>
+            </div>
+            <div class="qa-answer reveal-init" style="--reveal-delay:120ms">
+              <p>This is not a simple direct-to-customer product market. It behaves like a specification ecosystem where EPC Consultants, System Integrators and Turnkey Players, including UPS vendors as well, influence what gets approved.</p>
+              <p>Winning requires vendor approval, integration comfort and trusted relationships. For a busbar manufacturer entering data centres, ecosystem acceptance can be a bigger barrier than manufacturing capability.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="qa-quote-card reveal-init">
+          <span aria-hidden="true" class="qa-quote-mark">&ldquo;</span>
+          <p class="qa-quote-eyebrow">Expert Commentary</p>
+          <blockquote class="qa-quote-text">&ldquo;In data centres, a technically strong product still needs ecosystem approval. The market is won through specifications, certifications and trust.&rdquo;</blockquote>
+          <footer class="qa-quote-attrib">
+            <p class="qa-quote-name">Manish Israni</p>
+            <p class="qa-quote-role">CTO, Westcon Comstor</p>
+          </footer>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- STICKY SIDEBAR -->
+  <div class="side">
+    <div class="side-nav-block">
+      <div class="side-lbl">On this page</div>
+      <nav class="side-nav" id="sideNav" aria-label="On this page">
+        <div class="toc-item">
+          <div class="toc-row">
+            <a href="#context" class="toc-row-link">
+              <span class="toc-num">01.</span>
+              <span class="toc-title">Interview Context</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="toc-item">
+          <div class="toc-row">
+            <a href="#takeaways" class="toc-row-link">
+              <span class="toc-num">02.</span>
+              <span class="toc-title">Key Strategic Takeaways</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="toc-item">
+          <div class="toc-row">
+            <a href="#qanda" class="toc-row-link">
+              <span class="toc-num">03.</span>
+              <span class="toc-title">Question &amp; Answer</span>
+            </a>
+            <button type="button" class="toc-chevron-btn" aria-expanded="true" aria-controls="tocQaSub" aria-label="Toggle Question &amp; Answer subsections">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+          </div>
+          <div class="toc-collapse is-open" id="tocQaSub">
+            <div class="toc-collapse-inner">
+              <div class="toc-collapse-content side-nav-qa-sub">
+                <a href="#qa-chapter-1" class="toc-sub-row"><span class="toc-sub-dot" aria-hidden="true"></span><span class="toc-sub-title">Power Architecture and Busbar Fitment</span></a>
+                <a href="#qa-chapter-2" class="toc-sub-row"><span class="toc-sub-dot" aria-hidden="true"></span><span class="toc-sub-title">AI-led Power Density and Modularity</span></a>
+                <a href="#qa-chapter-3" class="toc-sub-row"><span class="toc-sub-dot" aria-hidden="true"></span><span class="toc-sub-title">Certification, Trust and Commercial Entry</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="sticky-cta" id="speak-to-expert">
+      <div class="sticky-cta-head">
+        <span class="sticky-cta-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></svg></span>
+        <h4>Speak to an Expert</h4>
+      </div>
+      <p>Discuss busbar fitment, certification and routes to market.</p>
+      <a href="#" class="btn btn-primary">Talk to an Expert <span class="btn-arrow" aria-hidden="true"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+    </div>
+  </div>
+
+</div>
+
+<!-- RELATED INTELLIGENCE — Figma source node "Highlights" (73:12154) spans the FULL
+     1200px container width (same as .layout), sitting BELOW the two-column
+     [main | sidebar] grid, not inside it — confirmed via Figma absoluteBoundingBox
+     (x=120, width=1200, matching Layout exactly, not Main's 816). Header (eyebrow +
+     heading + subhead) reproduced exactly. Grid below sourced from the user-provided
+     ConsultingSupport widget code: hairline divider + title + description + CTA
+     link, mapped onto the four categories already named in the subhead copy
+     (Reports / Perspectives / Articles / Services) rather than inventing
+     specific report titles/dates that don't yet exist in the CMS. -->
+<section class="related-reports" id="related-intelligence">
+  <div class="section-eyebrow reveal-init">Related Intelligence</div>
+  <h2 class="section-title reveal-init">Explore Related Intelligence</h2>
+  <div class="section-sub reveal-init">Reports, perspectives, articles and services selected around data-centre power infrastructure and market entry.</div>
+
+  <div class="related-grid">
+    <div class="related-item reveal-init" style="--reveal-delay:0ms">
+      <div class="related-item-divider"></div>
+      <h3 class="related-item-title">Reports</h3>
+      <p class="related-item-desc">In-depth market sizing and structure analysis covering data-centre power distribution, busbar systems and electrical infrastructure investment.</p>
+      <a href="#" class="related-cta"><span class="related-cta-text">Talk to an Expert</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+    </div>
+    <div class="related-item reveal-init" style="--reveal-delay:80ms">
+      <div class="related-item-divider"></div>
+      <h3 class="related-item-title">Perspectives</h3>
+      <p class="related-item-desc">Expert commentary and point-of-view analysis on certification pathways, ecosystem trust and specification-led buying decisions.</p>
+      <a href="#" class="related-cta"><span class="related-cta-text">Talk to an Expert</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+    </div>
+    <div class="related-item reveal-init" style="--reveal-delay:160ms">
+      <div class="related-item-divider"></div>
+      <h3 class="related-item-title">Articles</h3>
+      <p class="related-item-desc">Shorter-form coverage of trends shaping power density, AI-led modularity and busbar fitment across data-centre builds.</p>
+      <a href="#" class="related-cta"><span class="related-cta-text">Talk to an Expert</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+    </div>
+    <div class="related-item reveal-init" style="--reveal-delay:240ms">
+      <div class="related-item-divider"></div>
+      <h3 class="related-item-title">Services</h3>
+      <p class="related-item-desc">Advisory support for market entry, route-to-market planning and evaluation of EPC consultants, system integrators and turnkey players.</p>
+      <a href="#" class="related-cta"><span class="related-cta-text">Talk to an Expert</span><span class="related-cta-arrow"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
+
+<!-- CLOSING CTA -->
+<section class="closing" id="closing-cta">
+  <div class="container">
+    <div class="closing-text reveal-init">
+      <div class="closing-eyebrow">Next Steps</div>
+      <h2>Evaluating product expansion into data-centre power distribution?</h2>
+      <p>Discuss busbar fitment, certification requirements and routes through EPC consultants, system integrators and turnkey players with Ken Research.</p>
+    </div>
+    <div class="closing-ctas">
+      <a href="#" class="btn btn-primary">Talk to an Expert <span class="btn-arrow" aria-hidden="true"><svg class="arrow-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg><svg class="arrow-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span></a>    </div>
+  </div>
+</section>
+
+<!-- Existing website footer renders below (shared site component) -->
+<div class="footer-handoff"></div>
+
+<script>
+(function(){
+  /* ---------------- Hero V1/V2 toggle ----------------
+     Production rule: render V1 automatically once a real interview video is
+     wired up (REAL_VIDEO_AVAILABLE / a real <source> on #heroVideo), otherwise
+     render V2. The segmented toggle itself is an internal review/QA aid — it is
+     visible by default (this build is still under stakeholder review) and is
+     only hidden when the page is explicitly loaded with ?production=1, which is
+     what the live public deployment will use once a real video is wired up. */
+  const REAL_VIDEO_AVAILABLE = false;
+  const isProduction = new URLSearchParams(window.location.search).get('production') === '1';
+  // Interview PDF download (AudioBar utility action, .ab-utils): only reveal
+  // the "Download Interview PDF" button once a real PDF asset is available.
+  // Empty string = not available yet, so the button stays hidden.
+  const interviewPdfUrl = "";
+  const heroSection=document.querySelector('.hero');
+  const heroToggleEl=document.querySelector('.hero-toggle');
+  if(isProduction && heroToggleEl){ heroToggleEl.style.display='none'; }
+
+  const toggleVideoBtn=document.getElementById('toggleVideoBtn');
+  const toggleImageBtn=document.getElementById('toggleImageBtn');
+  const toggleTooltipBtn=document.getElementById('toggleTooltipBtn');
+  const videoVariant=document.getElementById('videoVariant');
+  const imageVariant=document.getElementById('imageVariant');
+  const tooltipVariant=document.getElementById('tooltipVariant');
+  const variantBtns={video:toggleVideoBtn, image:toggleImageBtn, tooltip:toggleTooltipBtn};
+  const variantPanels={video:videoVariant, image:imageVariant, tooltip:tooltipVariant};
+  function setVariant(name){
+    Object.keys(variantBtns).forEach(function(key){
+      const isActive = key===name;
+      variantBtns[key].setAttribute('aria-selected', isActive ? 'true':'false');
+      variantPanels[key].classList.toggle('is-active', isActive);
+    });
+    if(heroSection){ heroSection.dataset.variant = name; }
+    // .layout (main content / sidebar) lives outside the hero, so it can't
+    // key off .hero's own data-variant attribute — mirror it onto <body>
+    // so the "Insight" variant's sidebar-left/content-right swap can react
+    // to it too (see the body[data-hero-variant="tooltip"] rules in <style>).
+    document.body.dataset.heroVariant = name;
+  }
+  toggleVideoBtn.addEventListener('click', ()=>setVariant('video'));
+  toggleImageBtn.addEventListener('click', ()=>setVariant('image'));
+  toggleTooltipBtn.addEventListener('click', ()=>setVariant('tooltip'));
+  setVariant(REAL_VIDEO_AVAILABLE ? 'video' : 'image');
+
+  /* ---------------- Video player ---------------- */
+  const heroVideo=document.getElementById('heroVideo');
+  const videoPoster=document.getElementById('videoPoster');
+  const videoDuration=document.getElementById('videoDuration');
+  function fmtTime(s){
+    if(!isFinite(s)||s==null) return '--:--';
+    const m=Math.floor(s/60), sec=Math.floor(s%60);
+    return (m<10?'0':'')+m+':'+(sec<10?'0':'')+sec;
+  }
+  heroVideo.addEventListener('loadedmetadata', ()=>{ videoDuration.textContent=fmtTime(heroVideo.duration); });
+  videoPoster.addEventListener('click', ()=>{
+    if(heroVideo.currentSrc){
+      videoPoster.style.display='none';
+      heroVideo.play();
+    }
+  });
+  heroVideo.addEventListener('pause', ()=>{ if(heroVideo.currentTime===0) videoPoster.style.display=''; });
+  heroVideo.addEventListener('ended', ()=>{ videoPoster.style.display=''; });
+
+  /* ---------------- Audio player (shared state, two UI surfaces) ----------------
+     Control design (skip/play/pause/scrub-track/speed) matches the
+     provided ArticleAudioPlayer reference: ring play button, rotate-icon
+     skip buttons with a seconds label overlaid, thin scrub track with a
+     round thumb, unpadded "m:ss" time format, plain-text speed cycle.
+     ONE <audio> element and ONE JS state drives BOTH the hero preview
+     player and the AudioBar (which doubles as the sticky compact player);
+     every control below is bound to shared functions that update both
+     UI surfaces' DOM whenever they run. */
+  const audio=document.getElementById('interviewAudio');
+  const SKIP_SECONDS=10;
+  const PLAY_PATH='<path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/>';
+  const PAUSE_PATH='<rect x="14" y="3" width="5" height="18" rx="1"/><rect x="5" y="3" width="5" height="18" rx="1"/>';
+  const VOLUME_PATH='<path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>';
+  const MUTE_PATH='<path d="M11 5 6 9H2v6h4l5 4V5z"/><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/>';
+  const speeds=[1,1.25,1.5,1.75,2];
+  let speedIndex=0;
+
+  const surfaces=[
+    { // AudioBar (also the sticky compact player)
+      track:document.getElementById('waveform'),
+      trackFill:document.getElementById('trackFill'),
+      trackThumb:document.getElementById('trackThumb'),
+      playBtn:document.getElementById('playBtn'),
+      playIcon:document.getElementById('playIcon'),
+      timeEl:document.getElementById('audioTime'),
+      skipBackBtn:document.getElementById('skipBackBtn'),
+      skipFwdBtn:document.getElementById('skipFwdBtn'),
+      speedBtn:document.getElementById('speedBtn'),
+      volumeBtn:document.getElementById('volumeBtn'),
+      volumeIcon:document.getElementById('volumeIcon'),
+      volumeRange:document.getElementById('volumeRange')
+    },
+    { // Hero preview player
+      track:document.getElementById('heroTrack'),
+      trackFill:document.getElementById('heroTrackFill'),
+      trackThumb:document.getElementById('heroTrackThumb'),
+      playBtn:document.getElementById('heroPlayBtn'),
+      playIcon:document.getElementById('heroPlayIcon'),
+      timeEl:document.getElementById('heroAudioTime'),
+      skipBackBtn:document.getElementById('heroSkipBackBtn'),
+      skipFwdBtn:document.getElementById('heroSkipFwdBtn'),
+      speedBtn:document.getElementById('heroSpeedBtn'),
+      volumeBtn:document.getElementById('heroVolumeBtn'),
+      volumeIcon:document.getElementById('heroVolumeIcon'),
+      volumeRange:document.getElementById('heroVolumeRange')
+    },
+    { // "Insight" variant in-card player (no volume control, per Figma node 154:17867)
+      track:document.getElementById('ttTrack'),
+      trackFill:document.getElementById('ttTrackFill'),
+      trackThumb:document.getElementById('ttTrackThumb'),
+      playBtn:document.getElementById('ttPlayBtn'),
+      playIcon:document.getElementById('ttPlayIcon'),
+      timeEl:document.getElementById('ttAudioTime'),
+      skipBackBtn:document.getElementById('ttSkipBackBtn'),
+      skipFwdBtn:document.getElementById('ttSkipFwdBtn'),
+      speedBtn:document.getElementById('ttSpeedBtn')
+    }
+  ];
+
+  function fmtAudioTime(s){
+    if(!isFinite(s)||s<0||s==null) return '0:00';
+    const m=Math.floor(s/60), sec=Math.floor(s%60);
+    return m+':'+(sec<10?'0':'')+sec;
+  }
+  function renderProgress(){
+    const dur=audio.duration;
+    const ratio = (isFinite(dur)&&dur>0) ? Math.min(1, audio.currentTime/dur) : 0;
+    const pct=(ratio*100)+'%';
+    const timeText=fmtAudioTime(audio.currentTime) + ' / ' + fmtAudioTime(audio.duration);
+    surfaces.forEach(s=>{
+      if(s.trackFill) s.trackFill.style.width=pct;
+      if(s.trackThumb) s.trackThumb.style.left=pct;
+      if(s.timeEl) s.timeEl.textContent=timeText;
+    });
+  }
+  function renderPlayState(){
+    const isPlaying = !audio.paused && !audio.ended;
+    surfaces.forEach(s=>{ if(s.playIcon) s.playIcon.innerHTML = isPlaying?PAUSE_PATH:PLAY_PATH; });
+  }
+  function renderSpeed(){
+    const label=audio.playbackRate+'x';
+    surfaces.forEach(s=>{ if(s.speedBtn) s.speedBtn.textContent=label; });
+  }
+  function renderVolume(){
+    const vol=audio.muted?0:audio.volume;
+    const isMuted = audio.muted || audio.volume===0;
+    surfaces.forEach(s=>{
+      if(s.volumeRange) s.volumeRange.value=vol;
+      if(s.volumeIcon) s.volumeIcon.innerHTML = isMuted?MUTE_PATH:VOLUME_PATH;
+    });
+  }
+
+  function togglePlay(){
+    if(!audio.currentSrc) return;
+    if(audio.paused){ audio.play(); } else { audio.pause(); }
+  }
+  function seekTo(t){
+    if(!audio.currentSrc||!isFinite(audio.duration)) return;
+    audio.currentTime = Math.min(Math.max(t,0), audio.duration);
+    renderProgress();
+  }
+  function setRate(rate){ audio.playbackRate=rate; }
+  function setVolume(v){
+    audio.volume = Math.min(Math.max(v,0),1);
+    if(audio.volume>0) audio.muted=false;
+  }
+  function toggleMute(){ audio.muted = !audio.muted; }
+
+  audio.addEventListener('loadedmetadata', renderProgress);
+  audio.addEventListener('timeupdate', renderProgress);
+  audio.addEventListener('play', renderPlayState);
+  audio.addEventListener('pause', renderPlayState);
+  audio.addEventListener('ended', renderPlayState);
+  audio.addEventListener('ratechange', renderSpeed);
+  audio.addEventListener('volumechange', renderVolume);
+
+  surfaces.forEach(s=>{
+    if(s.playBtn) s.playBtn.addEventListener('click', togglePlay);
+    if(s.skipBackBtn) s.skipBackBtn.addEventListener('click', function(){ seekTo(audio.currentTime - SKIP_SECONDS); });
+    if(s.skipFwdBtn) s.skipFwdBtn.addEventListener('click', function(){ seekTo(audio.currentTime + SKIP_SECONDS); });
+    if(s.speedBtn) s.speedBtn.addEventListener('click', function(){
+      speedIndex = (speedIndex+1) % speeds.length;
+      setRate(speeds[speedIndex]);
+    });
+    if(s.volumeBtn) s.volumeBtn.addEventListener('click', toggleMute);
+    if(s.volumeRange) s.volumeRange.addEventListener('input', function(e){ setVolume(parseFloat(e.target.value)); });
+    if(s.track){
+      s.track.addEventListener('click', function(e){
+        if(!isFinite(audio.duration)||!audio.currentSrc) return;
+        const r=s.track.getBoundingClientRect();
+        seekTo(((e.clientX-r.left)/r.width) * audio.duration);
+      });
+      s.track.addEventListener('keydown', function(e){
+        if(!isFinite(audio.duration)) return;
+        if(e.key==='ArrowRight'){ e.preventDefault(); seekTo(audio.currentTime+5); }
+        else if(e.key==='ArrowLeft'){ e.preventDefault(); seekTo(audio.currentTime-5); }
+      });
+    }
+    // The hero surface reuses existing non-<button> markup (divs) per spec, so
+    // give its controls the same keyboard affordance a real <button> gets for free.
+    [s.playBtn,s.skipBackBtn,s.skipFwdBtn,s.speedBtn].forEach(function(el){
+      if(el && el.tagName!=='BUTTON'){
+        el.addEventListener('keydown', function(e){
+          if(e.key==='Enter'||e.key===' '){ e.preventDefault(); el.click(); }
+        });
+      }
+    });
+  });
+
+  renderProgress();
+  renderPlayState();
+  renderSpeed();
+  renderVolume();
+
+  /* ---------------- Sticky compact player: reveal/hide with hero visibility ----------------
+     The AudioBar starts hidden (see CSS) and becomes the sticky compact player
+     once the decorative hero audio preview scrolls out of view; it hides again
+     when the hero preview scrolls back into view. Driven by IntersectionObserver,
+     not a hardcoded scroll-position check, matching the scroll-spy idiom already
+     used elsewhere on this page. */
+  const audiobarEl=document.querySelector('.audiobar');
+  const heroAudioPreviewEl=document.querySelector('.hero-audio-preview');
+  if(audiobarEl && heroAudioPreviewEl){
+    function syncAudiobarHeightVar(){
+      document.documentElement.style.setProperty('--audiobar-h', audiobarEl.getBoundingClientRect().height+'px');
+    }
+    const stickyObserver=new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        const nowVisible = !entry.isIntersecting;
+        if(nowVisible) syncAudiobarHeightVar();
+        audiobarEl.classList.toggle('is-sticky-visible', nowVisible);
+      });
+    }, {threshold:0});
+    stickyObserver.observe(heroAudioPreviewEl);
+    window.addEventListener('resize', function(){
+      if(audiobarEl.classList.contains('is-sticky-visible')) syncAudiobarHeightVar();
+    });
+  }
+
+  /* ---------------- Share / Copy link / Download PDF ---------------- */
+  const shareBtn=document.getElementById('shareBtn');
+  const copyLinkBtn=document.getElementById('copyLinkBtn');
+  function flashLabel(btn, label){
+    const labelEl=btn.querySelector('.ab-util-label') || btn;
+    const original=labelEl.textContent;
+    labelEl.textContent=label; btn.classList.add('is-copied');
+    setTimeout(()=>{ labelEl.textContent=original; btn.classList.remove('is-copied'); }, 1800);
+  }
+  function copyToClipboard(text){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      return navigator.clipboard.writeText(text).catch(()=>legacyCopy(text));
+    }
+    return legacyCopy(text);
+  }
+  function legacyCopy(text){
+    const ta=document.createElement('textarea');
+    ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); }catch(e){}
+    document.body.removeChild(ta);
+    return Promise.resolve();
+  }
+  copyLinkBtn.addEventListener('click', function(){
+    copyToClipboard(window.location.href).then(()=>flashLabel(copyLinkBtn,'Copied!'));
+  });
+  shareBtn.addEventListener('click', function(){
+    if(navigator.share){
+      navigator.share({title:document.title, url:window.location.href}).catch(()=>{});
+    } else {
+      copyToClipboard(window.location.href).then(()=>flashLabel(shareBtn,'Link copied'));
+    }
+  });
+  const downloadPdfBtn=document.getElementById('downloadPdfBtn');
+  if(downloadPdfBtn){
+    downloadPdfBtn.addEventListener('click', function(){
+      if(interviewPdfUrl) window.open(interviewPdfUrl, '_blank', 'noopener');
+    });
+  }
+
+  /* ---------------- Sidebar TOC: expand/collapse chevron ---------------- */
+  document.querySelectorAll('.toc-chevron-btn').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      const collapse = document.getElementById(btn.getAttribute('aria-controls'));
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+      if(collapse){ collapse.classList.toggle('is-open', !isOpen); }
+    });
+  });
+
+  /* ---------------- Sidebar + mobile section nav: scroll-spy ---------------- */
+  const navLinks=[...document.querySelectorAll('#sideNav a, #mobileSectionNav a')];
+  const sectionIds=['context','takeaways','qanda','related-intelligence','closing-cta'];
+  const sections=sectionIds.map(id=>document.getElementById(id)).filter(Boolean);
+  function setActive(id){
+    navLinks.forEach(a=>{
+      const match = a.getAttribute('href')==='#'+id;
+      if(match){ a.setAttribute('aria-current','true'); } else { a.removeAttribute('aria-current'); }
+    });
+  }
+  const observer=new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){ setActive(entry.target.id); }
+    });
+  }, {rootMargin:'-20% 0px -70% 0px', threshold:0});
+  sections.forEach(sec=>observer.observe(sec));
+
+  /* ---------------- Q&A chapter sub-nav (sidebar): scroll-spy ---------------- */
+  const qaSubLinks=[...document.querySelectorAll('.side-nav-qa-sub a')];
+  const qaChapterSections=['qa-chapter-1','qa-chapter-2','qa-chapter-3'].map(id=>document.getElementById(id)).filter(Boolean);
+  function setActiveQaChapter(id){
+    qaSubLinks.forEach(a=>{
+      const match = a.getAttribute('href')==='#'+id;
+      if(match){ a.setAttribute('aria-current','true'); } else { a.removeAttribute('aria-current'); }
+    });
+  }
+  const qaChapterObserver=new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){ setActiveQaChapter(entry.target.id); }
+    });
+  }, {rootMargin:'-20% 0px -70% 0px', threshold:0});
+  qaChapterSections.forEach(sec=>qaChapterObserver.observe(sec));
+
+  /* ---------------- Scroll reveal: fade + rise once per element ---------------- */
+  const revealEls=[...document.querySelectorAll('.reveal-init')];
+  const revealObserver=new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, {threshold:0.15});
+  revealEls.forEach(el=>revealObserver.observe(el));
+
+  /* ---------------- Navbar: user-menu popover (click-to-toggle, click-outside/Escape to close) ---------------- */
+  const userMenu=document.getElementById('navbarUserMenu');
+  const userMenuToggles=[document.getElementById('navbarUserMenuToggle'),document.getElementById('navbarUserMenuToggle2')].filter(Boolean);
+  function closeUserMenu(){
+    if(!userMenu) return;
+    userMenu.classList.remove('is-open');
+    userMenuToggles.forEach(t=>t.setAttribute('aria-expanded','false'));
+  }
+  function toggleUserMenu(e){
+    e.stopPropagation();
+    if(!userMenu) return;
+    const open=userMenu.classList.toggle('is-open');
+    userMenuToggles.forEach(t=>t.setAttribute('aria-expanded',open?'true':'false'));
+  }
+  userMenuToggles.forEach(t=>t.addEventListener('click',toggleUserMenu));
+  document.addEventListener('click',(e)=>{
+    if(userMenu && userMenu.classList.contains('is-open') && !userMenu.contains(e.target) && !userMenuToggles.includes(e.target)){
+      closeUserMenu();
+    }
+  });
+  document.addEventListener('keydown',(e)=>{
+    if(e.key==='Escape') closeUserMenu();
+  });
+
+  /* ---------------- Navbar: mobile drawer toggle ---------------- */
+  const mobileMenu=document.getElementById('navbarMobileMenu');
+  const mobileToggle=document.getElementById('navbarMobileToggle');
+  const mobileClose=document.getElementById('navbarMobileClose');
+  function openMobileMenu(){
+    if(!mobileMenu) return;
+    mobileMenu.classList.add('is-open');
+    if(mobileToggle){ mobileToggle.setAttribute('aria-expanded','true'); mobileToggle.setAttribute('aria-label','Close menu'); }
+  }
+  function closeMobileMenu(){
+    if(!mobileMenu) return;
+    mobileMenu.classList.remove('is-open');
+    if(mobileToggle){ mobileToggle.setAttribute('aria-expanded','false'); mobileToggle.setAttribute('aria-label','Open menu'); }
+  }
+  if(mobileToggle) mobileToggle.addEventListener('click',()=>{ mobileMenu && mobileMenu.classList.contains('is-open') ? closeMobileMenu() : openMobileMenu(); });
+  if(mobileClose) mobileClose.addEventListener('click',closeMobileMenu);
+  if(mobileMenu) mobileMenu.addEventListener('click',(e)=>{ if(e.target===mobileMenu) closeMobileMenu(); });
+  document.addEventListener('keydown',(e)=>{ if(e.key==='Escape') closeMobileMenu(); });
+})();
+</script>
+
+</body>
+</html>

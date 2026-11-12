@@ -1,0 +1,34 @@
+packages:
+  - 'design-system/tokens'
+  - 'design-system/core-v2'
+  # core-v2 enabled 2026-05-08 (Phase B3 step 1.6)
+  # Active project ports (uncomment as scaffolded)
+  - 'projects/V0_lite_report'  # enabled 2026-05-08 (Phase C step 1)
+  - 'projects/report-store'    # enabled 2026-05-08 (Phase D step 1)
+  - 'projects/V0.2_report'     # enabled 2026-05-08 (Phase E step 1)
+  - 'projects/reports-pdp-v2'  # enabled 2026-05-11 (DS consumption alignment)
+  - 'projects/v1-project/v1-product-page-ver0.3'  # v0.3 active rebuild 2026-05-18 (v0.2 stays standalone)
+  - 'projects/v1-project/v1-product-page-ver0.4'  # v0.4 active rebuild 2026-05-20 (section-by-section)
+  - 'projects/case-study-test'  # case-study-test project 2026-06-17
+  - 'projects/case-study-v2'    # case-study-v2 project (4-template React port) 2026-06-22
+  - 'projects/charts-showcase'  # Sprint A.3 DS chart library showcase 2026-05-22
+  - 'projects/ken-featured-page'  # Media Citations / Featured In page 2026-07-06
+  - 'projects/competition-benchmarking-2026'  # UAE Cement Competitive Benchmarking report 2026-08-12
+  - 'projects/competition-benchmarking-v3'  # reusable report-detail template (Variant B visuals + always-on sticky rail) 2026-09-01
+  # 'projects/ken-auth-redesign/builds' — REMOVED 2026-09-01. This project was migrated to a
+  # fully standalone (non-workspace) app for independent Vercel deployment: builds/package.json
+  # now has real npm semver deps (no workspace:* protocol) and vendors its own copy of the DS
+  # under builds/src/vendor/. Leaving it registered here caused a root-level `pnpm install` to
+  # re-symlink builds/node_modules/@types/react into this repo's pnpm store, reintroducing a
+  # duplicate-@types/react identity mismatch that broke `npm run build` — the exact class of
+  # problem the standalone migration was meant to eliminate. Do not re-add this line; if this
+  # project ever needs to consume monorepo DS changes directly again, re-vendor deliberately
+  # instead of re-joining the workspace.
+  - 'projects/loop-engineering-project/builds'  # Loop Engineering Mode — regional-capacity-distribution 2026-09-01
+  - 'projects/survey-product-detail-page'  # Survey Product Detail Page — Bank vs NBFC Preference Survey (SMEs) — split out of v1-product-page-ver0.4 into its own project 2026-08-25
+  # Verification consumer
+  # - 'projects/_ds-verify'
+  # Excluded (legacy, read-only):
+  # - 'design-system/core'           # legacy v1, will be renamed core-legacy-v1/
+  # - 'design-system/dashboard'      # functional duplicate, will merge into core-v2 then delete
+  # - 'projects/*-legacy'            # all legacy folders

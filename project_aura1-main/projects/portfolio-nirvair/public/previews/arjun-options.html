@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arjun Realty card options</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 32px 20px 64px; background: #f5f4f1; color: #172033; font-family: Inter, Arial, sans-serif; }
+    main { max-width: 1180px; margin: auto; }
+    h1 { margin: 0 0 8px; font-size: clamp(26px, 4vw, 38px); letter-spacing: -.04em; }
+    .intro { margin: 0 0 32px; color: #5a5b62; line-height: 1.5; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    article { padding: 20px; border: 1px solid #dddcd7; border-radius: 16px; background: white; }
+    h2 { margin: 0 0 6px; font-size: 20px; }
+    p { color: #5a5b62; line-height: 1.5; }
+    .desktop { width: 100%; height: auto; border-radius: 12px; border: 1px solid #e3e3e3; }
+    .mobile { display: block; width: min(70%, 320px); height: auto; margin: 24px auto 0; border-radius: 12px; border: 1px solid #e3e3e3; }
+    @media (max-width: 780px) { .grid { grid-template-columns: 1fr; } article { padding: 16px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Arjun Realty · homepage card</h1>
+    <p class="intro">Two visual treatments using the same project screens. Compare desktop and mobile below.</p>
+    <div class="grid">
+      <article>
+        <h2>A · No badge</h2>
+        <p>Only the project screens in the visual. The category and description remain below.</p>
+        <img class="desktop" src="arjun-label-none-1440.png" alt="Arjun Realty card without a badge, desktop">
+        <img class="mobile" src="arjun-label-none-390.png" alt="Arjun Realty card without a badge, mobile">
+      </article>
+      <article>
+        <h2>B · Discovery in card details</h2>
+        <p>A small badge sits beside Real Estate, outside the screenshot area.</p>
+        <img class="desktop" src="arjun-label-metadata-1440.png" alt="Arjun Realty card with Discovery badge in details, desktop">
+        <img class="mobile" src="arjun-label-metadata-390.png" alt="Arjun Realty card with Discovery badge in details, mobile">
+      </article>
+    </div>
+  </main>
+</body>
+</html>

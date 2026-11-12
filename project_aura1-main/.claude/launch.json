@@ -1,0 +1,129 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "competition-benchmarking-2026",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "--dir",
+        "projects/competition-benchmarking-2026",
+        "dev"
+      ],
+      "port": 3080,
+      "autoPort": true
+    },
+    {
+      "name": "portfolio-nirvair",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "--dir",
+        "projects/portfolio-nirvair",
+        "dev"
+      ],
+      "port": 3090
+    },
+    {
+      "name": "ken-survey-dashboard",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "serve",
+        "projects/ken-survey-dashboard",
+        "-l",
+        "4173"
+      ],
+      "port": 4173
+    },
+    {
+      "name": "competition-benchmarking-v2",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "serve",
+        "projects/competition-benchmarking-v2"
+      ],
+      "port": 4174,
+      "autoPort": true
+    },
+    {
+      "name": "competition-benchmarking-v2-react",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "projects/competition-benchmarking-v2-react",
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "3095"
+      ],
+      "port": 3095,
+      "autoPort": true
+    },
+    {
+      "name": "ken-auth-redesign",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "--dir",
+        "projects/ken-auth-redesign/builds",
+        "dev"
+      ],
+      "port": 3091
+    },
+    {
+      "name": "survey-product-detail-page",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "--dir",
+        "projects/survey-product-detail-page",
+        "dev"
+      ],
+      "port": 3050
+    },
+    {
+      "name": "loop-engineering-project",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "--dir",
+        "projects/loop-engineering-project/builds",
+        "dev"
+      ],
+      "port": 3095
+    },
+    {
+      "name": "competition-benchmarking-v3",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "--dir",
+        "projects/competition-benchmarking-v3",
+        "dev"
+      ],
+      "port": 3100
+    },
+    {
+      "name": "fra-react-preview-button-rematch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "/Users/sachin/Project-aura/fix-redesign-agent/projects/www.kenresearch.com-consulting-deals-and-ipo-consulting/redesigns/deals-and-ipo-consulting-test-button-rematch-react-preview-20260929/preview-app",
+        "run",
+        "dev"
+      ],
+      "port": 4310
+    },
+    {
+      "name": "singhtechstudio",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "projects/SinghTechStudio",
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "3110"
+      ],
+      "port": 3110
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+@import '../vendor/ds/styles/base.css';
+@import '../vendor/ds/styles/utilities.css';
+@import '../vendor/ds/styles/editorial-light.css';
+@import '../vendor/ds/styles/_safelist.generated.css';
+
+/* Root-cause fix (fix cycle iter 2, signup-email P1-1/P1-2), carried forward from the
+ * monorepo build: Tailwind v4's default content scanner needs an explicit @source
+ * pointing at the actual component source so arbitrary-value/slash-opacity/bare-static
+ * utilities (overflow-hidden, border-black/10, etc.) compile correctly — the generated
+ * `_safelist.generated.css` above only covers a subset of patterns. In this standalone
+ * export, the DS source is vendored locally under src/vendor/ds/ (see PROJECT.md /
+ * STANDALONE.md for how it was extracted), so @source now points there instead of the
+ * original monorepo path. */
+@source "../vendor/ds/**/*.{ts,tsx}";
+
+/* Loop project surface: editorial-light only (auth modal is a light-surface flow). */
+body {
+  background: var(--semantic-surface-white, #fafafa);
+}
+
+/* Root-cause fix (fix cycle iter 2, signup-flow P2 #2): shadcn/ui's `Checkbox` (and other
+ * `ui/*` primitives ported into `design-system/core-v2/src/ui/`) reference `--primary` /
+ * `--primary-foreground` for their checked-state fill/foreground (see
+ * `design-system/core-v2/src/ui/checkbox.tsx`: `data-[state=checked]:bg-primary
+ * data-[state=checked]:text-primary-foreground`). Neither token is defined anywhere in
+ * the shared DS (`core-v2/src/styles/*.css`) or the canonical `design-system/tokens/build/
+ * tokens.css` — confirmed via live `getComputedStyle` returning an empty string for
+ * `--primary` in this project. That's why the checkbox's checked fill fell back to
+ * browser/UA-default black instead of brand-red: the component itself is correctly
+ * mapped/used, the token it depends on was simply never defined project-side. Fix: define
+ * both tokens here, project-locally, resolving to the real brand tokens — same pattern as
+ * the `@source` fix above (project-local `globals.css` only, shared design-system/ left
+ * untouched). Do NOT hand-override the Checkbox component's className instead — that
+ * would re-introduce the exact "approximate a mapped DS component with custom CSS"
+ * anti-pattern this fix avoids. */
+:root {
+  --primary: var(--color-brand-red);
+  --primary-foreground: var(--color-foundation-white, #ffffff);
+}
+
+/* Tailwind v4 only generates a `bg-primary`/`text-primary-foreground`/`border-primary`
+ * utility class when a `--color-primary` (Tailwind's theme-color namespace, distinct from
+ * the plain `--primary` semantic variable above) is registered via `@theme`. This DS never
+ * shipped shadcn's own default `@theme inline` block (only base.css/utilities.css/
+ * editorial-light.css were ported), so even after defining `--primary` above,
+ * `data-[state=checked]:bg-primary` on Checkbox was compiling to nothing — confirmed live:
+ * checked-state background stayed `rgba(0,0,0,0)` (transparent) and border fell back to a
+ * plain black default, not brand-red. This block bridges the two namespaces so the
+ * already-correct component className actually resolves, without touching the shared
+ * design-system/ or hand-overriding Checkbox's own classes. */
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+}
